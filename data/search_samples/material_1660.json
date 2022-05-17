@@ -1,0 +1,288 @@
+{
+  "id": "1660",
+  "materials": [
+    {
+      "id": "5150",
+      "language": "fi",
+      "link": "http://urn.fi/URN:ISBN:978-951-39-8644-5",
+      "priority": 0,
+      "filepath": null,
+      "originalfilename": null,
+      "filesize": null,
+      "mimetype": null,
+      "format": null,
+      "filekey": null,
+      "filebucket": null,
+      "publishedat": "2021-08-11T10:14:34.696Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Innovatiivisen kielikasvatuksen kartta ja kompassi : askeleita kehittämistyöhön",
+        "sv": "",
+        "en": ""
+      }
+    },
+    {
+      "id": "5151",
+      "language": "sv",
+      "link": "http://urn.fi/URN:ISBN:978-951-39-8644-5",
+      "priority": 1,
+      "filepath": null,
+      "originalfilename": null,
+      "filesize": null,
+      "mimetype": null,
+      "format": null,
+      "filekey": null,
+      "filebucket": null,
+      "publishedat": "2021-08-11T10:14:34.696Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Karta och kompass för innovativ språkpedagogik : steg på vägen",
+        "sv": "",
+        "en": ""
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "14278",
+      "materialname": "Innovatiivisen kielikasvatuksen kartta ja kompassi : askeleita kehittämistyöhön",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "1660"
+    },
+    {
+      "id": "14279",
+      "materialname": "Karta och kompass för innovativ språkpedagogik : steg på vägen",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "1660"
+    },
+    {
+      "id": "14280",
+      "materialname": "Innovatiivisen kielikasvatuksen kartta ja kompassi : askeleita kehittämistyöhön",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "1660"
+    }
+  ],
+  "createdAt": "2021-08-11T09:50:37.647Z",
+  "updatedAt": "2021-08-11T10:14:34.699Z",
+  "publishedAt": "2021-08-11T10:14:34.695Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": false,
+  "suitsAllPrePrimarySubjects": false,
+  "suitsAllBasicStudySubjects": false,
+  "suitsAllUpperSecondarySubjects": false,
+  "suitsAllVocationalDegrees": false,
+  "suitsAllSelfMotivatedSubjects": false,
+  "suitsAllBranches": false,
+  "suitsAllUpperSecondarySubjectsNew": false,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "95",
+  "downloadCounter": "0",
+  "author": [
+    {
+      "id": "5825",
+      "authorname": "Kangasvieri, Tea",
+      "organization": "Jyväskylän yliopisto, Kasvatustieteiden ja psykologian tiedekunta",
+      "educationalmaterialid": "1660",
+      "organizationkey": "1.2.246.562.10.53741776727"
+    },
+    {
+      "id": "5826",
+      "authorname": "Lempel, Liisa",
+      "organization": "Jyväskylän yliopisto, Humanistis-yhteiskuntatieteellinen tiedekunta",
+      "educationalmaterialid": "1660",
+      "organizationkey": "1.2.246.562.10.62835091836"
+    },
+    {
+      "id": "5827",
+      "authorname": "Palojärvi, Anu",
+      "organization": "Jyväskylän yliopisto, Kasvatustieteiden ja psykologian tiedekunta",
+      "educationalmaterialid": "1660",
+      "organizationkey": "1.2.246.562.10.53741776727"
+    },
+    {
+      "id": "5828",
+      "authorname": "Moate, Josephine",
+      "organization": "Jyväskylän yliopisto, Kasvatustieteiden ja psykologian tiedekunta",
+      "educationalmaterialid": "1660",
+      "organizationkey": "1.2.246.562.10.53741776727"
+    },
+    {
+      "id": "5829",
+      "authorname": "",
+      "organization": "Innovatiivisen kielikasvatuksen kartta ja kompassi -hanke",
+      "educationalmaterialid": "1660",
+      "organizationkey": "innovatiivisenkielikasvatuksenkarttajakompassihanke"
+    }
+  ],
+  "publisher": [],
+  "description": [
+    {
+      "id": "10192",
+      "description": "Innovatiivisen kielikasvatuksen kartta ja kompassi -hanke (2018-2021) on kartoittanut, kehittänyt, jakanut ja laajentanut kielikasvatuksen innovaatioita yhteistyössä IKI-verkoston kielikasvattajien, opettajaopiskelijoiden, tutkijoiden ja opettajankouluttajien kanssa. Hankkeen lopputuotteena on luotu IKI-hankkeen käsikirja: \"Innovatiivisen kielikasvatuksen kartta ja kompassi: Askeleita kehittämistyöhön\". \n\nKäsikirja tarjoaa ideoita ja inspiraatiota oman toiminnan kehittämisen tueksi. Käsikirja sisältää hankkeen tutkijoiden ja opettajankouluttajien kirjoittamia tekstejä, jotka tarjoavat periaatteita toimintaan sekä aktiviteettikuvauksia, jotka ovat konkreettisia ideoita toimintaan. Haluamme käsikirjan avulla kannustaa kielikasvattajia arvostamaan omaa työtään sekä tukea heitä luomaan uutta olemassa olevien aktiviteettien pohjalta. Kirja on kaksikielinen (suomi ja ruotsi) ja voit lukea kirjaa haluamallasi kielellä.",
+      "language": "fi",
+      "educationalmaterialid": "1660"
+    },
+    {
+      "id": "10194",
+      "description": "Innovatiivisen kielikasvatuksen kartta ja kompassi -hanke (2018-2021) on kartoittanut, kehittänyt, jakanut ja laajentanut kielikasvatuksen innovaatioita yhteistyössä IKI-verkoston kielikasvattajien, opettajaopiskelijoiden, tutkijoiden ja opettajankouluttajien kanssa. Hankkeen lopputuotteena on luotu IKI-hankkeen käsikirja: \"Innovatiivisen kielikasvatuksen kartta ja kompassi: Askeleita kehittämistyöhön\". \n\nKäsikirja tarjoaa ideoita ja inspiraatiota oman toiminnan kehittämisen tueksi. Käsikirja sisältää hankkeen tutkijoiden ja opettajankouluttajien kirjoittamia tekstejä, jotka tarjoavat periaatteita toimintaan sekä aktiviteettikuvauksia, jotka ovat konkreettisia ideoita toimintaan. Haluamme käsikirjan avulla kannustaa kielikasvattajia arvostamaan omaa työtään sekä tukea heitä luomaan uutta olemassa olevien aktiviteettien pohjalta. Kirja on kaksikielinen (suomi ja ruotsi) ja voit lukea kirjaa haluamallasi kielellä.",
+      "language": "en",
+      "educationalmaterialid": "1660"
+    },
+    {
+      "id": "10193",
+      "description": "I handboken hittar du både information som stödjer utvecklandet av språkpedagogik samt rikligt med praktiska ideér och tips för verksamheten. Boken riktar sig till lärare, småbarnspedagoger, studerande, lärarutbildare, ledare (föreståndare och rektorer) och beslutsfattare. Handboken ger stöd och inspiration till planeringen, utvecklingen och förverkligandet av språkpedagogik.\n\nMed önskan om inspirerande lässtunder!",
+      "language": "sv",
+      "educationalmaterialid": "1660"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "16652",
+      "value": "kielikasvatus",
+      "educationalmaterialid": "1660",
+      "keywordkey": "//www.yso.fi/onto/yso/p25284"
+    },
+    {
+      "id": "16653",
+      "value": "kehittämistyö",
+      "educationalmaterialid": "1660",
+      "keywordkey": "kehittmisty"
+    },
+    {
+      "id": "16654",
+      "value": "innovaatiot",
+      "educationalmaterialid": "1660",
+      "keywordkey": "//www.yso.fi/onto/yso/p7903"
+    },
+    {
+      "id": "16655",
+      "value": "aktiviteetit",
+      "educationalmaterialid": "1660",
+      "keywordkey": "aktiviteetit"
+    },
+    {
+      "id": "16656",
+      "value": "kieltenopetus",
+      "educationalmaterialid": "1660",
+      "keywordkey": "//www.yso.fi/onto/yso/p38117"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "6026",
+      "value": "opas",
+      "educationalmaterialid": "1660",
+      "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+    },
+    {
+      "id": "6027",
+      "value": "teksti",
+      "educationalmaterialid": "1660",
+      "learningresourcetypekey": "cc1d00b0-b11f-4afe-a423-e43f96214f89"
+    },
+    {
+      "id": "6028",
+      "value": "työkalu",
+      "educationalmaterialid": "1660",
+      "learningresourcetypekey": "1b5918b8-701b-48e6-aa2c-5feb3d7b3d60"
+    }
+  ],
+  "timeRequired": "",
+  "expires": null,
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": null,
+    "typicalAgeRangeMax": null
+  },
+  "educationalAlignment": [],
+  "educationalLevels": [
+    {
+      "id": "7280",
+      "value": "varhaiskasvatus",
+      "educationalmaterialid": "1660",
+      "educationallevelkey": "8e7b8440-286d-4cc9-ad99-9fe288107535"
+    },
+    {
+      "id": "7281",
+      "value": "esiopetus",
+      "educationalmaterialid": "1660",
+      "educationallevelkey": "3ff553ba-a4d7-407c-ad00-80e54ecebd16"
+    },
+    {
+      "id": "7282",
+      "value": "perusopetus",
+      "educationalmaterialid": "1660",
+      "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+    },
+    {
+      "id": "7283",
+      "value": "omaehtoinen osaamisen kehittäminen",
+      "educationalmaterialid": "1660",
+      "educationallevelkey": "bc25d0e7-3c68-49a1-9329-239dae01fab7"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "6332",
+      "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+      "educationalmaterialid": "1660",
+      "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+    }
+  ],
+  "accessibilityFeatures": [],
+  "accessibilityHazards": [
+    {
+      "id": "1099",
+      "value": "ei tiedossa",
+      "educationalmaterialid": "1660",
+      "accessibilityhazardkey": "85b2dd0b-b362-467b-9904-cfd84e2b0e82"
+    }
+  ],
+  "license": {
+    "value": "CC BY-NC-SA 4.0",
+    "key": "CCBYNCSA4.0"
+  },
+  "isBasedOn": [],
+  "educationalRoles": [
+    {
+      "id": "7104",
+      "educationalrole": "Asiantuntija tai ammattilainen",
+      "educationalmaterialid": "1660",
+      "educationalrolekey": "66edb65b-8648-4f95-ac48-d9478293cef4"
+    },
+    {
+      "id": "7105",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "1660",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    },
+    {
+      "id": "7106",
+      "educationalrole": "Opetuksen ja kasvatuksen johtaja",
+      "educationalmaterialid": "1660",
+      "educationalrolekey": "84dfd485-15bb-4688-bf5f-3bd1cbff31ec"
+    }
+  ],
+  "thumbnail": {
+    "id": "1297",
+    "filepath": "https://aoe.fi/api/thumbnail/thumbnail1628675576084.png",
+    "mimetype": "image/png",
+    "educationalmaterialid": "1660",
+    "filename": "thumbnail1628675576084.png",
+    "obsoleted": 0,
+    "filekey": "thumbnail1628675576084.png",
+    "filebucket": "aoethumbnail"
+  },
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2021-08-11T10:14:34.696Z"
+    }
+  ],
+  "hasDownloadableFiles": false,
+  "urn": null
+}

@@ -1,0 +1,550 @@
+{
+  "id": "1758",
+  "materials": [
+    {
+      "id": "5453",
+      "language": "fi",
+      "link": "https://ainotasapaino.wixsite.com/my-site",
+      "priority": 0,
+      "filepath": null,
+      "originalfilename": null,
+      "filesize": null,
+      "mimetype": null,
+      "format": null,
+      "filekey": null,
+      "filebucket": null,
+      "publishedat": "2021-11-05T12:45:19.579Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Muoti ja meri - Oppimateriaali kestävästä muodista ja merten suojelusta",
+        "sv": "",
+        "en": ""
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "15290",
+      "materialname": "Muoti ja meri - Oppimateriaali kestävästä muodista ja merten suojelusta",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "1758"
+    },
+    {
+      "id": "15291",
+      "materialname": "Muoti ja meri - Oppimateriaali kestävästä muodista ja merten suojelusta",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "1758"
+    },
+    {
+      "id": "15292",
+      "materialname": "Muoti ja meri - Oppimateriaali kestävästä muodista ja merten suojelusta",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "1758"
+    }
+  ],
+  "createdAt": "2021-11-05T12:10:57.594Z",
+  "updatedAt": "2021-11-05T12:45:19.584Z",
+  "publishedAt": "2021-11-05T12:45:19.579Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": false,
+  "suitsAllPrePrimarySubjects": false,
+  "suitsAllBasicStudySubjects": false,
+  "suitsAllUpperSecondarySubjects": false,
+  "suitsAllVocationalDegrees": false,
+  "suitsAllSelfMotivatedSubjects": false,
+  "suitsAllBranches": false,
+  "suitsAllUpperSecondarySubjectsNew": false,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "29",
+  "downloadCounter": "0",
+  "author": [
+    {
+      "id": "6289",
+      "authorname": "Riiho, Aino",
+      "organization": "",
+      "educationalmaterialid": "1758",
+      "organizationkey": ""
+    },
+    {
+      "id": "6290",
+      "authorname": "Davidkin, Marjut",
+      "organization": "",
+      "educationalmaterialid": "1758",
+      "organizationkey": ""
+    },
+    {
+      "id": "6291",
+      "authorname": "Harju, Roosa",
+      "organization": "",
+      "educationalmaterialid": "1758",
+      "organizationkey": ""
+    },
+    {
+      "id": "6292",
+      "authorname": "Virto, Ella",
+      "organization": "",
+      "educationalmaterialid": "1758",
+      "organizationkey": ""
+    }
+  ],
+  "publisher": [],
+  "description": [
+    {
+      "id": "10912",
+      "description": "Sivuston oppimateriaalit käsittelevät tekstiili- ja vaateteollisuuden epäkohtia ja erityisesti vesistöille aiheutuvia ongelmia. Samalla tuodaan esiin tapoja, joilla me kaikki voimme olla mukana positiivisen muutoksen aikaansaamisessa. Sivustolta löytyvät videot, tietoiskut ja projektit käsittelevät tekstiilikuituja, kankaiden värjäämistä, veden kulutusta ja tekstiilijätteeseen liittyviä haasteita käytännönläheisesti ja positiivisella tavalla. Käsityötunnille nämä aiheet sopivat erinomaisesti, mutta myös yhteistyöhön biologian tai kemian opettajan kanssa.",
+      "language": "fi",
+      "educationalmaterialid": "1758"
+    },
+    {
+      "id": "10914",
+      "description": "Sivuston oppimateriaalit käsittelevät tekstiili- ja vaateteollisuuden epäkohtia ja erityisesti vesistöille aiheutuvia ongelmia. Samalla tuodaan esiin tapoja, joilla me kaikki voimme olla mukana positiivisen muutoksen aikaansaamisessa. Sivustolta löytyvät videot, tietoiskut ja projektit käsittelevät tekstiilikuituja, kankaiden värjäämistä, veden kulutusta ja tekstiilijätteeseen liittyviä haasteita käytännönläheisesti ja positiivisella tavalla. Käsityötunnille nämä aiheet sopivat erinomaisesti, mutta myös yhteistyöhön biologian tai kemian opettajan kanssa.",
+      "language": "en",
+      "educationalmaterialid": "1758"
+    },
+    {
+      "id": "10913",
+      "description": "Sivuston oppimateriaalit käsittelevät tekstiili- ja vaateteollisuuden epäkohtia ja erityisesti vesistöille aiheutuvia ongelmia. Samalla tuodaan esiin tapoja, joilla me kaikki voimme olla mukana positiivisen muutoksen aikaansaamisessa. Sivustolta löytyvät videot, tietoiskut ja projektit käsittelevät tekstiilikuituja, kankaiden värjäämistä, veden kulutusta ja tekstiilijätteeseen liittyviä haasteita käytännönläheisesti ja positiivisella tavalla. Käsityötunnille nämä aiheet sopivat erinomaisesti, mutta myös yhteistyöhön biologian tai kemian opettajan kanssa.",
+      "language": "sv",
+      "educationalmaterialid": "1758"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "17845",
+      "value": "kestävä elämäntapa",
+      "educationalmaterialid": "1758",
+      "keywordkey": "//www.yso.fi/onto/yso/p38791"
+    },
+    {
+      "id": "17846",
+      "value": "tekstiiliteollisuus",
+      "educationalmaterialid": "1758",
+      "keywordkey": "//www.yso.fi/onto/yso/p2334"
+    },
+    {
+      "id": "17847",
+      "value": "tekstiilityö",
+      "educationalmaterialid": "1758",
+      "keywordkey": "//www.yso.fi/onto/yso/p12881"
+    },
+    {
+      "id": "17848",
+      "value": "tekstiilityönopettajat",
+      "educationalmaterialid": "1758",
+      "keywordkey": "//www.yso.fi/onto/yso/p12880"
+    },
+    {
+      "id": "17849",
+      "value": "vaatetustekstiilit",
+      "educationalmaterialid": "1758",
+      "keywordkey": "//www.yso.fi/onto/yso/p15044"
+    },
+    {
+      "id": "17850",
+      "value": "kierrätysmateriaalit",
+      "educationalmaterialid": "1758",
+      "keywordkey": "//www.yso.fi/onto/yso/p21794"
+    },
+    {
+      "id": "17851",
+      "value": "ompelutyöt",
+      "educationalmaterialid": "1758",
+      "keywordkey": "//www.yso.fi/onto/yso/p20136"
+    },
+    {
+      "id": "17852",
+      "value": "vaatehuolto",
+      "educationalmaterialid": "1758",
+      "keywordkey": "//www.yso.fi/onto/yso/p3232"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "6376",
+      "value": "opas",
+      "educationalmaterialid": "1758",
+      "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+    }
+  ],
+  "timeRequired": "",
+  "expires": null,
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": 10,
+    "typicalAgeRangeMax": 99
+  },
+  "educationalAlignment": [
+    {
+      "id": "12631",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Käsityö",
+      "source": "basicStudySubjects",
+      "educationalframework": "",
+      "objectkey": "530524",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "12632",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Ympäristöoppi",
+      "source": "basicStudySubjects",
+      "educationalframework": "",
+      "objectkey": "428820",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/428820"
+    },
+    {
+      "id": "12633",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "T1 tarjota oppilaalle mahdollisuuksia toteuttaa luontaista uteliaisuuttaan ja auttaa oppilasta kokemaan ympäristöopin asiat merkitykselliseksi itselleen",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "466665",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/428820"
+    },
+    {
+      "id": "12634",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "T3 tukea oppilaan ympäristöherkkyyden kehittymistä ja ohjata oppilasta toimimaan kestävällä tavalla lähiympäristössä ja kouluyhteisössä",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "466667",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/428820"
+    },
+    {
+      "id": "12635",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "T5 kannustaa oppilasta ihmettelemään ja kyselemään sekä käyttämään yhteisiä pohdintoja pienten tutkimusten ja muun toiminnan lähtökohtana",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "466669",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/428820"
+    },
+    {
+      "id": "12636",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "T7 ohjata oppilasta kuvailemaan, vertailemaan ja luokittelemaan monipuolisesti eliöitä, elinympäristöjä, ilmiöitä, materiaaleja ja tilanteita sekä nimeämään niitä",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "469291",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/428820"
+    },
+    {
+      "id": "12637",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "T12 ohjata oppilasta jäsentämään ympäristöä, ihmisten toimintaa ja niihin liittyviä ilmiöitä ympäristöopin eri tiedonalojen käsitteiden avulla",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "469296",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/428820"
+    },
+    {
+      "id": "12638",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "T1 synnyttää ja ylläpitää oppilaan kiinnostusta ympäristöön ja ympäristöopin opiskeluun sekä auttaa oppilasta kokemaan kaikki ympäristöopin tiedonalat merkityksellisiksi itselleen",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "472942",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/428820"
+    },
+    {
+      "id": "12639",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "T1 rohkaista oppilasta kiinnostumaan ja innostumaan käsin tekemisestä sekä herättää uteliaisuutta keksivään ja kokeilevaan käsityöhön",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "538637",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "12640",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "T2 ohjata oppilas kokonaiseen käsityöprosessiin ja esittämään omia ideoitaan kuvallisesti sekä kertomaan käsityön tekemisestä ja valmiista tuotteesta",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "538638",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "12641",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "T3 ohjata oppilasta suunnittelemaan ja valmistamaan käsityötuotteita tai teoksia luottaen omiin esteettisiin ja teknisiin ratkaisuihinsa",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "538639",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "12642",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "T4 opastaa oppilasta tutustumaan moniin erilaisiin materiaaleihin ja niiden työstämiseen sekä ohjata toimimaan vastuuntuntoisesti ja turvallisesti",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "538950",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "12643",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "T1 vahvistaa oppilaan kiinnostusta käsin tekemiseen sekä innostaa keksivään, kokeilevaan ja paikallisuutta hyödyntävään käsityöhön",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "536619",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "12644",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "T8 herättää oppilas arvioimaan kulutus- ja tuotantotapoja kriittisesti",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "538636",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "12645",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "L1 Ajattelu ja oppimaan oppiminen",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "428670",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/laajaalaisetosaamiset/428670"
+    },
+    {
+      "id": "12646",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "L3 Itsestä huolehtiminen ja arjen taidot",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "428672",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/laajaalaisetosaamiset/428672"
+    },
+    {
+      "id": "12647",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "L7 Osallistuminen, vaikuttaminen ja kestävän tulevaisuuden rakentaminen",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "428676",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/laajaalaisetosaamiset/428676"
+    },
+    {
+      "id": "12648",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "S6 Kestävän elämäntavan harjoitteleminen",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "469264",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/428820"
+    },
+    {
+      "id": "12649",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "S4 Ympäristön tutkiminen",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "474880",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/428820"
+    },
+    {
+      "id": "12650",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "S6 Kestävän tulevaisuuden rakentaminen",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "474882",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/428820"
+    },
+    {
+      "id": "12651",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "S5 Luonnon rakenteet, periaatteet ja kiertokulut",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "474881",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/428820"
+    },
+    {
+      "id": "12652",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "S5 Tekeminen",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "537653",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "12653",
+      "educationalmaterialid": "1758",
+      "alignmenttype": "teaches",
+      "targetname": "S8 Tiedostaminen ja osallistuminen",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "537656",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    }
+  ],
+  "educationalLevels": [
+    {
+      "id": "7811",
+      "value": "perusopetus",
+      "educationalmaterialid": "1758",
+      "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+    },
+    {
+      "id": "7812",
+      "value": "perusopetuksen vuosiluokat 5-6",
+      "educationalmaterialid": "1758",
+      "educationallevelkey": "75e8bed1-b965-483d-8ba4-48a5614c69ba"
+    },
+    {
+      "id": "7813",
+      "value": "perusopetuksen vuosiluokat 7-9",
+      "educationalmaterialid": "1758",
+      "educationallevelkey": "a2a70a14-b150-4f37-9e20-2bbb71731807"
+    },
+    {
+      "id": "7814",
+      "value": "perusopetuksen lisäopetus (10-luokka)",
+      "educationalmaterialid": "1758",
+      "educationallevelkey": "14fe3b08-8516-4999-946b-96eb90c2d563"
+    },
+    {
+      "id": "7815",
+      "value": "lukiokoulutus",
+      "educationalmaterialid": "1758",
+      "educationallevelkey": "94f79e1e-10e6-483d-b651-27521f94f7bf"
+    },
+    {
+      "id": "7816",
+      "value": "omaehtoinen osaamisen kehittäminen",
+      "educationalmaterialid": "1758",
+      "educationallevelkey": "bc25d0e7-3c68-49a1-9329-239dae01fab7"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "6757",
+      "value": "Kurssimateriaali",
+      "educationalmaterialid": "1758",
+      "educationalusekey": "cdad2dd2-c075-4630-91fa-79233306ba25"
+    },
+    {
+      "id": "6758",
+      "value": "Itsenäinen opiskelu",
+      "educationalmaterialid": "1758",
+      "educationalusekey": "916b4cd8-949b-4f47-aaf6-0fcaae7a9ac8"
+    },
+    {
+      "id": "6759",
+      "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+      "educationalmaterialid": "1758",
+      "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+    },
+    {
+      "id": "6760",
+      "value": "Ryhmätyö",
+      "educationalmaterialid": "1758",
+      "educationalusekey": "4fcdf5aa-09f5-48dd-b505-a3c9734e15ed"
+    }
+  ],
+  "accessibilityFeatures": [],
+  "accessibilityHazards": [],
+  "license": {
+    "value": "CC BY-NC-SA 4.0",
+    "key": "CCBYNCSA4.0"
+  },
+  "isBasedOn": [
+    {
+      "id": "746",
+      "author": [
+        {
+          "id": "1194",
+          "authorname": "Riiho, Aino",
+          "isbasedonid": "746"
+        },
+        {
+          "id": "1195",
+          "authorname": "Davidkin, Marjut",
+          "isbasedonid": "746"
+        },
+        {
+          "id": "1196",
+          "authorname": "Harju, Roosa",
+          "isbasedonid": "746"
+        },
+        {
+          "id": "1197",
+          "authorname": "Virto, Ella",
+          "isbasedonid": "746"
+        }
+      ],
+      "url": "https://ainotasapaino.wixsite.com/my-site",
+      "materialname": "Muoti ja Meri - Oppimateriaali kestävästä muodista ja merten suojelusta",
+      "educationalmaterialid": "1758"
+    }
+  ],
+  "educationalRoles": [
+    {
+      "id": "7615",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "1758",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    },
+    {
+      "id": "7616",
+      "educationalrole": "Oppija",
+      "educationalmaterialid": "1758",
+      "educationalrolekey": "582949cb-36a4-4053-9f2f-c53ae954a6ae"
+    },
+    {
+      "id": "7617",
+      "educationalrole": "Kansalainen",
+      "educationalmaterialid": "1758",
+      "educationalrolekey": "2b7915eb-4df7-467e-a841-b0201b80dc9d"
+    }
+  ],
+  "thumbnail": {
+    "id": "1381",
+    "filepath": "https://aoe.fi/api/thumbnail/thumbnail-1636114580010.png",
+    "mimetype": "image/png",
+    "educationalmaterialid": "1758",
+    "filename": "thumbnail-1636114580010.png",
+    "obsoleted": 0,
+    "filekey": "thumbnail-1636114580010.png",
+    "filebucket": "aoethumbnail"
+  },
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2021-11-05T12:45:19.579Z"
+    }
+  ],
+  "hasDownloadableFiles": false,
+  "urn": null
+}

@@ -1,0 +1,257 @@
+{
+  "hits": 1,
+  "results": [
+    {
+      "id": "679",
+      "createdAt": "2020-09-30T08:48:14.904Z",
+      "publishedAt": "2020-09-30T08:55:13.838Z",
+      "updatedAt": "2020-09-30T08:55:13.841Z",
+      "materialName": [
+        {
+          "materialname": "Life cycle assessment and carbon footprint case wood products – teachers handbook for assignments",
+          "language": "fi"
+        },
+        {
+          "materialname": "Life cycle assessment and carbon footprint case wood products – teachers handbook for assignments",
+          "language": "sv"
+        },
+        {
+          "materialname": "Life cycle assessment and carbon footprint case wood products – teachers handbook for assignments",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "Objective: To understand the basic concepts of LCA and what is meant by carbon footprint for wood products. The material is suitable for reading independently and to be used at lectures. The assignments are intended for studies at universities of applied sciences and are suitable for the field of bioeconomy.\nTämä materiaali on osa Opetus- ja kulttuuriministeriön rahoittamaa hanketta Kiertotalousosaamista ammattikorkeakouluihin (2018–2020). Hankkeeseen osallistui 19 suomalaista ammattikorkeakoulua.",
+          "language": "fi"
+        },
+        {
+          "description": "Objective: To understand the basic concepts of LCA and what is meant by carbon footprint for wood products. The material is suitable for reading independently and to be used at lectures. The assignments are intended for studies at universities of applied sciences and are suitable for the field of bioeconomy.",
+          "language": "en"
+        },
+        {
+          "description": "Objective: To understand the basic concepts of LCA and what is meant by carbon footprint for wood products. The material is suitable for reading independently and to be used at lectures. The assignments are intended for studies at universities of applied sciences and are suitable for the field of bioeconomy.\nTämä materiaali on osa Opetus- ja kulttuuriministeriön rahoittamaa hanketta Kiertotalousosaamista ammattikorkeakouluihin (2018–2020). Hankkeeseen osallistui 19 suomalaista ammattikorkeakoulua.",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Kokkonen, Nina",
+          "organization": "Hämeen ammattikorkeakoulu Oy",
+          "organizationkey": "1.2.246.562.10.80290438224"
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "esitys",
+          "learningresourcetypekey": "7be52f46-138d-482f-834e-5ea33d933c37"
+        },
+        {
+          "value": "harjoitus",
+          "learningresourcetypekey": "bf2c17a1-2f6f-4019-adb1-576e6caeebd9"
+        },
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        }
+      ],
+      "license": {
+        "key": "CCBYNCSA4.0",
+        "value": "CC BY-NC-SA 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "korkeakoulutus",
+          "educationallevelkey": "e5a48ada-3de0-4246-9b8f-32d4ff68e22f"
+        },
+        {
+          "value": "alemman korkeakouluasteen tutkinto",
+          "educationallevelkey": "ff3334db-2a71-4459-8f0d-c42ce2b12a70"
+        },
+        {
+          "value": "ylemmän korkeakouluasteen tutkinto",
+          "educationallevelkey": "9c14f097-68e3-4e6b-a772-71a44442f72f"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "kiertotalous",
+          "keywordkey": "//www.yso.fi/onto/yso/p28601"
+        },
+        {
+          "value": "elinkaarianalyysi",
+          "keywordkey": "elinkaarianalyysi"
+        },
+        {
+          "value": "hiilijalanjälki",
+          "keywordkey": "//www.yso.fi/onto/yso/p21899"
+        },
+        {
+          "value": "puutuotteet",
+          "keywordkey": "//www.yso.fi/onto/yso/p7474"
+        },
+        {
+          "value": "metsäperäiset kierrot",
+          "keywordkey": "metsperisetkierrot"
+        },
+        {
+          "value": "metsäteollisuus",
+          "keywordkey": "//www.yso.fi/onto/yso/p10705"
+        },
+        {
+          "value": "circular economy",
+          "keywordkey": "circulareconomy"
+        },
+        {
+          "value": "life cycle assessment",
+          "keywordkey": "lifecycleassessment"
+        },
+        {
+          "value": "carbon footprint",
+          "keywordkey": "carbonfootprint"
+        },
+        {
+          "value": "wood products",
+          "keywordkey": "woodproducts"
+        }
+      ],
+      "languages": [
+        "en"
+      ],
+      "educationalSubjects": [
+        {
+          "key": "111",
+          "source": "branchesOfScience",
+          "value": "Matematiikka"
+        },
+        {
+          "key": "112",
+          "source": "branchesOfScience",
+          "value": "Tilastotiede"
+        },
+        {
+          "key": "113",
+          "source": "branchesOfScience",
+          "value": "Tietojenkäsittely ja informaatiotieteet"
+        },
+        {
+          "key": "114",
+          "source": "branchesOfScience",
+          "value": "Fysiikka"
+        },
+        {
+          "key": "115",
+          "source": "branchesOfScience",
+          "value": "Avaruustieteet ja tähtitiede"
+        },
+        {
+          "key": "116",
+          "source": "branchesOfScience",
+          "value": "Kemia"
+        },
+        {
+          "key": "119",
+          "source": "branchesOfScience",
+          "value": "Muut luonnontieteet"
+        },
+        {
+          "key": "1171",
+          "source": "branchesOfScience",
+          "value": "Geotieteet"
+        },
+        {
+          "key": "1172",
+          "source": "branchesOfScience",
+          "value": "Ympäristötiede"
+        },
+        {
+          "key": "1181",
+          "source": "branchesOfScience",
+          "value": "Ekologia, evoluutiobiologia"
+        },
+        {
+          "key": "1182",
+          "source": "branchesOfScience",
+          "value": "Biokemia, solu- ja molekyylibiologia"
+        },
+        {
+          "key": "1183",
+          "source": "branchesOfScience",
+          "value": "Kasvibiologia, mikrobiologia, virologia"
+        },
+        {
+          "key": "1184",
+          "source": "branchesOfScience",
+          "value": "Genetiikka, kehitysbiologia, fysiologia"
+        },
+        {
+          "key": "412",
+          "source": "branchesOfScience",
+          "value": "Kotieläintiede, maitotaloustiede"
+        },
+        {
+          "key": "413",
+          "source": "branchesOfScience",
+          "value": "Eläinlääketiede"
+        },
+        {
+          "key": "414",
+          "source": "branchesOfScience",
+          "value": "Maatalouden bioteknologia"
+        },
+        {
+          "key": "415",
+          "source": "branchesOfScience",
+          "value": "Muut maataloustieteet"
+        },
+        {
+          "key": "4111",
+          "source": "branchesOfScience",
+          "value": "Maataloustiede"
+        },
+        {
+          "key": "4112",
+          "source": "branchesOfScience",
+          "value": "Metsätiede"
+        }
+      ],
+      "teaches": [],
+      "hasDownloadableFiles": true,
+      "thumbnail": {
+        "id": "544",
+        "filepath": "https://aoe.fi/api/thumbnail/thumbnail1601455725544.png",
+        "mimetype": "image/png",
+        "educationalmaterialid": "679",
+        "filename": "thumbnail1601455725544.png",
+        "obsoleted": 0,
+        "filekey": "thumbnail1601455725544.png",
+        "filebucket": "aoethumbnail"
+      },
+      "popularity": 0.09274873524451939,
+      "educationalUses": [
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        }
+      ],
+      "accessibilityFeatures": [
+        {
+          "value": "käsikirjoitus",
+          "accessibilityfeaturekey": "1bee480d-c3db-4b10-9e37-6f05a34c0521"
+        }
+      ],
+      "accessibilityHazards": [
+        {
+          "value": "ei tiedossa",
+          "accessibilityhazardkey": "85b2dd0b-b362-467b-9904-cfd84e2b0e82"
+        }
+      ]
+    }
+  ]
+}

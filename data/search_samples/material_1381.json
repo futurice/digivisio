@@ -1,0 +1,311 @@
+{
+  "id": "1381",
+  "materials": [
+    {
+      "id": "4188",
+      "language": "fi",
+      "link": "https://www.matleenalaakso.fi/p/h5p.html",
+      "priority": 0,
+      "filepath": null,
+      "originalfilename": null,
+      "filesize": null,
+      "mimetype": null,
+      "format": null,
+      "filekey": null,
+      "filebucket": null,
+      "publishedat": "2021-03-04T08:08:51.744Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "H5P-työkalut - näin luot verkkosisältöjä ja tehtäviä",
+        "sv": "H5P-työkalut - näin luot verkkosisältöjä ja tehtäviä",
+        "en": "H5P-työkalut - näin luot verkkosisältöjä ja tehtäviä"
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "11605",
+      "materialname": "H5P-työkalut",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "1381"
+    },
+    {
+      "id": "11606",
+      "materialname": "H5P-työkalut",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "1381"
+    },
+    {
+      "id": "11607",
+      "materialname": "H5P-työkalut",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "1381"
+    }
+  ],
+  "createdAt": "2021-03-04T07:54:37.865Z",
+  "updatedAt": "2022-03-30T11:24:31.648Z",
+  "publishedAt": "2021-03-04T08:08:51.744Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": false,
+  "suitsAllPrePrimarySubjects": false,
+  "suitsAllBasicStudySubjects": true,
+  "suitsAllUpperSecondarySubjects": true,
+  "suitsAllVocationalDegrees": true,
+  "suitsAllSelfMotivatedSubjects": false,
+  "suitsAllBranches": true,
+  "suitsAllUpperSecondarySubjectsNew": true,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "512",
+  "downloadCounter": "0",
+  "author": [
+    {
+      "id": "7532",
+      "authorname": "Laakso, Matleena",
+      "organization": "",
+      "educationalmaterialid": "1381",
+      "organizationkey": ""
+    }
+  ],
+  "publisher": [],
+  "description": [
+    {
+      "id": "8356",
+      "description": "H5P tarkoittaa yli 50 työkalua, joiden avulla voi luoda interaktiivisia materiaaleja ja automaattisesti tarkistuvia tehtäviä mm. Moodle- tai WordPress-ympäristöön. Tarjolla on mm. erilaisia aukkotehtäviä, monivalintoja, kuvia hyödyntäviä tehtäviä, interaktiivisia ja haarautuvia videoita ja sanelutehtäviä. Ohje päivittyy usein ja mukana on sanallinen kuvaus, diasarja, useita ohjevideoita (osa tekstitetty), linkkejä myös muiden ohjeisiin (suomi/englanti) sekä linkki avoimeen Moodleen, missä voit tutustua esimerkkeihin. Osa niistä on ladattavissa ja hyödynnettävissä CC-lisenssin mukaisesti.",
+      "language": "fi",
+      "educationalmaterialid": "1381"
+    },
+    {
+      "id": "8358",
+      "description": "H5P tarkoittaa yli 50 työkalua, joiden avulla voi luoda interaktiivisia materiaaleja ja automaattisesti tarkistuvia tehtäviä mm. Moodle- tai WordPress-ympäristöön. Tarjolla on mm. erilaisia aukkotehtäviä, monivalintoja, kuvia hyödyntäviä tehtäviä, interaktiivisia ja haarautuvia videoita ja sanelutehtäviä. Ohje päivittyy usein ja mukana on sanallinen kuvaus, diasarja, ohjevideo, linkkejä myös muiden ohjeisiin (suomi/englanti) sekä linkki avoimeen Moodleen, missä voit tutustua esimerkkeihin. Osa niistä on ladattavissa ja hyödynnettävissä CC-lisenssin avulla.",
+      "language": "en",
+      "educationalmaterialid": "1381"
+    },
+    {
+      "id": "8357",
+      "description": "H5P tarkoittaa yli 50 työkalua, joiden avulla voi luoda interaktiivisia materiaaleja ja automaattisesti tarkistuvia tehtäviä mm. Moodle- tai WordPress-ympäristöön. Tarjolla on mm. erilaisia aukkotehtäviä, monivalintoja, kuvia hyödyntäviä tehtäviä, interaktiivisia ja haarautuvia videoita ja sanelutehtäviä. Ohje päivittyy usein ja mukana on sanallinen kuvaus, diasarja, ohjevideo, linkkejä myös muiden ohjeisiin (suomi/englanti) sekä linkki avoimeen Moodleen, missä voit tutustua esimerkkeihin. Osa niistä on ladattavissa ja hyödynnettävissä CC-lisenssin avulla.",
+      "language": "sv",
+      "educationalmaterialid": "1381"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "13604",
+      "value": "H5P ",
+      "educationalmaterialid": "1381",
+      "keywordkey": "h5p"
+    },
+    {
+      "id": "13605",
+      "value": "Moodle ",
+      "educationalmaterialid": "1381",
+      "keywordkey": "moodle"
+    },
+    {
+      "id": "13606",
+      "value": "WordPress ",
+      "educationalmaterialid": "1381",
+      "keywordkey": "wordpress"
+    },
+    {
+      "id": "13607",
+      "value": "oppimateriaali ",
+      "educationalmaterialid": "1381",
+      "keywordkey": "oppimateriaali"
+    },
+    {
+      "id": "13608",
+      "value": "verkkosisältö ",
+      "educationalmaterialid": "1381",
+      "keywordkey": "verkkosislt"
+    },
+    {
+      "id": "13609",
+      "value": "tehtävä ",
+      "educationalmaterialid": "1381",
+      "keywordkey": "tehtv"
+    },
+    {
+      "id": "13611",
+      "value": "verkkokurssi ",
+      "educationalmaterialid": "1381",
+      "keywordkey": "verkkokurssi"
+    },
+    {
+      "id": "13610",
+      "value": "interaktiivinen video",
+      "educationalmaterialid": "1381",
+      "keywordkey": "interaktiivinenvideo"
+    },
+    {
+      "id": "21364",
+      "value": "H5P-työkalut",
+      "educationalmaterialid": "1381",
+      "keywordkey": "h5ptykalut"
+    },
+    {
+      "id": "21366",
+      "value": "aukkotehtävä",
+      "educationalmaterialid": "1381",
+      "keywordkey": "aukkotehtv"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "4959",
+      "value": "esitys",
+      "educationalmaterialid": "1381",
+      "learningresourcetypekey": "7be52f46-138d-482f-834e-5ea33d933c37"
+    },
+    {
+      "id": "4960",
+      "value": "opas",
+      "educationalmaterialid": "1381",
+      "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+    },
+    {
+      "id": "4961",
+      "value": "sovellus",
+      "educationalmaterialid": "1381",
+      "learningresourcetypekey": "d41d5e9d-bbf0-45f5-9985-eba4feb385f0"
+    },
+    {
+      "id": "4962",
+      "value": "teksti",
+      "educationalmaterialid": "1381",
+      "learningresourcetypekey": "cc1d00b0-b11f-4afe-a423-e43f96214f89"
+    },
+    {
+      "id": "4963",
+      "value": "työkalu",
+      "educationalmaterialid": "1381",
+      "learningresourcetypekey": "1b5918b8-701b-48e6-aa2c-5feb3d7b3d60"
+    },
+    {
+      "id": "4964",
+      "value": "video",
+      "educationalmaterialid": "1381",
+      "learningresourcetypekey": "c1256389-a47d-4a44-beb2-bdbbc79abb28"
+    }
+  ],
+  "timeRequired": "1-10 h",
+  "expires": null,
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": 15,
+    "typicalAgeRangeMax": 100
+  },
+  "educationalAlignment": [],
+  "educationalLevels": [
+    {
+      "id": "5755",
+      "value": "perusopetus",
+      "educationalmaterialid": "1381",
+      "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+    },
+    {
+      "id": "5756",
+      "value": "lukiokoulutus",
+      "educationalmaterialid": "1381",
+      "educationallevelkey": "94f79e1e-10e6-483d-b651-27521f94f7bf"
+    },
+    {
+      "id": "5757",
+      "value": "ammatillinen koulutus",
+      "educationalmaterialid": "1381",
+      "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+    },
+    {
+      "id": "5758",
+      "value": "ammatilliseen koulutukseen valmentava koulutus, VALMA",
+      "educationalmaterialid": "1381",
+      "educationallevelkey": "55c5d6a2-8415-47bc-9d15-7b976b0e999c"
+    },
+    {
+      "id": "5759",
+      "value": "työhön ja itsenäiseen elämään valmentava koulutus, TELMA",
+      "educationalmaterialid": "1381",
+      "educationallevelkey": "da5b8f43-5fc9-4681-812b-40846926f3fd"
+    },
+    {
+      "id": "5760",
+      "value": "korkeakoulutus",
+      "educationalmaterialid": "1381",
+      "educationallevelkey": "e5a48ada-3de0-4246-9b8f-32d4ff68e22f"
+    },
+    {
+      "id": "5761",
+      "value": "lukiokoulutukseen valmistava koulutus, LUVA",
+      "educationalmaterialid": "1381",
+      "educationallevelkey": "fd362a80-9662-48b8-acd1-d8cef520530c"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "5150",
+      "value": "Interaktiivinen materiaali",
+      "educationalmaterialid": "1381",
+      "educationalusekey": "80135e90-e23d-40e7-b375-7bc9871ed284"
+    },
+    {
+      "id": "5151",
+      "value": "Ohjeistus",
+      "educationalmaterialid": "1381",
+      "educationalusekey": "69125b8d-8b43-4820-838e-daf145672c17"
+    },
+    {
+      "id": "5152",
+      "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+      "educationalmaterialid": "1381",
+      "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+    }
+  ],
+  "accessibilityFeatures": [],
+  "accessibilityHazards": [],
+  "license": {
+    "value": "CC BY-SA 4.0",
+    "key": "CCBYSA4.0"
+  },
+  "isBasedOn": [],
+  "educationalRoles": [
+    {
+      "id": "5801",
+      "educationalrole": "Asiantuntija tai ammattilainen",
+      "educationalmaterialid": "1381",
+      "educationalrolekey": "66edb65b-8648-4f95-ac48-d9478293cef4"
+    },
+    {
+      "id": "5802",
+      "educationalrole": "Erityisopetus",
+      "educationalmaterialid": "1381",
+      "educationalrolekey": "42e63a64-75f2-49e7-8692-4494ae8e4bfe"
+    },
+    {
+      "id": "5803",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "1381",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    }
+  ],
+  "thumbnail": {
+    "id": "1082",
+    "filepath": "https://aoe.fi/api/thumbnail/thumbnail1614844531122.png",
+    "mimetype": "image/png",
+    "educationalmaterialid": "1381",
+    "filename": "thumbnail1614844531122.png",
+    "obsoleted": 0,
+    "filekey": "thumbnail1614844531122.png",
+    "filebucket": "aoethumbnail"
+  },
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2021-03-04T08:08:51.744Z"
+    }
+  ],
+  "hasDownloadableFiles": false,
+  "urn": null
+}

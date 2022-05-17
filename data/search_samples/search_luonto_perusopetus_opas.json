@@ -1,0 +1,1850 @@
+{
+  "hits": 9,
+  "results": [
+    {
+      "id": "2097",
+      "createdAt": "2022-05-11T20:34:37.653Z",
+      "publishedAt": "2022-05-11T21:28:03.365Z",
+      "updatedAt": "2022-05-11T21:30:14.576Z",
+      "materialName": [
+        {
+          "materialname": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa",
+          "language": "fi"
+        },
+        {
+          "materialname": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa",
+          "language": "sv"
+        },
+        {
+          "materialname": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa on kokonaisen käsityöprosessin hengessä luotu oppimateriaalipaketti. Tarkoituksena on tutustua kankaankuvointiin leimasinpainannan avulla. Kokonaiseen käsityöprosessiin on otettu mukaan erilaisia ideoinnin, suunnittelun sekä valmistuksen tehtäviä, jotka johdattavat tekijän inspiroitumiseen, kokeiluun ja luovuuteen. Sivustolta löytyy myös ripaus positiivista pedagogiikkaa. Materiaalista voi poimia joko yksittäisiä tehtäviä tai seurata valmista käsityöprosessipolkua! Tehtäviin on rakennettu kolme eri taitotasoa, jotka soveltuvat vasta-alkajille, kokeneille sekä edistyneille tekijöille. Materiaalia voi siis käyttää opettajat koulutusasteilla sekä kerho- ja harrastustoiminnassa. Materiaali soveltuu myös itsenäiseen työhön leimasinpainannasta kiinnostuneille.\n\nInspiroivia työskentelyhetkiä!",
+          "language": "fi"
+        },
+        {
+          "description": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa on kokonaisen käsityöprosessin hengessä luotu oppimateriaalipaketti. Tarkoituksena on tutustua kankaankuvointiin leimasinpainannan avulla. Kokonaiseen käsityöprosessiin on otettu mukaan erilaisia ideoinnin, suunnittelun sekä valmistuksen tehtäviä, jotka johdattavat tekijän inspiroitumiseen, kokeiluun ja luovuuteen. Sivustolta löytyy myös ripaus positiivista pedagogiikkaa. Materiaalista voi poimia joko yksittäisiä tehtäviä tai seurata valmista käsityöprosessipolkua! Tehtäviin on rakennettu kolme eri taitotasoa, jotka soveltuvat vasta-alkajille, kokeneille sekä edistyneille tekijöille. Materiaalia voi siis käyttää opettajat koulutusasteilla sekä kerho- ja harrastustoiminnassa. Materiaali soveltuu myös itsenäiseen työhön leimasinpainannasta kiinnostuneille.\n\nInspiroivia työskentelyhetkiä!",
+          "language": "en"
+        },
+        {
+          "description": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa on kokonaisen käsityöprosessin hengessä luotu oppimateriaalipaketti. Tarkoituksena on tutustua kankaankuvointiin leimasinpainannan avulla. Kokonaiseen käsityöprosessiin on otettu mukaan erilaisia ideoinnin, suunnittelun sekä valmistuksen tehtäviä, jotka johdattavat tekijän inspiroitumiseen, kokeiluun ja luovuuteen. Sivustolta löytyy myös ripaus positiivista pedagogiikkaa. Materiaalista voi poimia joko yksittäisiä tehtäviä tai seurata valmista käsityöprosessipolkua! Tehtäviin on rakennettu kolme eri taitotasoa, jotka soveltuvat vasta-alkajille, kokeneille sekä edistyneille tekijöille. Materiaalia voi siis käyttää opettajat koulutusasteilla sekä kerho- ja harrastustoiminnassa. Materiaali soveltuu myös itsenäiseen työhön leimasinpainannasta kiinnostuneille.\n\nInspiroivia työskentelyhetkiä!",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Kaasalainen, Eveliina ",
+          "organization": "Helsingin yliopisto, Kasvatustieteellinen tiedekunta",
+          "organizationkey": "1.2.246.562.10.67451633415"
+        },
+        {
+          "authorname": "Tapio, Anu",
+          "organization": "Helsingin yliopisto, Kasvatustieteellinen tiedekunta",
+          "organizationkey": "1.2.246.562.10.67451633415"
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "työkalu",
+          "learningresourcetypekey": "1b5918b8-701b-48e6-aa2c-5feb3d7b3d60"
+        },
+        {
+          "value": "projekti",
+          "learningresourcetypekey": "ba288473-784b-4f5f-8231-2d0d782347aa"
+        },
+        {
+          "value": "harjoitus",
+          "learningresourcetypekey": "bf2c17a1-2f6f-4019-adb1-576e6caeebd9"
+        },
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        }
+      ],
+      "license": {
+        "key": "CCBYNCSA4.0",
+        "value": "CC BY-NC-SA 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "esiopetus",
+          "educationallevelkey": "3ff553ba-a4d7-407c-ad00-80e54ecebd16"
+        },
+        {
+          "value": "perusopetus",
+          "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+        },
+        {
+          "value": "ammatillinen koulutus",
+          "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+        },
+        {
+          "value": "ammatilliseen koulutukseen valmentava koulutus, VALMA",
+          "educationallevelkey": "55c5d6a2-8415-47bc-9d15-7b976b0e999c"
+        },
+        {
+          "value": "työhön ja itsenäiseen elämään valmentava koulutus, TELMA",
+          "educationallevelkey": "da5b8f43-5fc9-4681-812b-40846926f3fd"
+        },
+        {
+          "value": "omaehtoinen osaamisen kehittäminen",
+          "educationallevelkey": "bc25d0e7-3c68-49a1-9329-239dae01fab7"
+        },
+        {
+          "value": "varhaiskasvatus",
+          "educationallevelkey": "8e7b8440-286d-4cc9-ad99-9fe288107535"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        },
+        {
+          "value": "Oppija",
+          "educationalrolekey": "582949cb-36a4-4053-9f2f-c53ae954a6ae"
+        },
+        {
+          "value": "Asiantuntija tai ammattilainen",
+          "educationalrolekey": "66edb65b-8648-4f95-ac48-d9478293cef4"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "käsityöt",
+          "keywordkey": "//www.yso.fi/onto/yso/p4923"
+        },
+        {
+          "value": "käsityötiede",
+          "keywordkey": "//www.yso.fi/onto/yso/p18965"
+        },
+        {
+          "value": "Leimasinpainanta",
+          "keywordkey": "leimasinpainanta"
+        },
+        {
+          "value": "Kankaankuviointi",
+          "keywordkey": "kankaankuviointi"
+        },
+        {
+          "value": "ideointi",
+          "keywordkey": "//www.yso.fi/onto/yso/p14566"
+        },
+        {
+          "value": "suunnittelu",
+          "keywordkey": "//www.yso.fi/onto/yso/p1377"
+        },
+        {
+          "value": "Kokonainen käsityöprosessi",
+          "keywordkey": "kokonainenksityprosessi"
+        },
+        {
+          "value": "positiivinen pedagogiikka",
+          "keywordkey": "//www.yso.fi/onto/yso/p29074"
+        },
+        {
+          "value": "luovuus",
+          "keywordkey": "//www.yso.fi/onto/yso/p8311"
+        }
+      ],
+      "languages": [
+        "fi"
+      ],
+      "educationalSubjects": [
+        {
+          "key": "530524",
+          "source": "basicStudySubjects",
+          "value": "Käsityö"
+        }
+      ],
+      "teaches": [
+        {
+          "key": "538637",
+          "value": "T1 rohkaista oppilasta kiinnostumaan ja innostumaan käsin tekemisestä sekä herättää uteliaisuutta keksivään ja kokeilevaan käsityöhön"
+        },
+        {
+          "key": "538638",
+          "value": "T2 ohjata oppilas kokonaiseen käsityöprosessiin ja esittämään omia ideoitaan kuvallisesti sekä kertomaan käsityön tekemisestä ja valmiista tuotteesta"
+        },
+        {
+          "key": "538639",
+          "value": "T3 ohjata oppilasta suunnittelemaan ja valmistamaan käsityötuotteita tai teoksia luottaen omiin esteettisiin ja teknisiin ratkaisuihinsa"
+        },
+        {
+          "key": "538950",
+          "value": "T4 opastaa oppilasta tutustumaan moniin erilaisiin materiaaleihin ja niiden työstämiseen sekä ohjata toimimaan vastuuntuntoisesti ja turvallisesti"
+        },
+        {
+          "key": "538951",
+          "value": "T5 tukea oppilaan itsetunnon kehittymistä käsityössä onnistumisen, oivaltamisen ja keksimisen kokemusten kautta"
+        },
+        {
+          "key": "536611",
+          "value": "T1 ohjata oppilasta suunnittelemaan työskentelyään sekä ideoimaan, tutkimaan ja kokeilemaan yritteliäästi"
+        },
+        {
+          "key": "536612",
+          "value": "T2 ohjata oppilasta asettamaan käsityöhön omia oppimisen ja työskentelyn tavoitteita sekä toteuttamaan niiden perusteella kokonainen käsityöprosessi ja arvioimaan oppimistaan"
+        },
+        {
+          "key": "536613",
+          "value": "T3 opastaa oppilasta tutustumaan ja käyttämään monipuolisesti erilaisia työvälineitä, materiaaleja ja tarkoituksenmukaisia työtapoja sekä kehittämään innovaatioita"
+        },
+        {
+          "key": "536614",
+          "value": "T4 ohjata oppilasta käyttämään sujuvasti käsityön käsitteitä, merkkejä ja symboleja sekä vahvistamaan visuaalista, materiaalista ja teknologista ilmaisuaan"
+        },
+        {
+          "key": "536615",
+          "value": "T5 ohjata oppilasta havainnoimaan, ennakoimaan ja reagoimaan työtilanteisiin liittyviin riskitekijöihin ja toimimaan turvallisesti käsityöprosessissa"
+        },
+        {
+          "key": "536616",
+          "value": "T6 ohjata oppilasta käyttämään tieto- ja viestintäteknologian mahdollisuuksia käsityön suunnittelussa, valmistuksessa ja dokumentoinnissa, sekä yhteisöllisen tiedon tuottamisessa ja jakamisessa"
+        },
+        {
+          "key": "536617",
+          "value": "T7 ohjata oppilasta tuntemaan käsityön, kädentaitojen ja teknologisen kehityksen merkitys omassa elämässään, yhteiskunnassa, yrittäjyydessä ja muussa työelämässä"
+        },
+        {
+          "key": "536618",
+          "value": "T8 ohjata oppilaita taloudelliseen ajatteluun ja kehittämään käsityöprosessiin liittyviä valintoja, jotka edistävät kestävää elämäntapaa"
+        },
+        {
+          "key": "536619",
+          "value": "T1 vahvistaa oppilaan kiinnostusta käsin tekemiseen sekä innostaa keksivään, kokeilevaan ja paikallisuutta hyödyntävään käsityöhön"
+        },
+        {
+          "key": "538630",
+          "value": "T2 ohjata oppilasta hahmottamaan ja hallitsemaan kokonainen käsityöprosessi ja sen dokumentointi"
+        },
+        {
+          "key": "538631",
+          "value": "T3 opastaa oppilasta suunnittelemaan ja valmistamaan yksin tai yhdessä käsityötuote tai -teos luottaen omiin esteettisiin ja teknisiin ratkaisuihin"
+        },
+        {
+          "key": "538636",
+          "value": "T8 herättää oppilas arvioimaan kulutus- ja tuotantotapoja kriittisesti"
+        },
+        {
+          "key": "538632",
+          "value": "T4 ohjata oppilasta tunnistamaan käsitteistöä sekä tuntemaan monia erilaisia materiaaleja ja työstämään niitä tarkoituksenmukaisesti"
+        },
+        {
+          "key": "538633",
+          "value": "T5 kannustaa oppilasta toimimaan pitkäjänteisesti ja vastuuntuntoisesti, huolehtimaan turvallisesta työskentelystä sekä valitsemaan ja käyttämään työhön sopivaa välineistöä"
+        },
+        {
+          "key": "538634",
+          "value": "T6 opastaa oppilasta käyttämään tieto- ja viestintäteknologiaa käsityön suunnittelussa, valmistamisessa ja käsityöprosessin dokumentoinnissa"
+        },
+        {
+          "key": "538635",
+          "value": "T7 ohjata oppilasta arvioimaan, arvostamaan ja tarkastelemaan vuorovaikutteisesti omaa ja muiden kokonaisen käsityön prosessia"
+        },
+        {
+          "key": "428670",
+          "value": "L1 Ajattelu ja oppimaan oppiminen"
+        },
+        {
+          "key": "428671",
+          "value": "L2 Kulttuurinen osaaminen, vuorovaikutus ja ilmaisu"
+        },
+        {
+          "key": "428672",
+          "value": "L3 Itsestä huolehtiminen ja arjen taidot"
+        },
+        {
+          "key": "428673",
+          "value": "L4 Monilukutaito"
+        },
+        {
+          "key": "428674",
+          "value": "L5 Tieto- ja viestintäteknologinen osaaminen"
+        }
+      ],
+      "hasDownloadableFiles": false,
+      "thumbnail": {
+        "id": "1706",
+        "filepath": "https://aoe.fi/api/thumbnail/thumbnail-1652304603211.png",
+        "mimetype": "image/png",
+        "educationalmaterialid": "2097",
+        "filename": "thumbnail-1652304603211.png",
+        "obsoleted": 0,
+        "filekey": "thumbnail-1652304603211.png",
+        "filebucket": "aoethumbnail"
+      },
+      "popularity": 1.75,
+      "educationalUses": [
+        {
+          "value": "Itsenäinen opiskelu",
+          "educationalusekey": "916b4cd8-949b-4f47-aaf6-0fcaae7a9ac8"
+        },
+        {
+          "value": "Kurssimateriaali",
+          "educationalusekey": "cdad2dd2-c075-4630-91fa-79233306ba25"
+        },
+        {
+          "value": "Ohjeistus",
+          "educationalusekey": "69125b8d-8b43-4820-838e-daf145672c17"
+        },
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        },
+        {
+          "value": "Oppimiskokonaisuuden osa",
+          "educationalusekey": "7c6c5151-3155-4a7d-a8c2-033e249ccee2"
+        },
+        {
+          "value": "Ryhmätyö",
+          "educationalusekey": "4fcdf5aa-09f5-48dd-b505-a3c9734e15ed"
+        }
+      ],
+      "accessibilityFeatures": [
+        {
+          "value": "navigointi rakenteen avulla",
+          "accessibilityfeaturekey": "5c2db7be-9a40-4f5b-96b7-768c07bf09c4"
+        }
+      ],
+      "accessibilityHazards": []
+    },
+    {
+      "id": "1381",
+      "createdAt": "2021-03-04T07:54:37.865Z",
+      "publishedAt": "2021-03-04T08:08:51.744Z",
+      "updatedAt": "2022-03-30T11:24:31.648Z",
+      "materialName": [
+        {
+          "materialname": "H5P-työkalut",
+          "language": "fi"
+        },
+        {
+          "materialname": "H5P-työkalut",
+          "language": "sv"
+        },
+        {
+          "materialname": "H5P-työkalut",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "H5P tarkoittaa yli 50 työkalua, joiden avulla voi luoda interaktiivisia materiaaleja ja automaattisesti tarkistuvia tehtäviä mm. Moodle- tai WordPress-ympäristöön. Tarjolla on mm. erilaisia aukkotehtäviä, monivalintoja, kuvia hyödyntäviä tehtäviä, interaktiivisia ja haarautuvia videoita ja sanelutehtäviä. Ohje päivittyy usein ja mukana on sanallinen kuvaus, diasarja, useita ohjevideoita (osa tekstitetty), linkkejä myös muiden ohjeisiin (suomi/englanti) sekä linkki avoimeen Moodleen, missä voit tutustua esimerkkeihin. Osa niistä on ladattavissa ja hyödynnettävissä CC-lisenssin mukaisesti.",
+          "language": "fi"
+        },
+        {
+          "description": "H5P tarkoittaa yli 50 työkalua, joiden avulla voi luoda interaktiivisia materiaaleja ja automaattisesti tarkistuvia tehtäviä mm. Moodle- tai WordPress-ympäristöön. Tarjolla on mm. erilaisia aukkotehtäviä, monivalintoja, kuvia hyödyntäviä tehtäviä, interaktiivisia ja haarautuvia videoita ja sanelutehtäviä. Ohje päivittyy usein ja mukana on sanallinen kuvaus, diasarja, ohjevideo, linkkejä myös muiden ohjeisiin (suomi/englanti) sekä linkki avoimeen Moodleen, missä voit tutustua esimerkkeihin. Osa niistä on ladattavissa ja hyödynnettävissä CC-lisenssin avulla.",
+          "language": "en"
+        },
+        {
+          "description": "H5P tarkoittaa yli 50 työkalua, joiden avulla voi luoda interaktiivisia materiaaleja ja automaattisesti tarkistuvia tehtäviä mm. Moodle- tai WordPress-ympäristöön. Tarjolla on mm. erilaisia aukkotehtäviä, monivalintoja, kuvia hyödyntäviä tehtäviä, interaktiivisia ja haarautuvia videoita ja sanelutehtäviä. Ohje päivittyy usein ja mukana on sanallinen kuvaus, diasarja, ohjevideo, linkkejä myös muiden ohjeisiin (suomi/englanti) sekä linkki avoimeen Moodleen, missä voit tutustua esimerkkeihin. Osa niistä on ladattavissa ja hyödynnettävissä CC-lisenssin avulla.",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Laakso, Matleena",
+          "organization": "",
+          "organizationkey": ""
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "esitys",
+          "learningresourcetypekey": "7be52f46-138d-482f-834e-5ea33d933c37"
+        },
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        },
+        {
+          "value": "sovellus",
+          "learningresourcetypekey": "d41d5e9d-bbf0-45f5-9985-eba4feb385f0"
+        },
+        {
+          "value": "teksti",
+          "learningresourcetypekey": "cc1d00b0-b11f-4afe-a423-e43f96214f89"
+        },
+        {
+          "value": "työkalu",
+          "learningresourcetypekey": "1b5918b8-701b-48e6-aa2c-5feb3d7b3d60"
+        },
+        {
+          "value": "video",
+          "learningresourcetypekey": "c1256389-a47d-4a44-beb2-bdbbc79abb28"
+        }
+      ],
+      "license": {
+        "key": "CCBYSA4.0",
+        "value": "CC BY-SA 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "perusopetus",
+          "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+        },
+        {
+          "value": "lukiokoulutus",
+          "educationallevelkey": "94f79e1e-10e6-483d-b651-27521f94f7bf"
+        },
+        {
+          "value": "ammatillinen koulutus",
+          "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+        },
+        {
+          "value": "ammatilliseen koulutukseen valmentava koulutus, VALMA",
+          "educationallevelkey": "55c5d6a2-8415-47bc-9d15-7b976b0e999c"
+        },
+        {
+          "value": "työhön ja itsenäiseen elämään valmentava koulutus, TELMA",
+          "educationallevelkey": "da5b8f43-5fc9-4681-812b-40846926f3fd"
+        },
+        {
+          "value": "korkeakoulutus",
+          "educationallevelkey": "e5a48ada-3de0-4246-9b8f-32d4ff68e22f"
+        },
+        {
+          "value": "lukiokoulutukseen valmistava koulutus, LUVA",
+          "educationallevelkey": "fd362a80-9662-48b8-acd1-d8cef520530c"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Asiantuntija tai ammattilainen",
+          "educationalrolekey": "66edb65b-8648-4f95-ac48-d9478293cef4"
+        },
+        {
+          "value": "Erityisopetus",
+          "educationalrolekey": "42e63a64-75f2-49e7-8692-4494ae8e4bfe"
+        },
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "H5P ",
+          "keywordkey": "h5p"
+        },
+        {
+          "value": "Moodle ",
+          "keywordkey": "moodle"
+        },
+        {
+          "value": "WordPress ",
+          "keywordkey": "wordpress"
+        },
+        {
+          "value": "oppimateriaali ",
+          "keywordkey": "oppimateriaali"
+        },
+        {
+          "value": "verkkosisältö ",
+          "keywordkey": "verkkosislt"
+        },
+        {
+          "value": "tehtävä ",
+          "keywordkey": "tehtv"
+        },
+        {
+          "value": "verkkokurssi ",
+          "keywordkey": "verkkokurssi"
+        },
+        {
+          "value": "interaktiivinen video",
+          "keywordkey": "interaktiivinenvideo"
+        },
+        {
+          "value": "H5P-työkalut",
+          "keywordkey": "h5ptykalut"
+        },
+        {
+          "value": "aukkotehtävä",
+          "keywordkey": "aukkotehtv"
+        }
+      ],
+      "languages": [
+        "fi"
+      ],
+      "educationalSubjects": [],
+      "teaches": [],
+      "hasDownloadableFiles": false,
+      "thumbnail": {
+        "id": "1082",
+        "filepath": "https://aoe.fi/api/thumbnail/thumbnail1614844531122.png",
+        "mimetype": "image/png",
+        "educationalmaterialid": "1381",
+        "filename": "thumbnail1614844531122.png",
+        "obsoleted": 0,
+        "filekey": "thumbnail1614844531122.png",
+        "filebucket": "aoethumbnail"
+      },
+      "popularity": 1.1666666666666667,
+      "educationalUses": [
+        {
+          "value": "Interaktiivinen materiaali",
+          "educationalusekey": "80135e90-e23d-40e7-b375-7bc9871ed284"
+        },
+        {
+          "value": "Ohjeistus",
+          "educationalusekey": "69125b8d-8b43-4820-838e-daf145672c17"
+        },
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        }
+      ],
+      "accessibilityFeatures": [],
+      "accessibilityHazards": []
+    },
+    {
+      "id": "1376",
+      "createdAt": "2021-03-01T13:19:15.282Z",
+      "publishedAt": "2021-03-04T07:47:40.950Z",
+      "updatedAt": "2022-03-30T08:52:27.619Z",
+      "materialName": [
+        {
+          "materialname": "ThingLink: interaktiivisten kuvien, videoiden ja virtuaaliretkien luominen",
+          "language": "fi"
+        },
+        {
+          "materialname": "ThingLink: näin luot interaktiivisia kuvia, videoita ja virtuaaliretkiä",
+          "language": "sv"
+        },
+        {
+          "materialname": "ThingLink: näin luot interaktiivisia kuvia, videoita ja virtuaaliretkiä",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "ThingLinkin päivittyvä ohjekuva, mistä löydät ajantasaiset ohjeet interaktiivisten sisältöjen luomiseen ja useita esimerkkejä sovelluksen opetuskäytöstä. Voit luoda interaktiivisia kuvia ja videoita (myös 360) ja 3D-malleja sekä yhdistellä niitä kierroksiksi tai polutetuiksi skenaarioiksi. ThingLink on suomalais-amerikkalainen palvelu, jonka peruskäyttö on maksutonta opettajille. Kun oppijoista halutaan sisältöjen tuottajia, tarvitaan opettaja- tai oppilaitoslisenssi. Ohjediat, videot ja osa esimerkeistä on julkaistu CC BY ja CC BY-SA -lisensseillä. ThingLink on työkaluna saavutettava (WCAG 2.1.) ja suuri osa ohjekuvan sisällöistä on saavutettavia.",
+          "language": "fi"
+        },
+        {
+          "description": "ThingLinkin päivittyvä ohjekuva, mistä löydät ajantasaiset ohjeet interaktiivisten sisältöjen luomiseen ja useita esimerkkejä sovelluksen opetuskäytöstä. ThingLink on suomalais-amerikkalainen palvelu, jonka peruskäyttö on maksutonta opettajille. Kun oppijoista halutaan sisältöjen tuottajia, tarvitaan opettaja- tai oppilaitoslisenssi. ",
+          "language": "en"
+        },
+        {
+          "description": "ThingLinkin päivittyvä ohjekuva, mistä löydät ajantasaiset ohjeet interaktiivisten sisältöjen luomiseen ja useita esimerkkejä sovelluksen opetuskäytöstä. ThingLink on suomalais-amerikkalainen palvelu, jonka peruskäyttö on maksutonta opettajille. Kun oppijoista halutaan sisältöjen tuottajia, tarvitaan opettaja- tai oppilaitoslisenssi. ",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Laakso, Matleena",
+          "organization": "",
+          "organizationkey": ""
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        },
+        {
+          "value": "sovellus",
+          "learningresourcetypekey": "d41d5e9d-bbf0-45f5-9985-eba4feb385f0"
+        },
+        {
+          "value": "video",
+          "learningresourcetypekey": "c1256389-a47d-4a44-beb2-bdbbc79abb28"
+        },
+        {
+          "value": "työkalu",
+          "learningresourcetypekey": "1b5918b8-701b-48e6-aa2c-5feb3d7b3d60"
+        }
+      ],
+      "license": {
+        "key": "CCBYND4.0",
+        "value": "CC BY-ND 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "varhaiskasvatus",
+          "educationallevelkey": "8e7b8440-286d-4cc9-ad99-9fe288107535"
+        },
+        {
+          "value": "esiopetus",
+          "educationallevelkey": "3ff553ba-a4d7-407c-ad00-80e54ecebd16"
+        },
+        {
+          "value": "perusopetus",
+          "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+        },
+        {
+          "value": "lukiokoulutus",
+          "educationallevelkey": "94f79e1e-10e6-483d-b651-27521f94f7bf"
+        },
+        {
+          "value": "lukiokoulutukseen valmistava koulutus, LUVA",
+          "educationallevelkey": "fd362a80-9662-48b8-acd1-d8cef520530c"
+        },
+        {
+          "value": "ammatillinen koulutus",
+          "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+        },
+        {
+          "value": "ammatilliseen koulutukseen valmentava koulutus, VALMA",
+          "educationallevelkey": "55c5d6a2-8415-47bc-9d15-7b976b0e999c"
+        },
+        {
+          "value": "työhön ja itsenäiseen elämään valmentava koulutus, TELMA",
+          "educationallevelkey": "da5b8f43-5fc9-4681-812b-40846926f3fd"
+        },
+        {
+          "value": "omaehtoinen osaamisen kehittäminen",
+          "educationallevelkey": "bc25d0e7-3c68-49a1-9329-239dae01fab7"
+        },
+        {
+          "value": "korkeakoulutus",
+          "educationallevelkey": "e5a48ada-3de0-4246-9b8f-32d4ff68e22f"
+        },
+        {
+          "value": "alemman korkeakouluasteen tutkinto",
+          "educationallevelkey": "ff3334db-2a71-4459-8f0d-c42ce2b12a70"
+        },
+        {
+          "value": "ylemmän korkeakouluasteen tutkinto",
+          "educationallevelkey": "9c14f097-68e3-4e6b-a772-71a44442f72f"
+        },
+        {
+          "value": "tutkijakoulutusasteen tutkinto",
+          "educationallevelkey": "7c722ac4-f06c-4f2a-a41f-b0c5aa10070a"
+        },
+        {
+          "value": "perusopetuksen lisäopetus (10-luokka)",
+          "educationallevelkey": "14fe3b08-8516-4999-946b-96eb90c2d563"
+        },
+        {
+          "value": "perusopetuksen vuosiluokat 7-9",
+          "educationallevelkey": "a2a70a14-b150-4f37-9e20-2bbb71731807"
+        },
+        {
+          "value": "perusopetuksen vuosiluokat 5-6",
+          "educationallevelkey": "75e8bed1-b965-483d-8ba4-48a5614c69ba"
+        },
+        {
+          "value": "perusopetuksen vuosiluokat 3-4",
+          "educationallevelkey": "7eb3d5be-0575-44db-ab8a-883cf0ae2f26"
+        },
+        {
+          "value": "perusopetuksen vuosiluokat 1-2",
+          "educationallevelkey": "5410475a-a2fb-46d7-9eb4-c572b5d92dbb"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Vertaistutor",
+          "educationalrolekey": "7765381f-c316-49a1-869f-de6043115d4d"
+        },
+        {
+          "value": "Oppija",
+          "educationalrolekey": "582949cb-36a4-4053-9f2f-c53ae954a6ae"
+        },
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        },
+        {
+          "value": "Ohjaaja tai mentori",
+          "educationalrolekey": "f732bbb6-6496-4f72-8dda-3917145003f4"
+        },
+        {
+          "value": "Erityisopetus",
+          "educationalrolekey": "42e63a64-75f2-49e7-8692-4494ae8e4bfe"
+        },
+        {
+          "value": "Asiantuntija tai ammattilainen",
+          "educationalrolekey": "66edb65b-8648-4f95-ac48-d9478293cef4"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "ThingLink",
+          "keywordkey": "thinglink"
+        },
+        {
+          "value": "interaktiivinen kuva",
+          "keywordkey": "interaktiivinenkuva"
+        },
+        {
+          "value": "interaktiivinen video",
+          "keywordkey": "interaktiivinenvideo"
+        },
+        {
+          "value": "virtuaaliretki",
+          "keywordkey": "virtuaaliretki"
+        },
+        {
+          "value": "360-kuva",
+          "keywordkey": "360kuva"
+        },
+        {
+          "value": "360-video",
+          "keywordkey": "360video"
+        },
+        {
+          "value": "interaktiivinen oppimateriaali",
+          "keywordkey": "interaktiivinenoppimateriaali"
+        },
+        {
+          "value": "interaktiivinen 3D-malli",
+          "keywordkey": "interaktiivinen3dmalli"
+        },
+        {
+          "value": "skenaariot",
+          "keywordkey": "//www.yso.fi/onto/yso/p3296"
+        }
+      ],
+      "languages": [
+        "fi"
+      ],
+      "educationalSubjects": [],
+      "teaches": [],
+      "hasDownloadableFiles": false,
+      "thumbnail": {
+        "id": "1081",
+        "filepath": "https://aoe.fi/api/thumbnail/thumbnail1614843710059.png",
+        "mimetype": "image/png",
+        "educationalmaterialid": "1376",
+        "filename": "thumbnail1614843710059.png",
+        "obsoleted": 0,
+        "filekey": "thumbnail1614843710059.png",
+        "filebucket": "aoethumbnail"
+      },
+      "popularity": 1.1484018264840183,
+      "educationalUses": [
+        {
+          "value": "Interaktiivinen materiaali",
+          "educationalusekey": "80135e90-e23d-40e7-b375-7bc9871ed284"
+        },
+        {
+          "value": "Ohjeistus",
+          "educationalusekey": "69125b8d-8b43-4820-838e-daf145672c17"
+        },
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        }
+      ],
+      "accessibilityFeatures": [],
+      "accessibilityHazards": []
+    },
+    {
+      "id": "1660",
+      "createdAt": "2021-08-11T09:50:37.647Z",
+      "publishedAt": "2021-08-11T10:14:34.695Z",
+      "updatedAt": "2021-08-11T10:14:34.699Z",
+      "materialName": [
+        {
+          "materialname": "Innovatiivisen kielikasvatuksen kartta ja kompassi : askeleita kehittämistyöhön",
+          "language": "fi"
+        },
+        {
+          "materialname": "Karta och kompass för innovativ språkpedagogik : steg på vägen",
+          "language": "sv"
+        },
+        {
+          "materialname": "Innovatiivisen kielikasvatuksen kartta ja kompassi : askeleita kehittämistyöhön",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "Innovatiivisen kielikasvatuksen kartta ja kompassi -hanke (2018-2021) on kartoittanut, kehittänyt, jakanut ja laajentanut kielikasvatuksen innovaatioita yhteistyössä IKI-verkoston kielikasvattajien, opettajaopiskelijoiden, tutkijoiden ja opettajankouluttajien kanssa. Hankkeen lopputuotteena on luotu IKI-hankkeen käsikirja: \"Innovatiivisen kielikasvatuksen kartta ja kompassi: Askeleita kehittämistyöhön\". \n\nKäsikirja tarjoaa ideoita ja inspiraatiota oman toiminnan kehittämisen tueksi. Käsikirja sisältää hankkeen tutkijoiden ja opettajankouluttajien kirjoittamia tekstejä, jotka tarjoavat periaatteita toimintaan sekä aktiviteettikuvauksia, jotka ovat konkreettisia ideoita toimintaan. Haluamme käsikirjan avulla kannustaa kielikasvattajia arvostamaan omaa työtään sekä tukea heitä luomaan uutta olemassa olevien aktiviteettien pohjalta. Kirja on kaksikielinen (suomi ja ruotsi) ja voit lukea kirjaa haluamallasi kielellä.",
+          "language": "fi"
+        },
+        {
+          "description": "Innovatiivisen kielikasvatuksen kartta ja kompassi -hanke (2018-2021) on kartoittanut, kehittänyt, jakanut ja laajentanut kielikasvatuksen innovaatioita yhteistyössä IKI-verkoston kielikasvattajien, opettajaopiskelijoiden, tutkijoiden ja opettajankouluttajien kanssa. Hankkeen lopputuotteena on luotu IKI-hankkeen käsikirja: \"Innovatiivisen kielikasvatuksen kartta ja kompassi: Askeleita kehittämistyöhön\". \n\nKäsikirja tarjoaa ideoita ja inspiraatiota oman toiminnan kehittämisen tueksi. Käsikirja sisältää hankkeen tutkijoiden ja opettajankouluttajien kirjoittamia tekstejä, jotka tarjoavat periaatteita toimintaan sekä aktiviteettikuvauksia, jotka ovat konkreettisia ideoita toimintaan. Haluamme käsikirjan avulla kannustaa kielikasvattajia arvostamaan omaa työtään sekä tukea heitä luomaan uutta olemassa olevien aktiviteettien pohjalta. Kirja on kaksikielinen (suomi ja ruotsi) ja voit lukea kirjaa haluamallasi kielellä.",
+          "language": "en"
+        },
+        {
+          "description": "I handboken hittar du både information som stödjer utvecklandet av språkpedagogik samt rikligt med praktiska ideér och tips för verksamheten. Boken riktar sig till lärare, småbarnspedagoger, studerande, lärarutbildare, ledare (föreståndare och rektorer) och beslutsfattare. Handboken ger stöd och inspiration till planeringen, utvecklingen och förverkligandet av språkpedagogik.\n\nMed önskan om inspirerande lässtunder!",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Kangasvieri, Tea",
+          "organization": "Jyväskylän yliopisto, Kasvatustieteiden ja psykologian tiedekunta",
+          "organizationkey": "1.2.246.562.10.53741776727"
+        },
+        {
+          "authorname": "Lempel, Liisa",
+          "organization": "Jyväskylän yliopisto, Humanistis-yhteiskuntatieteellinen tiedekunta",
+          "organizationkey": "1.2.246.562.10.62835091836"
+        },
+        {
+          "authorname": "Palojärvi, Anu",
+          "organization": "Jyväskylän yliopisto, Kasvatustieteiden ja psykologian tiedekunta",
+          "organizationkey": "1.2.246.562.10.53741776727"
+        },
+        {
+          "authorname": "Moate, Josephine",
+          "organization": "Jyväskylän yliopisto, Kasvatustieteiden ja psykologian tiedekunta",
+          "organizationkey": "1.2.246.562.10.53741776727"
+        },
+        {
+          "authorname": "",
+          "organization": "Innovatiivisen kielikasvatuksen kartta ja kompassi -hanke",
+          "organizationkey": "innovatiivisenkielikasvatuksenkarttajakompassihanke"
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        },
+        {
+          "value": "teksti",
+          "learningresourcetypekey": "cc1d00b0-b11f-4afe-a423-e43f96214f89"
+        },
+        {
+          "value": "työkalu",
+          "learningresourcetypekey": "1b5918b8-701b-48e6-aa2c-5feb3d7b3d60"
+        }
+      ],
+      "license": {
+        "key": "CCBYNCSA4.0",
+        "value": "CC BY-NC-SA 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "varhaiskasvatus",
+          "educationallevelkey": "8e7b8440-286d-4cc9-ad99-9fe288107535"
+        },
+        {
+          "value": "esiopetus",
+          "educationallevelkey": "3ff553ba-a4d7-407c-ad00-80e54ecebd16"
+        },
+        {
+          "value": "perusopetus",
+          "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+        },
+        {
+          "value": "omaehtoinen osaamisen kehittäminen",
+          "educationallevelkey": "bc25d0e7-3c68-49a1-9329-239dae01fab7"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Asiantuntija tai ammattilainen",
+          "educationalrolekey": "66edb65b-8648-4f95-ac48-d9478293cef4"
+        },
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        },
+        {
+          "value": "Opetuksen ja kasvatuksen johtaja",
+          "educationalrolekey": "84dfd485-15bb-4688-bf5f-3bd1cbff31ec"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "kielikasvatus",
+          "keywordkey": "//www.yso.fi/onto/yso/p25284"
+        },
+        {
+          "value": "kehittämistyö",
+          "keywordkey": "kehittmisty"
+        },
+        {
+          "value": "innovaatiot",
+          "keywordkey": "//www.yso.fi/onto/yso/p7903"
+        },
+        {
+          "value": "aktiviteetit",
+          "keywordkey": "aktiviteetit"
+        },
+        {
+          "value": "kieltenopetus",
+          "keywordkey": "//www.yso.fi/onto/yso/p38117"
+        }
+      ],
+      "languages": [
+        "fi",
+        "sv"
+      ],
+      "educationalSubjects": [],
+      "teaches": [],
+      "hasDownloadableFiles": false,
+      "thumbnail": {
+        "id": "1297",
+        "filepath": "https://aoe.fi/api/thumbnail/thumbnail1628675576084.png",
+        "mimetype": "image/png",
+        "educationalmaterialid": "1660",
+        "filename": "thumbnail1628675576084.png",
+        "obsoleted": 0,
+        "filekey": "thumbnail1628675576084.png",
+        "filebucket": "aoethumbnail"
+      },
+      "popularity": 0.34172661870503596,
+      "educationalUses": [
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        }
+      ],
+      "accessibilityFeatures": [],
+      "accessibilityHazards": [
+        {
+          "value": "ei tiedossa",
+          "accessibilityhazardkey": "85b2dd0b-b362-467b-9904-cfd84e2b0e82"
+        }
+      ]
+    },
+    {
+      "id": "1758",
+      "createdAt": "2021-11-05T12:10:57.594Z",
+      "publishedAt": "2021-11-05T12:45:19.579Z",
+      "updatedAt": "2021-11-05T12:45:19.584Z",
+      "materialName": [
+        {
+          "materialname": "Muoti ja meri - Oppimateriaali kestävästä muodista ja merten suojelusta",
+          "language": "fi"
+        },
+        {
+          "materialname": "Muoti ja meri - Oppimateriaali kestävästä muodista ja merten suojelusta",
+          "language": "sv"
+        },
+        {
+          "materialname": "Muoti ja meri - Oppimateriaali kestävästä muodista ja merten suojelusta",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "Sivuston oppimateriaalit käsittelevät tekstiili- ja vaateteollisuuden epäkohtia ja erityisesti vesistöille aiheutuvia ongelmia. Samalla tuodaan esiin tapoja, joilla me kaikki voimme olla mukana positiivisen muutoksen aikaansaamisessa. Sivustolta löytyvät videot, tietoiskut ja projektit käsittelevät tekstiilikuituja, kankaiden värjäämistä, veden kulutusta ja tekstiilijätteeseen liittyviä haasteita käytännönläheisesti ja positiivisella tavalla. Käsityötunnille nämä aiheet sopivat erinomaisesti, mutta myös yhteistyöhön biologian tai kemian opettajan kanssa.",
+          "language": "fi"
+        },
+        {
+          "description": "Sivuston oppimateriaalit käsittelevät tekstiili- ja vaateteollisuuden epäkohtia ja erityisesti vesistöille aiheutuvia ongelmia. Samalla tuodaan esiin tapoja, joilla me kaikki voimme olla mukana positiivisen muutoksen aikaansaamisessa. Sivustolta löytyvät videot, tietoiskut ja projektit käsittelevät tekstiilikuituja, kankaiden värjäämistä, veden kulutusta ja tekstiilijätteeseen liittyviä haasteita käytännönläheisesti ja positiivisella tavalla. Käsityötunnille nämä aiheet sopivat erinomaisesti, mutta myös yhteistyöhön biologian tai kemian opettajan kanssa.",
+          "language": "en"
+        },
+        {
+          "description": "Sivuston oppimateriaalit käsittelevät tekstiili- ja vaateteollisuuden epäkohtia ja erityisesti vesistöille aiheutuvia ongelmia. Samalla tuodaan esiin tapoja, joilla me kaikki voimme olla mukana positiivisen muutoksen aikaansaamisessa. Sivustolta löytyvät videot, tietoiskut ja projektit käsittelevät tekstiilikuituja, kankaiden värjäämistä, veden kulutusta ja tekstiilijätteeseen liittyviä haasteita käytännönläheisesti ja positiivisella tavalla. Käsityötunnille nämä aiheet sopivat erinomaisesti, mutta myös yhteistyöhön biologian tai kemian opettajan kanssa.",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Riiho, Aino",
+          "organization": "",
+          "organizationkey": ""
+        },
+        {
+          "authorname": "Davidkin, Marjut",
+          "organization": "",
+          "organizationkey": ""
+        },
+        {
+          "authorname": "Harju, Roosa",
+          "organization": "",
+          "organizationkey": ""
+        },
+        {
+          "authorname": "Virto, Ella",
+          "organization": "",
+          "organizationkey": ""
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        }
+      ],
+      "license": {
+        "key": "CCBYNCSA4.0",
+        "value": "CC BY-NC-SA 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "perusopetus",
+          "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+        },
+        {
+          "value": "perusopetuksen vuosiluokat 5-6",
+          "educationallevelkey": "75e8bed1-b965-483d-8ba4-48a5614c69ba"
+        },
+        {
+          "value": "perusopetuksen vuosiluokat 7-9",
+          "educationallevelkey": "a2a70a14-b150-4f37-9e20-2bbb71731807"
+        },
+        {
+          "value": "perusopetuksen lisäopetus (10-luokka)",
+          "educationallevelkey": "14fe3b08-8516-4999-946b-96eb90c2d563"
+        },
+        {
+          "value": "lukiokoulutus",
+          "educationallevelkey": "94f79e1e-10e6-483d-b651-27521f94f7bf"
+        },
+        {
+          "value": "omaehtoinen osaamisen kehittäminen",
+          "educationallevelkey": "bc25d0e7-3c68-49a1-9329-239dae01fab7"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        },
+        {
+          "value": "Oppija",
+          "educationalrolekey": "582949cb-36a4-4053-9f2f-c53ae954a6ae"
+        },
+        {
+          "value": "Kansalainen",
+          "educationalrolekey": "2b7915eb-4df7-467e-a841-b0201b80dc9d"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "kestävä elämäntapa",
+          "keywordkey": "//www.yso.fi/onto/yso/p38791"
+        },
+        {
+          "value": "tekstiiliteollisuus",
+          "keywordkey": "//www.yso.fi/onto/yso/p2334"
+        },
+        {
+          "value": "tekstiilityö",
+          "keywordkey": "//www.yso.fi/onto/yso/p12881"
+        },
+        {
+          "value": "tekstiilityönopettajat",
+          "keywordkey": "//www.yso.fi/onto/yso/p12880"
+        },
+        {
+          "value": "vaatetustekstiilit",
+          "keywordkey": "//www.yso.fi/onto/yso/p15044"
+        },
+        {
+          "value": "kierrätysmateriaalit",
+          "keywordkey": "//www.yso.fi/onto/yso/p21794"
+        },
+        {
+          "value": "ompelutyöt",
+          "keywordkey": "//www.yso.fi/onto/yso/p20136"
+        },
+        {
+          "value": "vaatehuolto",
+          "keywordkey": "//www.yso.fi/onto/yso/p3232"
+        }
+      ],
+      "languages": [
+        "fi"
+      ],
+      "educationalSubjects": [
+        {
+          "key": "530524",
+          "source": "basicStudySubjects",
+          "value": "Käsityö"
+        },
+        {
+          "key": "428820",
+          "source": "basicStudySubjects",
+          "value": "Ympäristöoppi"
+        }
+      ],
+      "teaches": [
+        {
+          "key": "466665",
+          "value": "T1 tarjota oppilaalle mahdollisuuksia toteuttaa luontaista uteliaisuuttaan ja auttaa oppilasta kokemaan ympäristöopin asiat merkitykselliseksi itselleen"
+        },
+        {
+          "key": "466667",
+          "value": "T3 tukea oppilaan ympäristöherkkyyden kehittymistä ja ohjata oppilasta toimimaan kestävällä tavalla lähiympäristössä ja kouluyhteisössä"
+        },
+        {
+          "key": "466669",
+          "value": "T5 kannustaa oppilasta ihmettelemään ja kyselemään sekä käyttämään yhteisiä pohdintoja pienten tutkimusten ja muun toiminnan lähtökohtana"
+        },
+        {
+          "key": "469291",
+          "value": "T7 ohjata oppilasta kuvailemaan, vertailemaan ja luokittelemaan monipuolisesti eliöitä, elinympäristöjä, ilmiöitä, materiaaleja ja tilanteita sekä nimeämään niitä"
+        },
+        {
+          "key": "469296",
+          "value": "T12 ohjata oppilasta jäsentämään ympäristöä, ihmisten toimintaa ja niihin liittyviä ilmiöitä ympäristöopin eri tiedonalojen käsitteiden avulla"
+        },
+        {
+          "key": "472942",
+          "value": "T1 synnyttää ja ylläpitää oppilaan kiinnostusta ympäristöön ja ympäristöopin opiskeluun sekä auttaa oppilasta kokemaan kaikki ympäristöopin tiedonalat merkityksellisiksi itselleen"
+        },
+        {
+          "key": "538637",
+          "value": "T1 rohkaista oppilasta kiinnostumaan ja innostumaan käsin tekemisestä sekä herättää uteliaisuutta keksivään ja kokeilevaan käsityöhön"
+        },
+        {
+          "key": "538638",
+          "value": "T2 ohjata oppilas kokonaiseen käsityöprosessiin ja esittämään omia ideoitaan kuvallisesti sekä kertomaan käsityön tekemisestä ja valmiista tuotteesta"
+        },
+        {
+          "key": "538639",
+          "value": "T3 ohjata oppilasta suunnittelemaan ja valmistamaan käsityötuotteita tai teoksia luottaen omiin esteettisiin ja teknisiin ratkaisuihinsa"
+        },
+        {
+          "key": "538950",
+          "value": "T4 opastaa oppilasta tutustumaan moniin erilaisiin materiaaleihin ja niiden työstämiseen sekä ohjata toimimaan vastuuntuntoisesti ja turvallisesti"
+        },
+        {
+          "key": "536619",
+          "value": "T1 vahvistaa oppilaan kiinnostusta käsin tekemiseen sekä innostaa keksivään, kokeilevaan ja paikallisuutta hyödyntävään käsityöhön"
+        },
+        {
+          "key": "538636",
+          "value": "T8 herättää oppilas arvioimaan kulutus- ja tuotantotapoja kriittisesti"
+        },
+        {
+          "key": "428670",
+          "value": "L1 Ajattelu ja oppimaan oppiminen"
+        },
+        {
+          "key": "428672",
+          "value": "L3 Itsestä huolehtiminen ja arjen taidot"
+        },
+        {
+          "key": "428676",
+          "value": "L7 Osallistuminen, vaikuttaminen ja kestävän tulevaisuuden rakentaminen"
+        },
+        {
+          "key": "469264",
+          "value": "S6 Kestävän elämäntavan harjoitteleminen"
+        },
+        {
+          "key": "474880",
+          "value": "S4 Ympäristön tutkiminen"
+        },
+        {
+          "key": "474882",
+          "value": "S6 Kestävän tulevaisuuden rakentaminen"
+        },
+        {
+          "key": "474881",
+          "value": "S5 Luonnon rakenteet, periaatteet ja kiertokulut"
+        },
+        {
+          "key": "537653",
+          "value": "S5 Tekeminen"
+        },
+        {
+          "key": "537656",
+          "value": "S8 Tiedostaminen ja osallistuminen"
+        }
+      ],
+      "hasDownloadableFiles": false,
+      "thumbnail": {
+        "id": "1381",
+        "filepath": "https://aoe.fi/api/thumbnail/thumbnail-1636114580010.png",
+        "mimetype": "image/png",
+        "educationalmaterialid": "1758",
+        "filename": "thumbnail-1636114580010.png",
+        "obsoleted": 0,
+        "filekey": "thumbnail-1636114580010.png",
+        "filebucket": "aoethumbnail"
+      },
+      "popularity": 0.1518324607329843,
+      "educationalUses": [
+        {
+          "value": "Kurssimateriaali",
+          "educationalusekey": "cdad2dd2-c075-4630-91fa-79233306ba25"
+        },
+        {
+          "value": "Itsenäinen opiskelu",
+          "educationalusekey": "916b4cd8-949b-4f47-aaf6-0fcaae7a9ac8"
+        },
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        },
+        {
+          "value": "Ryhmätyö",
+          "educationalusekey": "4fcdf5aa-09f5-48dd-b505-a3c9734e15ed"
+        }
+      ],
+      "accessibilityFeatures": [],
+      "accessibilityHazards": []
+    },
+    {
+      "id": "1869",
+      "createdAt": "2021-12-28T10:13:00.361Z",
+      "publishedAt": "2021-12-28T10:42:13.301Z",
+      "updatedAt": "2021-12-28T10:44:23.535Z",
+      "materialName": [
+        {
+          "materialname": "Mullankaivajat Saimaalla: metsäretkiä muinaisuuteen. Luonto–taide-tehtäviä opettajille ja ohjaajille",
+          "language": "fi"
+        },
+        {
+          "materialname": "Mullankaivajat Saimaalla: metsäretkiä muinaisuuteen. Luonto–taide-tehtäviä opettajille ja ohjaajille",
+          "language": "sv"
+        },
+        {
+          "materialname": "Mullankaivajat Saimaalla: metsäretkiä muinaisuuteen. Luonto–taide-tehtäviä opettajille ja ohjaajille",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "Tämän retkioppaan tavoitteeena on inspiroida eri oppiaineiden opettajia ja ohjaajia hyödyntämään arkeologisesta tutkimuksesta kumpuavaa tietoa ja evästää heitä tutkimusmatkalle oman alueensa menneisyyteen yhdessä lasten ja nuorten kanssa. Retket on suunniteltu toteutettavaksi lähialueen luonnossa, samalla kiinnostaviin luonto- ja esihistoriakohteisiin tutustuen. ",
+          "language": "fi"
+        },
+        {
+          "description": "Tämän retkioppaan tavoitteeena on inspiroida eri oppiaineiden opettajia ja ohjaajia hyödyntämään arkeologisesta tutkimuksesta kumpuavaa tietoa ja evästää heitä tutkimusmatkalle oman alueensa menneisyyteen yhdessä lasten ja nuorten kanssa. Retket on suunniteltu toteutettavaksi lähialueen luonnossa, samalla kiinnostaviin luonto- ja esihistoriakohteisiin tutustuen. ",
+          "language": "en"
+        },
+        {
+          "description": "Tämän retkioppaan tavoitteeena on inspiroida eri oppiaineiden opettajia ja ohjaajia hyödyntämään arkeologisesta tutkimuksesta kumpuavaa tietoa ja evästää heitä tutkimusmatkalle oman alueensa menneisyyteen yhdessä lasten ja nuorten kanssa. Retket on suunniteltu toteutettavaksi lähialueen luonnossa, samalla kiinnostaviin luonto- ja esihistoriakohteisiin tutustuen. ",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Koivunen, Simo",
+          "organization": "",
+          "organizationkey": ""
+        },
+        {
+          "authorname": "Linna, Maya",
+          "organization": "",
+          "organizationkey": ""
+        },
+        {
+          "authorname": "Häkkinen, Kiti",
+          "organization": "",
+          "organizationkey": ""
+        },
+        {
+          "authorname": "Kuuramaa, Katja",
+          "organization": "",
+          "organizationkey": ""
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        }
+      ],
+      "license": {
+        "key": "CCBYNCND4.0",
+        "value": "CC BY-NC-ND 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "perusopetus",
+          "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+        },
+        {
+          "value": "esiopetus",
+          "educationallevelkey": "3ff553ba-a4d7-407c-ad00-80e54ecebd16"
+        },
+        {
+          "value": "varhaiskasvatus",
+          "educationallevelkey": "8e7b8440-286d-4cc9-ad99-9fe288107535"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        },
+        {
+          "value": "Ohjaaja tai mentori",
+          "educationalrolekey": "f732bbb6-6496-4f72-8dda-3917145003f4"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "perusopetus",
+          "keywordkey": "//www.yso.fi/onto/yso/p19327"
+        },
+        {
+          "value": "osallistaminen",
+          "keywordkey": "//www.yso.fi/onto/yso/p10728"
+        },
+        {
+          "value": "osallisuus",
+          "keywordkey": "//www.yso.fi/onto/yso/p5164"
+        },
+        {
+          "value": "historia",
+          "keywordkey": "//www.yso.fi/onto/yso/p1780"
+        },
+        {
+          "value": "esihistoria",
+          "keywordkey": "//www.yso.fi/onto/yso/p4622"
+        },
+        {
+          "value": "esihistoriallinen taide",
+          "keywordkey": "//www.yso.fi/onto/yso/p12463"
+        },
+        {
+          "value": "kuvataide",
+          "keywordkey": "//www.yso.fi/onto/yso/p2739"
+        },
+        {
+          "value": "tutkiva oppiminen",
+          "keywordkey": "//www.yso.fi/onto/yso/p18173"
+        },
+        {
+          "value": "tiedekasvatus",
+          "keywordkey": "//www.yso.fi/onto/yso/p22126"
+        },
+        {
+          "value": "kestävä kehitys",
+          "keywordkey": "//www.yso.fi/onto/yso/p8470"
+        },
+        {
+          "value": "luontosuhde",
+          "keywordkey": "//www.yso.fi/onto/yso/p16315"
+        },
+        {
+          "value": "maataide",
+          "keywordkey": "//www.yso.fi/onto/yso/p5451"
+        },
+        {
+          "value": "kestävä elämäntapa",
+          "keywordkey": "//www.yso.fi/onto/yso/p38791"
+        },
+        {
+          "value": "nuoret",
+          "keywordkey": "//www.yso.fi/onto/yso/p11617"
+        },
+        {
+          "value": "museopedagogiikka",
+          "keywordkey": "//www.yso.fi/onto/yso/p1583"
+        },
+        {
+          "value": "taidekasvatus",
+          "keywordkey": "//www.yso.fi/onto/yso/p5457"
+        },
+        {
+          "value": "kestävä käyttö",
+          "keywordkey": "//www.yso.fi/onto/yso/p21003"
+        }
+      ],
+      "languages": [
+        "fi"
+      ],
+      "educationalSubjects": [],
+      "teaches": [],
+      "hasDownloadableFiles": true,
+      "thumbnail": {
+        "id": "1482",
+        "filepath": "https://aoe.fi/api/thumbnail/thumbnail-1640687947257.png",
+        "mimetype": "image/png",
+        "educationalmaterialid": "1869",
+        "filename": "thumbnail-1640687947257.png",
+        "obsoleted": 0,
+        "filekey": "thumbnail-1640687947257.png",
+        "filebucket": "aoethumbnail"
+      },
+      "popularity": 0.1510791366906475,
+      "educationalUses": [
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        },
+        {
+          "value": "Ohjeistus",
+          "educationalusekey": "69125b8d-8b43-4820-838e-daf145672c17"
+        }
+      ],
+      "accessibilityFeatures": [],
+      "accessibilityHazards": []
+    },
+    {
+      "id": "1826",
+      "createdAt": "2021-12-08T08:27:01.350Z",
+      "publishedAt": "2021-12-08T08:42:46.570Z",
+      "updatedAt": "2021-12-08T08:42:46.574Z",
+      "materialName": [
+        {
+          "materialname": " \tUskonnot, katsomukset ja osallisuus perusopetuksessa : USKALLUS-hankkeen materiaaleja opetukseen",
+          "language": "fi"
+        },
+        {
+          "materialname": " \tUskonnot, katsomukset ja osallisuus perusopetuksessa : USKALLUS-hankkeen materiaaleja opetukseen",
+          "language": "sv"
+        },
+        {
+          "materialname": " \tUskonnot, katsomukset ja osallisuus perusopetuksessa : USKALLUS-hankkeen materiaaleja opetukseen",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "USKALLUS eli Uskonnot, katsomukset ja osallisuus perusopetuksessa -hanke sai Opetushallituksen\nrahoitusta ja toimi Helsingin yliopiston teologisessa tiedekunnassa vuosina\n2019–2021. Hanke kehitti tutkimusperustaista kulttuuriseen moninaisuuteen liittyvää oppimateriaalia perusopetuksessa käytettäväksi. Lähtökohtana oli, että kulttuurienväliseen\nosaamiseen tähtäävän opetuksen pitäisi olla myös kriittistä, voimaannuttavaa ja muutokseen\ninspiroivaa. Erityisesti hanke kiinnitti huomiota katsomukselliseen moninaisuuteen\nosana kulttuurista moninaisuutta. \nTämä julkaisu tallettaa hankkeessa syntyneet opetukseen tarkoitetut tekstit, kuvat ja toiminnalliset\nharjoitteet. Alun perin ne on julkaistu hankkeen nettisivuilla (blogs.helsinki.fi/uskallus-hanke/), joilla on ollut myös runsaasti linkkejä teologisen tiedekunnan yleistajuisesti esitettyyn tutkimukseen. Nykyinen\nmuoto siis menettää jotain, ja materiaalia kannattaakin etsiä ensisijaisesti sivustolta,\nja vasta toissijaisesti tästä julkaisusta. \nOppitunneille tarkoitetut materiaalit on järjestetty luokkatason mukaan niin, että ensin on\nalakouluun, sitten yläkouluun ja lopuksi molemmille luokkatasoille tarkoitetut tekstit, kuvat\nja harjoitukset. Niille löytyy myös temaattinen hakemisto, jossa teemat ovat Uskonnonvapaus\nja uskonnon tunnustaminen, Uskontolukutaito, Katsomusten kohtaaminen ja Osallisuus\nja oikeudenmukaisuus.\nVaikka materiaali on tarkoitettu perusopetukseen, osaa alakoulun materiaaleista voinee\nkäyttää myös varhaiskasvatuksessa ja yläkoulun materiaaleista lukiossa. Lisäksi materiaali\nsoveltuu harrastusryhmille tai vaikkapa kodeille katsomusten moninaisuuden käsittelyyn.",
+          "language": "fi"
+        },
+        {
+          "description": "USKALLUS eli Uskonnot, katsomukset ja osallisuus perusopetuksessa -hanke sai Opetushallituksen\nrahoitusta ja toimi Helsingin yliopiston teologisessa tiedekunnassa vuosina\n2019–2021. Hanke kehitti tutkimusperustaista kulttuuriseen moninaisuuteen liittyvää oppimateriaalia perusopetuksessa käytettäväksi. Lähtökohtana oli, että kulttuurienväliseen\nosaamiseen tähtäävän opetuksen pitäisi olla myös kriittistä, voimaannuttavaa ja muutokseen\ninspiroivaa. Erityisesti hanke kiinnitti huomiota katsomukselliseen moninaisuuteen\nosana kulttuurista moninaisuutta. \nTämä julkaisu tallettaa hankkeessa syntyneet opetukseen tarkoitetut tekstit, kuvat ja toiminnalliset\nharjoitteet. Alun perin ne on julkaistu hankkeen nettisivuilla (blogs.helsinki.fi/uskallus-hanke/), joilla on ollut myös runsaasti linkkejä teologisen tiedekunnan yleistajuisesti esitettyyn tutkimukseen. Nykyinen\nmuoto siis menettää jotain, ja materiaalia kannattaakin etsiä ensisijaisesti sivustolta,\nja vasta toissijaisesti tästä julkaisusta. \nOppitunneille tarkoitetut materiaalit on järjestetty luokkatason mukaan niin, että ensin on\nalakouluun, sitten yläkouluun ja lopuksi molemmille luokkatasoille tarkoitetut tekstit, kuvat\nja harjoitukset. Niille löytyy myös temaattinen hakemisto, jossa teemat ovat Uskonnonvapaus\nja uskonnon tunnustaminen, Uskontolukutaito, Katsomusten kohtaaminen ja Osallisuus\nja oikeudenmukaisuus.\nVaikka materiaali on tarkoitettu perusopetukseen, osaa alakoulun materiaaleista voinee\nkäyttää myös varhaiskasvatuksessa ja yläkoulun materiaaleista lukiossa. Lisäksi materiaali\nsoveltuu harrastusryhmille tai vaikkapa kodeille katsomusten moninaisuuden käsittelyyn.",
+          "language": "en"
+        },
+        {
+          "description": "USKALLUS eli Uskonnot, katsomukset ja osallisuus perusopetuksessa -hanke sai Opetushallituksen\nrahoitusta ja toimi Helsingin yliopiston teologisessa tiedekunnassa vuosina\n2019–2021. Hanke kehitti tutkimusperustaista kulttuuriseen moninaisuuteen liittyvää oppimateriaalia perusopetuksessa käytettäväksi. Lähtökohtana oli, että kulttuurienväliseen\nosaamiseen tähtäävän opetuksen pitäisi olla myös kriittistä, voimaannuttavaa ja muutokseen\ninspiroivaa. Erityisesti hanke kiinnitti huomiota katsomukselliseen moninaisuuteen\nosana kulttuurista moninaisuutta. \nTämä julkaisu tallettaa hankkeessa syntyneet opetukseen tarkoitetut tekstit, kuvat ja toiminnalliset\nharjoitteet. Alun perin ne on julkaistu hankkeen nettisivuilla (blogs.helsinki.fi/uskallus-hanke/), joilla on ollut myös runsaasti linkkejä teologisen tiedekunnan yleistajuisesti esitettyyn tutkimukseen. Nykyinen\nmuoto siis menettää jotain, ja materiaalia kannattaakin etsiä ensisijaisesti sivustolta,\nja vasta toissijaisesti tästä julkaisusta. \nOppitunneille tarkoitetut materiaalit on järjestetty luokkatason mukaan niin, että ensin on\nalakouluun, sitten yläkouluun ja lopuksi molemmille luokkatasoille tarkoitetut tekstit, kuvat\nja harjoitukset. Niille löytyy myös temaattinen hakemisto, jossa teemat ovat Uskonnonvapaus\nja uskonnon tunnustaminen, Uskontolukutaito, Katsomusten kohtaaminen ja Osallisuus\nja oikeudenmukaisuus.\nVaikka materiaali on tarkoitettu perusopetukseen, osaa alakoulun materiaaleista voinee\nkäyttää myös varhaiskasvatuksessa ja yläkoulun materiaaleista lukiossa. Lisäksi materiaali\nsoveltuu harrastusryhmille tai vaikkapa kodeille katsomusten moninaisuuden käsittelyyn.",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "",
+          "organization": "Helsingin yliopisto, Teologinen tiedekunta",
+          "organizationkey": "1.2.246.562.10.74478323608"
+        },
+        {
+          "authorname": "Kimanen, Anuleena",
+          "organization": "",
+          "organizationkey": ""
+        },
+        {
+          "authorname": "Kilpeläinen, Aino-Elina",
+          "organization": "",
+          "organizationkey": ""
+        },
+        {
+          "authorname": "Kurunmäki, Kia",
+          "organization": "",
+          "organizationkey": ""
+        },
+        {
+          "authorname": "Innanen, Tapani",
+          "organization": "",
+          "organizationkey": ""
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "harjoitus",
+          "learningresourcetypekey": "bf2c17a1-2f6f-4019-adb1-576e6caeebd9"
+        },
+        {
+          "value": "teksti",
+          "learningresourcetypekey": "cc1d00b0-b11f-4afe-a423-e43f96214f89"
+        },
+        {
+          "value": "simulaatio",
+          "learningresourcetypekey": "23122beb-cf92-4d77-9925-0677e9bdd32c"
+        },
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        }
+      ],
+      "license": {
+        "key": "CCBY4.0",
+        "value": "CC BY 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "perusopetus",
+          "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "osallisuus",
+          "keywordkey": "//www.yso.fi/onto/yso/p5164"
+        },
+        {
+          "value": "oikeudenmukaisuus",
+          "keywordkey": "//www.yso.fi/onto/yso/p6275"
+        },
+        {
+          "value": "uskonnollinen moninaisuus",
+          "keywordkey": "uskonnollinenmoninaisuus"
+        },
+        {
+          "value": "katsomuksellinen moninaisuus",
+          "keywordkey": "katsomuksellinenmoninaisuus"
+        },
+        {
+          "value": "katsomusaineet",
+          "keywordkey": "//www.yso.fi/onto/yso/p23101"
+        },
+        {
+          "value": "monialaiset kokonaisuudet",
+          "keywordkey": "monialaisetkokonaisuudet"
+        },
+        {
+          "value": "monilukutaito",
+          "keywordkey": "//www.yso.fi/onto/yso/p28850"
+        },
+        {
+          "value": "uskontolukutaito",
+          "keywordkey": "uskontolukutaito"
+        },
+        {
+          "value": "uskonnonvapaus",
+          "keywordkey": "//www.yso.fi/onto/yso/p11491"
+        }
+      ],
+      "languages": [
+        "fi"
+      ],
+      "educationalSubjects": [
+        {
+          "key": "502089",
+          "source": "basicStudySubjects",
+          "value": "Evankelisluterilainen uskonto"
+        },
+        {
+          "key": "530521",
+          "source": "basicStudySubjects",
+          "value": "Katolinen uskonto"
+        },
+        {
+          "key": "530520",
+          "source": "basicStudySubjects",
+          "value": "Ortodoksinen uskonto"
+        },
+        {
+          "key": "502088",
+          "source": "basicStudySubjects",
+          "value": "Elämänkatsomustieto"
+        },
+        {
+          "key": "478972",
+          "source": "basicStudySubjects",
+          "value": "Yhteiskuntaoppi"
+        }
+      ],
+      "teaches": [
+        {
+          "key": "488877",
+          "value": "T3 ohjata oppilasta hahmottamaan itsensä yksilönä ja erilaisten yhteisöjen jäsenenä, ymmärtämään ihmisoikeuksien ja tasa-arvon merkityksen sekä hahmottamaan yhteiskunnan oikeudellisia periaatteita"
+        },
+        {
+          "key": "489609",
+          "value": "T6 ohjata oppilasta tarkastelemaan yhteiskunnallista toimintaa sekä eri yhteisöjä ja vähemmistöryhmiä monipuolisesti ja avarakatseisesti"
+        },
+        {
+          "key": "525164",
+          "value": "T5 ohjata oppilasta tuntemaan katsomusvapaus ihmisoikeutena sekä katsomusvapauden turvaamisen kansallisia ja kansainvälisiä keinoja"
+        },
+        {
+          "key": "525165",
+          "value": "T6 ohjata oppilasta hahmottamaan erilaisia katsomuksellisia ratkaisuja sekä niiden taustalla olevia yksilöllisiä ja yhteisöllisiä perusteita"
+        },
+        {
+          "key": "524994",
+          "value": "T5 ohjata oppilas tutustumaan suomalaiseen, eurooppalaiseen ja maailman kulttuuriperintöön sekä hahmottamaan kulttuurista moninaisuutta ilmiönä."
+        },
+        {
+          "key": "536501",
+          "value": "T1 ohjata oppilasta havaitsemaan uskonnon ja kulttuurin vuorovaikutus sekä tunnistamaan uskontoon liittyvä monimuotoisuus"
+        },
+        {
+          "key": "536610",
+          "value": "T10 rohkaista oppilaita kohtaamaan erilaisia ihmisiä nyt ja tulevaisuudessa jatko-opinnoissa, työelämässä ja vapaa-ajalla"
+        },
+        {
+          "key": "536223",
+          "value": "T6 ohjata oppilasta toimimaan oikeudenmukaisesti, eläytymään toisen asemaan sekä kunnioittamaan toisen ihmisen ajatuksia ja vakaumusta sekä ihmisoikeuksia"
+        },
+        {
+          "key": "428671",
+          "value": "L2 Kulttuurinen osaaminen, vuorovaikutus ja ilmaisu"
+        },
+        {
+          "key": "428676",
+          "value": "L7 Osallistuminen, vaikuttaminen ja kestävän tulevaisuuden rakentaminen"
+        },
+        {
+          "key": "489250",
+          "value": "S3 Aktiivinen kansalaisuus ja vaikuttaminen"
+        },
+        {
+          "key": "524974",
+          "value": "S3 Ihmisoikeudet ja kestävä tulevaisuus"
+        },
+        {
+          "key": "531110",
+          "value": "S2 Uskontojen maailma"
+        }
+      ],
+      "hasDownloadableFiles": true,
+      "thumbnail": {
+        "id": "1450",
+        "filepath": "https://aoe.fi/api/thumbnail/thumbnail-1638952188342.png",
+        "mimetype": "image/png",
+        "educationalmaterialid": "1826",
+        "filename": "thumbnail-1638952188342.png",
+        "obsoleted": 0,
+        "filekey": "thumbnail-1638952188342.png",
+        "filebucket": "aoethumbnail"
+      },
+      "popularity": 0.09433962264150944,
+      "educationalUses": [
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        }
+      ],
+      "accessibilityFeatures": [
+        {
+          "value": "navigointi rakenteen avulla",
+          "accessibilityfeaturekey": "5c2db7be-9a40-4f5b-96b7-768c07bf09c4"
+        }
+      ],
+      "accessibilityHazards": []
+    },
+    {
+      "id": "1078",
+      "createdAt": "2020-12-22T09:22:43.262Z",
+      "publishedAt": "2020-12-22T09:24:40.392Z",
+      "updatedAt": "2020-12-22T09:24:40.395Z",
+      "materialName": [
+        {
+          "materialname": "Luonnonkoodi: Ratkaistaan luonnon koodia matematiikan avulla",
+          "language": "fi"
+        },
+        {
+          "materialname": "Luonnonkoodi: Ratkaistaan luonnon koodia matematiikan avulla",
+          "language": "sv"
+        },
+        {
+          "materialname": "Luonnonkoodi: Ratkaistaan luonnon koodia matematiikan avulla",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "Teemakokonaisuudessa tarkastellaan biologisia kohteita ja ilmiöitä matematiikan avulla. Toisaalta tehdään matematiikasta kiinnostavampaa ja havainnollisempaa. Luonnossa voidaan havaita useita säännönmukaisuuksia, joihin löytyy myös matemaattisia selityksiä. Helppojen toiminnallisten tehtävien avulla voidaan perehtyä myös vaativiin monimutkaisiin ilmiöihin, kuten energiaan. Tilastot ja mittaaminen ovat suoraan yhteydessä arkielämään ja niitä on hyvä harjoitella jo alakoulussa. Kultainen leikkaus ja symmetria-aiheet sopivat erittäin hyvin myös kuvataiteessa käsiteltäväksi.\n",
+          "language": "fi"
+        },
+        {
+          "description": "Teemakokonaisuudessa tarkastellaan biologisia kohteita ja ilmiöitä matematiikan avulla. Toisaalta tehdään matematiikasta kiinnostavampaa ja havainnollisempaa. Luonnossa voidaan havaita useita säännönmukaisuuksia, joihin löytyy myös matemaattisia selityksiä. Helppojen toiminnallisten tehtävien avulla voidaan perehtyä myös vaativiin monimutkaisiin ilmiöihin, kuten energiaan. Tilastot ja mittaaminen ovat suoraan yhteydessä arkielämään ja niitä on hyvä harjoitella jo alakoulussa. Kultainen leikkaus ja symmetria-aiheet sopivat erittäin hyvin myös kuvataiteessa käsiteltäväksi.\n",
+          "language": "en"
+        },
+        {
+          "description": "Teemakokonaisuudessa tarkastellaan biologisia kohteita ja ilmiöitä matematiikan avulla. Toisaalta tehdään matematiikasta kiinnostavampaa ja havainnollisempaa. Luonnossa voidaan havaita useita säännönmukaisuuksia, joihin löytyy myös matemaattisia selityksiä. Helppojen toiminnallisten tehtävien avulla voidaan perehtyä myös vaativiin monimutkaisiin ilmiöihin, kuten energiaan. Tilastot ja mittaaminen ovat suoraan yhteydessä arkielämään ja niitä on hyvä harjoitella jo alakoulussa. Kultainen leikkaus ja symmetria-aiheet sopivat erittäin hyvin myös kuvataiteessa käsiteltäväksi.\n",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Välimäki, Jasmin",
+          "organization": "",
+          "organizationkey": ""
+        },
+        {
+          "authorname": "Marjanen, Elli",
+          "organization": "",
+          "organizationkey": ""
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        }
+      ],
+      "license": {
+        "key": "CCBYNCND4.0",
+        "value": "CC BY-NC-ND 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "perusopetus",
+          "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        },
+        {
+          "value": "Ohjaaja tai mentori",
+          "educationalrolekey": "f732bbb6-6496-4f72-8dda-3917145003f4"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "tilastotiede",
+          "keywordkey": "//www.yso.fi/onto/yso/p3591"
+        },
+        {
+          "value": "matematiikka",
+          "keywordkey": "//www.yso.fi/onto/yso/p3160"
+        },
+        {
+          "value": "biologia",
+          "keywordkey": "//www.yso.fi/onto/yso/p1782"
+        },
+        {
+          "value": "kerhotoiminta",
+          "keywordkey": "//www.yso.fi/onto/yso/p7641"
+        },
+        {
+          "value": "tutkiva oppiminen",
+          "keywordkey": "//www.yso.fi/onto/yso/p18173"
+        },
+        {
+          "value": "tiedekasvatus",
+          "keywordkey": "//www.yso.fi/onto/yso/p22126"
+        }
+      ],
+      "languages": [
+        "fi"
+      ],
+      "educationalSubjects": [
+        {
+          "key": "466344",
+          "source": "basicStudySubjects",
+          "value": "Matematiikka"
+        },
+        {
+          "key": "466342",
+          "source": "basicStudySubjects",
+          "value": "Kuvataide"
+        }
+      ],
+      "teaches": [],
+      "hasDownloadableFiles": true,
+      "thumbnail": {
+        "id": "859",
+        "filepath": "https://aoe.fi/api/thumbnail/thumbnail1608628988651.png",
+        "mimetype": "image/png",
+        "educationalmaterialid": "1078",
+        "filename": "thumbnail1608628988651.png",
+        "obsoleted": 0,
+        "filekey": "thumbnail1608628988651.png",
+        "filebucket": "aoethumbnail"
+      },
+      "popularity": 0.08431372549019608,
+      "educationalUses": [
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        }
+      ],
+      "accessibilityFeatures": [],
+      "accessibilityHazards": []
+    },
+    {
+      "id": "907",
+      "createdAt": "2020-11-24T09:49:20.866Z",
+      "publishedAt": "2020-12-10T10:09:24.550Z",
+      "updatedAt": "2020-12-10T10:09:24.553Z",
+      "materialName": [
+        {
+          "materialname": "Opas ajatteluun",
+          "language": "fi"
+        },
+        {
+          "materialname": "Opas ajatteluun",
+          "language": "sv"
+        },
+        {
+          "materialname": "Opas ajatteluun",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "Opas ajatteluun - Filosofiaa lasten kanssa -kirjassa annetaan käytännöllisiä välineitä ajattelun taitojen kehittämiseen Filosofiaa lapsille -menetelmän avulla. Se on keskustelupainotteinen ryhmätyöskentelyn muoto, jonka avulla lapset, nuoret ja aikuiset oppivat kuuntelemaan, problematisoimaan, muotoilemaan ja ilmaisemaan omia ajatuksiaan sekä keskustelemaan niistä rakentavasti.\n",
+          "language": "fi"
+        },
+        {
+          "description": "Opas ajatteluun - Filosofiaa lasten kanssa -kirjassa annetaan käytännöllisiä välineitä ajattelun taitojen kehittämiseen Filosofiaa lapsille -menetelmän avulla. Se on keskustelupainotteinen ryhmätyöskentelyn muoto, jonka avulla lapset, nuoret ja aikuiset oppivat kuuntelemaan, problematisoimaan, muotoilemaan ja ilmaisemaan omia ajatuksiaan sekä keskustelemaan niistä rakentavasti.\n",
+          "language": "en"
+        },
+        {
+          "description": "Opas ajatteluun - Filosofiaa lasten kanssa -kirjassa annetaan käytännöllisiä välineitä ajattelun taitojen kehittämiseen Filosofiaa lapsille -menetelmän avulla. Se on keskustelupainotteinen ryhmätyöskentelyn muoto, jonka avulla lapset, nuoret ja aikuiset oppivat kuuntelemaan, problematisoimaan, muotoilemaan ja ilmaisemaan omia ajatuksiaan sekä keskustelemaan niistä rakentavasti.\n",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "",
+          "organization": "Filo ry",
+          "organizationkey": "filory"
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        }
+      ],
+      "license": {
+        "key": "CCBY4.0",
+        "value": "CC BY 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "perusopetus",
+          "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+        },
+        {
+          "value": "esiopetus",
+          "educationallevelkey": "3ff553ba-a4d7-407c-ad00-80e54ecebd16"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "ajattelun taidot",
+          "keywordkey": "ajatteluntaidot"
+        },
+        {
+          "value": "ajattelu",
+          "keywordkey": "//www.yso.fi/onto/yso/p6007"
+        }
+      ],
+      "languages": [
+        "fi"
+      ],
+      "educationalSubjects": [
+        {
+          "key": "502088",
+          "source": "basicStudySubjects",
+          "value": "Elämänkatsomustieto"
+        }
+      ],
+      "teaches": [],
+      "hasDownloadableFiles": true,
+      "thumbnail": {
+        "id": "767",
+        "filepath": "https://aoe.fi/api/thumbnail/thumbnail1607594863969.png",
+        "mimetype": "image/png",
+        "educationalmaterialid": "907",
+        "filename": "thumbnail1607594863969.png",
+        "obsoleted": 0,
+        "filekey": "thumbnail1607594863969.png",
+        "filebucket": "aoethumbnail"
+      },
+      "popularity": 0.08045977011494253,
+      "educationalUses": [
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        }
+      ],
+      "accessibilityFeatures": [],
+      "accessibilityHazards": []
+    }
+  ]
+}

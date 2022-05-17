@@ -1,0 +1,377 @@
+{
+  "id": "1376",
+  "materials": [
+    {
+      "id": "4169",
+      "language": "fi",
+      "link": "https://www.thinglink.com/scene/1222112724608090118",
+      "priority": 0,
+      "filepath": null,
+      "originalfilename": null,
+      "filesize": null,
+      "mimetype": null,
+      "format": null,
+      "filekey": null,
+      "filebucket": null,
+      "publishedat": "2021-03-04T07:47:40.950Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Päivittyvä ThingLink-ohjekuva (sis. esimerkkejä, diat, videoita)",
+        "sv": "Päivittyvä ThingLink-ohjekuva (sis. esimerkkejä, diat, videoita)",
+        "en": "Päivittyvä ThingLink-ohjekuva (sis. esimerkkejä, diat, videoita)"
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "11569",
+      "materialname": "ThingLink: interaktiivisten kuvien, videoiden ja virtuaaliretkien luominen",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "1376"
+    },
+    {
+      "id": "11570",
+      "materialname": "ThingLink: näin luot interaktiivisia kuvia, videoita ja virtuaaliretkiä",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "1376"
+    },
+    {
+      "id": "11571",
+      "materialname": "ThingLink: näin luot interaktiivisia kuvia, videoita ja virtuaaliretkiä",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "1376"
+    }
+  ],
+  "createdAt": "2021-03-01T13:19:15.282Z",
+  "updatedAt": "2022-03-30T08:52:27.619Z",
+  "publishedAt": "2021-03-04T07:47:40.950Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": true,
+  "suitsAllPrePrimarySubjects": true,
+  "suitsAllBasicStudySubjects": true,
+  "suitsAllUpperSecondarySubjects": true,
+  "suitsAllVocationalDegrees": true,
+  "suitsAllSelfMotivatedSubjects": true,
+  "suitsAllBranches": true,
+  "suitsAllUpperSecondarySubjectsNew": true,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "503",
+  "downloadCounter": "0",
+  "author": [
+    {
+      "id": "7531",
+      "authorname": "Laakso, Matleena",
+      "organization": "",
+      "educationalmaterialid": "1376",
+      "organizationkey": ""
+    }
+  ],
+  "publisher": [],
+  "description": [
+    {
+      "id": "8353",
+      "description": "ThingLinkin päivittyvä ohjekuva, mistä löydät ajantasaiset ohjeet interaktiivisten sisältöjen luomiseen ja useita esimerkkejä sovelluksen opetuskäytöstä. Voit luoda interaktiivisia kuvia ja videoita (myös 360) ja 3D-malleja sekä yhdistellä niitä kierroksiksi tai polutetuiksi skenaarioiksi. ThingLink on suomalais-amerikkalainen palvelu, jonka peruskäyttö on maksutonta opettajille. Kun oppijoista halutaan sisältöjen tuottajia, tarvitaan opettaja- tai oppilaitoslisenssi. Ohjediat, videot ja osa esimerkeistä on julkaistu CC BY ja CC BY-SA -lisensseillä. ThingLink on työkaluna saavutettava (WCAG 2.1.) ja suuri osa ohjekuvan sisällöistä on saavutettavia.",
+      "language": "fi",
+      "educationalmaterialid": "1376"
+    },
+    {
+      "id": "8355",
+      "description": "ThingLinkin päivittyvä ohjekuva, mistä löydät ajantasaiset ohjeet interaktiivisten sisältöjen luomiseen ja useita esimerkkejä sovelluksen opetuskäytöstä. ThingLink on suomalais-amerikkalainen palvelu, jonka peruskäyttö on maksutonta opettajille. Kun oppijoista halutaan sisältöjen tuottajia, tarvitaan opettaja- tai oppilaitoslisenssi. ",
+      "language": "en",
+      "educationalmaterialid": "1376"
+    },
+    {
+      "id": "8354",
+      "description": "ThingLinkin päivittyvä ohjekuva, mistä löydät ajantasaiset ohjeet interaktiivisten sisältöjen luomiseen ja useita esimerkkejä sovelluksen opetuskäytöstä. ThingLink on suomalais-amerikkalainen palvelu, jonka peruskäyttö on maksutonta opettajille. Kun oppijoista halutaan sisältöjen tuottajia, tarvitaan opettaja- tai oppilaitoslisenssi. ",
+      "language": "sv",
+      "educationalmaterialid": "1376"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "13597",
+      "value": "ThingLink",
+      "educationalmaterialid": "1376",
+      "keywordkey": "thinglink"
+    },
+    {
+      "id": "13598",
+      "value": "interaktiivinen kuva",
+      "educationalmaterialid": "1376",
+      "keywordkey": "interaktiivinenkuva"
+    },
+    {
+      "id": "13599",
+      "value": "interaktiivinen video",
+      "educationalmaterialid": "1376",
+      "keywordkey": "interaktiivinenvideo"
+    },
+    {
+      "id": "13600",
+      "value": "virtuaaliretki",
+      "educationalmaterialid": "1376",
+      "keywordkey": "virtuaaliretki"
+    },
+    {
+      "id": "13601",
+      "value": "360-kuva",
+      "educationalmaterialid": "1376",
+      "keywordkey": "360kuva"
+    },
+    {
+      "id": "13602",
+      "value": "360-video",
+      "educationalmaterialid": "1376",
+      "keywordkey": "360video"
+    },
+    {
+      "id": "13603",
+      "value": "interaktiivinen oppimateriaali",
+      "educationalmaterialid": "1376",
+      "keywordkey": "interaktiivinenoppimateriaali"
+    },
+    {
+      "id": "21374",
+      "value": "interaktiivinen 3D-malli",
+      "educationalmaterialid": "1376",
+      "keywordkey": "interaktiivinen3dmalli"
+    },
+    {
+      "id": "21375",
+      "value": "skenaariot",
+      "educationalmaterialid": "1376",
+      "keywordkey": "//www.yso.fi/onto/yso/p3296"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "4955",
+      "value": "opas",
+      "educationalmaterialid": "1376",
+      "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+    },
+    {
+      "id": "4956",
+      "value": "sovellus",
+      "educationalmaterialid": "1376",
+      "learningresourcetypekey": "d41d5e9d-bbf0-45f5-9985-eba4feb385f0"
+    },
+    {
+      "id": "4957",
+      "value": "video",
+      "educationalmaterialid": "1376",
+      "learningresourcetypekey": "c1256389-a47d-4a44-beb2-bdbbc79abb28"
+    },
+    {
+      "id": "4958",
+      "value": "työkalu",
+      "educationalmaterialid": "1376",
+      "learningresourcetypekey": "1b5918b8-701b-48e6-aa2c-5feb3d7b3d60"
+    }
+  ],
+  "timeRequired": "1-3 h",
+  "expires": null,
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": 4,
+    "typicalAgeRangeMax": 100
+  },
+  "educationalAlignment": [],
+  "educationalLevels": [
+    {
+      "id": "5737",
+      "value": "varhaiskasvatus",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "8e7b8440-286d-4cc9-ad99-9fe288107535"
+    },
+    {
+      "id": "5738",
+      "value": "esiopetus",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "3ff553ba-a4d7-407c-ad00-80e54ecebd16"
+    },
+    {
+      "id": "5739",
+      "value": "perusopetus",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+    },
+    {
+      "id": "5740",
+      "value": "lukiokoulutus",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "94f79e1e-10e6-483d-b651-27521f94f7bf"
+    },
+    {
+      "id": "5741",
+      "value": "lukiokoulutukseen valmistava koulutus, LUVA",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "fd362a80-9662-48b8-acd1-d8cef520530c"
+    },
+    {
+      "id": "5742",
+      "value": "ammatillinen koulutus",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+    },
+    {
+      "id": "5743",
+      "value": "ammatilliseen koulutukseen valmentava koulutus, VALMA",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "55c5d6a2-8415-47bc-9d15-7b976b0e999c"
+    },
+    {
+      "id": "5744",
+      "value": "työhön ja itsenäiseen elämään valmentava koulutus, TELMA",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "da5b8f43-5fc9-4681-812b-40846926f3fd"
+    },
+    {
+      "id": "5745",
+      "value": "omaehtoinen osaamisen kehittäminen",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "bc25d0e7-3c68-49a1-9329-239dae01fab7"
+    },
+    {
+      "id": "5746",
+      "value": "korkeakoulutus",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "e5a48ada-3de0-4246-9b8f-32d4ff68e22f"
+    },
+    {
+      "id": "5747",
+      "value": "alemman korkeakouluasteen tutkinto",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "ff3334db-2a71-4459-8f0d-c42ce2b12a70"
+    },
+    {
+      "id": "5748",
+      "value": "ylemmän korkeakouluasteen tutkinto",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "9c14f097-68e3-4e6b-a772-71a44442f72f"
+    },
+    {
+      "id": "5749",
+      "value": "tutkijakoulutusasteen tutkinto",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "7c722ac4-f06c-4f2a-a41f-b0c5aa10070a"
+    },
+    {
+      "id": "5750",
+      "value": "perusopetuksen lisäopetus (10-luokka)",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "14fe3b08-8516-4999-946b-96eb90c2d563"
+    },
+    {
+      "id": "5751",
+      "value": "perusopetuksen vuosiluokat 7-9",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "a2a70a14-b150-4f37-9e20-2bbb71731807"
+    },
+    {
+      "id": "5752",
+      "value": "perusopetuksen vuosiluokat 5-6",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "75e8bed1-b965-483d-8ba4-48a5614c69ba"
+    },
+    {
+      "id": "5753",
+      "value": "perusopetuksen vuosiluokat 3-4",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "7eb3d5be-0575-44db-ab8a-883cf0ae2f26"
+    },
+    {
+      "id": "5754",
+      "value": "perusopetuksen vuosiluokat 1-2",
+      "educationalmaterialid": "1376",
+      "educationallevelkey": "5410475a-a2fb-46d7-9eb4-c572b5d92dbb"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "5147",
+      "value": "Interaktiivinen materiaali",
+      "educationalmaterialid": "1376",
+      "educationalusekey": "80135e90-e23d-40e7-b375-7bc9871ed284"
+    },
+    {
+      "id": "5148",
+      "value": "Ohjeistus",
+      "educationalmaterialid": "1376",
+      "educationalusekey": "69125b8d-8b43-4820-838e-daf145672c17"
+    },
+    {
+      "id": "5149",
+      "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+      "educationalmaterialid": "1376",
+      "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+    }
+  ],
+  "accessibilityFeatures": [],
+  "accessibilityHazards": [],
+  "license": {
+    "value": "CC BY-ND 4.0",
+    "key": "CCBYND4.0"
+  },
+  "isBasedOn": [],
+  "educationalRoles": [
+    {
+      "id": "5795",
+      "educationalrole": "Vertaistutor",
+      "educationalmaterialid": "1376",
+      "educationalrolekey": "7765381f-c316-49a1-869f-de6043115d4d"
+    },
+    {
+      "id": "5796",
+      "educationalrole": "Oppija",
+      "educationalmaterialid": "1376",
+      "educationalrolekey": "582949cb-36a4-4053-9f2f-c53ae954a6ae"
+    },
+    {
+      "id": "5797",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "1376",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    },
+    {
+      "id": "5798",
+      "educationalrole": "Ohjaaja tai mentori",
+      "educationalmaterialid": "1376",
+      "educationalrolekey": "f732bbb6-6496-4f72-8dda-3917145003f4"
+    },
+    {
+      "id": "5799",
+      "educationalrole": "Erityisopetus",
+      "educationalmaterialid": "1376",
+      "educationalrolekey": "42e63a64-75f2-49e7-8692-4494ae8e4bfe"
+    },
+    {
+      "id": "5800",
+      "educationalrole": "Asiantuntija tai ammattilainen",
+      "educationalmaterialid": "1376",
+      "educationalrolekey": "66edb65b-8648-4f95-ac48-d9478293cef4"
+    }
+  ],
+  "thumbnail": {
+    "id": "1081",
+    "filepath": "https://aoe.fi/api/thumbnail/thumbnail1614843710059.png",
+    "mimetype": "image/png",
+    "educationalmaterialid": "1376",
+    "filename": "thumbnail1614843710059.png",
+    "obsoleted": 0,
+    "filekey": "thumbnail1614843710059.png",
+    "filebucket": "aoethumbnail"
+  },
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2021-03-04T07:47:40.950Z"
+    }
+  ],
+  "hasDownloadableFiles": false,
+  "urn": null
+}

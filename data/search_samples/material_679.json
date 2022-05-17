@@ -1,0 +1,470 @@
+{
+  "id": "679",
+  "materials": [
+    {
+      "id": "2130",
+      "language": "en",
+      "link": "",
+      "priority": 0,
+      "filepath": "https://aoe.fi/api/pdf/content/lcaforwoodteachershandbook-1601455695053.pdf",
+      "originalfilename": "lca_for_wood_-_teachers_handbook.docx",
+      "filesize": 165967,
+      "mimetype": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "format": "7bit",
+      "filekey": "lcaforwoodteachershandbook-1601455695053.docx",
+      "filebucket": "aoe",
+      "publishedat": "2020-09-30T08:55:13.838Z",
+      "pdfkey": "lcaforwoodteachershandbook-1601455695053.pdf",
+      "displayName": {
+        "fi": "LCA for wood - teachers handbook",
+        "sv": "LCA for wood - teachers handbook",
+        "en": "LCA for wood - teachers handbook"
+      }
+    },
+    {
+      "id": "2131",
+      "language": "en",
+      "link": "",
+      "priority": 1,
+      "filepath": "https://aoe.fi/api/pdf/content/lifecycleassesmentppt-1601455695331.pdf",
+      "originalfilename": "life_cycle_assesment_ppt.pptx",
+      "filesize": 6323224,
+      "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "format": "7bit",
+      "filekey": "lifecycleassesmentppt-1601455695331.pptx",
+      "filebucket": "aoe",
+      "publishedat": "2020-09-30T08:55:13.838Z",
+      "pdfkey": "lifecycleassesmentppt-1601455695331.pdf",
+      "displayName": {
+        "fi": "Life cycle assesment PPT",
+        "sv": "Life cycle assesment PPT",
+        "en": "Life cycle assesment PPT"
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "4648",
+      "materialname": "Life cycle assessment and carbon footprint case wood products – teachers handbook for assignments",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "679"
+    },
+    {
+      "id": "4649",
+      "materialname": "Life cycle assessment and carbon footprint case wood products – teachers handbook for assignments",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "679"
+    },
+    {
+      "id": "4650",
+      "materialname": "Life cycle assessment and carbon footprint case wood products – teachers handbook for assignments",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "679"
+    }
+  ],
+  "createdAt": "2020-09-30T08:48:14.904Z",
+  "updatedAt": "2020-09-30T08:55:13.841Z",
+  "publishedAt": "2020-09-30T08:55:13.838Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": false,
+  "suitsAllPrePrimarySubjects": false,
+  "suitsAllBasicStudySubjects": false,
+  "suitsAllUpperSecondarySubjects": false,
+  "suitsAllVocationalDegrees": false,
+  "suitsAllSelfMotivatedSubjects": false,
+  "suitsAllBranches": false,
+  "suitsAllUpperSecondarySubjectsNew": false,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "49",
+  "downloadCounter": "7",
+  "author": [
+    {
+      "id": "2048",
+      "authorname": "Kokkonen, Nina",
+      "organization": "Hämeen ammattikorkeakoulu Oy",
+      "educationalmaterialid": "679",
+      "organizationkey": "1.2.246.562.10.80290438224"
+    }
+  ],
+  "publisher": [],
+  "description": [
+    {
+      "id": "3505",
+      "description": "Objective: To understand the basic concepts of LCA and what is meant by carbon footprint for wood products. The material is suitable for reading independently and to be used at lectures. The assignments are intended for studies at universities of applied sciences and are suitable for the field of bioeconomy.\nTämä materiaali on osa Opetus- ja kulttuuriministeriön rahoittamaa hanketta Kiertotalousosaamista ammattikorkeakouluihin (2018–2020). Hankkeeseen osallistui 19 suomalaista ammattikorkeakoulua.",
+      "language": "fi",
+      "educationalmaterialid": "679"
+    },
+    {
+      "id": "3507",
+      "description": "Objective: To understand the basic concepts of LCA and what is meant by carbon footprint for wood products. The material is suitable for reading independently and to be used at lectures. The assignments are intended for studies at universities of applied sciences and are suitable for the field of bioeconomy.",
+      "language": "en",
+      "educationalmaterialid": "679"
+    },
+    {
+      "id": "3506",
+      "description": "Objective: To understand the basic concepts of LCA and what is meant by carbon footprint for wood products. The material is suitable for reading independently and to be used at lectures. The assignments are intended for studies at universities of applied sciences and are suitable for the field of bioeconomy.\nTämä materiaali on osa Opetus- ja kulttuuriministeriön rahoittamaa hanketta Kiertotalousosaamista ammattikorkeakouluihin (2018–2020). Hankkeeseen osallistui 19 suomalaista ammattikorkeakoulua.",
+      "language": "sv",
+      "educationalmaterialid": "679"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "5779",
+      "value": "kiertotalous",
+      "educationalmaterialid": "679",
+      "keywordkey": "//www.yso.fi/onto/yso/p28601"
+    },
+    {
+      "id": "5780",
+      "value": "elinkaarianalyysi",
+      "educationalmaterialid": "679",
+      "keywordkey": "elinkaarianalyysi"
+    },
+    {
+      "id": "5781",
+      "value": "hiilijalanjälki",
+      "educationalmaterialid": "679",
+      "keywordkey": "//www.yso.fi/onto/yso/p21899"
+    },
+    {
+      "id": "5782",
+      "value": "puutuotteet",
+      "educationalmaterialid": "679",
+      "keywordkey": "//www.yso.fi/onto/yso/p7474"
+    },
+    {
+      "id": "5783",
+      "value": "metsäperäiset kierrot",
+      "educationalmaterialid": "679",
+      "keywordkey": "metsperisetkierrot"
+    },
+    {
+      "id": "5784",
+      "value": "metsäteollisuus",
+      "educationalmaterialid": "679",
+      "keywordkey": "//www.yso.fi/onto/yso/p10705"
+    },
+    {
+      "id": "5785",
+      "value": "circular economy",
+      "educationalmaterialid": "679",
+      "keywordkey": "circulareconomy"
+    },
+    {
+      "id": "5786",
+      "value": "life cycle assessment",
+      "educationalmaterialid": "679",
+      "keywordkey": "lifecycleassessment"
+    },
+    {
+      "id": "5787",
+      "value": "carbon footprint",
+      "educationalmaterialid": "679",
+      "keywordkey": "carbonfootprint"
+    },
+    {
+      "id": "5788",
+      "value": "wood products",
+      "educationalmaterialid": "679",
+      "keywordkey": "woodproducts"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "2048",
+      "value": "esitys",
+      "educationalmaterialid": "679",
+      "learningresourcetypekey": "7be52f46-138d-482f-834e-5ea33d933c37"
+    },
+    {
+      "id": "2049",
+      "value": "harjoitus",
+      "educationalmaterialid": "679",
+      "learningresourcetypekey": "bf2c17a1-2f6f-4019-adb1-576e6caeebd9"
+    },
+    {
+      "id": "2050",
+      "value": "opas",
+      "educationalmaterialid": "679",
+      "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+    }
+  ],
+  "timeRequired": "1 credit, 1 op",
+  "expires": null,
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": null,
+    "typicalAgeRangeMax": null
+  },
+  "educationalAlignment": [
+    {
+      "id": "3585",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Matematiikka",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "111",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_111"
+    },
+    {
+      "id": "3586",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Tilastotiede",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "112",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_112"
+    },
+    {
+      "id": "3587",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Tietojenkäsittely ja informaatiotieteet",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "113",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_113"
+    },
+    {
+      "id": "3588",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Fysiikka",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "114",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_114"
+    },
+    {
+      "id": "3589",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Avaruustieteet ja tähtitiede",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "115",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_115"
+    },
+    {
+      "id": "3590",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Kemia",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "116",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_116"
+    },
+    {
+      "id": "3591",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Muut luonnontieteet",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "119",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_119"
+    },
+    {
+      "id": "3592",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Geotieteet",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "1171",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_1171"
+    },
+    {
+      "id": "3593",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Ympäristötiede",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "1172",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_1172"
+    },
+    {
+      "id": "3594",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Ekologia, evoluutiobiologia",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "1181",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_1181"
+    },
+    {
+      "id": "3595",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Biokemia, solu- ja molekyylibiologia",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "1182",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_1182"
+    },
+    {
+      "id": "3596",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Kasvibiologia, mikrobiologia, virologia",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "1183",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_1183"
+    },
+    {
+      "id": "3597",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Genetiikka, kehitysbiologia, fysiologia",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "1184",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_1184"
+    },
+    {
+      "id": "3598",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Kotieläintiede, maitotaloustiede",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "412",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_412"
+    },
+    {
+      "id": "3599",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Eläinlääketiede",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "413",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_413"
+    },
+    {
+      "id": "3600",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Maatalouden bioteknologia",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "414",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_414"
+    },
+    {
+      "id": "3601",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Muut maataloustieteet",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "415",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_415"
+    },
+    {
+      "id": "3602",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Maataloustiede",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "4111",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_4111"
+    },
+    {
+      "id": "3603",
+      "educationalmaterialid": "679",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Metsätiede",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "4112",
+      "targeturl": "https://virkailija.opintopolku.fi/koodisto-service/rest/codeelement/tieteenala_4112"
+    }
+  ],
+  "educationalLevels": [
+    {
+      "id": "2326",
+      "value": "korkeakoulutus",
+      "educationalmaterialid": "679",
+      "educationallevelkey": "e5a48ada-3de0-4246-9b8f-32d4ff68e22f"
+    },
+    {
+      "id": "2327",
+      "value": "alemman korkeakouluasteen tutkinto",
+      "educationalmaterialid": "679",
+      "educationallevelkey": "ff3334db-2a71-4459-8f0d-c42ce2b12a70"
+    },
+    {
+      "id": "2328",
+      "value": "ylemmän korkeakouluasteen tutkinto",
+      "educationalmaterialid": "679",
+      "educationallevelkey": "9c14f097-68e3-4e6b-a772-71a44442f72f"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "2146",
+      "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+      "educationalmaterialid": "679",
+      "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+    }
+  ],
+  "accessibilityFeatures": [
+    {
+      "id": "407",
+      "value": "käsikirjoitus",
+      "educationalmaterialid": "679",
+      "accessibilityfeaturekey": "1bee480d-c3db-4b10-9e37-6f05a34c0521"
+    }
+  ],
+  "accessibilityHazards": [
+    {
+      "id": "485",
+      "value": "ei tiedossa",
+      "educationalmaterialid": "679",
+      "accessibilityhazardkey": "85b2dd0b-b362-467b-9904-cfd84e2b0e82"
+    }
+  ],
+  "license": {
+    "value": "CC BY-NC-SA 4.0",
+    "key": "CCBYNCSA4.0"
+  },
+  "isBasedOn": [],
+  "educationalRoles": [
+    {
+      "id": "2158",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "679",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    }
+  ],
+  "thumbnail": {
+    "id": "544",
+    "filepath": "https://aoe.fi/api/thumbnail/thumbnail1601455725544.png",
+    "mimetype": "image/png",
+    "educationalmaterialid": "679",
+    "filename": "thumbnail1601455725544.png",
+    "obsoleted": 0,
+    "filekey": "thumbnail1601455725544.png",
+    "filebucket": "aoethumbnail"
+  },
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2020-09-30T08:55:13.838Z"
+    }
+  ],
+  "hasDownloadableFiles": true,
+  "urn": null
+}

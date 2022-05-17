@@ -1,0 +1,877 @@
+{
+  "id": "58",
+  "materials": [
+    {
+      "id": "284",
+      "language": "fi",
+      "link": "",
+      "priority": 0,
+      "filepath": "https://aoe.object.pouta.csc.fi/Tekijanoikeudetopetuksessa-1580214024489.pdf",
+      "originalfilename": "Tekijanoikeudet opetuksessa.pdf",
+      "filesize": 3893002,
+      "mimetype": "application/pdf",
+      "format": "7bit",
+      "filekey": "Tekijanoikeudetopetuksessa-1580214024489.pdf",
+      "filebucket": "aoe",
+      "publishedat": "2020-05-18T12:23:10.317Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Tekijänoikeudet opetuksessa",
+        "sv": "Tekijanoikeudet opetuksessa",
+        "en": "Tekijanoikeudet opetuksessa"
+      }
+    },
+    {
+      "id": "285",
+      "language": "sv",
+      "link": "",
+      "priority": 1,
+      "filepath": "https://aoe.object.pouta.csc.fi/Upphovsratteniundervisningen-1580214024501.pdf",
+      "originalfilename": "Upphovsratten i undervisningen.pdf",
+      "filesize": 5010623,
+      "mimetype": "application/pdf",
+      "format": "7bit",
+      "filekey": "Upphovsratteniundervisningen-1580214024501.pdf",
+      "filebucket": "aoe",
+      "publishedat": "2020-05-18T12:23:10.317Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Upphovsrätten i undervisningen",
+        "sv": "Upphovsratten i undervisningen",
+        "en": "Upphovsratten i undervisningen"
+      }
+    },
+    {
+      "id": "283",
+      "language": "en",
+      "link": "",
+      "priority": 2,
+      "filepath": "https://aoe.object.pouta.csc.fi/Copyrightsineducation-1580214024514.pdf",
+      "originalfilename": "Copyrights in education.pdf",
+      "filesize": 4953520,
+      "mimetype": "application/pdf",
+      "format": "7bit",
+      "filekey": "Copyrightsineducation-1580214024514.pdf",
+      "filebucket": "aoe",
+      "publishedat": "2020-05-18T12:23:10.317Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Copyrights in education",
+        "sv": "Copyrights in education",
+        "en": "Copyrights in education"
+      }
+    },
+    {
+      "id": "286",
+      "language": "fi",
+      "link": "",
+      "priority": 3,
+      "filepath": "object.pouta.csc.fi/aoe/ohjeet-1580214025945.mp4",
+      "originalfilename": "ohjeet.mp4",
+      "filesize": 17496902,
+      "mimetype": "video/mp4",
+      "format": "7bit",
+      "filekey": "ohjeet-1580214025945.mp4",
+      "filebucket": "aoe",
+      "publishedat": "2020-05-18T12:23:10.317Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Video: Ohjeet oppilaitokselle",
+        "sv": "Video: Instruktioner för skolor",
+        "en": "Video: Instructions for schools"
+      }
+    },
+    {
+      "id": "287",
+      "language": "fi",
+      "link": "",
+      "priority": 4,
+      "filepath": "object.pouta.csc.fi/aoe/lahioikeudet-1580214024507.mp4",
+      "originalfilename": "lahioikeudet.mp4",
+      "filesize": 21865195,
+      "mimetype": "video/mp4",
+      "format": "7bit",
+      "filekey": "lahioikeudet-1580214024507.mp4",
+      "filebucket": "aoe",
+      "publishedat": "2020-05-18T12:23:10.317Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Video: Lähioikeudet",
+        "sv": "Video: Närvarande rättigheter",
+        "en": "Video: Neighbouring rights"
+      }
+    },
+    {
+      "id": "290",
+      "language": "fi",
+      "link": "",
+      "priority": 5,
+      "filepath": "object.pouta.csc.fi/aoe/teoskynnys-1580214029755.mp4",
+      "originalfilename": "teoskynnys.mp4",
+      "filesize": 31050384,
+      "mimetype": "video/mp4",
+      "format": "7bit",
+      "filekey": "teoskynnys-1580214029755.mp4",
+      "filebucket": "aoe",
+      "publishedat": "2020-05-18T12:23:10.317Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Video: Teoskynnys",
+        "sv": "Video: Originalitetsnivån",
+        "en": "Video: Threshold of creativity"
+      }
+    },
+    {
+      "id": "289",
+      "language": "fi",
+      "link": "",
+      "priority": 6,
+      "filepath": "object.pouta.csc.fi/aoe/sitaatit-1580214027275.mp4",
+      "originalfilename": "sitaatit.mp4",
+      "filesize": 21815495,
+      "mimetype": "video/mp4",
+      "format": "7bit",
+      "filekey": "sitaatit-1580214027275.mp4",
+      "filebucket": "aoe",
+      "publishedat": "2020-05-18T12:23:10.317Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Video: Sitaatit",
+        "sv": "Video: sitater",
+        "en": "Video: citations"
+      }
+    },
+    {
+      "id": "288",
+      "language": "fi",
+      "link": "",
+      "priority": 7,
+      "filepath": "object.pouta.csc.fi/aoe/videot-1580214029728.mp4",
+      "originalfilename": "videot.mp4",
+      "filesize": 27731864,
+      "mimetype": "video/mp4",
+      "format": "7bit",
+      "filekey": "videot-1580214029728.mp4",
+      "filebucket": "aoe",
+      "publishedat": "2020-05-18T12:23:10.317Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Video: Videoiden käyttö",
+        "sv": "Video: Användning av videor",
+        "en": "Video: Use of videos"
+      }
+    },
+    {
+      "id": "293",
+      "language": "fi",
+      "link": "",
+      "priority": 8,
+      "filepath": "object.pouta.csc.fi/aoe/avoinsisalto-1580214024510.mp4",
+      "originalfilename": "avoinsisalto.mp4",
+      "filesize": 227438798,
+      "mimetype": "video/mp4",
+      "format": "7bit",
+      "filekey": "avoinsisalto-1580214024510.mp4",
+      "filebucket": "aoe",
+      "publishedat": "2020-05-18T12:23:10.317Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Video: Avoimet sisällöt",
+        "sv": "Video: Öppna innehåller",
+        "en": "Video: Open content"
+      }
+    },
+    {
+      "id": "292",
+      "language": "fi",
+      "link": "",
+      "priority": 9,
+      "filepath": "object.pouta.csc.fi/aoe/avoinjulkaiseminen-1580214024516.mp4",
+      "originalfilename": "avoinjulkaiseminen.mp4",
+      "filesize": 220988631,
+      "mimetype": "video/mp4",
+      "format": "7bit",
+      "filekey": "avoinjulkaiseminen-1580214024516.mp4",
+      "filebucket": "aoe",
+      "publishedat": "2020-05-18T12:23:10.317Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Video: Julkaiseminen avoimesti",
+        "sv": "Video: Publicering av material med öppna licenser",
+        "en": "Video: Publishing with an open license"
+      }
+    },
+    {
+      "id": "291",
+      "language": "fi",
+      "link": "",
+      "priority": 10,
+      "filepath": "object.pouta.csc.fi/aoe/ymparisto-1580214028185.mp4",
+      "originalfilename": "ymparisto.mp4",
+      "filesize": 27652921,
+      "mimetype": "video/mp4",
+      "format": "7bit",
+      "filekey": "ymparisto-1580214028185.mp4",
+      "filebucket": "aoe",
+      "publishedat": "2020-05-18T12:23:10.317Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Video: Ympäristön kuvaaminen",
+        "sv": "Video: Inspelning av miljön",
+        "en": "Video: Recording your environment"
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "133",
+      "materialname": "Tekijänoikeudet opetuksessa",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "58"
+    },
+    {
+      "id": "134",
+      "materialname": "Upphovsrätten i undervisningen",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "58"
+    },
+    {
+      "id": "135",
+      "materialname": "Copyrights in Education",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "58"
+    }
+  ],
+  "createdAt": "2020-01-28T12:20:24.440Z",
+  "updatedAt": "2022-01-07T09:41:08.618Z",
+  "publishedAt": "2020-01-28T12:29:44.389Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": false,
+  "suitsAllPrePrimarySubjects": false,
+  "suitsAllBasicStudySubjects": true,
+  "suitsAllUpperSecondarySubjects": false,
+  "suitsAllVocationalDegrees": true,
+  "suitsAllSelfMotivatedSubjects": true,
+  "suitsAllBranches": false,
+  "suitsAllUpperSecondarySubjectsNew": false,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "2678",
+  "downloadCounter": "20",
+  "author": [
+    {
+      "id": "6876",
+      "authorname": "Toikkanen, Tarmo",
+      "organization": "",
+      "educationalmaterialid": "58",
+      "organizationkey": ""
+    }
+  ],
+  "publisher": [],
+  "description": [
+    {
+      "id": "133",
+      "description": "Opettajan tiivis tietopaketti tekijänoikeuksien huomioinnista jokapäiväisessä opetuksessa.\n",
+      "language": "fi",
+      "educationalmaterialid": "58"
+    },
+    {
+      "id": "135",
+      "description": "Teachers' compact source of information on everyday use of copyrights in education.",
+      "language": "en",
+      "educationalmaterialid": "58"
+    },
+    {
+      "id": "134",
+      "description": "Lärarens konkreta informationspaket om hur man förhåller sig till upphovsrätter i undervisning.\n",
+      "language": "sv",
+      "educationalmaterialid": "58"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "185",
+      "value": "avoimuus",
+      "educationalmaterialid": "58",
+      "keywordkey": "//www.yso.fi/onto/yso/p10569"
+    },
+    {
+      "id": "183",
+      "value": "lisenssit",
+      "educationalmaterialid": "58",
+      "keywordkey": "//www.yso.fi/onto/yso/p16495"
+    },
+    {
+      "id": "184",
+      "value": "opetus",
+      "educationalmaterialid": "58",
+      "keywordkey": "//www.yso.fi/onto/yso/p2630"
+    },
+    {
+      "id": "186",
+      "value": "Creative Commons",
+      "educationalmaterialid": "58",
+      "keywordkey": "creativecommons"
+    },
+    {
+      "id": "182",
+      "value": "lähioikeudet",
+      "educationalmaterialid": "58",
+      "keywordkey": "//www.yso.fi/onto/yso/p11910"
+    },
+    {
+      "id": "14604",
+      "value": "tekijänoikeuslaki",
+      "educationalmaterialid": "58",
+      "keywordkey": "//www.yso.fi/onto/yso/p9817"
+    },
+    {
+      "id": "181",
+      "value": "tekijänoikeus",
+      "educationalmaterialid": "58",
+      "keywordkey": "//www.yso.fi/onto/yso/p2346"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "80",
+      "value": "opas",
+      "educationalmaterialid": "58",
+      "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+    },
+    {
+      "id": "81",
+      "value": "video",
+      "educationalmaterialid": "58",
+      "learningresourcetypekey": "c1256389-a47d-4a44-beb2-bdbbc79abb28"
+    },
+    {
+      "id": "82",
+      "value": "harjoitus",
+      "educationalmaterialid": "58",
+      "learningresourcetypekey": "bf2c17a1-2f6f-4019-adb1-576e6caeebd9"
+    }
+  ],
+  "timeRequired": "4 h",
+  "expires": "2022-07-30T21:00:00.000Z",
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": 12,
+    "typicalAgeRangeMax": 90
+  },
+  "educationalAlignment": [
+    {
+      "id": "42",
+      "educationalmaterialid": "58",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Kasvatustieteet",
+      "source": "branchesOfScience",
+      "educationalframework": "",
+      "objectkey": "516",
+      "targeturl": null
+    }
+  ],
+  "educationalLevels": [
+    {
+      "id": "112",
+      "value": "omaehtoinen osaamisen kehittäminen",
+      "educationalmaterialid": "58",
+      "educationallevelkey": "bc25d0e7-3c68-49a1-9329-239dae01fab7"
+    },
+    {
+      "id": "113",
+      "value": "korkeakoulutus",
+      "educationalmaterialid": "58",
+      "educationallevelkey": "e5a48ada-3de0-4246-9b8f-32d4ff68e22f"
+    },
+    {
+      "id": "114",
+      "value": "ammatillinen koulutus",
+      "educationalmaterialid": "58",
+      "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+    },
+    {
+      "id": "115",
+      "value": "lukiokoulutus",
+      "educationalmaterialid": "58",
+      "educationallevelkey": "94f79e1e-10e6-483d-b651-27521f94f7bf"
+    },
+    {
+      "id": "116",
+      "value": "perusopetus",
+      "educationalmaterialid": "58",
+      "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "62",
+      "value": "Itsenäinen opiskelu",
+      "educationalmaterialid": "58",
+      "educationalusekey": "916b4cd8-949b-4f47-aaf6-0fcaae7a9ac8"
+    },
+    {
+      "id": "63",
+      "value": "Ohjeistus",
+      "educationalmaterialid": "58",
+      "educationalusekey": "69125b8d-8b43-4820-838e-daf145672c17"
+    },
+    {
+      "id": "64",
+      "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+      "educationalmaterialid": "58",
+      "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+    }
+  ],
+  "accessibilityFeatures": [
+    {
+      "id": "16",
+      "value": "tekstitys",
+      "educationalmaterialid": "58",
+      "accessibilityfeaturekey": "098c131b-7de2-49f1-aef9-508132bb46c6"
+    },
+    {
+      "id": "17",
+      "value": "navigointi rakenteen avulla",
+      "educationalmaterialid": "58",
+      "accessibilityfeaturekey": "5c2db7be-9a40-4f5b-96b7-768c07bf09c4"
+    }
+  ],
+  "accessibilityHazards": [
+    {
+      "id": "27",
+      "value": "ei äänihaittaa",
+      "educationalmaterialid": "58",
+      "accessibilityhazardkey": "e2165852-c2ec-47b7-8dd5-7cfbfad52697"
+    },
+    {
+      "id": "28",
+      "value": "ei välähtelyhaittaa",
+      "educationalmaterialid": "58",
+      "accessibilityhazardkey": "928f2c31-0779-4991-9e48-3af79aba67a3"
+    }
+  ],
+  "license": {
+    "value": "CC BY-SA 4.0",
+    "key": "CCBYSA4.0"
+  },
+  "isBasedOn": [
+    {
+      "id": "550",
+      "author": [
+        {
+          "id": "1430",
+          "authorname": "Toikkanen, Tarmo",
+          "isbasedonid": "550"
+        },
+        {
+          "id": "1431",
+          "authorname": "Oksanen, Ville",
+          "isbasedonid": "550"
+        }
+      ],
+      "url": "https://www.opettajantekijanoikeus.fi/opas/",
+      "materialname": "Opettajan tekijänoikeusopas",
+      "educationalmaterialid": "58"
+    }
+  ],
+  "educationalRoles": [
+    {
+      "id": "82",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "58",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    },
+    {
+      "id": "83",
+      "educationalrole": "Asiantuntija tai ammattilainen",
+      "educationalmaterialid": "58",
+      "educationalrolekey": "66edb65b-8648-4f95-ac48-d9478293cef4"
+    }
+  ],
+  "thumbnail": {
+    "id": "1141",
+    "filepath": "https://aoe.fi/api/thumbnail/thumbnail1617195560766.png",
+    "mimetype": "image/png",
+    "educationalmaterialid": "58",
+    "filename": "thumbnail1617195560766.png",
+    "obsoleted": 0,
+    "filekey": "thumbnail1617195560766.png",
+    "filebucket": "aoethumbnail"
+  },
+  "attachments": [
+    {
+      "id": "11",
+      "filepath": "https://aoe.object.pouta.csc.fi/ohjeetsvsbv-1589804550565.vtt",
+      "originalfilename": "ohjeet sv.sbv.vtt",
+      "filesize": 3189,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "ohjeetsvsbv-1589804550565.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Undertext",
+      "srclang": "sv",
+      "materialid": "286"
+    },
+    {
+      "id": "1",
+      "filepath": "https://aoe.object.pouta.csc.fi/ohjeetsbv-1580214035844.vtt",
+      "originalfilename": "ohjeet.sbv.vtt",
+      "filesize": 3216,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "ohjeetsbv-1580214035844.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Tekstitys",
+      "srclang": "fi",
+      "materialid": "286"
+    },
+    {
+      "id": "14",
+      "filepath": "https://aoe.object.pouta.csc.fi/ohjeetensbv-1589804550587.vtt",
+      "originalfilename": "ohjeet en.sbv.vtt",
+      "filesize": 3265,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "ohjeetensbv-1589804550587.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Subtitles",
+      "srclang": "en",
+      "materialid": "286"
+    },
+    {
+      "id": "2",
+      "filepath": "https://aoe.object.pouta.csc.fi/lahioikeudetsvsbv-1580214035998.vtt",
+      "originalfilename": "lahioikeudet sv.sbv.vtt",
+      "filesize": 4122,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "lahioikeudetsvsbv-1580214035998.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Undertext",
+      "srclang": "sv",
+      "materialid": "287"
+    },
+    {
+      "id": "12",
+      "filepath": "https://aoe.object.pouta.csc.fi/lahioikeudetsbv-1589804550572.vtt",
+      "originalfilename": "lahioikeudet.sbv.vtt",
+      "filesize": 4039,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "lahioikeudetsbv-1589804550572.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Tekstitys",
+      "srclang": "fi",
+      "materialid": "287"
+    },
+    {
+      "id": "10",
+      "filepath": "https://aoe.object.pouta.csc.fi/lahioikeudetensbv-1589804550588.vtt",
+      "originalfilename": "lahioikeudet en.sbv.vtt",
+      "filesize": 4046,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "lahioikeudetensbv-1589804550588.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Subtitles",
+      "srclang": "en",
+      "materialid": "287"
+    },
+    {
+      "id": "9",
+      "filepath": "https://aoe.object.pouta.csc.fi/teoskynnysensbv-1589804550576.vtt",
+      "originalfilename": "teoskynnys en.sbv.vtt",
+      "filesize": 5936,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "teoskynnysensbv-1589804550576.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Subtitles",
+      "srclang": "en",
+      "materialid": "290"
+    },
+    {
+      "id": "13",
+      "filepath": "https://aoe.object.pouta.csc.fi/teoskynnyssvsbv-1589804550594.vtt",
+      "originalfilename": "teoskynnys sv.sbv.vtt",
+      "filesize": 6127,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "teoskynnyssvsbv-1589804550594.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Textning",
+      "srclang": "sv",
+      "materialid": "290"
+    },
+    {
+      "id": "5",
+      "filepath": "https://aoe.object.pouta.csc.fi/teoskynnyssbv-1580214036196.vtt",
+      "originalfilename": "teoskynnys.sbv.vtt",
+      "filesize": 6225,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "teoskynnyssbv-1580214036196.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Undertext",
+      "srclang": "fi",
+      "materialid": "290"
+    },
+    {
+      "id": "4",
+      "filepath": "https://aoe.object.pouta.csc.fi/sitaattisbv-1580214036189.vtt",
+      "originalfilename": "sitaatti.sbv.vtt",
+      "filesize": 3500,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "sitaattisbv-1580214036189.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Tekstitys",
+      "srclang": "fi",
+      "materialid": "289"
+    },
+    {
+      "id": "15",
+      "filepath": "https://aoe.object.pouta.csc.fi/sitaattiensbv-1589804550669.vtt",
+      "originalfilename": "sitaatti en.sbv.vtt",
+      "filesize": 3478,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "sitaattiensbv-1589804550669.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Subtitles",
+      "srclang": "en",
+      "materialid": "289"
+    },
+    {
+      "id": "18",
+      "filepath": "https://aoe.object.pouta.csc.fi/avoinsisaltosvsbv-1589804550690.vtt",
+      "originalfilename": "avoinsisalto sv.sbv.vtt",
+      "filesize": 3080,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "avoinsisaltosvsbv-1589804550690.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Undertext",
+      "srclang": "sv",
+      "materialid": "293"
+    },
+    {
+      "id": "7",
+      "filepath": "https://aoe.object.pouta.csc.fi/avoinjulkaiseminensbv-1580214049797.vtt",
+      "originalfilename": "avoinjulkaiseminen.sbv.vtt",
+      "filesize": 3207,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "avoinjulkaiseminensbv-1580214049797.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Tekstitys",
+      "srclang": "fi",
+      "materialid": "292"
+    },
+    {
+      "id": "21",
+      "filepath": "https://aoe.object.pouta.csc.fi/avoinjulkaiseminenensbv-1589804550735.vtt",
+      "originalfilename": "avoinjulkaiseminen en.sbv.vtt",
+      "filesize": 2964,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "avoinjulkaiseminenensbv-1589804550735.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Subtitles",
+      "srclang": "en",
+      "materialid": "292"
+    },
+    {
+      "id": "22",
+      "filepath": "https://aoe.object.pouta.csc.fi/avoinjulkaiseminensvsbv-1589804550733.vtt",
+      "originalfilename": "avoinjulkaiseminen sv.sbv.vtt",
+      "filesize": 3098,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "avoinjulkaiseminensvsbv-1589804550733.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Undertext",
+      "srclang": "sv",
+      "materialid": "292"
+    },
+    {
+      "id": "16",
+      "filepath": "https://aoe.object.pouta.csc.fi/sitaattisvsbv-1589804550684.vtt",
+      "originalfilename": "sitaatti sv.sbv.vtt",
+      "filesize": 3442,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "sitaattisvsbv-1589804550684.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Undertext",
+      "srclang": "sv",
+      "materialid": "289"
+    },
+    {
+      "id": "20",
+      "filepath": "https://aoe.object.pouta.csc.fi/videotsbv-1589804550684.vtt",
+      "originalfilename": "videot.sbv.vtt",
+      "filesize": 4968,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "videotsbv-1589804550684.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Tekstitys",
+      "srclang": "fi",
+      "materialid": "288"
+    },
+    {
+      "id": "3",
+      "filepath": "https://aoe.object.pouta.csc.fi/videotsvsbv-1580214036054.vtt",
+      "originalfilename": "videot sv.sbv.vtt",
+      "filesize": 4810,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "videotsvsbv-1580214036054.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Undertext",
+      "srclang": "sv",
+      "materialid": "288"
+    },
+    {
+      "id": "19",
+      "filepath": "https://aoe.object.pouta.csc.fi/videotensbv-1589804550688.vtt",
+      "originalfilename": "videot en.sbv.vtt",
+      "filesize": 4800,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "videotensbv-1589804550688.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Subtitles",
+      "srclang": "en",
+      "materialid": "288"
+    },
+    {
+      "id": "8",
+      "filepath": "https://aoe.object.pouta.csc.fi/avoinsisaltosbv-1580214050236.vtt",
+      "originalfilename": "avoinsisalto.sbv.vtt",
+      "filesize": 3072,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "avoinsisaltosbv-1580214050236.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Tekstitys",
+      "srclang": "fi",
+      "materialid": "293"
+    },
+    {
+      "id": "17",
+      "filepath": "https://aoe.object.pouta.csc.fi/avoinsisaltoensbv-1589804550689.vtt",
+      "originalfilename": "avoinsisalto en.sbv.vtt",
+      "filesize": 2788,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "avoinsisaltoensbv-1589804550689.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Subtitles",
+      "srclang": "en",
+      "materialid": "293"
+    },
+    {
+      "id": "6",
+      "filepath": "https://aoe.object.pouta.csc.fi/ymparistosbv-1580214037544.vtt",
+      "originalfilename": "ymparisto.sbv.vtt",
+      "filesize": 5921,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "ymparistosbv-1580214037544.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Tekstitys",
+      "srclang": "fi",
+      "materialid": "291"
+    },
+    {
+      "id": "23",
+      "filepath": "https://aoe.object.pouta.csc.fi/ymparistoensbv-1589804550750.vtt",
+      "originalfilename": "ymparisto en.sbv.vtt",
+      "filesize": 5921,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "ymparistoensbv-1589804550750.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Subtitles",
+      "srclang": "en",
+      "materialid": "291"
+    },
+    {
+      "id": "24",
+      "filepath": "https://aoe.object.pouta.csc.fi/ymparistosv-1589804550749.vtt",
+      "originalfilename": "ymparisto sv.vtt",
+      "filesize": 6100,
+      "mimetype": "text/vtt",
+      "format": "7bit",
+      "filekey": "ymparistosv-1589804550749.vtt",
+      "filebucket": "aoe",
+      "defaultfile": false,
+      "kind": "subtitles",
+      "label": "Undertext",
+      "srclang": "sv",
+      "materialid": "291"
+    }
+  ],
+  "versions": [
+    {
+      "publishedat": "2020-05-18T12:23:10.317Z"
+    },
+    {
+      "publishedat": "2020-01-28T12:29:44.390Z"
+    }
+  ],
+  "hasDownloadableFiles": true,
+  "urn": null
+}

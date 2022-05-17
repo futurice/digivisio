@@ -1,0 +1,596 @@
+{
+  "id": "2097",
+  "materials": [
+    {
+      "id": "6514",
+      "language": "fi",
+      "link": "https://www.canva.com/design/DAE4bJEkfBc/VC7eGTxOolsSQuK7LZUJrA/view?website#1:etusivu",
+      "priority": 0,
+      "filepath": null,
+      "originalfilename": null,
+      "filesize": null,
+      "mimetype": null,
+      "format": null,
+      "filekey": null,
+      "filebucket": null,
+      "publishedat": "2022-05-11T21:28:03.366Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa",
+        "sv": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa",
+        "en": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa"
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "19094",
+      "materialname": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "2097"
+    },
+    {
+      "id": "19095",
+      "materialname": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "2097"
+    },
+    {
+      "id": "19096",
+      "materialname": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "2097"
+    }
+  ],
+  "createdAt": "2022-05-11T20:34:37.653Z",
+  "updatedAt": "2022-05-11T21:30:14.576Z",
+  "publishedAt": "2022-05-11T21:28:03.365Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": false,
+  "suitsAllPrePrimarySubjects": false,
+  "suitsAllBasicStudySubjects": false,
+  "suitsAllUpperSecondarySubjects": false,
+  "suitsAllVocationalDegrees": false,
+  "suitsAllSelfMotivatedSubjects": false,
+  "suitsAllBranches": false,
+  "suitsAllUpperSecondarySubjectsNew": false,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "7",
+  "downloadCounter": "0",
+  "author": [
+    {
+      "id": "7908",
+      "authorname": "Kaasalainen, Eveliina ",
+      "organization": "Helsingin yliopisto, Kasvatustieteellinen tiedekunta",
+      "educationalmaterialid": "2097",
+      "organizationkey": "1.2.246.562.10.67451633415"
+    },
+    {
+      "id": "7909",
+      "authorname": "Tapio, Anu",
+      "organization": "Helsingin yliopisto, Kasvatustieteellinen tiedekunta",
+      "educationalmaterialid": "2097",
+      "organizationkey": "1.2.246.562.10.67451633415"
+    }
+  ],
+  "publisher": [],
+  "description": [
+    {
+      "id": "13699",
+      "description": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa on kokonaisen käsityöprosessin hengessä luotu oppimateriaalipaketti. Tarkoituksena on tutustua kankaankuvointiin leimasinpainannan avulla. Kokonaiseen käsityöprosessiin on otettu mukaan erilaisia ideoinnin, suunnittelun sekä valmistuksen tehtäviä, jotka johdattavat tekijän inspiroitumiseen, kokeiluun ja luovuuteen. Sivustolta löytyy myös ripaus positiivista pedagogiikkaa. Materiaalista voi poimia joko yksittäisiä tehtäviä tai seurata valmista käsityöprosessipolkua! Tehtäviin on rakennettu kolme eri taitotasoa, jotka soveltuvat vasta-alkajille, kokeneille sekä edistyneille tekijöille. Materiaalia voi siis käyttää opettajat koulutusasteilla sekä kerho- ja harrastustoiminnassa. Materiaali soveltuu myös itsenäiseen työhön leimasinpainannasta kiinnostuneille.\n\nInspiroivia työskentelyhetkiä!",
+      "language": "fi",
+      "educationalmaterialid": "2097"
+    },
+    {
+      "id": "13701",
+      "description": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa on kokonaisen käsityöprosessin hengessä luotu oppimateriaalipaketti. Tarkoituksena on tutustua kankaankuvointiin leimasinpainannan avulla. Kokonaiseen käsityöprosessiin on otettu mukaan erilaisia ideoinnin, suunnittelun sekä valmistuksen tehtäviä, jotka johdattavat tekijän inspiroitumiseen, kokeiluun ja luovuuteen. Sivustolta löytyy myös ripaus positiivista pedagogiikkaa. Materiaalista voi poimia joko yksittäisiä tehtäviä tai seurata valmista käsityöprosessipolkua! Tehtäviin on rakennettu kolme eri taitotasoa, jotka soveltuvat vasta-alkajille, kokeneille sekä edistyneille tekijöille. Materiaalia voi siis käyttää opettajat koulutusasteilla sekä kerho- ja harrastustoiminnassa. Materiaali soveltuu myös itsenäiseen työhön leimasinpainannasta kiinnostuneille.\n\nInspiroivia työskentelyhetkiä!",
+      "language": "en",
+      "educationalmaterialid": "2097"
+    },
+    {
+      "id": "13700",
+      "description": "Luovuuden jäljillä - ideointia, suunnittelua ja leimasinpainantaa on kokonaisen käsityöprosessin hengessä luotu oppimateriaalipaketti. Tarkoituksena on tutustua kankaankuvointiin leimasinpainannan avulla. Kokonaiseen käsityöprosessiin on otettu mukaan erilaisia ideoinnin, suunnittelun sekä valmistuksen tehtäviä, jotka johdattavat tekijän inspiroitumiseen, kokeiluun ja luovuuteen. Sivustolta löytyy myös ripaus positiivista pedagogiikkaa. Materiaalista voi poimia joko yksittäisiä tehtäviä tai seurata valmista käsityöprosessipolkua! Tehtäviin on rakennettu kolme eri taitotasoa, jotka soveltuvat vasta-alkajille, kokeneille sekä edistyneille tekijöille. Materiaalia voi siis käyttää opettajat koulutusasteilla sekä kerho- ja harrastustoiminnassa. Materiaali soveltuu myös itsenäiseen työhön leimasinpainannasta kiinnostuneille.\n\nInspiroivia työskentelyhetkiä!",
+      "language": "sv",
+      "educationalmaterialid": "2097"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "22293",
+      "value": "käsityöt",
+      "educationalmaterialid": "2097",
+      "keywordkey": "//www.yso.fi/onto/yso/p4923"
+    },
+    {
+      "id": "22294",
+      "value": "käsityötiede",
+      "educationalmaterialid": "2097",
+      "keywordkey": "//www.yso.fi/onto/yso/p18965"
+    },
+    {
+      "id": "22295",
+      "value": "Leimasinpainanta",
+      "educationalmaterialid": "2097",
+      "keywordkey": "leimasinpainanta"
+    },
+    {
+      "id": "22296",
+      "value": "Kankaankuviointi",
+      "educationalmaterialid": "2097",
+      "keywordkey": "kankaankuviointi"
+    },
+    {
+      "id": "22297",
+      "value": "ideointi",
+      "educationalmaterialid": "2097",
+      "keywordkey": "//www.yso.fi/onto/yso/p14566"
+    },
+    {
+      "id": "22298",
+      "value": "suunnittelu",
+      "educationalmaterialid": "2097",
+      "keywordkey": "//www.yso.fi/onto/yso/p1377"
+    },
+    {
+      "id": "22299",
+      "value": "Kokonainen käsityöprosessi",
+      "educationalmaterialid": "2097",
+      "keywordkey": "kokonainenksityprosessi"
+    },
+    {
+      "id": "22300",
+      "value": "positiivinen pedagogiikka",
+      "educationalmaterialid": "2097",
+      "keywordkey": "//www.yso.fi/onto/yso/p29074"
+    },
+    {
+      "id": "22301",
+      "value": "luovuus",
+      "educationalmaterialid": "2097",
+      "keywordkey": "//www.yso.fi/onto/yso/p8311"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "7782",
+      "value": "työkalu",
+      "educationalmaterialid": "2097",
+      "learningresourcetypekey": "1b5918b8-701b-48e6-aa2c-5feb3d7b3d60"
+    },
+    {
+      "id": "7783",
+      "value": "projekti",
+      "educationalmaterialid": "2097",
+      "learningresourcetypekey": "ba288473-784b-4f5f-8231-2d0d782347aa"
+    },
+    {
+      "id": "7784",
+      "value": "harjoitus",
+      "educationalmaterialid": "2097",
+      "learningresourcetypekey": "bf2c17a1-2f6f-4019-adb1-576e6caeebd9"
+    },
+    {
+      "id": "7785",
+      "value": "opas",
+      "educationalmaterialid": "2097",
+      "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+    }
+  ],
+  "timeRequired": "",
+  "expires": null,
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": 5,
+    "typicalAgeRangeMax": 100
+  },
+  "educationalAlignment": [
+    {
+      "id": "17061",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Käsityö",
+      "source": "basicStudySubjects",
+      "educationalframework": "2014, 2016",
+      "objectkey": "530524",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17062",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T1 rohkaista oppilasta kiinnostumaan ja innostumaan käsin tekemisestä sekä herättää uteliaisuutta keksivään ja kokeilevaan käsityöhön",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "538637",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17063",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T2 ohjata oppilas kokonaiseen käsityöprosessiin ja esittämään omia ideoitaan kuvallisesti sekä kertomaan käsityön tekemisestä ja valmiista tuotteesta",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "538638",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17064",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T3 ohjata oppilasta suunnittelemaan ja valmistamaan käsityötuotteita tai teoksia luottaen omiin esteettisiin ja teknisiin ratkaisuihinsa",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "538639",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17065",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T4 opastaa oppilasta tutustumaan moniin erilaisiin materiaaleihin ja niiden työstämiseen sekä ohjata toimimaan vastuuntuntoisesti ja turvallisesti",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "538950",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17066",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T5 tukea oppilaan itsetunnon kehittymistä käsityössä onnistumisen, oivaltamisen ja keksimisen kokemusten kautta",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "538951",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17067",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T1 ohjata oppilasta suunnittelemaan työskentelyään sekä ideoimaan, tutkimaan ja kokeilemaan yritteliäästi",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "536611",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17068",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T2 ohjata oppilasta asettamaan käsityöhön omia oppimisen ja työskentelyn tavoitteita sekä toteuttamaan niiden perusteella kokonainen käsityöprosessi ja arvioimaan oppimistaan",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "536612",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17069",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T3 opastaa oppilasta tutustumaan ja käyttämään monipuolisesti erilaisia työvälineitä, materiaaleja ja tarkoituksenmukaisia työtapoja sekä kehittämään innovaatioita",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "536613",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17070",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T4 ohjata oppilasta käyttämään sujuvasti käsityön käsitteitä, merkkejä ja symboleja sekä vahvistamaan visuaalista, materiaalista ja teknologista ilmaisuaan",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "536614",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17071",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T5 ohjata oppilasta havainnoimaan, ennakoimaan ja reagoimaan työtilanteisiin liittyviin riskitekijöihin ja toimimaan turvallisesti käsityöprosessissa",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "536615",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17072",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T6 ohjata oppilasta käyttämään tieto- ja viestintäteknologian mahdollisuuksia käsityön suunnittelussa, valmistuksessa ja dokumentoinnissa, sekä yhteisöllisen tiedon tuottamisessa ja jakamisessa",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "536616",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17073",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T7 ohjata oppilasta tuntemaan käsityön, kädentaitojen ja teknologisen kehityksen merkitys omassa elämässään, yhteiskunnassa, yrittäjyydessä ja muussa työelämässä",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "536617",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17074",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T8 ohjata oppilaita taloudelliseen ajatteluun ja kehittämään käsityöprosessiin liittyviä valintoja, jotka edistävät kestävää elämäntapaa",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "536618",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17075",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T1 vahvistaa oppilaan kiinnostusta käsin tekemiseen sekä innostaa keksivään, kokeilevaan ja paikallisuutta hyödyntävään käsityöhön",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "536619",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17076",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T2 ohjata oppilasta hahmottamaan ja hallitsemaan kokonainen käsityöprosessi ja sen dokumentointi",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "538630",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17077",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T3 opastaa oppilasta suunnittelemaan ja valmistamaan yksin tai yhdessä käsityötuote tai -teos luottaen omiin esteettisiin ja teknisiin ratkaisuihin",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "538631",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17082",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T8 herättää oppilas arvioimaan kulutus- ja tuotantotapoja kriittisesti",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "538636",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17078",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T4 ohjata oppilasta tunnistamaan käsitteistöä sekä tuntemaan monia erilaisia materiaaleja ja työstämään niitä tarkoituksenmukaisesti",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "538632",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17079",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T5 kannustaa oppilasta toimimaan pitkäjänteisesti ja vastuuntuntoisesti, huolehtimaan turvallisesta työskentelystä sekä valitsemaan ja käyttämään työhön sopivaa välineistöä",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "538633",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17080",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T6 opastaa oppilasta käyttämään tieto- ja viestintäteknologiaa käsityön suunnittelussa, valmistamisessa ja käsityöprosessin dokumentoinnissa",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "538634",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17081",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "T7 ohjata oppilasta arvioimaan, arvostamaan ja tarkastelemaan vuorovaikutteisesti omaa ja muiden kokonaisen käsityön prosessia",
+      "source": "basicStudyObjectives",
+      "educationalframework": "2014, 2016",
+      "objectkey": "538635",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530524"
+    },
+    {
+      "id": "17083",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "L1 Ajattelu ja oppimaan oppiminen",
+      "source": "basicStudyContents",
+      "educationalframework": "2014, 2016",
+      "objectkey": "428670",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/laajaalaisetosaamiset/428670"
+    },
+    {
+      "id": "17084",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "L2 Kulttuurinen osaaminen, vuorovaikutus ja ilmaisu",
+      "source": "basicStudyContents",
+      "educationalframework": "2014, 2016",
+      "objectkey": "428671",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/laajaalaisetosaamiset/428671"
+    },
+    {
+      "id": "17085",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "L3 Itsestä huolehtiminen ja arjen taidot",
+      "source": "basicStudyContents",
+      "educationalframework": "2014, 2016",
+      "objectkey": "428672",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/laajaalaisetosaamiset/428672"
+    },
+    {
+      "id": "17086",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "L4 Monilukutaito",
+      "source": "basicStudyContents",
+      "educationalframework": "2014, 2016",
+      "objectkey": "428673",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/laajaalaisetosaamiset/428673"
+    },
+    {
+      "id": "17087",
+      "educationalmaterialid": "2097",
+      "alignmenttype": "teaches",
+      "targetname": "L5 Tieto- ja viestintäteknologinen osaaminen",
+      "source": "basicStudyContents",
+      "educationalframework": "2014, 2016",
+      "objectkey": "428674",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/laajaalaisetosaamiset/428674"
+    }
+  ],
+  "educationalLevels": [
+    {
+      "id": "9944",
+      "value": "esiopetus",
+      "educationalmaterialid": "2097",
+      "educationallevelkey": "3ff553ba-a4d7-407c-ad00-80e54ecebd16"
+    },
+    {
+      "id": "9945",
+      "value": "perusopetus",
+      "educationalmaterialid": "2097",
+      "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+    },
+    {
+      "id": "9946",
+      "value": "ammatillinen koulutus",
+      "educationalmaterialid": "2097",
+      "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+    },
+    {
+      "id": "9947",
+      "value": "ammatilliseen koulutukseen valmentava koulutus, VALMA",
+      "educationalmaterialid": "2097",
+      "educationallevelkey": "55c5d6a2-8415-47bc-9d15-7b976b0e999c"
+    },
+    {
+      "id": "9948",
+      "value": "työhön ja itsenäiseen elämään valmentava koulutus, TELMA",
+      "educationalmaterialid": "2097",
+      "educationallevelkey": "da5b8f43-5fc9-4681-812b-40846926f3fd"
+    },
+    {
+      "id": "9949",
+      "value": "omaehtoinen osaamisen kehittäminen",
+      "educationalmaterialid": "2097",
+      "educationallevelkey": "bc25d0e7-3c68-49a1-9329-239dae01fab7"
+    },
+    {
+      "id": "9950",
+      "value": "varhaiskasvatus",
+      "educationalmaterialid": "2097",
+      "educationallevelkey": "8e7b8440-286d-4cc9-ad99-9fe288107535"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "8355",
+      "value": "Itsenäinen opiskelu",
+      "educationalmaterialid": "2097",
+      "educationalusekey": "916b4cd8-949b-4f47-aaf6-0fcaae7a9ac8"
+    },
+    {
+      "id": "8356",
+      "value": "Kurssimateriaali",
+      "educationalmaterialid": "2097",
+      "educationalusekey": "cdad2dd2-c075-4630-91fa-79233306ba25"
+    },
+    {
+      "id": "8357",
+      "value": "Ohjeistus",
+      "educationalmaterialid": "2097",
+      "educationalusekey": "69125b8d-8b43-4820-838e-daf145672c17"
+    },
+    {
+      "id": "8358",
+      "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+      "educationalmaterialid": "2097",
+      "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+    },
+    {
+      "id": "8359",
+      "value": "Oppimiskokonaisuuden osa",
+      "educationalmaterialid": "2097",
+      "educationalusekey": "7c6c5151-3155-4a7d-a8c2-033e249ccee2"
+    },
+    {
+      "id": "8360",
+      "value": "Ryhmätyö",
+      "educationalmaterialid": "2097",
+      "educationalusekey": "4fcdf5aa-09f5-48dd-b505-a3c9734e15ed"
+    }
+  ],
+  "accessibilityFeatures": [
+    {
+      "id": "1447",
+      "value": "navigointi rakenteen avulla",
+      "educationalmaterialid": "2097",
+      "accessibilityfeaturekey": "5c2db7be-9a40-4f5b-96b7-768c07bf09c4"
+    }
+  ],
+  "accessibilityHazards": [],
+  "license": {
+    "value": "CC BY-NC-SA 4.0",
+    "key": "CCBYNCSA4.0"
+  },
+  "isBasedOn": [],
+  "educationalRoles": [
+    {
+      "id": "9454",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "2097",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    },
+    {
+      "id": "9455",
+      "educationalrole": "Oppija",
+      "educationalmaterialid": "2097",
+      "educationalrolekey": "582949cb-36a4-4053-9f2f-c53ae954a6ae"
+    },
+    {
+      "id": "9456",
+      "educationalrole": "Asiantuntija tai ammattilainen",
+      "educationalmaterialid": "2097",
+      "educationalrolekey": "66edb65b-8648-4f95-ac48-d9478293cef4"
+    }
+  ],
+  "thumbnail": {
+    "id": "1706",
+    "filepath": "https://aoe.fi/api/thumbnail/thumbnail-1652304603211.png",
+    "mimetype": "image/png",
+    "educationalmaterialid": "2097",
+    "filename": "thumbnail-1652304603211.png",
+    "obsoleted": 0,
+    "filekey": "thumbnail-1652304603211.png",
+    "filebucket": "aoethumbnail"
+  },
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2022-05-11T21:28:03.366Z"
+    }
+  ],
+  "hasDownloadableFiles": false,
+  "urn": null
+}
