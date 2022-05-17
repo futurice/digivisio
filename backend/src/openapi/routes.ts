@@ -3,16 +3,21 @@
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 import { Controller, ValidationService, FieldErrors, ValidateError, TsoaRoute, HttpStatusCodeLiteral, TsoaResponse, fetchMiddlewares } from '@tsoa/runtime';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-import { UsersController } from './../controllers/searchController';
+import { SearchController } from './../controllers/searchController';
 import type { RequestHandler } from 'express';
 import * as express from 'express';
 
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 
 const models: TsoaRoute.Models = {
-    "RandomResult": {
+    "Filters": {
         "dataType": "refAlias",
-        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"randomNumber":{"dataType":"double","required":true}},"validators":{}},
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"learningResourceTypes":{"dataType":"array","array":{"dataType":"string"},"required":true},"educationalLevels":{"dataType":"array","array":{"dataType":"string"},"required":true}},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "SearchPostModel": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"sort":{"dataType":"string"},"size":{"dataType":"double"},"keywords":{"dataType":"string"},"from":{"dataType":"double"},"filters":{"ref":"Filters"}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 };
@@ -26,10 +31,10 @@ export function RegisterRoutes(app: express.Router) {
     //      Please look into the "controllerPathGlobs" config option described in the readme: https://github.com/lukeautry/tsoa
     // ###########################################################################################################
         app.get('/search',
-            ...(fetchMiddlewares<RequestHandler>(UsersController)),
-            ...(fetchMiddlewares<RequestHandler>(UsersController.prototype.getRandom)),
+            ...(fetchMiddlewares<RequestHandler>(SearchController)),
+            ...(fetchMiddlewares<RequestHandler>(SearchController.prototype.getRandom)),
 
-            function UsersController_getRandom(request: any, response: any, next: any) {
+            function SearchController_getRandom(request: any, response: any, next: any) {
             const args = {
             };
 
@@ -39,10 +44,35 @@ export function RegisterRoutes(app: express.Router) {
             try {
                 validatedArgs = getValidatedArgs(args, request, response);
 
-                const controller = new UsersController();
+                const controller = new SearchController();
 
 
               const promise = controller.getRandom.apply(controller, validatedArgs as any);
+              promiseHandler(controller, promise, response, undefined, next);
+            } catch (err) {
+                return next(err);
+            }
+        });
+        // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+        app.post('/search',
+            ...(fetchMiddlewares<RequestHandler>(SearchController)),
+            ...(fetchMiddlewares<RequestHandler>(SearchController.prototype.search)),
+
+            function SearchController_search(request: any, response: any, next: any) {
+            const args = {
+                    searchData: {"in":"body","name":"searchData","required":true,"ref":"SearchPostModel"},
+            };
+
+            // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+
+            let validatedArgs: any[] = [];
+            try {
+                validatedArgs = getValidatedArgs(args, request, response);
+
+                const controller = new SearchController();
+
+
+              const promise = controller.search.apply(controller, validatedArgs as any);
               promiseHandler(controller, promise, response, undefined, next);
             } catch (err) {
                 return next(err);

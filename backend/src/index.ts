@@ -1,12 +1,19 @@
 import bodyParser from 'body-parser';
 import express, { Express, Request, Response } from 'express'
-import { RegisterRoutes } from './routes';
-import swaggerUi from 'swagger-ui-express'
-import openApiJson from './openapi/swagger.json'
+import { RegisterRoutes } from './openapi/routes';
+import swaggerUi from 'swagger-ui-express';
+import openApiJson from './openapi/swagger.json';
+import dotenv from 'dotenv';
+import cors from 'cors';
+
+
+dotenv.config()
+const port = process.env.BACKEND_PORT ?? 3001
 
 
 const app: Express = express()
-const port = 3001
+
+app.use(cors({ origin: process.env.CORS_ORIGIN, methods: ['POST'] }));
 
 app.use(
     bodyParser.urlencoded({

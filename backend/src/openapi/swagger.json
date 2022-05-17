@@ -6,16 +6,47 @@
 		"requestBodies": {},
 		"responses": {},
 		"schemas": {
-			"RandomResult": {
+			"Filters": {
 				"properties": {
-					"randomNumber": {
-						"type": "number",
-						"format": "double"
+					"learningResourceTypes": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					},
+					"educationalLevels": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
 					}
 				},
 				"required": [
-					"randomNumber"
+					"learningResourceTypes",
+					"educationalLevels"
 				],
+				"type": "object"
+			},
+			"SearchPostModel": {
+				"properties": {
+					"sort": {
+						"type": "string"
+					},
+					"size": {
+						"type": "number",
+						"format": "double"
+					},
+					"keywords": {
+						"type": "string"
+					},
+					"from": {
+						"type": "number",
+						"format": "double"
+					},
+					"filters": {
+						"$ref": "#/components/schemas/Filters"
+					}
+				},
 				"type": "object"
 			}
 		},
@@ -40,7 +71,16 @@
 						"content": {
 							"application/json": {
 								"schema": {
-									"$ref": "#/components/schemas/RandomResult"
+									"properties": {
+										"randomNumber": {
+											"type": "number",
+											"format": "double"
+										}
+									},
+									"required": [
+										"randomNumber"
+									],
+									"type": "object"
 								}
 							}
 						}
@@ -48,6 +88,31 @@
 				},
 				"security": [],
 				"parameters": []
+			},
+			"post": {
+				"operationId": "Search",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [],
+				"requestBody": {
+					"required": true,
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/SearchPostModel"
+							}
+						}
+					}
+				}
 			}
 		}
 	},
