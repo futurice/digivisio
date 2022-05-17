@@ -1,0 +1,158 @@
+{
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/eslint-recommended",
+    "plugin:react/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:import/errors",
+    "plugin:import/warnings",
+    "plugin:import/typescript",
+    "plugin:jest/recommended",
+    "airbnb",
+    "prettier",
+    "plugin:prettier/recommended" // this should always be the last item on this array
+  ],
+  "plugins": [
+    "react",
+    "react-hooks",
+    "@typescript-eslint",
+    "prettier",
+    "jest",
+    "simple-import-sort",
+    "import",
+    "functional",
+    "testing-library",
+    "jest-dom"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "import/extensions": [
+      "error",
+      "ignorePackages",
+      {
+        "js": "never",
+        "jsx": "never",
+        "ts": "never",
+        "tsx": "never"
+      }
+    ],
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": [
+          "**/*.test.ts",
+          "**/*.test.tsx",
+          "**/test*.ts*",
+          "**/*.stories.tsx",
+          "**/setupTests.ts",
+          "scripts/*.ts"
+        ]
+      }
+    ],
+    "import/order": "off", // because of simple-import-sort
+    "react/jsx-filename-extension": "off",
+    "react/jsx-one-expression-per-line": "off",
+    "react/jsx-props-no-spreading": "off",
+    "react/jsx-curly-newline": "off",
+    "react/require-default-props": "off",
+    "react/function-component-definition": ["error",{
+      "namedComponents": "arrow-function",
+      "unnamedComponents": "arrow-function"
+    }],
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/no-empty-function": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/prop-types": "off",
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error",
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        "components": ["Label"],
+        "controlComponents": ["Field", "Field2"],
+        "required": {
+          "some": ["nesting", "id"]
+        },
+        "allowChildren": false
+      }
+    ],
+    "react/state-in-constructor": [2, "never"],
+    "complexity": ["error", 6],
+    "max-depth": ["error", 3],
+    "max-lines": [
+      "error",
+      {
+        "max": 100,
+        "skipComments": true
+      }
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "functional/immutable-data": "error",
+    "functional/prefer-readonly-type": "error",
+    "functional/no-throw-statement": "error",
+    "functional/no-promise-reject": "error",
+    "functional/no-let": "error",
+    "functional/no-loop-statement": "error",
+    "testing-library/prefer-explicit-assert": "error",
+    "testing-library/prefer-presence-queries": "error",
+    "testing-library/prefer-wait-for": "error",
+    "testing-library/no-wait-for-empty-callback": "error",
+    "no-use-before-define": "off",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": ["error"],
+    "no-undef": "off",
+    "no-shadow": "off",
+    "no-restricted-exports": "off",
+    "@typescript-eslint/no-shadow": ["error"],
+    "@typescript-eslint/no-use-before-define": ["error"]
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "extensions": [".js", ".jsx", ".ts", ".tsx"],
+        "paths": ["src"]
+      }
+    }
+  },
+  "env": {
+    "browser": true,
+    "jest": true
+  },
+  "overrides": [
+    {
+      "files": ["*.test.ts", "*.test.tsx"],
+      "extends": [
+        "plugin:testing-library/react",
+        "plugin:jest-dom/recommended"
+      ],
+      "rules": {
+        "testing-library/no-node-access": "off", // node access required for convenient form submit in tests
+        "testing-library/no-container": "off",
+        "testing-library/prefer-explicit-assert": "error",
+        "testing-library/prefer-presence-queries": "error",
+        "testing-library/prefer-wait-for": "error",
+        "testing-library/no-wait-for-empty-callback": "error",
+        "testing-library/no-wait-for-side-effects": "error",
+        "testing-library/render-result-naming-convention": "off",
+        "max-lines": [
+          "error",
+          {
+            "max": 150,
+            "skipComments": true
+          }
+        ]
+      }
+    }
+  ]
+}
