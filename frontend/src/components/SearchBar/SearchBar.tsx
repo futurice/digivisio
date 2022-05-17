@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 
-import apiClient from '../../utils/apiClient';
 import styles from './SearchBar.module.css';
 
 const SearchBar = () => {
@@ -8,9 +7,7 @@ const SearchBar = () => {
 
   const handleKeydown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.code === 'Enter') {
-      apiClient.post('', {
-        keywords: keyword,
-      });
+      console.log(keyword);
     }
   };
 
