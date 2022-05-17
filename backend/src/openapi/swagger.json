@@ -6,18 +6,6 @@
 		"requestBodies": {},
 		"responses": {},
 		"schemas": {
-			"RandomResult": {
-				"properties": {
-					"randomNumber": {
-						"type": "number",
-						"format": "double"
-					}
-				},
-				"required": [
-					"randomNumber"
-				],
-				"type": "object"
-			},
 			"Filters": {
 				"properties": {
 					"learningResourceTypes": {
@@ -83,7 +71,16 @@
 						"content": {
 							"application/json": {
 								"schema": {
-									"$ref": "#/components/schemas/RandomResult"
+									"properties": {
+										"randomNumber": {
+											"type": "number",
+											"format": "double"
+										}
+									},
+									"required": [
+										"randomNumber"
+									],
+									"type": "object"
 								}
 							}
 						}

@@ -1,13 +1,12 @@
 import axios from "axios";
 import { Body, Controller, Get, Post, Route, } from "tsoa";
 import { SearchPostModel } from "../externalModels/SearchPostModel";
-import { getRandomNumber, RandomResult } from "../stuff/random";
 
 @Route("search")
 export class SearchController extends Controller {
     @Get()
-    public async getRandom(): Promise<RandomResult> {
-        return getRandomNumber();
+    public async getRandom(): Promise<({ randomNumber: number })> {
+        return { randomNumber: 9 }
     }
 
     @Post()
