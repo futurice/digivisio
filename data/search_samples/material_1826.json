@@ -1,0 +1,456 @@
+{
+  "id": "1826",
+  "materials": [
+    {
+      "id": "5643",
+      "language": "fi",
+      "link": "",
+      "priority": 0,
+      "filepath": "object.pouta.csc.fi/aoe/uskallusoppimateriaali2021-1638952021454.pdf",
+      "originalfilename": "uskallus_oppimateriaali_2021.pdf",
+      "filesize": 20645547,
+      "mimetype": "application/pdf",
+      "format": "7bit",
+      "filekey": "uskallusoppimateriaali2021-1638952021454.pdf",
+      "filebucket": "aoe",
+      "publishedat": "2021-12-08T08:42:46.570Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Uskonnot, katsomukset ja osallisuus perusopetuksessa : USKALLUS-hankkeen materiaaleja opetukseen",
+        "sv": "Uskonnot, katsomukset ja osallisuus perusopetuksessa : USKALLUS-hankkeen materiaaleja opetukseen",
+        "en": "Uskonnot, katsomukset ja osallisuus perusopetuksessa : USKALLUS-hankkeen materiaaleja opetukseen"
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "15914",
+      "materialname": " \tUskonnot, katsomukset ja osallisuus perusopetuksessa : USKALLUS-hankkeen materiaaleja opetukseen",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "1826"
+    },
+    {
+      "id": "15915",
+      "materialname": " \tUskonnot, katsomukset ja osallisuus perusopetuksessa : USKALLUS-hankkeen materiaaleja opetukseen",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "1826"
+    },
+    {
+      "id": "15916",
+      "materialname": " \tUskonnot, katsomukset ja osallisuus perusopetuksessa : USKALLUS-hankkeen materiaaleja opetukseen",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "1826"
+    }
+  ],
+  "createdAt": "2021-12-08T08:27:01.350Z",
+  "updatedAt": "2021-12-08T08:42:46.574Z",
+  "publishedAt": "2021-12-08T08:42:46.570Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": false,
+  "suitsAllPrePrimarySubjects": false,
+  "suitsAllBasicStudySubjects": true,
+  "suitsAllUpperSecondarySubjects": false,
+  "suitsAllVocationalDegrees": false,
+  "suitsAllSelfMotivatedSubjects": false,
+  "suitsAllBranches": false,
+  "suitsAllUpperSecondarySubjectsNew": false,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "14",
+  "downloadCounter": "1",
+  "author": [
+    {
+      "id": "6617",
+      "authorname": "",
+      "organization": "Helsingin yliopisto, Teologinen tiedekunta",
+      "educationalmaterialid": "1826",
+      "organizationkey": "1.2.246.562.10.74478323608"
+    },
+    {
+      "id": "6618",
+      "authorname": "Kimanen, Anuleena",
+      "organization": "",
+      "educationalmaterialid": "1826",
+      "organizationkey": ""
+    },
+    {
+      "id": "6619",
+      "authorname": "Kilpeläinen, Aino-Elina",
+      "organization": "",
+      "educationalmaterialid": "1826",
+      "organizationkey": ""
+    },
+    {
+      "id": "6620",
+      "authorname": "Kurunmäki, Kia",
+      "organization": "",
+      "educationalmaterialid": "1826",
+      "organizationkey": ""
+    },
+    {
+      "id": "6621",
+      "authorname": "Innanen, Tapani",
+      "organization": "",
+      "educationalmaterialid": "1826",
+      "organizationkey": ""
+    }
+  ],
+  "publisher": [
+    {
+      "id": "1392",
+      "name": "Helsingin yliopisto",
+      "educationalmaterialid": "1826",
+      "publisherkey": "helsinginyliopisto"
+    }
+  ],
+  "description": [
+    {
+      "id": "11332",
+      "description": "USKALLUS eli Uskonnot, katsomukset ja osallisuus perusopetuksessa -hanke sai Opetushallituksen\nrahoitusta ja toimi Helsingin yliopiston teologisessa tiedekunnassa vuosina\n2019–2021. Hanke kehitti tutkimusperustaista kulttuuriseen moninaisuuteen liittyvää oppimateriaalia perusopetuksessa käytettäväksi. Lähtökohtana oli, että kulttuurienväliseen\nosaamiseen tähtäävän opetuksen pitäisi olla myös kriittistä, voimaannuttavaa ja muutokseen\ninspiroivaa. Erityisesti hanke kiinnitti huomiota katsomukselliseen moninaisuuteen\nosana kulttuurista moninaisuutta. \nTämä julkaisu tallettaa hankkeessa syntyneet opetukseen tarkoitetut tekstit, kuvat ja toiminnalliset\nharjoitteet. Alun perin ne on julkaistu hankkeen nettisivuilla (blogs.helsinki.fi/uskallus-hanke/), joilla on ollut myös runsaasti linkkejä teologisen tiedekunnan yleistajuisesti esitettyyn tutkimukseen. Nykyinen\nmuoto siis menettää jotain, ja materiaalia kannattaakin etsiä ensisijaisesti sivustolta,\nja vasta toissijaisesti tästä julkaisusta. \nOppitunneille tarkoitetut materiaalit on järjestetty luokkatason mukaan niin, että ensin on\nalakouluun, sitten yläkouluun ja lopuksi molemmille luokkatasoille tarkoitetut tekstit, kuvat\nja harjoitukset. Niille löytyy myös temaattinen hakemisto, jossa teemat ovat Uskonnonvapaus\nja uskonnon tunnustaminen, Uskontolukutaito, Katsomusten kohtaaminen ja Osallisuus\nja oikeudenmukaisuus.\nVaikka materiaali on tarkoitettu perusopetukseen, osaa alakoulun materiaaleista voinee\nkäyttää myös varhaiskasvatuksessa ja yläkoulun materiaaleista lukiossa. Lisäksi materiaali\nsoveltuu harrastusryhmille tai vaikkapa kodeille katsomusten moninaisuuden käsittelyyn.",
+      "language": "fi",
+      "educationalmaterialid": "1826"
+    },
+    {
+      "id": "11334",
+      "description": "USKALLUS eli Uskonnot, katsomukset ja osallisuus perusopetuksessa -hanke sai Opetushallituksen\nrahoitusta ja toimi Helsingin yliopiston teologisessa tiedekunnassa vuosina\n2019–2021. Hanke kehitti tutkimusperustaista kulttuuriseen moninaisuuteen liittyvää oppimateriaalia perusopetuksessa käytettäväksi. Lähtökohtana oli, että kulttuurienväliseen\nosaamiseen tähtäävän opetuksen pitäisi olla myös kriittistä, voimaannuttavaa ja muutokseen\ninspiroivaa. Erityisesti hanke kiinnitti huomiota katsomukselliseen moninaisuuteen\nosana kulttuurista moninaisuutta. \nTämä julkaisu tallettaa hankkeessa syntyneet opetukseen tarkoitetut tekstit, kuvat ja toiminnalliset\nharjoitteet. Alun perin ne on julkaistu hankkeen nettisivuilla (blogs.helsinki.fi/uskallus-hanke/), joilla on ollut myös runsaasti linkkejä teologisen tiedekunnan yleistajuisesti esitettyyn tutkimukseen. Nykyinen\nmuoto siis menettää jotain, ja materiaalia kannattaakin etsiä ensisijaisesti sivustolta,\nja vasta toissijaisesti tästä julkaisusta. \nOppitunneille tarkoitetut materiaalit on järjestetty luokkatason mukaan niin, että ensin on\nalakouluun, sitten yläkouluun ja lopuksi molemmille luokkatasoille tarkoitetut tekstit, kuvat\nja harjoitukset. Niille löytyy myös temaattinen hakemisto, jossa teemat ovat Uskonnonvapaus\nja uskonnon tunnustaminen, Uskontolukutaito, Katsomusten kohtaaminen ja Osallisuus\nja oikeudenmukaisuus.\nVaikka materiaali on tarkoitettu perusopetukseen, osaa alakoulun materiaaleista voinee\nkäyttää myös varhaiskasvatuksessa ja yläkoulun materiaaleista lukiossa. Lisäksi materiaali\nsoveltuu harrastusryhmille tai vaikkapa kodeille katsomusten moninaisuuden käsittelyyn.",
+      "language": "en",
+      "educationalmaterialid": "1826"
+    },
+    {
+      "id": "11333",
+      "description": "USKALLUS eli Uskonnot, katsomukset ja osallisuus perusopetuksessa -hanke sai Opetushallituksen\nrahoitusta ja toimi Helsingin yliopiston teologisessa tiedekunnassa vuosina\n2019–2021. Hanke kehitti tutkimusperustaista kulttuuriseen moninaisuuteen liittyvää oppimateriaalia perusopetuksessa käytettäväksi. Lähtökohtana oli, että kulttuurienväliseen\nosaamiseen tähtäävän opetuksen pitäisi olla myös kriittistä, voimaannuttavaa ja muutokseen\ninspiroivaa. Erityisesti hanke kiinnitti huomiota katsomukselliseen moninaisuuteen\nosana kulttuurista moninaisuutta. \nTämä julkaisu tallettaa hankkeessa syntyneet opetukseen tarkoitetut tekstit, kuvat ja toiminnalliset\nharjoitteet. Alun perin ne on julkaistu hankkeen nettisivuilla (blogs.helsinki.fi/uskallus-hanke/), joilla on ollut myös runsaasti linkkejä teologisen tiedekunnan yleistajuisesti esitettyyn tutkimukseen. Nykyinen\nmuoto siis menettää jotain, ja materiaalia kannattaakin etsiä ensisijaisesti sivustolta,\nja vasta toissijaisesti tästä julkaisusta. \nOppitunneille tarkoitetut materiaalit on järjestetty luokkatason mukaan niin, että ensin on\nalakouluun, sitten yläkouluun ja lopuksi molemmille luokkatasoille tarkoitetut tekstit, kuvat\nja harjoitukset. Niille löytyy myös temaattinen hakemisto, jossa teemat ovat Uskonnonvapaus\nja uskonnon tunnustaminen, Uskontolukutaito, Katsomusten kohtaaminen ja Osallisuus\nja oikeudenmukaisuus.\nVaikka materiaali on tarkoitettu perusopetukseen, osaa alakoulun materiaaleista voinee\nkäyttää myös varhaiskasvatuksessa ja yläkoulun materiaaleista lukiossa. Lisäksi materiaali\nsoveltuu harrastusryhmille tai vaikkapa kodeille katsomusten moninaisuuden käsittelyyn.",
+      "language": "sv",
+      "educationalmaterialid": "1826"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "18566",
+      "value": "osallisuus",
+      "educationalmaterialid": "1826",
+      "keywordkey": "//www.yso.fi/onto/yso/p5164"
+    },
+    {
+      "id": "18567",
+      "value": "oikeudenmukaisuus",
+      "educationalmaterialid": "1826",
+      "keywordkey": "//www.yso.fi/onto/yso/p6275"
+    },
+    {
+      "id": "18568",
+      "value": "uskonnollinen moninaisuus",
+      "educationalmaterialid": "1826",
+      "keywordkey": "uskonnollinenmoninaisuus"
+    },
+    {
+      "id": "18569",
+      "value": "katsomuksellinen moninaisuus",
+      "educationalmaterialid": "1826",
+      "keywordkey": "katsomuksellinenmoninaisuus"
+    },
+    {
+      "id": "18570",
+      "value": "katsomusaineet",
+      "educationalmaterialid": "1826",
+      "keywordkey": "//www.yso.fi/onto/yso/p23101"
+    },
+    {
+      "id": "18571",
+      "value": "monialaiset kokonaisuudet",
+      "educationalmaterialid": "1826",
+      "keywordkey": "monialaisetkokonaisuudet"
+    },
+    {
+      "id": "18572",
+      "value": "monilukutaito",
+      "educationalmaterialid": "1826",
+      "keywordkey": "//www.yso.fi/onto/yso/p28850"
+    },
+    {
+      "id": "18573",
+      "value": "uskontolukutaito",
+      "educationalmaterialid": "1826",
+      "keywordkey": "uskontolukutaito"
+    },
+    {
+      "id": "18574",
+      "value": "uskonnonvapaus",
+      "educationalmaterialid": "1826",
+      "keywordkey": "//www.yso.fi/onto/yso/p11491"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "6612",
+      "value": "harjoitus",
+      "educationalmaterialid": "1826",
+      "learningresourcetypekey": "bf2c17a1-2f6f-4019-adb1-576e6caeebd9"
+    },
+    {
+      "id": "6613",
+      "value": "teksti",
+      "educationalmaterialid": "1826",
+      "learningresourcetypekey": "cc1d00b0-b11f-4afe-a423-e43f96214f89"
+    },
+    {
+      "id": "6614",
+      "value": "simulaatio",
+      "educationalmaterialid": "1826",
+      "learningresourcetypekey": "23122beb-cf92-4d77-9925-0677e9bdd32c"
+    },
+    {
+      "id": "6615",
+      "value": "opas",
+      "educationalmaterialid": "1826",
+      "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+    }
+  ],
+  "timeRequired": "",
+  "expires": null,
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": null,
+    "typicalAgeRangeMax": null
+  },
+  "educationalAlignment": [
+    {
+      "id": "13376",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Evankelisluterilainen uskonto",
+      "source": "basicStudySubjects",
+      "educationalframework": "",
+      "objectkey": "502089",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/502089"
+    },
+    {
+      "id": "13377",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Katolinen uskonto",
+      "source": "basicStudySubjects",
+      "educationalframework": "",
+      "objectkey": "530521",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530521"
+    },
+    {
+      "id": "13378",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Ortodoksinen uskonto",
+      "source": "basicStudySubjects",
+      "educationalframework": "",
+      "objectkey": "530520",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/530520"
+    },
+    {
+      "id": "13379",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Elämänkatsomustieto",
+      "source": "basicStudySubjects",
+      "educationalframework": "",
+      "objectkey": "502088",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/502088"
+    },
+    {
+      "id": "13380",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Yhteiskuntaoppi",
+      "source": "basicStudySubjects",
+      "educationalframework": "",
+      "objectkey": "478972",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/478972"
+    },
+    {
+      "id": "13381",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "T3 ohjata oppilasta hahmottamaan itsensä yksilönä ja erilaisten yhteisöjen jäsenenä, ymmärtämään ihmisoikeuksien ja tasa-arvon merkityksen sekä hahmottamaan yhteiskunnan oikeudellisia periaatteita",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "488877",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/478972"
+    },
+    {
+      "id": "13382",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "T6 ohjata oppilasta tarkastelemaan yhteiskunnallista toimintaa sekä eri yhteisöjä ja vähemmistöryhmiä monipuolisesti ja avarakatseisesti",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "489609",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/478972"
+    },
+    {
+      "id": "13383",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "T5 ohjata oppilasta tuntemaan katsomusvapaus ihmisoikeutena sekä katsomusvapauden turvaamisen kansallisia ja kansainvälisiä keinoja",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "525164",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/502088"
+    },
+    {
+      "id": "13384",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "T6 ohjata oppilasta hahmottamaan erilaisia katsomuksellisia ratkaisuja sekä niiden taustalla olevia yksilöllisiä ja yhteisöllisiä perusteita",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "525165",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/502088"
+    },
+    {
+      "id": "13385",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "T5 ohjata oppilas tutustumaan suomalaiseen, eurooppalaiseen ja maailman kulttuuriperintöön sekä hahmottamaan kulttuurista moninaisuutta ilmiönä.",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "524994",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/502088"
+    },
+    {
+      "id": "13386",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "T1 ohjata oppilasta havaitsemaan uskonnon ja kulttuurin vuorovaikutus sekä tunnistamaan uskontoon liittyvä monimuotoisuus",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "536501",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/502089"
+    },
+    {
+      "id": "13387",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "T10 rohkaista oppilaita kohtaamaan erilaisia ihmisiä nyt ja tulevaisuudessa jatko-opinnoissa, työelämässä ja vapaa-ajalla",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "536610",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/502089"
+    },
+    {
+      "id": "13388",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "T6 ohjata oppilasta toimimaan oikeudenmukaisesti, eläytymään toisen asemaan sekä kunnioittamaan toisen ihmisen ajatuksia ja vakaumusta sekä ihmisoikeuksia",
+      "source": "basicStudyObjectives",
+      "educationalframework": "",
+      "objectkey": "536223",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/502089"
+    },
+    {
+      "id": "13389",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "L2 Kulttuurinen osaaminen, vuorovaikutus ja ilmaisu",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "428671",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/laajaalaisetosaamiset/428671"
+    },
+    {
+      "id": "13390",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "L7 Osallistuminen, vaikuttaminen ja kestävän tulevaisuuden rakentaminen",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "428676",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/laajaalaisetosaamiset/428676"
+    },
+    {
+      "id": "13391",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "S3 Aktiivinen kansalaisuus ja vaikuttaminen",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "489250",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/478972"
+    },
+    {
+      "id": "13392",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "S3 Ihmisoikeudet ja kestävä tulevaisuus",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "524974",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/502088"
+    },
+    {
+      "id": "13393",
+      "educationalmaterialid": "1826",
+      "alignmenttype": "teaches",
+      "targetname": "S2 Uskontojen maailma",
+      "source": "basicStudyContents",
+      "educationalframework": "",
+      "objectkey": "531110",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/502089"
+    }
+  ],
+  "educationalLevels": [
+    {
+      "id": "8191",
+      "value": "perusopetus",
+      "educationalmaterialid": "1826",
+      "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "7072",
+      "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+      "educationalmaterialid": "1826",
+      "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+    }
+  ],
+  "accessibilityFeatures": [
+    {
+      "id": "1123",
+      "value": "navigointi rakenteen avulla",
+      "educationalmaterialid": "1826",
+      "accessibilityfeaturekey": "5c2db7be-9a40-4f5b-96b7-768c07bf09c4"
+    }
+  ],
+  "accessibilityHazards": [],
+  "license": {
+    "value": "CC BY 4.0",
+    "key": "CCBY4.0"
+  },
+  "isBasedOn": [],
+  "educationalRoles": [
+    {
+      "id": "7895",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "1826",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    }
+  ],
+  "thumbnail": {
+    "id": "1450",
+    "filepath": "https://aoe.fi/api/thumbnail/thumbnail-1638952188342.png",
+    "mimetype": "image/png",
+    "educationalmaterialid": "1826",
+    "filename": "thumbnail-1638952188342.png",
+    "obsoleted": 0,
+    "filekey": "thumbnail-1638952188342.png",
+    "filebucket": "aoethumbnail"
+  },
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2021-12-08T08:42:46.570Z"
+    }
+  ],
+  "hasDownloadableFiles": true,
+  "urn": null
+}

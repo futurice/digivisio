@@ -1,0 +1,258 @@
+{
+  "id": "1078",
+  "materials": [
+    {
+      "id": "3413",
+      "language": "fi",
+      "link": "",
+      "priority": 0,
+      "filepath": "https://aoe.object.pouta.csc.fi/opinkirjoteemakokonaisuusluonnonkoodi-1608628963324.pdf",
+      "originalfilename": "opinkirjo_teemakokonaisuus_luonnonkoodi.pdf",
+      "filesize": 3688800,
+      "mimetype": "application/pdf",
+      "format": "7bit",
+      "filekey": "opinkirjoteemakokonaisuusluonnonkoodi-1608628963324.pdf",
+      "filebucket": "aoe",
+      "publishedat": "2020-12-22T09:24:40.393Z",
+      "pdfkey": "opinkirjoteemakokonaisuusluonnonkoodi-1608628963324.pdf",
+      "displayName": {
+        "fi": "Teemakokonaisuus luonnonkoodi",
+        "sv": "Teemakokonaisuus luonnonkoodi",
+        "en": "Teemakokonaisuus luonnonkoodi"
+      }
+    },
+    {
+      "id": "3412",
+      "language": "fi",
+      "link": "https://opinkirjo.fi/materiaalit/teemakokonaisuus-luonnonkoodi/",
+      "priority": 1,
+      "filepath": null,
+      "originalfilename": null,
+      "filesize": null,
+      "mimetype": null,
+      "format": null,
+      "filekey": null,
+      "filebucket": null,
+      "publishedat": "2020-12-22T09:24:40.393Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Linkki oppimateriaalin sivulle",
+        "sv": "",
+        "en": ""
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "8428",
+      "materialname": "Luonnonkoodi: Ratkaistaan luonnon koodia matematiikan avulla",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "1078"
+    },
+    {
+      "id": "8429",
+      "materialname": "Luonnonkoodi: Ratkaistaan luonnon koodia matematiikan avulla",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "1078"
+    },
+    {
+      "id": "8430",
+      "materialname": "Luonnonkoodi: Ratkaistaan luonnon koodia matematiikan avulla",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "1078"
+    }
+  ],
+  "createdAt": "2020-12-22T09:22:43.262Z",
+  "updatedAt": "2020-12-22T09:24:40.395Z",
+  "publishedAt": "2020-12-22T09:24:40.392Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": false,
+  "suitsAllPrePrimarySubjects": false,
+  "suitsAllBasicStudySubjects": false,
+  "suitsAllUpperSecondarySubjects": false,
+  "suitsAllVocationalDegrees": false,
+  "suitsAllSelfMotivatedSubjects": false,
+  "suitsAllBranches": false,
+  "suitsAllUpperSecondarySubjectsNew": false,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "36",
+  "downloadCounter": "7",
+  "author": [
+    {
+      "id": "3609",
+      "authorname": "Välimäki, Jasmin",
+      "organization": "",
+      "educationalmaterialid": "1078",
+      "organizationkey": ""
+    },
+    {
+      "id": "3610",
+      "authorname": "Marjanen, Elli",
+      "organization": "",
+      "educationalmaterialid": "1078",
+      "organizationkey": ""
+    }
+  ],
+  "publisher": [
+    {
+      "id": "608",
+      "name": "Kehittämiskeskus Opinkirjo",
+      "educationalmaterialid": "1078",
+      "publisherkey": "kehittmiskeskusopinkirjo"
+    }
+  ],
+  "description": [
+    {
+      "id": "6088",
+      "description": "Teemakokonaisuudessa tarkastellaan biologisia kohteita ja ilmiöitä matematiikan avulla. Toisaalta tehdään matematiikasta kiinnostavampaa ja havainnollisempaa. Luonnossa voidaan havaita useita säännönmukaisuuksia, joihin löytyy myös matemaattisia selityksiä. Helppojen toiminnallisten tehtävien avulla voidaan perehtyä myös vaativiin monimutkaisiin ilmiöihin, kuten energiaan. Tilastot ja mittaaminen ovat suoraan yhteydessä arkielämään ja niitä on hyvä harjoitella jo alakoulussa. Kultainen leikkaus ja symmetria-aiheet sopivat erittäin hyvin myös kuvataiteessa käsiteltäväksi.\n",
+      "language": "fi",
+      "educationalmaterialid": "1078"
+    },
+    {
+      "id": "6090",
+      "description": "Teemakokonaisuudessa tarkastellaan biologisia kohteita ja ilmiöitä matematiikan avulla. Toisaalta tehdään matematiikasta kiinnostavampaa ja havainnollisempaa. Luonnossa voidaan havaita useita säännönmukaisuuksia, joihin löytyy myös matemaattisia selityksiä. Helppojen toiminnallisten tehtävien avulla voidaan perehtyä myös vaativiin monimutkaisiin ilmiöihin, kuten energiaan. Tilastot ja mittaaminen ovat suoraan yhteydessä arkielämään ja niitä on hyvä harjoitella jo alakoulussa. Kultainen leikkaus ja symmetria-aiheet sopivat erittäin hyvin myös kuvataiteessa käsiteltäväksi.\n",
+      "language": "en",
+      "educationalmaterialid": "1078"
+    },
+    {
+      "id": "6089",
+      "description": "Teemakokonaisuudessa tarkastellaan biologisia kohteita ja ilmiöitä matematiikan avulla. Toisaalta tehdään matematiikasta kiinnostavampaa ja havainnollisempaa. Luonnossa voidaan havaita useita säännönmukaisuuksia, joihin löytyy myös matemaattisia selityksiä. Helppojen toiminnallisten tehtävien avulla voidaan perehtyä myös vaativiin monimutkaisiin ilmiöihin, kuten energiaan. Tilastot ja mittaaminen ovat suoraan yhteydessä arkielämään ja niitä on hyvä harjoitella jo alakoulussa. Kultainen leikkaus ja symmetria-aiheet sopivat erittäin hyvin myös kuvataiteessa käsiteltäväksi.\n",
+      "language": "sv",
+      "educationalmaterialid": "1078"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "9921",
+      "value": "tilastotiede",
+      "educationalmaterialid": "1078",
+      "keywordkey": "//www.yso.fi/onto/yso/p3591"
+    },
+    {
+      "id": "9922",
+      "value": "matematiikka",
+      "educationalmaterialid": "1078",
+      "keywordkey": "//www.yso.fi/onto/yso/p3160"
+    },
+    {
+      "id": "9923",
+      "value": "biologia",
+      "educationalmaterialid": "1078",
+      "keywordkey": "//www.yso.fi/onto/yso/p1782"
+    },
+    {
+      "id": "9924",
+      "value": "kerhotoiminta",
+      "educationalmaterialid": "1078",
+      "keywordkey": "//www.yso.fi/onto/yso/p7641"
+    },
+    {
+      "id": "9925",
+      "value": "tutkiva oppiminen",
+      "educationalmaterialid": "1078",
+      "keywordkey": "//www.yso.fi/onto/yso/p18173"
+    },
+    {
+      "id": "9926",
+      "value": "tiedekasvatus",
+      "educationalmaterialid": "1078",
+      "keywordkey": "//www.yso.fi/onto/yso/p22126"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "3448",
+      "value": "opas",
+      "educationalmaterialid": "1078",
+      "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+    }
+  ],
+  "timeRequired": "6 h",
+  "expires": null,
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": null,
+    "typicalAgeRangeMax": null
+  },
+  "educationalAlignment": [
+    {
+      "id": "5845",
+      "educationalmaterialid": "1078",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Matematiikka",
+      "source": "basicStudySubjects",
+      "educationalframework": "",
+      "objectkey": "466344",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/466344"
+    },
+    {
+      "id": "5846",
+      "educationalmaterialid": "1078",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Kuvataide",
+      "source": "basicStudySubjects",
+      "educationalframework": "",
+      "objectkey": "466342",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/466342"
+    }
+  ],
+  "educationalLevels": [
+    {
+      "id": "4114",
+      "value": "perusopetus",
+      "educationalmaterialid": "1078",
+      "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "3666",
+      "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+      "educationalmaterialid": "1078",
+      "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+    }
+  ],
+  "accessibilityFeatures": [],
+  "accessibilityHazards": [],
+  "license": {
+    "value": "CC BY-NC-ND 4.0",
+    "key": "CCBYNCND4.0"
+  },
+  "isBasedOn": [],
+  "educationalRoles": [
+    {
+      "id": "3918",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "1078",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    },
+    {
+      "id": "3919",
+      "educationalrole": "Ohjaaja tai mentori",
+      "educationalmaterialid": "1078",
+      "educationalrolekey": "f732bbb6-6496-4f72-8dda-3917145003f4"
+    }
+  ],
+  "thumbnail": {
+    "id": "859",
+    "filepath": "https://aoe.fi/api/thumbnail/thumbnail1608628988651.png",
+    "mimetype": "image/png",
+    "educationalmaterialid": "1078",
+    "filename": "thumbnail1608628988651.png",
+    "obsoleted": 0,
+    "filekey": "thumbnail1608628988651.png",
+    "filebucket": "aoethumbnail"
+  },
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2020-12-22T09:24:40.393Z"
+    }
+  ],
+  "hasDownloadableFiles": true,
+  "urn": null
+}

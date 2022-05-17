@@ -1,0 +1,321 @@
+{
+  "id": "1869",
+  "materials": [
+    {
+      "id": "5738",
+      "language": "fi",
+      "link": "",
+      "priority": 0,
+      "filepath": "https://aoe.object.pouta.csc.fi/mullankaivajatopasopettajalleeversio-1640686380589.pdf",
+      "originalfilename": "mullankaivajat_opas_opettajalle_eversio.pdf",
+      "filesize": 4472601,
+      "mimetype": "application/pdf",
+      "format": "7bit",
+      "filekey": "mullankaivajatopasopettajalleeversio-1640686380589.pdf",
+      "filebucket": "aoe",
+      "publishedat": "2021-12-28T10:42:13.301Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Mullankaivajat_metsaretkia_muinaisuuteen",
+        "sv": "Mullankaivajat_metsaretkia_muinaisuuteen",
+        "en": "Mullankaivajat_metsaretkia_muinaisuuteen"
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "16316",
+      "materialname": "Mullankaivajat Saimaalla: metsäretkiä muinaisuuteen. Luonto–taide-tehtäviä opettajille ja ohjaajille",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "1869"
+    },
+    {
+      "id": "16317",
+      "materialname": "Mullankaivajat Saimaalla: metsäretkiä muinaisuuteen. Luonto–taide-tehtäviä opettajille ja ohjaajille",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "1869"
+    },
+    {
+      "id": "16318",
+      "materialname": "Mullankaivajat Saimaalla: metsäretkiä muinaisuuteen. Luonto–taide-tehtäviä opettajille ja ohjaajille",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "1869"
+    }
+  ],
+  "createdAt": "2021-12-28T10:13:00.361Z",
+  "updatedAt": "2021-12-28T10:44:23.535Z",
+  "publishedAt": "2021-12-28T10:42:13.301Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": true,
+  "suitsAllPrePrimarySubjects": true,
+  "suitsAllBasicStudySubjects": true,
+  "suitsAllUpperSecondarySubjects": false,
+  "suitsAllVocationalDegrees": false,
+  "suitsAllSelfMotivatedSubjects": false,
+  "suitsAllBranches": false,
+  "suitsAllUpperSecondarySubjectsNew": false,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "18",
+  "downloadCounter": "3",
+  "author": [
+    {
+      "id": "6818",
+      "authorname": "Koivunen, Simo",
+      "organization": "",
+      "educationalmaterialid": "1869",
+      "organizationkey": ""
+    },
+    {
+      "id": "6819",
+      "authorname": "Linna, Maya",
+      "organization": "",
+      "educationalmaterialid": "1869",
+      "organizationkey": ""
+    },
+    {
+      "id": "6820",
+      "authorname": "Häkkinen, Kiti",
+      "organization": "",
+      "educationalmaterialid": "1869",
+      "organizationkey": ""
+    },
+    {
+      "id": "6821",
+      "authorname": "Kuuramaa, Katja",
+      "organization": "",
+      "educationalmaterialid": "1869",
+      "organizationkey": ""
+    }
+  ],
+  "publisher": [
+    {
+      "id": "1451",
+      "name": "Kulttuuriosuuskunta Vehrä",
+      "educationalmaterialid": "1869",
+      "publisherkey": "kulttuuriosuuskuntavehr"
+    },
+    {
+      "id": "1452",
+      "name": "Riihisaari - Savonlinnan museo",
+      "educationalmaterialid": "1869",
+      "publisherkey": "riihisaarisavonlinnanmuseo"
+    }
+  ],
+  "description": [
+    {
+      "id": "11605",
+      "description": "Tämän retkioppaan tavoitteeena on inspiroida eri oppiaineiden opettajia ja ohjaajia hyödyntämään arkeologisesta tutkimuksesta kumpuavaa tietoa ja evästää heitä tutkimusmatkalle oman alueensa menneisyyteen yhdessä lasten ja nuorten kanssa. Retket on suunniteltu toteutettavaksi lähialueen luonnossa, samalla kiinnostaviin luonto- ja esihistoriakohteisiin tutustuen. ",
+      "language": "fi",
+      "educationalmaterialid": "1869"
+    },
+    {
+      "id": "11607",
+      "description": "Tämän retkioppaan tavoitteeena on inspiroida eri oppiaineiden opettajia ja ohjaajia hyödyntämään arkeologisesta tutkimuksesta kumpuavaa tietoa ja evästää heitä tutkimusmatkalle oman alueensa menneisyyteen yhdessä lasten ja nuorten kanssa. Retket on suunniteltu toteutettavaksi lähialueen luonnossa, samalla kiinnostaviin luonto- ja esihistoriakohteisiin tutustuen. ",
+      "language": "en",
+      "educationalmaterialid": "1869"
+    },
+    {
+      "id": "11606",
+      "description": "Tämän retkioppaan tavoitteeena on inspiroida eri oppiaineiden opettajia ja ohjaajia hyödyntämään arkeologisesta tutkimuksesta kumpuavaa tietoa ja evästää heitä tutkimusmatkalle oman alueensa menneisyyteen yhdessä lasten ja nuorten kanssa. Retket on suunniteltu toteutettavaksi lähialueen luonnossa, samalla kiinnostaviin luonto- ja esihistoriakohteisiin tutustuen. ",
+      "language": "sv",
+      "educationalmaterialid": "1869"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "19029",
+      "value": "perusopetus",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p19327"
+    },
+    {
+      "id": "19030",
+      "value": "osallistaminen",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p10728"
+    },
+    {
+      "id": "19031",
+      "value": "osallisuus",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p5164"
+    },
+    {
+      "id": "19032",
+      "value": "historia",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p1780"
+    },
+    {
+      "id": "19033",
+      "value": "esihistoria",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p4622"
+    },
+    {
+      "id": "19034",
+      "value": "esihistoriallinen taide",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p12463"
+    },
+    {
+      "id": "19035",
+      "value": "kuvataide",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p2739"
+    },
+    {
+      "id": "19036",
+      "value": "tutkiva oppiminen",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p18173"
+    },
+    {
+      "id": "19037",
+      "value": "tiedekasvatus",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p22126"
+    },
+    {
+      "id": "19038",
+      "value": "kestävä kehitys",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p8470"
+    },
+    {
+      "id": "19039",
+      "value": "luontosuhde",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p16315"
+    },
+    {
+      "id": "19040",
+      "value": "maataide",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p5451"
+    },
+    {
+      "id": "19041",
+      "value": "kestävä elämäntapa",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p38791"
+    },
+    {
+      "id": "19042",
+      "value": "nuoret",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p11617"
+    },
+    {
+      "id": "19043",
+      "value": "museopedagogiikka",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p1583"
+    },
+    {
+      "id": "19044",
+      "value": "taidekasvatus",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p5457"
+    },
+    {
+      "id": "19045",
+      "value": "kestävä käyttö",
+      "educationalmaterialid": "1869",
+      "keywordkey": "//www.yso.fi/onto/yso/p21003"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "6764",
+      "value": "opas",
+      "educationalmaterialid": "1869",
+      "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+    }
+  ],
+  "timeRequired": "",
+  "expires": null,
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": null,
+    "typicalAgeRangeMax": null
+  },
+  "educationalAlignment": [],
+  "educationalLevels": [
+    {
+      "id": "8387",
+      "value": "perusopetus",
+      "educationalmaterialid": "1869",
+      "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+    },
+    {
+      "id": "8388",
+      "value": "esiopetus",
+      "educationalmaterialid": "1869",
+      "educationallevelkey": "3ff553ba-a4d7-407c-ad00-80e54ecebd16"
+    },
+    {
+      "id": "8389",
+      "value": "varhaiskasvatus",
+      "educationalmaterialid": "1869",
+      "educationallevelkey": "8e7b8440-286d-4cc9-ad99-9fe288107535"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "7259",
+      "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+      "educationalmaterialid": "1869",
+      "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+    },
+    {
+      "id": "7260",
+      "value": "Ohjeistus",
+      "educationalmaterialid": "1869",
+      "educationalusekey": "69125b8d-8b43-4820-838e-daf145672c17"
+    }
+  ],
+  "accessibilityFeatures": [],
+  "accessibilityHazards": [],
+  "license": {
+    "value": "CC BY-NC-ND 4.0",
+    "key": "CCBYNCND4.0"
+  },
+  "isBasedOn": [],
+  "educationalRoles": [
+    {
+      "id": "8058",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "1869",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    },
+    {
+      "id": "8059",
+      "educationalrole": "Ohjaaja tai mentori",
+      "educationalmaterialid": "1869",
+      "educationalrolekey": "f732bbb6-6496-4f72-8dda-3917145003f4"
+    }
+  ],
+  "thumbnail": {
+    "id": "1482",
+    "filepath": "https://aoe.fi/api/thumbnail/thumbnail-1640687947257.png",
+    "mimetype": "image/png",
+    "educationalmaterialid": "1869",
+    "filename": "thumbnail-1640687947257.png",
+    "obsoleted": 0,
+    "filekey": "thumbnail-1640687947257.png",
+    "filebucket": "aoethumbnail"
+  },
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2021-12-28T10:42:13.301Z"
+    }
+  ],
+  "hasDownloadableFiles": true,
+  "urn": null
+}

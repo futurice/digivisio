@@ -1,0 +1,196 @@
+{
+  "id": "39",
+  "materials": [
+    {
+      "id": "263",
+      "language": "fi",
+      "link": "",
+      "priority": 0,
+      "filepath": "https://aoe.fi/api/pdf/content/Tekijnoikeudetvirtuaaliluokassaopiskelijatjatekijnoikeudet-1579008596031.pdf",
+      "originalfilename": "Tekijänoikeudet virtuaaliluokassa - opiskelijat ja tekijänoikeudet.pptx",
+      "filesize": 311483,
+      "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "format": "7bit",
+      "filekey": "Tekijnoikeudetvirtuaaliluokassaopiskelijatjatekijnoikeudet-1579008596031.pptx",
+      "filebucket": "aoe",
+      "publishedat": "2020-01-14T13:33:37.526Z",
+      "pdfkey": "Tekijnoikeudetvirtuaaliluokassaopiskelijatjatekijnoikeudet-1579008596031.pdf",
+      "displayName": {
+        "fi": "Tekijänoikeudet virtuaaliluokassa: Miten ohjaan opiskelijoita toimimaan tekijänoikeuksia kunnioittaen",
+        "sv": "Tekijänoikeudet virtuaaliluokassa - opiskelijat ja tekijänoikeudet",
+        "en": "Tekijänoikeudet virtuaaliluokassa - opiskelijat ja tekijänoikeudet"
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "82",
+      "materialname": "Tekijänoikeudet virtuaaliluokassa: Miten ohjaan opiskelijoita toimimaan tekijänoikeuksia kunnioittaen",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "39"
+    },
+    {
+      "id": "83",
+      "materialname": "",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "39"
+    },
+    {
+      "id": "84",
+      "materialname": "",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "39"
+    }
+  ],
+  "createdAt": "2020-01-14T13:29:56.005Z",
+  "updatedAt": "2020-01-14T13:33:37.530Z",
+  "publishedAt": "2020-01-14T13:33:37.526Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": false,
+  "suitsAllPrePrimarySubjects": false,
+  "suitsAllBasicStudySubjects": true,
+  "suitsAllUpperSecondarySubjects": false,
+  "suitsAllVocationalDegrees": true,
+  "suitsAllSelfMotivatedSubjects": false,
+  "suitsAllBranches": false,
+  "suitsAllUpperSecondarySubjectsNew": false,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "1310",
+  "downloadCounter": "5",
+  "author": [
+    {
+      "id": "31",
+      "authorname": "Korhonen, Aino",
+      "organization": "",
+      "educationalmaterialid": "39",
+      "organizationkey": ""
+    }
+  ],
+  "publisher": [
+    {
+      "id": "7",
+      "name": "Opettajana virtuaaliluokassa -hanke",
+      "educationalmaterialid": "39",
+      "publisherkey": "opettajanavirtuaaliluokassahanke"
+    }
+  ],
+  "description": [
+    {
+      "id": "82",
+      "description": "Opettajana virtuaaliluokassa -hankkeessa kehitetty materiaali, joka on tarkoitettu tueksi virtuaalista luokkaopetusta opettaville opettajille ja kouluttajille.",
+      "language": "fi",
+      "educationalmaterialid": "39"
+    },
+    {
+      "id": "84",
+      "description": "",
+      "language": "en",
+      "educationalmaterialid": "39"
+    },
+    {
+      "id": "83",
+      "description": "",
+      "language": "sv",
+      "educationalmaterialid": "39"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "117",
+      "value": "virtuaaliluokka",
+      "educationalmaterialid": "39",
+      "keywordkey": "virtuaaliluokka"
+    },
+    {
+      "id": "118",
+      "value": "digiluokka",
+      "educationalmaterialid": "39",
+      "keywordkey": "digiluokka"
+    },
+    {
+      "id": "119",
+      "value": "tekijänoikeus",
+      "educationalmaterialid": "39",
+      "keywordkey": "//www.yso.fi/onto/yso/p2346"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "63",
+      "value": "opas",
+      "educationalmaterialid": "39",
+      "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+    }
+  ],
+  "timeRequired": "ei merkitystä",
+  "expires": "9999-01-01T00:00:00.000Z",
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": 12,
+    "typicalAgeRangeMax": 20
+  },
+  "educationalAlignment": [],
+  "educationalLevels": [
+    {
+      "id": "69",
+      "value": "perusopetus",
+      "educationalmaterialid": "39",
+      "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+    },
+    {
+      "id": "70",
+      "value": "lukiokoulutus",
+      "educationalmaterialid": "39",
+      "educationallevelkey": "94f79e1e-10e6-483d-b651-27521f94f7bf"
+    },
+    {
+      "id": "71",
+      "value": "ammatillinen koulutus",
+      "educationalmaterialid": "39",
+      "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "43",
+      "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+      "educationalmaterialid": "39",
+      "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+    }
+  ],
+  "accessibilityFeatures": [],
+  "accessibilityHazards": [
+    {
+      "id": "12",
+      "value": "ei esteitä",
+      "educationalmaterialid": "39",
+      "accessibilityhazardkey": "b3293084-f161-4e86-8d68-139588769157"
+    }
+  ],
+  "license": {
+    "value": "CC BY 4.0",
+    "key": "CCBY4.0"
+  },
+  "isBasedOn": [],
+  "educationalRoles": [
+    {
+      "id": "63",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "39",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    }
+  ],
+  "thumbnail": null,
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2020-01-14T13:33:37.526Z"
+    }
+  ],
+  "hasDownloadableFiles": true,
+  "urn": null
+}

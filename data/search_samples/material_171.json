@@ -1,0 +1,183 @@
+{
+  "id": "171",
+  "materials": [
+    {
+      "id": "475",
+      "language": "fi",
+      "link": "",
+      "priority": 0,
+      "filepath": "object.pouta.csc.fi/aoe/tiedonhakuinternetistaluotettavuusjatekijanoikeudetartop-1584365424255.mp4",
+      "originalfilename": "tiedonhaku internetista- luotettavuus ja tekijanoikeudet arto p.mp4",
+      "filesize": 23469004,
+      "mimetype": "video/mp4",
+      "format": "7bit",
+      "filekey": "tiedonhakuinternetistaluotettavuusjatekijanoikeudetartop-1584365424255.mp4",
+      "filebucket": "aoe",
+      "publishedat": "2020-03-16T13:31:46.831Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet",
+        "sv": "Tiedonhaku internetista- luotettavuus ja tekijanoikeudet Arto P",
+        "en": "Tiedonhaku internetista- luotettavuus ja tekijanoikeudet Arto P"
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "640",
+      "materialname": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "171"
+    },
+    {
+      "id": "641",
+      "materialname": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "171"
+    },
+    {
+      "id": "642",
+      "materialname": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "171"
+    }
+  ],
+  "createdAt": "2020-03-16T13:30:24.169Z",
+  "updatedAt": "2020-03-16T13:31:46.833Z",
+  "publishedAt": "2020-03-16T13:31:46.831Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": false,
+  "suitsAllPrePrimarySubjects": false,
+  "suitsAllBasicStudySubjects": false,
+  "suitsAllUpperSecondarySubjects": false,
+  "suitsAllVocationalDegrees": false,
+  "suitsAllSelfMotivatedSubjects": false,
+  "suitsAllBranches": false,
+  "suitsAllUpperSecondarySubjectsNew": false,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "245",
+  "downloadCounter": "8",
+  "author": [
+    {
+      "id": "195",
+      "authorname": "Poussu, Arto",
+      "organization": "OSAO",
+      "educationalmaterialid": "171",
+      "organizationkey": "1.2.246.562.10.2013110715495487451932"
+    }
+  ],
+  "publisher": [
+    {
+      "id": "51",
+      "name": "Osuvat taidot -hanke",
+      "educationalmaterialid": "171",
+      "publisherkey": "osuvattaidothanke"
+    }
+  ],
+  "description": [
+    {
+      "id": "457",
+      "description": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet\n\n\n\nVideo on tuotettu osana Osuvat taidot -hanketta.\n\n",
+      "language": "fi",
+      "educationalmaterialid": "171"
+    },
+    {
+      "id": "459",
+      "description": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet\n\n\n\nVideo on tuotettu osana Osuvat taidot -hanketta.\n\n",
+      "language": "en",
+      "educationalmaterialid": "171"
+    },
+    {
+      "id": "458",
+      "description": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet\n\n\n\nVideo on tuotettu osana Osuvat taidot -hanketta.\n\n",
+      "language": "sv",
+      "educationalmaterialid": "171"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "693",
+      "value": "tekijänoikeus",
+      "educationalmaterialid": "171",
+      "keywordkey": "//www.yso.fi/onto/yso/p2346"
+    },
+    {
+      "id": "694",
+      "value": "tiedonhaku",
+      "educationalmaterialid": "171",
+      "keywordkey": "//www.yso.fi/onto/yso/p2964"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "246",
+      "value": "video",
+      "educationalmaterialid": "171",
+      "learningresourcetypekey": "c1256389-a47d-4a44-beb2-bdbbc79abb28"
+    }
+  ],
+  "timeRequired": "",
+  "expires": "9999-01-01T00:00:00.000Z",
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": -1,
+    "typicalAgeRangeMax": -1
+  },
+  "educationalAlignment": [],
+  "educationalLevels": [
+    {
+      "id": "261",
+      "value": "ammatillinen koulutus",
+      "educationalmaterialid": "171",
+      "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+    },
+    {
+      "id": "262",
+      "value": "ammatilliseen koulutukseen valmentava koulutus, VALMA",
+      "educationalmaterialid": "171",
+      "educationallevelkey": "55c5d6a2-8415-47bc-9d15-7b976b0e999c"
+    },
+    {
+      "id": "263",
+      "value": "työhön ja itsenäiseen elämään valmentava koulutus, TELMA",
+      "educationalmaterialid": "171",
+      "educationallevelkey": "da5b8f43-5fc9-4681-812b-40846926f3fd"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "218",
+      "value": "Itsenäinen opiskelu",
+      "educationalmaterialid": "171",
+      "educationalusekey": "916b4cd8-949b-4f47-aaf6-0fcaae7a9ac8"
+    }
+  ],
+  "accessibilityFeatures": [],
+  "accessibilityHazards": [],
+  "license": {
+    "value": "CC BY-SA 4.0",
+    "key": "CCBYSA4.0"
+  },
+  "isBasedOn": [],
+  "educationalRoles": [
+    {
+      "id": "224",
+      "educationalrole": "Oppija",
+      "educationalmaterialid": "171",
+      "educationalrolekey": "582949cb-36a4-4053-9f2f-c53ae954a6ae"
+    }
+  ],
+  "thumbnail": null,
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2020-03-16T13:31:46.831Z"
+    }
+  ],
+  "hasDownloadableFiles": true,
+  "urn": null
+}

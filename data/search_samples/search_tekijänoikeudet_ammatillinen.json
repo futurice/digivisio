@@ -1,0 +1,645 @@
+{
+  "hits": 5,
+  "results": [
+    {
+      "id": "58",
+      "createdAt": "2020-01-28T12:20:24.440Z",
+      "publishedAt": "2020-01-28T12:29:44.389Z",
+      "updatedAt": "2022-01-07T09:41:08.618Z",
+      "materialName": [
+        {
+          "materialname": "Tekijänoikeudet opetuksessa",
+          "language": "fi"
+        },
+        {
+          "materialname": "Upphovsrätten i undervisningen",
+          "language": "sv"
+        },
+        {
+          "materialname": "Copyrights in Education",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "Opettajan tiivis tietopaketti tekijänoikeuksien huomioinnista jokapäiväisessä opetuksessa.\n",
+          "language": "fi"
+        },
+        {
+          "description": "Teachers' compact source of information on everyday use of copyrights in education.",
+          "language": "en"
+        },
+        {
+          "description": "Lärarens konkreta informationspaket om hur man förhåller sig till upphovsrätter i undervisning.\n",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Toikkanen, Tarmo",
+          "organization": "",
+          "organizationkey": ""
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        },
+        {
+          "value": "video",
+          "learningresourcetypekey": "c1256389-a47d-4a44-beb2-bdbbc79abb28"
+        },
+        {
+          "value": "harjoitus",
+          "learningresourcetypekey": "bf2c17a1-2f6f-4019-adb1-576e6caeebd9"
+        }
+      ],
+      "license": {
+        "key": "CCBYSA4.0",
+        "value": "CC BY-SA 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "omaehtoinen osaamisen kehittäminen",
+          "educationallevelkey": "bc25d0e7-3c68-49a1-9329-239dae01fab7"
+        },
+        {
+          "value": "korkeakoulutus",
+          "educationallevelkey": "e5a48ada-3de0-4246-9b8f-32d4ff68e22f"
+        },
+        {
+          "value": "ammatillinen koulutus",
+          "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+        },
+        {
+          "value": "lukiokoulutus",
+          "educationallevelkey": "94f79e1e-10e6-483d-b651-27521f94f7bf"
+        },
+        {
+          "value": "perusopetus",
+          "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        },
+        {
+          "value": "Asiantuntija tai ammattilainen",
+          "educationalrolekey": "66edb65b-8648-4f95-ac48-d9478293cef4"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "avoimuus",
+          "keywordkey": "//www.yso.fi/onto/yso/p10569"
+        },
+        {
+          "value": "lisenssit",
+          "keywordkey": "//www.yso.fi/onto/yso/p16495"
+        },
+        {
+          "value": "opetus",
+          "keywordkey": "//www.yso.fi/onto/yso/p2630"
+        },
+        {
+          "value": "Creative Commons",
+          "keywordkey": "creativecommons"
+        },
+        {
+          "value": "lähioikeudet",
+          "keywordkey": "//www.yso.fi/onto/yso/p11910"
+        },
+        {
+          "value": "tekijänoikeuslaki",
+          "keywordkey": "//www.yso.fi/onto/yso/p9817"
+        },
+        {
+          "value": "tekijänoikeus",
+          "keywordkey": "//www.yso.fi/onto/yso/p2346"
+        }
+      ],
+      "languages": [
+        "en",
+        "fi",
+        "sv"
+      ],
+      "educationalSubjects": [
+        {
+          "key": "516",
+          "source": "branchesOfScience",
+          "value": "Kasvatustieteet"
+        }
+      ],
+      "teaches": [],
+      "hasDownloadableFiles": true,
+      "thumbnail": {
+        "id": "1141",
+        "filepath": "https://aoe.fi/api/thumbnail/thumbnail1617195560766.png",
+        "mimetype": "image/png",
+        "educationalmaterialid": "58",
+        "filename": "thumbnail1617195560766.png",
+        "obsoleted": 0,
+        "filekey": "thumbnail1617195560766.png",
+        "filebucket": "aoethumbnail"
+      },
+      "popularity": 3.2183770883054894,
+      "educationalUses": [
+        {
+          "value": "Itsenäinen opiskelu",
+          "educationalusekey": "916b4cd8-949b-4f47-aaf6-0fcaae7a9ac8"
+        },
+        {
+          "value": "Ohjeistus",
+          "educationalusekey": "69125b8d-8b43-4820-838e-daf145672c17"
+        },
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        }
+      ],
+      "accessibilityFeatures": [
+        {
+          "value": "tekstitys",
+          "accessibilityfeaturekey": "098c131b-7de2-49f1-aef9-508132bb46c6"
+        },
+        {
+          "value": "navigointi rakenteen avulla",
+          "accessibilityfeaturekey": "5c2db7be-9a40-4f5b-96b7-768c07bf09c4"
+        }
+      ],
+      "accessibilityHazards": [
+        {
+          "value": "ei äänihaittaa",
+          "accessibilityhazardkey": "e2165852-c2ec-47b7-8dd5-7cfbfad52697"
+        },
+        {
+          "value": "ei välähtelyhaittaa",
+          "accessibilityhazardkey": "928f2c31-0779-4991-9e48-3af79aba67a3"
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "createdAt": "2020-01-14T13:29:56.005Z",
+      "publishedAt": "2020-01-14T13:33:37.526Z",
+      "updatedAt": "2020-01-14T13:33:37.530Z",
+      "materialName": [
+        {
+          "materialname": "Tekijänoikeudet virtuaaliluokassa: Miten ohjaan opiskelijoita toimimaan tekijänoikeuksia kunnioittaen",
+          "language": "fi"
+        },
+        {
+          "materialname": "",
+          "language": "sv"
+        },
+        {
+          "materialname": "",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "Opettajana virtuaaliluokassa -hankkeessa kehitetty materiaali, joka on tarkoitettu tueksi virtuaalista luokkaopetusta opettaville opettajille ja kouluttajille.",
+          "language": "fi"
+        },
+        {
+          "description": "",
+          "language": "en"
+        },
+        {
+          "description": "",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Korhonen, Aino",
+          "organization": "",
+          "organizationkey": ""
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        }
+      ],
+      "license": {
+        "key": "CCBY4.0",
+        "value": "CC BY 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "perusopetus",
+          "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+        },
+        {
+          "value": "lukiokoulutus",
+          "educationallevelkey": "94f79e1e-10e6-483d-b651-27521f94f7bf"
+        },
+        {
+          "value": "ammatillinen koulutus",
+          "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "virtuaaliluokka",
+          "keywordkey": "virtuaaliluokka"
+        },
+        {
+          "value": "digiluokka",
+          "keywordkey": "digiluokka"
+        },
+        {
+          "value": "tekijänoikeus",
+          "keywordkey": "//www.yso.fi/onto/yso/p2346"
+        }
+      ],
+      "languages": [
+        "fi"
+      ],
+      "educationalSubjects": [],
+      "teaches": [],
+      "hasDownloadableFiles": true,
+      "thumbnail": null,
+      "popularity": 1.5422535211267605,
+      "educationalUses": [
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        }
+      ],
+      "accessibilityFeatures": [],
+      "accessibilityHazards": [
+        {
+          "value": "ei esteitä",
+          "accessibilityhazardkey": "b3293084-f161-4e86-8d68-139588769157"
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "createdAt": "2020-01-14T13:21:56.762Z",
+      "publishedAt": "2020-01-14T13:28:24.884Z",
+      "updatedAt": "2020-01-14T13:28:24.887Z",
+      "materialName": [
+        {
+          "materialname": "Tekijänoikeudet virtuaaliluokassa: Opettajan oikeudet tekemiinsä materiaaleihin",
+          "language": "fi"
+        },
+        {
+          "materialname": "",
+          "language": "sv"
+        },
+        {
+          "materialname": "",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "Opettajana virtuaaliluokassa -hankkeessa kehitetty materiaali, joka on tarkoitettu tueksi virtuaalista luokkaopetusta opettaville opettajille ja kouluttajille.",
+          "language": "fi"
+        },
+        {
+          "description": "",
+          "language": "en"
+        },
+        {
+          "description": "",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Korhonen, Aino",
+          "organization": "",
+          "organizationkey": ""
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "opas",
+          "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+        }
+      ],
+      "license": {
+        "key": "CCBY4.0",
+        "value": "CC BY 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "perusopetus",
+          "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+        },
+        {
+          "value": "lukiokoulutus",
+          "educationallevelkey": "94f79e1e-10e6-483d-b651-27521f94f7bf"
+        },
+        {
+          "value": "ammatillinen koulutus",
+          "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+        },
+        {
+          "value": "korkeakoulutus",
+          "educationallevelkey": "e5a48ada-3de0-4246-9b8f-32d4ff68e22f"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "tekijänoikeudet",
+          "keywordkey": "tekijnoikeudet"
+        },
+        {
+          "value": "virtuaaliluokka",
+          "keywordkey": "virtuaaliluokka"
+        },
+        {
+          "value": "digiluokka",
+          "keywordkey": "digiluokka"
+        },
+        {
+          "value": "opettajan tekijänoikeudet",
+          "keywordkey": "opettajantekijnoikeudet"
+        },
+        {
+          "value": "oppimateriaalin laatiminen",
+          "keywordkey": "oppimateriaalinlaatiminen"
+        }
+      ],
+      "languages": [
+        "fi"
+      ],
+      "educationalSubjects": [],
+      "teaches": [],
+      "hasDownloadableFiles": true,
+      "thumbnail": null,
+      "popularity": 0.9061032863849765,
+      "educationalUses": [
+        {
+          "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+          "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+        }
+      ],
+      "accessibilityFeatures": [],
+      "accessibilityHazards": []
+    },
+    {
+      "id": "171",
+      "createdAt": "2020-03-16T13:30:24.169Z",
+      "publishedAt": "2020-03-16T13:31:46.831Z",
+      "updatedAt": "2020-03-16T13:31:46.833Z",
+      "materialName": [
+        {
+          "materialname": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet",
+          "language": "fi"
+        },
+        {
+          "materialname": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet",
+          "language": "sv"
+        },
+        {
+          "materialname": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet\n\n\n\nVideo on tuotettu osana Osuvat taidot -hanketta.\n\n",
+          "language": "fi"
+        },
+        {
+          "description": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet\n\n\n\nVideo on tuotettu osana Osuvat taidot -hanketta.\n\n",
+          "language": "en"
+        },
+        {
+          "description": "Tiedonhaku internetista - luotettavuus ja tekijänoikeudet\n\n\n\nVideo on tuotettu osana Osuvat taidot -hanketta.\n\n",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Poussu, Arto",
+          "organization": "OSAO",
+          "organizationkey": "1.2.246.562.10.2013110715495487451932"
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "video",
+          "learningresourcetypekey": "c1256389-a47d-4a44-beb2-bdbbc79abb28"
+        }
+      ],
+      "license": {
+        "key": "CCBYSA4.0",
+        "value": "CC BY-SA 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "ammatillinen koulutus",
+          "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+        },
+        {
+          "value": "ammatilliseen koulutukseen valmentava koulutus, VALMA",
+          "educationallevelkey": "55c5d6a2-8415-47bc-9d15-7b976b0e999c"
+        },
+        {
+          "value": "työhön ja itsenäiseen elämään valmentava koulutus, TELMA",
+          "educationallevelkey": "da5b8f43-5fc9-4681-812b-40846926f3fd"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Oppija",
+          "educationalrolekey": "582949cb-36a4-4053-9f2f-c53ae954a6ae"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "tekijänoikeus",
+          "keywordkey": "//www.yso.fi/onto/yso/p2346"
+        },
+        {
+          "value": "tiedonhaku",
+          "keywordkey": "//www.yso.fi/onto/yso/p2964"
+        }
+      ],
+      "languages": [
+        "fi"
+      ],
+      "educationalSubjects": [],
+      "teaches": [],
+      "hasDownloadableFiles": true,
+      "thumbnail": null,
+      "popularity": 0.3189873417721519,
+      "educationalUses": [
+        {
+          "value": "Itsenäinen opiskelu",
+          "educationalusekey": "916b4cd8-949b-4f47-aaf6-0fcaae7a9ac8"
+        }
+      ],
+      "accessibilityFeatures": [],
+      "accessibilityHazards": []
+    },
+    {
+      "id": "1057",
+      "createdAt": "2020-12-18T19:18:39.975Z",
+      "publishedAt": "2020-12-18T19:29:03.146Z",
+      "updatedAt": "2020-12-18T19:29:03.150Z",
+      "materialName": [
+        {
+          "materialname": "Verkko-ohjauksen suunnittelu",
+          "language": "fi"
+        },
+        {
+          "materialname": "Verkko-ohjauksen suunnittelu",
+          "language": "sv"
+        },
+        {
+          "materialname": "Verkko-ohjauksen suunnittelu",
+          "language": "en"
+        }
+      ],
+      "description": [
+        {
+          "description": "Materiaalin avulla saat tietoa, millaiset tavoitteet edistävät verkko-ohjausta. ja miten laaditaan ohjauksen tavoitteet yhteistyössä asiakkaan kanssa. \nLisäksi tähän kokonaisuuteen kuuluvat tiedostot omana tiedostona aoe.fi:ssä olevat: Mitä asioita huomioidaan kun laaditaan verkko-ohjausmateriaalia, Kirjallisen verkkomateriaalin laatiminen –tietoa, Verkkomateriaalin laatimisessa huomioitavat asiat, Kysymyksiä saavutettavuudesta, tekijänoikeudesta ja lisenssimerkinnöistä.",
+          "language": "fi"
+        },
+        {
+          "description": "Materiaalin avulla saat tietoa, millaiset tavoitteet edistävät verkko-ohjausta. ja miten laaditaan ohjauksen tavoitteet yhteistyössä asiakkaan kanssa. \nLisäksi tähän kokonaisuuteen kuuluvat tiedostot omana tiedostona aoe.fi:ssä olevat: Mitä asioita huomioidaan kun laaditaan verkko-ohjausmateriaalia, Kirjallisen verkkomateriaalin laatiminen –tietoa, Verkkomateriaalin laatimisessa huomioitavat asiat, Kysymyksiä saavutettavuudesta, tekijänoikeudesta ja lisenssimerkinnöistä.",
+          "language": "en"
+        },
+        {
+          "description": "Materiaalin avulla saat tietoa, millaiset tavoitteet edistävät verkko-ohjausta. ja miten laaditaan ohjauksen tavoitteet yhteistyössä asiakkaan kanssa. \nLisäksi tähän kokonaisuuteen kuuluvat tiedostot omana tiedostona aoe.fi:ssä olevat: Mitä asioita huomioidaan kun laaditaan verkko-ohjausmateriaalia, Kirjallisen verkkomateriaalin laatiminen –tietoa, Verkkomateriaalin laatimisessa huomioitavat asiat, Kysymyksiä saavutettavuudesta, tekijänoikeudesta ja lisenssimerkinnöistä.",
+          "language": "sv"
+        }
+      ],
+      "authors": [
+        {
+          "authorname": "Ekman, Petra",
+          "organization": "Yrkeshögskolan Arcada",
+          "organizationkey": "1.2.246.562.10.25619624254"
+        },
+        {
+          "authorname": "Hinkkanen, Leena",
+          "organization": "Metropolia Ammattikorkeakoulu",
+          "organizationkey": "1.2.246.562.10.67476956288"
+        },
+        {
+          "authorname": "Mäkeläinen, Paula",
+          "organization": "Kaakkois-Suomen Ammattikorkeakoulu",
+          "organizationkey": "1.2.246.562.10.97177880414"
+        },
+        {
+          "authorname": "Riikonen, Riitta",
+          "organization": "Kaakkois-Suomen Ammattikorkeakoulu",
+          "organizationkey": "1.2.246.562.10.97177880414"
+        }
+      ],
+      "learningResourceTypes": [
+        {
+          "value": "teksti",
+          "learningresourcetypekey": "cc1d00b0-b11f-4afe-a423-e43f96214f89"
+        },
+        {
+          "value": "esitys",
+          "learningresourcetypekey": "7be52f46-138d-482f-834e-5ea33d933c37"
+        }
+      ],
+      "license": {
+        "key": "CCBYSA4.0",
+        "value": "CC BY-SA 4.0"
+      },
+      "educationalLevels": [
+        {
+          "value": "alemman korkeakouluasteen tutkinto",
+          "educationallevelkey": "ff3334db-2a71-4459-8f0d-c42ce2b12a70"
+        },
+        {
+          "value": "ammatillinen koulutus",
+          "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+        },
+        {
+          "value": "omaehtoinen osaamisen kehittäminen",
+          "educationallevelkey": "bc25d0e7-3c68-49a1-9329-239dae01fab7"
+        }
+      ],
+      "educationalRoles": [
+        {
+          "value": "Opettaja",
+          "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+        },
+        {
+          "value": "Asiantuntija tai ammattilainen",
+          "educationalrolekey": "66edb65b-8648-4f95-ac48-d9478293cef4"
+        }
+      ],
+      "keywords": [
+        {
+          "value": "verkko-ohjaus",
+          "keywordkey": "//www.yso.fi/onto/yso/p22642"
+        },
+        {
+          "value": "verkko-oppimateriaali",
+          "keywordkey": "//www.yso.fi/onto/yso/p3596"
+        },
+        {
+          "value": "verkko-oppiminen",
+          "keywordkey": "//www.yso.fi/onto/yso/p13627"
+        },
+        {
+          "value": "tavoitteet",
+          "keywordkey": "//www.yso.fi/onto/yso/p2747"
+        },
+        {
+          "value": "Sotepeda",
+          "keywordkey": "sotepeda"
+        }
+      ],
+      "languages": [
+        "fi"
+      ],
+      "educationalSubjects": [],
+      "teaches": [],
+      "hasDownloadableFiles": true,
+      "thumbnail": null,
+      "popularity": 0.06237816764132553,
+      "educationalUses": [
+        {
+          "value": "Itsenäinen opiskelu",
+          "educationalusekey": "916b4cd8-949b-4f47-aaf6-0fcaae7a9ac8"
+        },
+        {
+          "value": "Kurssimateriaali",
+          "educationalusekey": "cdad2dd2-c075-4630-91fa-79233306ba25"
+        },
+        {
+          "value": "Jatkotyöstettävä materiaali",
+          "educationalusekey": "b197309a-8194-4669-ad9d-f90f58368e5d"
+        },
+        {
+          "value": "Ohjeistus",
+          "educationalusekey": "69125b8d-8b43-4820-838e-daf145672c17"
+        }
+      ],
+      "accessibilityFeatures": [],
+      "accessibilityHazards": []
+    }
+  ]
+}

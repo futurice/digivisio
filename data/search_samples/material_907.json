@@ -1,0 +1,210 @@
+{
+  "id": "907",
+  "materials": [
+    {
+      "id": "2825",
+      "language": "fi",
+      "link": "",
+      "priority": 0,
+      "filepath": "https://aoe.object.pouta.csc.fi/filoopasajatteluun-1606211360989.pdf",
+      "originalfilename": "filo_opas-ajatteluun.pdf",
+      "filesize": 4562707,
+      "mimetype": "application/pdf",
+      "format": "7bit",
+      "filekey": "filoopasajatteluun-1606211360989.pdf",
+      "filebucket": "aoe",
+      "publishedat": "2020-12-10T10:09:24.550Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Filo - opas ajatteluun",
+        "sv": "Filo - opas ajatteluun",
+        "en": "Filo - opas ajatteluun"
+      }
+    },
+    {
+      "id": "2824",
+      "language": "fi",
+      "link": "https://opinkirjo.fi/materiaalit/opas-ajatteluun/",
+      "priority": 1,
+      "filepath": null,
+      "originalfilename": null,
+      "filesize": null,
+      "mimetype": null,
+      "format": null,
+      "filekey": null,
+      "filebucket": null,
+      "publishedat": "2020-12-10T10:09:24.550Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Linkki oppimateriaalin sivulle",
+        "sv": "Linkki oppimateriaalin sivulle",
+        "en": "Linkki oppimateriaalin sivulle"
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "6658",
+      "materialname": "Opas ajatteluun",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "907"
+    },
+    {
+      "id": "6659",
+      "materialname": "Opas ajatteluun",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "907"
+    },
+    {
+      "id": "6660",
+      "materialname": "Opas ajatteluun",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "907"
+    }
+  ],
+  "createdAt": "2020-11-24T09:49:20.866Z",
+  "updatedAt": "2020-12-10T10:09:24.553Z",
+  "publishedAt": "2020-12-10T10:09:24.550Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": false,
+  "suitsAllPrePrimarySubjects": false,
+  "suitsAllBasicStudySubjects": true,
+  "suitsAllUpperSecondarySubjects": false,
+  "suitsAllVocationalDegrees": false,
+  "suitsAllSelfMotivatedSubjects": false,
+  "suitsAllBranches": false,
+  "suitsAllUpperSecondarySubjectsNew": false,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "38",
+  "downloadCounter": "4",
+  "author": [
+    {
+      "id": "3174",
+      "authorname": "",
+      "organization": "Filo ry",
+      "educationalmaterialid": "907",
+      "organizationkey": "filory"
+    }
+  ],
+  "publisher": [],
+  "description": [
+    {
+      "id": "5365",
+      "description": "Opas ajatteluun - Filosofiaa lasten kanssa -kirjassa annetaan käytännöllisiä välineitä ajattelun taitojen kehittämiseen Filosofiaa lapsille -menetelmän avulla. Se on keskustelupainotteinen ryhmätyöskentelyn muoto, jonka avulla lapset, nuoret ja aikuiset oppivat kuuntelemaan, problematisoimaan, muotoilemaan ja ilmaisemaan omia ajatuksiaan sekä keskustelemaan niistä rakentavasti.\n",
+      "language": "fi",
+      "educationalmaterialid": "907"
+    },
+    {
+      "id": "5367",
+      "description": "Opas ajatteluun - Filosofiaa lasten kanssa -kirjassa annetaan käytännöllisiä välineitä ajattelun taitojen kehittämiseen Filosofiaa lapsille -menetelmän avulla. Se on keskustelupainotteinen ryhmätyöskentelyn muoto, jonka avulla lapset, nuoret ja aikuiset oppivat kuuntelemaan, problematisoimaan, muotoilemaan ja ilmaisemaan omia ajatuksiaan sekä keskustelemaan niistä rakentavasti.\n",
+      "language": "en",
+      "educationalmaterialid": "907"
+    },
+    {
+      "id": "5366",
+      "description": "Opas ajatteluun - Filosofiaa lasten kanssa -kirjassa annetaan käytännöllisiä välineitä ajattelun taitojen kehittämiseen Filosofiaa lapsille -menetelmän avulla. Se on keskustelupainotteinen ryhmätyöskentelyn muoto, jonka avulla lapset, nuoret ja aikuiset oppivat kuuntelemaan, problematisoimaan, muotoilemaan ja ilmaisemaan omia ajatuksiaan sekä keskustelemaan niistä rakentavasti.\n",
+      "language": "sv",
+      "educationalmaterialid": "907"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "8600",
+      "value": "ajattelun taidot",
+      "educationalmaterialid": "907",
+      "keywordkey": "ajatteluntaidot"
+    },
+    {
+      "id": "8601",
+      "value": "ajattelu",
+      "educationalmaterialid": "907",
+      "keywordkey": "//www.yso.fi/onto/yso/p6007"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "3113",
+      "value": "opas",
+      "educationalmaterialid": "907",
+      "learningresourcetypekey": "a31e360b-86ea-4857-bdd7-ac5253e7c1ec"
+    }
+  ],
+  "timeRequired": "",
+  "expires": null,
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": null,
+    "typicalAgeRangeMax": null
+  },
+  "educationalAlignment": [
+    {
+      "id": "4774",
+      "educationalmaterialid": "907",
+      "alignmenttype": "educationalSubject",
+      "targetname": "Elämänkatsomustieto",
+      "source": "basicStudySubjects",
+      "educationalframework": "",
+      "objectkey": "502088",
+      "targeturl": "https://virkailija.opintopolku.fi/eperusteet-service/api/perusteet/419550/perusopetus/oppiaineet/502088"
+    }
+  ],
+  "educationalLevels": [
+    {
+      "id": "3615",
+      "value": "perusopetus",
+      "educationalmaterialid": "907",
+      "educationallevelkey": "8cb1a02f-54cb-499a-b470-4ee980519707"
+    },
+    {
+      "id": "3616",
+      "value": "esiopetus",
+      "educationalmaterialid": "907",
+      "educationallevelkey": "3ff553ba-a4d7-407c-ad00-80e54ecebd16"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "3276",
+      "value": "Opettajan materiaalit ja osaamisen kehittäminen",
+      "educationalmaterialid": "907",
+      "educationalusekey": "4f0a1a42-aa37-4275-9141-ef2e811dc8ff"
+    }
+  ],
+  "accessibilityFeatures": [],
+  "accessibilityHazards": [],
+  "license": {
+    "value": "CC BY 4.0",
+    "key": "CCBY4.0"
+  },
+  "isBasedOn": [],
+  "educationalRoles": [
+    {
+      "id": "3436",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "907",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    }
+  ],
+  "thumbnail": {
+    "id": "767",
+    "filepath": "https://aoe.fi/api/thumbnail/thumbnail1607594863969.png",
+    "mimetype": "image/png",
+    "educationalmaterialid": "907",
+    "filename": "thumbnail1607594863969.png",
+    "obsoleted": 0,
+    "filekey": "thumbnail1607594863969.png",
+    "filebucket": "aoethumbnail"
+  },
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2020-12-10T10:09:24.550Z"
+    }
+  ],
+  "hasDownloadableFiles": true,
+  "urn": null
+}

@@ -1,0 +1,292 @@
+{
+  "id": "1057",
+  "materials": [
+    {
+      "id": "3327",
+      "language": "fi",
+      "link": "",
+      "priority": 0,
+      "filepath": "https://aoe.fi/api/pdf/content/verkkoohjauksensuunnittelutavoitteetjatehtavat-1608319120060.pdf",
+      "originalfilename": "verkko-ohjauksen_suunnittelu_tavoitteet_ja_tehtavat.pptx",
+      "filesize": 900038,
+      "mimetype": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "format": "7bit",
+      "filekey": "verkkoohjauksensuunnittelutavoitteetjatehtavat-1608319120060.pptx",
+      "filebucket": "aoe",
+      "publishedat": "2020-12-18T19:29:03.146Z",
+      "pdfkey": "verkkoohjauksensuunnittelutavoitteetjatehtavat-1608319120060.pdf",
+      "displayName": {
+        "fi": "Verkko-ohjauksen suunnittelu tavoitteet ja tehtävät",
+        "sv": "Verkko-ohjauksen suunnittelu tavoitteet ja tehtävät",
+        "en": "Verkko-ohjauksen suunnittelu tavoitteet ja tehtävät"
+      }
+    },
+    {
+      "id": "3328",
+      "language": "fi",
+      "link": "",
+      "priority": 1,
+      "filepath": "https://lessons.aoe.fi/h5p/play/hyvanverkkoohjauksenedellytykset4564-1608319120308.h5p",
+      "originalfilename": "hyvan-verkko-ohjauksen-edellytykset-4564.h5p",
+      "filesize": 5694806,
+      "mimetype": "text/html",
+      "format": "7bit",
+      "filekey": "hyvanverkkoohjauksenedellytykset4564-1608319120308.h5p",
+      "filebucket": "aoe",
+      "publishedat": "2020-12-18T19:29:03.146Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Hyvän verkko-ohjaamisen edellytykset-(H5P) tietoa ja testi",
+        "sv": "hyvan-verkko-ohjauksen-edellytykset-4564",
+        "en": "hyvan-verkko-ohjauksen-edellytykset-4564"
+      }
+    },
+    {
+      "id": "3329",
+      "language": "fi",
+      "link": "",
+      "priority": 2,
+      "filepath": "https://lessons.aoe.fi/h5p/play/tunnistaluotettavatieto3607-1608319120289.h5p",
+      "originalfilename": "tunnista-luotettava-tieto-3607.h5p",
+      "filesize": 10217458,
+      "mimetype": "text/html",
+      "format": "7bit",
+      "filekey": "tunnistaluotettavatieto3607-1608319120289.h5p",
+      "filebucket": "aoe",
+      "publishedat": "2020-12-18T19:29:03.146Z",
+      "pdfkey": null,
+      "displayName": {
+        "fi": "Tunnista luotettava tieto - (H5P) tietoa ja testi",
+        "sv": "tunnista-luotettava-tieto-3607",
+        "en": "tunnista-luotettava-tieto-3607"
+      }
+    }
+  ],
+  "owner": false,
+  "name": [
+    {
+      "id": "8227",
+      "materialname": "Verkko-ohjauksen suunnittelu",
+      "language": "fi",
+      "slug": "",
+      "educationalmaterialid": "1057"
+    },
+    {
+      "id": "8228",
+      "materialname": "Verkko-ohjauksen suunnittelu",
+      "language": "sv",
+      "slug": "",
+      "educationalmaterialid": "1057"
+    },
+    {
+      "id": "8229",
+      "materialname": "Verkko-ohjauksen suunnittelu",
+      "language": "en",
+      "slug": "",
+      "educationalmaterialid": "1057"
+    }
+  ],
+  "createdAt": "2020-12-18T19:18:39.975Z",
+  "updatedAt": "2020-12-18T19:29:03.150Z",
+  "publishedAt": "2020-12-18T19:29:03.146Z",
+  "archivedAt": null,
+  "suitsAllEarlyChildhoodSubjects": false,
+  "suitsAllPrePrimarySubjects": false,
+  "suitsAllBasicStudySubjects": false,
+  "suitsAllUpperSecondarySubjects": false,
+  "suitsAllVocationalDegrees": false,
+  "suitsAllSelfMotivatedSubjects": false,
+  "suitsAllBranches": false,
+  "suitsAllUpperSecondarySubjectsNew": false,
+  "ratingContentAverage": null,
+  "ratingVisualAverage": null,
+  "viewCounter": "30",
+  "downloadCounter": "3",
+  "author": [
+    {
+      "id": "3524",
+      "authorname": "Ekman, Petra",
+      "organization": "Yrkeshögskolan Arcada",
+      "educationalmaterialid": "1057",
+      "organizationkey": "1.2.246.562.10.25619624254"
+    },
+    {
+      "id": "3525",
+      "authorname": "Hinkkanen, Leena",
+      "organization": "Metropolia Ammattikorkeakoulu",
+      "educationalmaterialid": "1057",
+      "organizationkey": "1.2.246.562.10.67476956288"
+    },
+    {
+      "id": "3526",
+      "authorname": "Mäkeläinen, Paula",
+      "organization": "Kaakkois-Suomen Ammattikorkeakoulu",
+      "educationalmaterialid": "1057",
+      "organizationkey": "1.2.246.562.10.97177880414"
+    },
+    {
+      "id": "3527",
+      "authorname": "Riikonen, Riitta",
+      "organization": "Kaakkois-Suomen Ammattikorkeakoulu",
+      "educationalmaterialid": "1057",
+      "organizationkey": "1.2.246.562.10.97177880414"
+    }
+  ],
+  "publisher": [
+    {
+      "id": "593",
+      "name": "Sotepeda 24/7-hanke",
+      "educationalmaterialid": "1057",
+      "publisherkey": "sotepeda247hanke"
+    }
+  ],
+  "description": [
+    {
+      "id": "5950",
+      "description": "Materiaalin avulla saat tietoa, millaiset tavoitteet edistävät verkko-ohjausta. ja miten laaditaan ohjauksen tavoitteet yhteistyössä asiakkaan kanssa. \nLisäksi tähän kokonaisuuteen kuuluvat tiedostot omana tiedostona aoe.fi:ssä olevat: Mitä asioita huomioidaan kun laaditaan verkko-ohjausmateriaalia, Kirjallisen verkkomateriaalin laatiminen –tietoa, Verkkomateriaalin laatimisessa huomioitavat asiat, Kysymyksiä saavutettavuudesta, tekijänoikeudesta ja lisenssimerkinnöistä.",
+      "language": "fi",
+      "educationalmaterialid": "1057"
+    },
+    {
+      "id": "5952",
+      "description": "Materiaalin avulla saat tietoa, millaiset tavoitteet edistävät verkko-ohjausta. ja miten laaditaan ohjauksen tavoitteet yhteistyössä asiakkaan kanssa. \nLisäksi tähän kokonaisuuteen kuuluvat tiedostot omana tiedostona aoe.fi:ssä olevat: Mitä asioita huomioidaan kun laaditaan verkko-ohjausmateriaalia, Kirjallisen verkkomateriaalin laatiminen –tietoa, Verkkomateriaalin laatimisessa huomioitavat asiat, Kysymyksiä saavutettavuudesta, tekijänoikeudesta ja lisenssimerkinnöistä.",
+      "language": "en",
+      "educationalmaterialid": "1057"
+    },
+    {
+      "id": "5951",
+      "description": "Materiaalin avulla saat tietoa, millaiset tavoitteet edistävät verkko-ohjausta. ja miten laaditaan ohjauksen tavoitteet yhteistyössä asiakkaan kanssa. \nLisäksi tähän kokonaisuuteen kuuluvat tiedostot omana tiedostona aoe.fi:ssä olevat: Mitä asioita huomioidaan kun laaditaan verkko-ohjausmateriaalia, Kirjallisen verkkomateriaalin laatiminen –tietoa, Verkkomateriaalin laatimisessa huomioitavat asiat, Kysymyksiä saavutettavuudesta, tekijänoikeudesta ja lisenssimerkinnöistä.",
+      "language": "sv",
+      "educationalmaterialid": "1057"
+    }
+  ],
+  "keywords": [
+    {
+      "id": "9452",
+      "value": "verkko-ohjaus",
+      "educationalmaterialid": "1057",
+      "keywordkey": "//www.yso.fi/onto/yso/p22642"
+    },
+    {
+      "id": "9453",
+      "value": "verkko-oppimateriaali",
+      "educationalmaterialid": "1057",
+      "keywordkey": "//www.yso.fi/onto/yso/p3596"
+    },
+    {
+      "id": "9454",
+      "value": "verkko-oppiminen",
+      "educationalmaterialid": "1057",
+      "keywordkey": "//www.yso.fi/onto/yso/p13627"
+    },
+    {
+      "id": "9455",
+      "value": "tavoitteet",
+      "educationalmaterialid": "1057",
+      "keywordkey": "//www.yso.fi/onto/yso/p2747"
+    },
+    {
+      "id": "9456",
+      "value": "Sotepeda",
+      "educationalmaterialid": "1057",
+      "keywordkey": "sotepeda"
+    }
+  ],
+  "learningResourceTypes": [
+    {
+      "id": "3391",
+      "value": "teksti",
+      "educationalmaterialid": "1057",
+      "learningresourcetypekey": "cc1d00b0-b11f-4afe-a423-e43f96214f89"
+    },
+    {
+      "id": "3392",
+      "value": "esitys",
+      "educationalmaterialid": "1057",
+      "learningresourcetypekey": "7be52f46-138d-482f-834e-5ea33d933c37"
+    }
+  ],
+  "timeRequired": "",
+  "expires": "2022-12-30T22:00:00.000Z",
+  "typicalAgeRange": {
+    "typicalAgeRangeMin": null,
+    "typicalAgeRangeMax": null
+  },
+  "educationalAlignment": [],
+  "educationalLevels": [
+    {
+      "id": "4027",
+      "value": "alemman korkeakouluasteen tutkinto",
+      "educationalmaterialid": "1057",
+      "educationallevelkey": "ff3334db-2a71-4459-8f0d-c42ce2b12a70"
+    },
+    {
+      "id": "4028",
+      "value": "ammatillinen koulutus",
+      "educationalmaterialid": "1057",
+      "educationallevelkey": "010c6689-5021-4d8e-8c02-68a27cc5a87b"
+    },
+    {
+      "id": "4029",
+      "value": "omaehtoinen osaamisen kehittäminen",
+      "educationalmaterialid": "1057",
+      "educationallevelkey": "bc25d0e7-3c68-49a1-9329-239dae01fab7"
+    }
+  ],
+  "educationalUses": [
+    {
+      "id": "3564",
+      "value": "Itsenäinen opiskelu",
+      "educationalmaterialid": "1057",
+      "educationalusekey": "916b4cd8-949b-4f47-aaf6-0fcaae7a9ac8"
+    },
+    {
+      "id": "3565",
+      "value": "Kurssimateriaali",
+      "educationalmaterialid": "1057",
+      "educationalusekey": "cdad2dd2-c075-4630-91fa-79233306ba25"
+    },
+    {
+      "id": "3566",
+      "value": "Jatkotyöstettävä materiaali",
+      "educationalmaterialid": "1057",
+      "educationalusekey": "b197309a-8194-4669-ad9d-f90f58368e5d"
+    },
+    {
+      "id": "3567",
+      "value": "Ohjeistus",
+      "educationalmaterialid": "1057",
+      "educationalusekey": "69125b8d-8b43-4820-838e-daf145672c17"
+    }
+  ],
+  "accessibilityFeatures": [],
+  "accessibilityHazards": [],
+  "license": {
+    "value": "CC BY-SA 4.0",
+    "key": "CCBYSA4.0"
+  },
+  "isBasedOn": [],
+  "educationalRoles": [
+    {
+      "id": "3829",
+      "educationalrole": "Opettaja",
+      "educationalmaterialid": "1057",
+      "educationalrolekey": "9f3904bf-a09d-4dfd-bf46-15ae225b8941"
+    },
+    {
+      "id": "3830",
+      "educationalrole": "Asiantuntija tai ammattilainen",
+      "educationalmaterialid": "1057",
+      "educationalrolekey": "66edb65b-8648-4f95-ac48-d9478293cef4"
+    }
+  ],
+  "thumbnail": null,
+  "attachments": [],
+  "versions": [
+    {
+      "publishedat": "2020-12-18T19:29:03.146Z"
+    }
+  ],
+  "hasDownloadableFiles": true,
+  "urn": null
+}
