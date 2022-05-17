@@ -6,6 +6,629 @@
 		"requestBodies": {},
 		"responses": {},
 		"schemas": {
+			"DisplayName": {
+				"properties": {
+					"en": {
+						"type": "string"
+					},
+					"sv": {
+						"type": "string"
+					},
+					"fi": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"en",
+					"sv",
+					"fi"
+				],
+				"type": "object"
+			},
+			"Material": {
+				"properties": {
+					"displayName": {
+						"$ref": "#/components/schemas/DisplayName"
+					},
+					"pdfkey": {},
+					"publishedat": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"filebucket": {},
+					"filekey": {},
+					"format": {},
+					"mimetype": {},
+					"filesize": {},
+					"originalfilename": {},
+					"filepath": {},
+					"priority": {
+						"type": "number",
+						"format": "double"
+					},
+					"link": {
+						"type": "string"
+					},
+					"language": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"displayName",
+					"publishedat",
+					"priority",
+					"link",
+					"language",
+					"id"
+				],
+				"type": "object"
+			},
+			"Name": {
+				"properties": {
+					"educationalmaterialid": {
+						"type": "string"
+					},
+					"slug": {
+						"type": "string"
+					},
+					"language": {
+						"type": "string"
+					},
+					"materialname": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"educationalmaterialid",
+					"slug",
+					"language",
+					"materialname",
+					"id"
+				],
+				"type": "object"
+			},
+			"Author": {
+				"properties": {
+					"organizationkey": {
+						"type": "string"
+					},
+					"educationalmaterialid": {
+						"type": "string"
+					},
+					"organization": {
+						"type": "string"
+					},
+					"authorname": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"organizationkey",
+					"educationalmaterialid",
+					"organization",
+					"authorname",
+					"id"
+				],
+				"type": "object"
+			},
+			"Description": {
+				"properties": {
+					"educationalmaterialid": {
+						"type": "string"
+					},
+					"language": {
+						"type": "string"
+					},
+					"description": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"educationalmaterialid",
+					"language",
+					"description",
+					"id"
+				],
+				"type": "object"
+			},
+			"Keyword": {
+				"properties": {
+					"keywordkey": {
+						"type": "string"
+					},
+					"educationalmaterialid": {
+						"type": "string"
+					},
+					"value": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"keywordkey",
+					"educationalmaterialid",
+					"value",
+					"id"
+				],
+				"type": "object"
+			},
+			"LearningResourceType": {
+				"properties": {
+					"learningresourcetypekey": {
+						"type": "string"
+					},
+					"educationalmaterialid": {
+						"type": "string"
+					},
+					"value": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"learningresourcetypekey",
+					"educationalmaterialid",
+					"value",
+					"id"
+				],
+				"type": "object"
+			},
+			"TypicalAgeRange": {
+				"properties": {
+					"typicalAgeRangeMax": {
+						"type": "number",
+						"format": "double"
+					},
+					"typicalAgeRangeMin": {
+						"type": "number",
+						"format": "double"
+					}
+				},
+				"required": [
+					"typicalAgeRangeMax",
+					"typicalAgeRangeMin"
+				],
+				"type": "object"
+			},
+			"EducationalAlignment": {
+				"properties": {
+					"targeturl": {
+						"type": "string"
+					},
+					"objectkey": {
+						"type": "string"
+					},
+					"educationalframework": {
+						"type": "string"
+					},
+					"source": {
+						"type": "string"
+					},
+					"targetname": {
+						"type": "string"
+					},
+					"alignmenttype": {
+						"type": "string"
+					},
+					"educationalmaterialid": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"targeturl",
+					"objectkey",
+					"educationalframework",
+					"source",
+					"targetname",
+					"alignmenttype",
+					"educationalmaterialid",
+					"id"
+				],
+				"type": "object"
+			},
+			"EducationalLevel": {
+				"properties": {
+					"educationallevelkey": {
+						"type": "string"
+					},
+					"educationalmaterialid": {
+						"type": "string"
+					},
+					"value": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"educationallevelkey",
+					"educationalmaterialid",
+					"value",
+					"id"
+				],
+				"type": "object"
+			},
+			"EducationalUs": {
+				"properties": {
+					"educationalusekey": {
+						"type": "string"
+					},
+					"educationalmaterialid": {
+						"type": "string"
+					},
+					"value": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"educationalusekey",
+					"educationalmaterialid",
+					"value",
+					"id"
+				],
+				"type": "object"
+			},
+			"License": {
+				"properties": {
+					"key": {
+						"type": "string"
+					},
+					"value": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"key",
+					"value"
+				],
+				"type": "object"
+			},
+			"Author2": {
+				"properties": {
+					"isbasedonid": {
+						"type": "string"
+					},
+					"authorname": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"isbasedonid",
+					"authorname",
+					"id"
+				],
+				"type": "object"
+			},
+			"IsBasedOn": {
+				"properties": {
+					"educationalmaterialid": {
+						"type": "string"
+					},
+					"materialname": {
+						"type": "string"
+					},
+					"url": {
+						"type": "string"
+					},
+					"author": {
+						"items": {
+							"$ref": "#/components/schemas/Author2"
+						},
+						"type": "array"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"educationalmaterialid",
+					"materialname",
+					"url",
+					"author",
+					"id"
+				],
+				"type": "object"
+			},
+			"EducationalRole": {
+				"properties": {
+					"educationalrolekey": {
+						"type": "string"
+					},
+					"educationalmaterialid": {
+						"type": "string"
+					},
+					"educationalrole": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"educationalrolekey",
+					"educationalmaterialid",
+					"educationalrole",
+					"id"
+				],
+				"type": "object"
+			},
+			"Thumbnail": {
+				"properties": {
+					"filebucket": {
+						"type": "string"
+					},
+					"filekey": {
+						"type": "string"
+					},
+					"obsoleted": {
+						"type": "number",
+						"format": "double"
+					},
+					"filename": {
+						"type": "string"
+					},
+					"educationalmaterialid": {
+						"type": "string"
+					},
+					"mimetype": {
+						"type": "string"
+					},
+					"filepath": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"filebucket",
+					"filekey",
+					"obsoleted",
+					"filename",
+					"educationalmaterialid",
+					"mimetype",
+					"filepath",
+					"id"
+				],
+				"type": "object"
+			},
+			"Version": {
+				"properties": {
+					"publishedat": {
+						"type": "string",
+						"format": "date-time"
+					}
+				},
+				"required": [
+					"publishedat"
+				],
+				"type": "object"
+			},
+			"SearchResponseModel": {
+				"properties": {
+					"urn": {},
+					"hasDownloadableFiles": {
+						"type": "boolean"
+					},
+					"versions": {
+						"items": {
+							"$ref": "#/components/schemas/Version"
+						},
+						"type": "array"
+					},
+					"attachments": {
+						"items": {},
+						"type": "array"
+					},
+					"thumbnail": {
+						"$ref": "#/components/schemas/Thumbnail"
+					},
+					"educationalRoles": {
+						"items": {
+							"$ref": "#/components/schemas/EducationalRole"
+						},
+						"type": "array"
+					},
+					"isBasedOn": {
+						"items": {
+							"$ref": "#/components/schemas/IsBasedOn"
+						},
+						"type": "array"
+					},
+					"license": {
+						"$ref": "#/components/schemas/License"
+					},
+					"accessibilityHazards": {
+						"items": {},
+						"type": "array"
+					},
+					"accessibilityFeatures": {
+						"items": {},
+						"type": "array"
+					},
+					"educationalUses": {
+						"items": {
+							"$ref": "#/components/schemas/EducationalUs"
+						},
+						"type": "array"
+					},
+					"educationalLevels": {
+						"items": {
+							"$ref": "#/components/schemas/EducationalLevel"
+						},
+						"type": "array"
+					},
+					"educationalAlignment": {
+						"items": {
+							"$ref": "#/components/schemas/EducationalAlignment"
+						},
+						"type": "array"
+					},
+					"typicalAgeRange": {
+						"$ref": "#/components/schemas/TypicalAgeRange"
+					},
+					"expires": {},
+					"timeRequired": {
+						"type": "string"
+					},
+					"learningResourceTypes": {
+						"items": {
+							"$ref": "#/components/schemas/LearningResourceType"
+						},
+						"type": "array"
+					},
+					"keywords": {
+						"items": {
+							"$ref": "#/components/schemas/Keyword"
+						},
+						"type": "array"
+					},
+					"description": {
+						"items": {
+							"$ref": "#/components/schemas/Description"
+						},
+						"type": "array"
+					},
+					"publisher": {
+						"items": {},
+						"type": "array"
+					},
+					"author": {
+						"items": {
+							"$ref": "#/components/schemas/Author"
+						},
+						"type": "array"
+					},
+					"downloadCounter": {
+						"type": "string"
+					},
+					"viewCounter": {
+						"type": "string"
+					},
+					"ratingVisualAverage": {},
+					"ratingContentAverage": {},
+					"suitsAllUpperSecondarySubjectsNew": {
+						"type": "boolean"
+					},
+					"suitsAllBranches": {
+						"type": "boolean"
+					},
+					"suitsAllSelfMotivatedSubjects": {
+						"type": "boolean"
+					},
+					"suitsAllVocationalDegrees": {
+						"type": "boolean"
+					},
+					"suitsAllUpperSecondarySubjects": {
+						"type": "boolean"
+					},
+					"suitsAllBasicStudySubjects": {
+						"type": "boolean"
+					},
+					"suitsAllPrePrimarySubjects": {
+						"type": "boolean"
+					},
+					"suitsAllEarlyChildhoodSubjects": {
+						"type": "boolean"
+					},
+					"archivedAt": {},
+					"publishedAt": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"updatedAt": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"createdAt": {
+						"type": "string",
+						"format": "date-time"
+					},
+					"name": {
+						"items": {
+							"$ref": "#/components/schemas/Name"
+						},
+						"type": "array"
+					},
+					"owner": {
+						"type": "boolean"
+					},
+					"materials": {
+						"items": {
+							"$ref": "#/components/schemas/Material"
+						},
+						"type": "array"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"hasDownloadableFiles",
+					"versions",
+					"attachments",
+					"thumbnail",
+					"educationalRoles",
+					"isBasedOn",
+					"license",
+					"accessibilityHazards",
+					"accessibilityFeatures",
+					"educationalUses",
+					"educationalLevels",
+					"educationalAlignment",
+					"typicalAgeRange",
+					"timeRequired",
+					"learningResourceTypes",
+					"keywords",
+					"description",
+					"publisher",
+					"author",
+					"downloadCounter",
+					"viewCounter",
+					"suitsAllUpperSecondarySubjectsNew",
+					"suitsAllBranches",
+					"suitsAllSelfMotivatedSubjects",
+					"suitsAllVocationalDegrees",
+					"suitsAllUpperSecondarySubjects",
+					"suitsAllBasicStudySubjects",
+					"suitsAllPrePrimarySubjects",
+					"suitsAllEarlyChildhoodSubjects",
+					"publishedAt",
+					"updatedAt",
+					"createdAt",
+					"name",
+					"owner",
+					"materials",
+					"id"
+				],
+				"type": "object"
+			},
 			"Filters": {
 				"properties": {
 					"learningResourceTypes": {
@@ -96,7 +719,9 @@
 						"description": "Ok",
 						"content": {
 							"application/json": {
-								"schema": {}
+								"schema": {
+									"$ref": "#/components/schemas/SearchResponseModel"
+								}
 							}
 						}
 					}
