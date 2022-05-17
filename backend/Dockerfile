@@ -4,6 +4,7 @@ COPY package*.json ./
 COPY tsconfig.json ./
 COPY jest.config.ts ./
 COPY tsoa.json ./
+COPY setTestEnvVars.js ./
 
 RUN npm ci
 

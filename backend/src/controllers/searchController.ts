@@ -11,7 +11,7 @@ export class SearchController extends Controller {
 
     @Post()
     public async search(@Body() searchData: SearchPostModel): Promise<unknown> {
-        // todo refactor and add DI        
+        // todo refactor and add DI    
         const aoeApiBaseUrl = process.env.AOE_API_SEARCH_BASEURL
 
         if (!aoeApiBaseUrl) {

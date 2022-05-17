@@ -24,12 +24,12 @@ jobs:
 
       # - name: Run backend tests
       #   working-directory: backend
-      #   run: docker run -e CI=true digivisio npm test 
+      #   run: docker run -e CI=true digivisio npm test
 
-# consider putting these in separate jobs
+      # consider putting these in separate jobs
       # - name: Run frontend tests
       #   working-directory: backend
-      #   run: docker run -e CI=true digivisio npm test 
+      #   run: docker run -e CI=true digivisio npm test
 
       - name: Build docker test image
         working-directory: backend
@@ -37,7 +37,7 @@ jobs:
 
       - name: Run backend tests
         working-directory: backend
-        run: docker run -e CI=true digivisio npm test 
+        run: docker run -e CI=true digivisio npm run test:ci
 
   # deploy:
   #   runs-on: ubuntu-latest
