@@ -12,9 +12,8 @@ export class SearchController extends Controller {
 
     @Post()
     public async search(@Body() searchData: SearchPostModel): Promise<unknown> {
-        // todo refactor and add DI
-        // const aoeApiBaseUrl = process.env.AOE_API_SEARCH_BASEURL
-        const aoeApiBaseUrl = 'https://aoe.fi/api/v2/search'
+        // todo refactor and add DI        
+        const aoeApiBaseUrl = process.env.AOE_API_SEARCH_BASEURL
 
         if (!aoeApiBaseUrl) {
             throw new Error('Add AOE_API_SEARCH_BASEURL to env')

@@ -3,13 +3,17 @@ import express, { Express, Request, Response } from 'express'
 import { RegisterRoutes } from './openapi/routes';
 import swaggerUi from 'swagger-ui-express';
 import openApiJson from './openapi/swagger.json';
+import dotenv from 'dotenv';
 import cors from 'cors';
 
 
-const app: Express = express()
-const port = 3001
+dotenv.config()
+const port = process.env.BACKEND_PORT ?? 3001
 
-app.use(cors({ origin: 'http://localhost:3000', methods: ['POST'] }));
+
+const app: Express = express()
+
+app.use(cors({ origin: process.env.CORS_ORIGIN, methods: ['POST'] }));
 
 app.use(
     bodyParser.urlencoded({

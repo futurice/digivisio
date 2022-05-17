@@ -8,7 +8,7 @@ COPY tsoa.json ./
 RUN npm ci
 
 COPY src ./src
-
+COPY .env.production ./.env
 
 # hmm.. do i want separate layers for test and prod and dev, or just have a common layer and run commands... decisions, decisions...
 
