@@ -4,6 +4,7 @@ import { RegisterRoutes } from './routes';
 import swaggerUi from 'swagger-ui-express'
 import openApiJson from './openapi/swagger.json'
 
+
 const app: Express = express()
 const port = 3001
 
