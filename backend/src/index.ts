@@ -1,12 +1,15 @@
 import bodyParser from 'body-parser';
 import express, { Express, Request, Response } from 'express'
 import { RegisterRoutes } from './openapi/routes';
-import swaggerUi from 'swagger-ui-express'
-import openApiJson from './openapi/swagger.json'
+import swaggerUi from 'swagger-ui-express';
+import openApiJson from './openapi/swagger.json';
+import cors from 'cors';
 
 
 const app: Express = express()
 const port = 3001
+
+app.use(cors({ origin: 'http://localhost:3000', methods: ['POST'] }));
 
 app.use(
     bodyParser.urlencoded({
