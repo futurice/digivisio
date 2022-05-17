@@ -3,11 +3,6 @@ import axios, { AxiosResponse } from 'axios';
 jest.mock('axios');
 const mockedAxios = axios as jest.Mocked<typeof axios>;
 
-// todo this is not ideal, waiting for DI
-process.env = Object.assign(process.env, {
-    AOE_API_SEARCH_BASEURL: 'someurl',
-});
-
 describe('searchController', () => {
     describe('getRandom', () => {
         it('should return number', async () => {
