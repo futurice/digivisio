@@ -1,6 +1,6 @@
 import bodyParser from 'body-parser';
 import express, { Express, Request, Response } from 'express'
-import { RegisterRoutes } from './routes';
+import { RegisterRoutes } from './openapi/routes';
 import swaggerUi from 'swagger-ui-express'
 import openApiJson from './openapi/swagger.json'
 

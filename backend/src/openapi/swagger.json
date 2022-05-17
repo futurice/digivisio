@@ -17,6 +17,49 @@
 					"randomNumber"
 				],
 				"type": "object"
+			},
+			"Filters": {
+				"properties": {
+					"learningResourceTypes": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					},
+					"educationalLevels": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					}
+				},
+				"required": [
+					"learningResourceTypes",
+					"educationalLevels"
+				],
+				"type": "object"
+			},
+			"SearchPostModel": {
+				"properties": {
+					"sort": {
+						"type": "string"
+					},
+					"size": {
+						"type": "number",
+						"format": "double"
+					},
+					"keywords": {
+						"type": "string"
+					},
+					"from": {
+						"type": "number",
+						"format": "double"
+					},
+					"filters": {
+						"$ref": "#/components/schemas/Filters"
+					}
+				},
+				"type": "object"
 			}
 		},
 		"securitySchemes": {}
@@ -34,6 +77,50 @@
 		"/search": {
 			"get": {
 				"operationId": "GetRandom",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/RandomResult"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			},
+			"post": {
+				"operationId": "Search",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": [],
+				"requestBody": {
+					"required": true,
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/SearchPostModel"
+							}
+						}
+					}
+				}
+			}
+		},
+		"/search/other": {
+			"get": {
+				"operationId": "GetOtherRandom",
 				"responses": {
 					"200": {
 						"description": "Ok",
