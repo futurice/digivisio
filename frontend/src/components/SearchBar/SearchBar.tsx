@@ -4,6 +4,7 @@ import { DefaultService, OpenAPI } from '../../utils/apiclient';
 import styles from './SearchBar.module.css';
 
 const SearchBar = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [keyword, setKeyword] = useState('');
 
   // eslint-disable-next-line functional/immutable-data
@@ -11,8 +12,7 @@ const SearchBar = () => {
 
   const handleKeydown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.code === 'Enter') {
-      console.log(keyword);
-      DefaultService.random();
+      DefaultService.getRandom();
     }
   };
 

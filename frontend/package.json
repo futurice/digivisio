@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "generate-apiclient": "openapi --input ../backend/src/openapi.json --output ./src/utils/apiclient"
+    "generate-apiclient": "openapi --input ../backend/src/openapi/swagger.json --output ./src/utils/apiclient"
   },
   "eslintConfig": {
     "extends": [
