@@ -8,7 +8,7 @@ on:
     branches: [main]
 
 jobs:
-  test:
+  test-backend:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -17,27 +17,30 @@ jobs:
         id: buildx
         uses: docker/setup-buildx-action@v1
 
-      # todo figure out if we want a separate layer for testing
-      # - name: Build docker test image
-      #   working-directory: backend
-      #   run: docker build -t digivisio . --target test
-
-      # - name: Run backend tests
-      #   working-directory: backend
-      #   run: docker run -e CI=true digivisio npm test 
-
-# consider putting these in separate jobs
-      # - name: Run frontend tests
-      #   working-directory: backend
-      #   run: docker run -e CI=true digivisio npm test 
-
       - name: Build docker test image
         working-directory: backend
-        run: docker build -t digivisio . --target prod
+        run: docker build -t digivisio-backend . --target prod
 
       - name: Run backend tests
         working-directory: backend
-        run: docker run -e CI=true digivisio npm test 
+        run: docker run -e CI=true digivisio-backend npm test
+
+  test-frontend:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Docker Buildx
+        id: buildx
+        uses: docker/setup-buildx-action@v1
+
+      - name: Build docker frontend image
+        working-directory: frontend
+        run: docker build -t digivisio-frontend .
+
+      - name: Run frontend tests
+        working-directory: frontend
+        run: docker run -e CI=true digivisio-frontend npm test
 
   # deploy:
   #   runs-on: ubuntu-latest
