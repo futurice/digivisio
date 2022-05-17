@@ -3,6 +3,7 @@ FROM node:latest as base
 COPY package*.json ./
 COPY tsconfig.json ./
 COPY jest.config.ts ./
+COPY tsoa.json ./
 
 RUN npm ci
 

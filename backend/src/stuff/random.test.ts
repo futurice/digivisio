@@ -4,7 +4,7 @@ describe('random', () => {
     describe('getRandomNumber', () => {
         it('should return number', () => {
             const number = getRandomNumber()
-            expect(number).toBe(9)
+            expect(number.randomNumber).toBe(9)
         })
     })
 })

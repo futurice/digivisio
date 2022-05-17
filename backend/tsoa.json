@@ -1,0 +1,14 @@
+{
+    "entryFile": "src/index.ts",
+    "noImplicitAdditionalProperties": "throw-on-extras",
+    "controlflerPathGlobs": [
+        "src/controllers/**/*Controller.ts"
+    ],
+    "spec": {
+        "outputDirectory": "src/openapi/",
+        "specVersion": 3
+    },
+    "routes": {
+        "routesDir": "src/openapi/"
+    }
+}
