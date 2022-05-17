@@ -1,1 +1,5 @@
-export const getRandomNumber = () => 9
+export type RandomResult = {
+    randomNumber: number,
+}
+
+export const getRandomNumber = (): RandomResult => ({ randomNumber: 9 })

@@ -1,0 +1,59 @@
+{
+	"components": {
+		"examples": {},
+		"headers": {},
+		"parameters": {},
+		"requestBodies": {},
+		"responses": {},
+		"schemas": {
+			"RandomResult": {
+				"properties": {
+					"randomNumber": {
+						"type": "number",
+						"format": "double"
+					}
+				},
+				"required": [
+					"randomNumber"
+				],
+				"type": "object"
+			}
+		},
+		"securitySchemes": {}
+	},
+	"info": {
+		"title": "digivisio",
+		"version": "1.0.0",
+		"license": {
+			"name": "ISC"
+		},
+		"contact": {}
+	},
+	"openapi": "3.0.0",
+	"paths": {
+		"/search": {
+			"get": {
+				"operationId": "GetRandom",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/RandomResult"
+								}
+							}
+						}
+					}
+				},
+				"security": [],
+				"parameters": []
+			}
+		}
+	},
+	"servers": [
+		{
+			"url": "/"
+		}
+	]
+}
