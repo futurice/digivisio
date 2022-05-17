@@ -1,13 +1,11 @@
 # todo lock this when applicable
 FROM node:latest as builder 
-
 WORKDIR /app
 
-COPY package.json ./
-COPY yarn.lock ./
+COPY package.json yarn.lock ./
 
 # todo hmm.. ensure lock file is used
-RUN yarn install
+RUN yarn install --frozen-lockfile
 
 COPY . .
 
@@ -19,5 +17,10 @@ EXPOSE 3000
 CMD ["npm", "start"]
 
 
+FROM nginx:alpine as prod
+WORKDIR /usr/share/nginx/html
 
-# todo add layer with nginx for prod?
+RUN rm -rf ./*
+COPY --from=builder /app/build .
+
+ENTRYPOINT ["nginx", "-g", "daemon off;"]
