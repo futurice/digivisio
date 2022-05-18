@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import styles from './App.module.css';
 import Header from './components/Header';
+import ResultPage from './components/ResultPage';
 import SearchPage from './components/SearchPage';
 import SearchResults from './components/SearchResults';
 import { OpenAPI } from './utils/apiclient';
@@ -17,7 +18,7 @@ const App = () => {
       <div className={styles.app}>
         <Routes>
           <Route path="/" element={<SearchPage />} />
-          <Route path="/result/:id" element={<SearchPage />} />
+          <Route path="/result/:id" element={<ResultPage />} />
           <Route path="/results" element={<SearchResults />} />
         </Routes>
       </div>
