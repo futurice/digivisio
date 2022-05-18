@@ -23,7 +23,7 @@ jobs:
 
       - name: Run backend tests
         working-directory: backend
-        run: docker run -e CI=true digivisio-backend npm test:ci
+        run: docker run -e CI=true digivisio-backend npm run test:ci
 
   test-frontend:
     runs-on: ubuntu-latest
