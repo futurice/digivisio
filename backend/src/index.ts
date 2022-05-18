@@ -29,7 +29,7 @@ app.get('/openapi.json', (_req: Request, res: Response) => res.send(openApiJson)
 app.use('/swagger', swaggerUi.serve, swaggerUi.setup(openApiJson));
 
 app.listen(port, () => {
-    console.log(`Running on https://localhost:${port}`)
+    console.log(`Running on http://localhost:${port}`)
 })
 
 process.on('SIGINT', () => {
