@@ -8,7 +8,8 @@ import SearchResults from './components/SearchResults';
 import { OpenAPI } from './utils/apiclient';
 
 // eslint-disable-next-line functional/immutable-data
-OpenAPI.BASE = 'http://localhost:3001';
+OpenAPI.BASE = ''; // in production this should be set to '', since nginx proxies /api/ routes to the backend container, override through env instead...
+// OpenAPI.BASE = 'http://localhost:3001';
 
 const App = () => {
   return (

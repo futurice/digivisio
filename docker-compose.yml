@@ -9,8 +9,7 @@ services:
       - ${BACKEND_PORT}:${BACKEND_PORT}
     environment:
       - POSTGRES_DB=${DB_NAME}
-      - POSTGRES_PASSWORD=${DB_PASSWORD}
-      - CORS_ORIGIN=${CORS_ORIGIN}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}      
 
   frontend:
     #image: digivisioacr.azurecr.io/digivisio-frontend:latest

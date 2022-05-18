@@ -5,6 +5,7 @@ import swaggerUi from 'swagger-ui-express';
 import openApiJson from './openapi/swagger.json';
 import dotenv from 'dotenv';
 import cors from 'cors';
+import './controllers/searchController'
 
 
 dotenv.config()
@@ -13,7 +14,10 @@ const port = process.env.BACKEND_PORT ?? 3001
 
 const app: Express = express()
 
-app.use(cors({ origin: process.env.CORS_ORIGIN, methods: ['POST'] }));
+if (process.env.CORS_ORIGIN) {
+    console.log(`Enabling CORS for ${process.env.CORS_ORIGIN}`)
+    app.use(cors({ origin: process.env.CORS_ORIGIN, methods: ['POST'] }));
+}
 
 app.use(
     bodyParser.urlencoded({
@@ -29,7 +33,7 @@ app.get('/api/openapi.json', (_req: Request, res: Response) => res.send(openApiJ
 app.use('/api/swagger', swaggerUi.serve, swaggerUi.setup(openApiJson));
 
 app.listen(port, () => {
-    console.log(`Running on http://localhost:${port}`)
+    console.log(`Running on port ${port}`)
 })
 
 process.on('SIGINT', () => {
