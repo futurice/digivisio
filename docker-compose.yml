@@ -1,6 +1,7 @@
 services:
   backend:
-    image: digivisioacr.azurecr.io/digivisio-backend:latest
+    # image: digivisioacr.azurecr.io/digivisio-backend:latest
+    build: backend
     restart: always
     networks:
       - app-network
@@ -9,16 +10,18 @@ services:
     environment:
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - CORS_ORIGIN=${CORS_ORIGIN}
 
   frontend:
-    image: digivisioacr.azurecr.io/digivisio-frontend:latest
+    #image: digivisioacr.azurecr.io/digivisio-frontend:latest
+    build: frontend
     restart: always
     networks:
       - app-network
     ports:
       - 443:443
     volumes:
-      - <somefolderhere>:/etc/nginx/certs
+      - C:/Users/vfor/Desktop/digivisiostuff/cert:/etc/nginx/certs
 
   db:
     image: postgres
