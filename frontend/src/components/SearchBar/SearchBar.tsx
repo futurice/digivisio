@@ -1,16 +1,18 @@
 import React, { useState } from 'react';
 
-import apiClient from '../../utils/apiClient';
+import { DefaultService, OpenAPI } from '../../utils/apiclient';
 import styles from './SearchBar.module.css';
 
 const SearchBar = () => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [keyword, setKeyword] = useState('');
+
+  // eslint-disable-next-line functional/immutable-data
+  OpenAPI.BASE = 'http://localhost:3001';
 
   const handleKeydown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.code === 'Enter') {
-      apiClient.post('', {
-        keywords: keyword,
-      });
+      DefaultService.getRandom();
     }
   };
 
