@@ -13,13 +13,15 @@ export class SearchController extends Controller {
     @Post()
     public async search(@Body() searchData: SearchPostModel): Promise<SearchResponseModel> {
         // todo refactor and add DI        
-        const aoeApiBaseUrl = process.env.AOE_API_SEARCH_BASEURL
+        const aoeApiBaseUrl = process.env.AOE_API_BASEURL
 
         if (!aoeApiBaseUrl) {
-            throw new Error('Add AOE_API_SEARCH_BASEURL to env')
+            throw new Error('Add AOE_API_BASEURL to env')
         }
 
-        const response = await axios.post(aoeApiBaseUrl, searchData)
+        const aoeApiSearchUrl = `${aoeApiBaseUrl}/search`
+
+        const response = await axios.post(aoeApiSearchUrl, searchData)
         return response.data
     }
 }

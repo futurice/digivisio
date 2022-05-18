@@ -1,1 +1,1 @@
-process.env.AOE_API_SEARCH_BASEURL = 'someurl';
+process.env.AOE_API_BASEURL = 'someurl';
