@@ -1,15 +1,17 @@
 FROM node:latest as base
 
+WORKDIR /app
+
 COPY package*.json ./
-COPY tsconfig.json ./
-COPY jest.config.ts ./
-COPY tsoa.json ./
-COPY setTestEnvVars.js ./
 
 RUN npm ci
 
+COPY tsconfig.json ./
+COPY jest.config.ts ./
+COPY tsoa.json ./
 COPY src ./src
 COPY .env.production ./.env
+COPY setTestEnvVars.js ./
 
 # hmm.. do i want separate layers for test and prod and dev, or just have a common layer and run commands... decisions, decisions...
 
