@@ -9,11 +9,11 @@ const ResultCard = ({
   description,
 }: {
   readonly id: string;
-  readonly materialName: string;
-  readonly description: string;
+  readonly materialName?: string;
+  readonly description?: string;
 }) => (
-  <div className={styles.material} key={`${materialName}-${description}`}>
-    <Link to={`/${id}`}>{materialName}</Link>
+  <div className={styles.material} key={`${materialName}-${Math.random()}`}>
+    <Link to={`/result/${id}`}>{materialName}</Link>
     <p className={styles.description}>{description}</p>
   </div>
 );
