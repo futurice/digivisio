@@ -1,0 +1,32 @@
+services:
+  backend:
+    image: digivisioacr.azurecr.io/digivisio-backend:latest
+    restart: always
+    ports:
+      - ${BACKEND_PORT}:${BACKEND_PORT}
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+
+  frontend:
+    image: digivisioacr.azurecr.io/digivisio-frontend:latest
+    restart: always
+    ports:
+      - 443:443
+    volumes:
+      - <somefolderhere>:/etc/nginx/certs
+
+  db:
+    image: postgres
+    hostname: postgres
+    restart: always
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+    expose:
+      - 5432
+
+volumes:
+  db-data:
