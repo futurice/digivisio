@@ -18,8 +18,19 @@ curl -XPOST -H "Content-Type: application/json" https://aoe.fi/api/v2/search --d
 
 // todo figure out if we can auto generate these from some openapi definition or similar
 export type Filters = {
+    accessibilityFeatures: string[];
+    accessibilityHazards: string[];
+    authors: string[];
     educationalLevels: string[];
+    educationalRoles: string[];
+    educationalSubjects: string[];
+    educationalUses: string[];
+    keywords: string[];
+    languages: string[];
     learningResourceTypes: string[];
+    licenses: string[];
+    organizations: string[];
+    teaches: string[];
 }
 
 export type SearchPostModel = {
