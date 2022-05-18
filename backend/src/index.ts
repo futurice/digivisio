@@ -24,9 +24,9 @@ app.use(bodyParser.json());
 
 RegisterRoutes(app);
 
-app.get('/openapi.json', (_req: Request, res: Response) => res.send(openApiJson));
+app.get('/api/openapi.json', (_req: Request, res: Response) => res.send(openApiJson));
 
-app.use('/swagger', swaggerUi.serve, swaggerUi.setup(openApiJson));
+app.use('/api/swagger', swaggerUi.serve, swaggerUi.setup(openApiJson));
 
 app.listen(port, () => {
     console.log(`Running on http://localhost:${port}`)
