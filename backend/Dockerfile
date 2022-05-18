@@ -1,12 +1,14 @@
 FROM node:latest as base
 
+WORKDIR /app
+
 COPY package*.json ./
-COPY tsconfig.json ./
-COPY jest.config.ts ./
-COPY tsoa.json ./
 
 RUN npm ci
 
+COPY tsconfig.json ./
+COPY jest.config.ts ./
+COPY tsoa.json ./
 COPY src ./src
 COPY .env.production ./.env
 

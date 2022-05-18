@@ -8,12 +8,12 @@ services:
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
 
-  # frontend:
-  #   build: frontend
-  #   ports:
-  #     - 3000:3000
-  #   # environment:
-  #   #   - backendurl=maybe      
+  frontend:
+    build: frontend
+    ports:
+      - 3000:3000
+    # environment:
+    #   - backendurl=maybe      
 
   db:
     image: postgres
