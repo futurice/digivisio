@@ -1083,21 +1083,6 @@
 						"type": "array"
 					}
 				},
-				"required": [
-					"teaches",
-					"organizations",
-					"licenses",
-					"learningResourceTypes",
-					"languages",
-					"keywords",
-					"educationalUses",
-					"educationalSubjects",
-					"educationalRoles",
-					"educationalLevels",
-					"authors",
-					"accessibilityHazards",
-					"accessibilityFeatures"
-				],
 				"type": "object"
 			},
 			"SearchPostModel": {
