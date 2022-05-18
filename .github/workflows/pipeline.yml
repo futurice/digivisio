@@ -25,8 +25,9 @@ jobs:
         working-directory: backend
         run: docker run -e CI=true ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest npm run test:ci
 
-      # todo move to deploy job when done testing
+      # move the following steps to deploy if needed
       - name: "Login to ACR"
+        if: github.ref == 'refs/heads/main'
         uses: azure/docker-login@v1
         with:
           login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }}
@@ -34,8 +35,8 @@ jobs:
           password: ${{ secrets.REGISTRY_PASSWORD }}
 
       - name: "Push backend"
-        run: |
-          docker push ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest
+        if: github.ref == 'refs/heads/main'
+        run: docker push ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest
 
   test-frontend:
     runs-on: ubuntu-latest
@@ -58,8 +59,9 @@ jobs:
         working-directory: frontend
         run: docker build -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-frontend:latest . --target prod
 
-      # todo move to deploy job when done testing
+      # move the following steps to deploy if needed
       - name: "Login to ACR"
+        if: github.ref == 'refs/heads/main'
         uses: azure/docker-login@v1
         with:
           login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }}
@@ -67,13 +69,15 @@ jobs:
           password: ${{ secrets.REGISTRY_PASSWORD }}
 
       - name: "Push frontend"
+        if: github.ref == 'refs/heads/main'
         run: docker push ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-frontend:latest
 
-  deploy:
-    runs-on: ubuntu-latest
-    needs: [test-frontend, test-backend]
-    # if: add branch condition when done testing
-    steps:
-      - name: Deploy?!
-        run: |
-          echo 'yaaay'
+  # todo use if needed...
+  # deploy:
+  #   runs-on: ubuntu-latest
+  #   needs: [test-frontend, test-backend]
+  #   # if: add branch condition when done testing
+  #   steps:
+  #     - name: Deploy?!
+  #       run: |
+  #         echo 'yaaay'
