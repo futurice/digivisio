@@ -19,11 +19,23 @@ jobs:
 
       - name: Build docker test image
         working-directory: backend
-        run: docker build -t digivisio-backend . --target prod
+        run: docker build -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest . --target prod
 
       - name: Run backend tests
         working-directory: backend
-        run: docker run -e CI=true digivisio-backend npm run test:ci
+        run: docker run -e CI=true ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest npm run test:ci
+
+      - name: 'Push backend'
+        uses: azure/docker-login@v1
+        with:
+          login-server: ${{ secrets.REGISTRY_LOGIN_SERVER }}
+          username: ${{ secrets.REGISTRY_USERNAME }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}        
+      - run: |            
+            docker push ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest
+
+
+
 
   test-frontend:
     runs-on: ubuntu-latest
