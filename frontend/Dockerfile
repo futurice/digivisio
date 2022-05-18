@@ -1,5 +1,5 @@
 # todo lock this when applicable
-FROM node:latest as builder 
+FROM node:lts-alpine@sha256:1a9a71ea86aad332aa7740316d4111ee1bd4e890df47d3b5eff3e5bded3b3d10 AS builder 
 WORKDIR /app
 
 COPY package.json yarn.lock ./
