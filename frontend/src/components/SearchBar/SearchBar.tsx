@@ -21,7 +21,7 @@ const SearchBar = () => {
         onChange={({ target }) => setKeywords(target.value)}
         placeholder="Hae koko aineistosta"
       />
-      <button className={styles.hidden} type="submit">
+      <button className={styles.hidden} type="submit" aria-label="Hae">
         <span>Hae</span>
       </button>
     </form>

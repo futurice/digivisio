@@ -1,11 +1,16 @@
 import { render, screen } from '@testing-library/react';
 import React from 'react';
+import { MemoryRouter } from 'react-router-dom';
 
 import SearchPage from './SearchPage';
 
 describe('SearchPage', () => {
   it('should show SearchBar component', () => {
-    render(<SearchPage />);
-    expect(screen.getByLabelText('Hakukenttä')).toBeInTheDocument();
+    render(
+      <MemoryRouter>
+        <SearchPage />
+      </MemoryRouter>,
+    );
+    expect(screen.getByLabelText('Hakukenttä - hae koko aineistosta')).toBeInTheDocument();
   });
 });

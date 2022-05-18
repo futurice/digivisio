@@ -2,7 +2,9 @@ import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import styles from './App.module.css';
+import Header from './components/Header';
 import SearchPage from './components/SearchPage';
+import SearchResults from './components/SearchResults';
 import { OpenAPI } from './utils/apiclient';
 
 // eslint-disable-next-line functional/immutable-data
@@ -10,17 +12,16 @@ OpenAPI.BASE = 'http://localhost:3001';
 
 const App = () => {
   return (
-    <div className={styles.app}>
-      <header className={styles.appHeader}>
-        <h1>Digivisio</h1>
-      </header>
-      <BrowserRouter>
+    <BrowserRouter>
+      <Header />
+      <div className={styles.app}>
         <Routes>
           <Route path="/" element={<SearchPage />} />
-          <Route path="/:id" element={<SearchPage />} />
+          <Route path="/result/:id" element={<SearchPage />} />
+          <Route path="/results" element={<SearchResults />} />
         </Routes>
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 };
 
