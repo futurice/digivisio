@@ -1,16 +1,13 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-import React, { useState } from 'react';
+import React from 'react';
 
-import { SearchResultsResponse } from '../../types/SearchResult';
 import SearchBar from '../SearchBar';
-import SearchResults from '../SearchResults';
+import styles from './SearchPage.module.css';
 
 const SearchPage = () => {
-  const [results, setResults] = useState<SearchResultsResponse>();
   return (
     <>
-      <SearchBar setResults={setResults} />
-      <SearchResults searchResultResponse={results} />
+      <h1 className={styles.title}>Mitä haluat oppia</h1>
+      <SearchBar />
     </>
   );
 };
