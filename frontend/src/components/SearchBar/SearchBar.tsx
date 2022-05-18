@@ -17,7 +17,7 @@ const SearchBar = () => {
       <input
         id="search-bar"
         className={styles.searchBar}
-        aria-label="Hakukenttä - hae koko aineistosta"
+        aria-label="Hakukenttä koko aineistolle"
         onChange={({ target }) => setKeywords(target.value)}
         placeholder="Hae koko aineistosta"
       />
