@@ -1,4 +1,5 @@
 import { Request } from "express";
+import jwt from 'jsonwebtoken';
 
 export class NotAuthenticatedError extends Error { }
 
@@ -7,17 +8,31 @@ export type AuthenticatedUserModel = {
     authenticated: boolean
 }
 
-export const DIGIVISIO_ID_HEADER_NAME = 'digivisio-id'
-
-// This is obviously not great authentication here.. but in the real world we would most likely handle authentication outside this application and validate JWTs instead
 export const expressAuthentication = async (request: Request, _securityName: string, _scopes?: string[]): Promise<AuthenticatedUserModel> => {
-    const userId = request.headers[DIGIVISIO_ID_HEADER_NAME]
-    console.debug(`UserId: ${userId}`);
 
-    return userId && typeof userId === 'string'
-        ? Promise.resolve({
-            authenticated: true,
-            userId: userId,
-        })
-        : Promise.reject(new NotAuthenticatedError(`Requests should include 'digivisio-id' header`))    // todo fix this.. use proper response with json and status code 401
+    // todo get these from env
+    const cert = 'getcertfromenv';
+    const validAudience = 'someaudience';
+    const validIssuer = 'someissuer';
+
+    if (request.headers.authorization?.startsWith('Bearer ')) {
+        jwt.verify(request.headers.authorization.substring(7), cert, { audience: validAudience, issuer: validIssuer }, (err, decodedToken) => {
+            if (err !== null) {
+                console.error(err);
+                throw new NotAuthenticatedError(`Invalid JWT`);
+            }
+
+            // todo pick some relevant claims from decoded token and populate user model
+            if (decodedToken && typeof decodedToken !== "string") {
+                return {
+                    authenticated: true,
+                    userId: decodedToken.sub,
+                }
+            }
+
+            // if we get here something is seriously wrong with the token
+        });
+    }
+
+    throw new NotAuthenticatedError(`Requests should include Authorization header with JWT`)
 }
