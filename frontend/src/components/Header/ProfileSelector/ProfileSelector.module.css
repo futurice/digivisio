@@ -1,0 +1,32 @@
+.profile {
+  display: flex;
+  align-items: center;
+  border: none;
+  gap: 0.25rem;
+}
+
+.profile:before {
+    content: '';
+    height: 25px;
+    width: 25px;
+    background-color: rebeccapurple;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.profileList {
+  position: absolute;
+  top: 5rem;
+  right: 0;
+  background-color: white;
+  width: 10rem;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
+
+.profileButton {
+  background-color: wheat;
+  cursor: pointer;
+  padding: 2rem 0;
+}

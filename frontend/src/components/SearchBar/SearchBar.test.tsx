@@ -12,7 +12,7 @@ describe('SearchPage', () => {
         <SearchBar />
       </BrowserRouter>,
     );
-    expect(screen.getByLabelText('Hakukenttä - hae koko aineistosta')).toBeInTheDocument();
+    expect(screen.getByLabelText('Hakukenttä koko aineistolle')).toBeInTheDocument();
   });
 
   it('should navigate to correct address after submitting search', async () => {
@@ -22,7 +22,7 @@ describe('SearchPage', () => {
       </BrowserRouter>,
     );
 
-    userEvent.type(screen.getByLabelText('Hakukenttä - hae koko aineistosta'), 'luonto{enter}');
+    userEvent.type(screen.getByLabelText('Hakukenttä koko aineistolle'), 'luonto{enter}');
     await waitFor(() => {
       expect(window.location.pathname).toEqual('/results');
     });
