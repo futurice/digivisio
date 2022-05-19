@@ -1,5 +1,6 @@
 import axios from "axios";
 import { Body, Controller, Get, Post, Route, Request, Security } from "tsoa";
+import pool from "../dbPoolService";
 import { SearchPostModel } from "../externalModels/SearchPostModel";
 import { SearchResponseModel } from "../externalModels/SearchResponseModel";
 import { AuthenticatedRequestModel } from "../middlewares/authenticatedRequestModel";
@@ -16,7 +17,7 @@ export class SearchController extends Controller {
     }
 
     @Post()
-    public async search(@Body() searchData: SearchPostModel): Promise<SearchResponseModel> {
+    public async search(@Request() request: AuthenticatedRequestModel, @Body() searchData: SearchPostModel): Promise<SearchResponseModel> {
         // todo refactor and add DI        
         const aoeApiBaseUrl = process.env.AOE_API_BASEURL
 
@@ -28,7 +29,16 @@ export class SearchController extends Controller {
 
         const response = await axios.post(aoeApiSearchUrl, searchData)
 
-        // todo search history logging goes here
+        try {
+            // todo do we have some sensible way of figuring out if searchdata is "empty"?
+            // todo figure out what we need to save here, also, consider using jsonb as column type
+            await pool.query('INSERT INTO search_history (user_id, search_term) VALUES ($1, $2)', [request.user?.userId, JSON.stringify(searchData)]);
+        }
+        catch (error: unknown) {
+            console.error('uh oh...');
+            throw error;
+        }
+
         return response.data
     }
 }

@@ -1,6 +1,6 @@
 import { Controller, Get, Route, Request, Security } from "tsoa";
 import { AuthenticatedRequestModel } from "../middlewares/authenticatedRequestModel";
-import { Pool } from 'pg';
+import pool from "../dbPoolService";
 
 export type SearchHistoryRowModel = {
     id: number
@@ -14,16 +14,6 @@ export type SearchHistoryRowModel = {
 export class SearchHistoryController extends Controller {
     @Get()
     public async getSearchHistory(@Request() request: AuthenticatedRequestModel): Promise<SearchHistoryRowModel[]> {
-
-        // todo move this out of here...
-        const pool = new Pool({
-            user: 'postgres',
-            host: 'postgres',
-            database: process.env.POSTGRES_DB,
-            password: process.env.POSTGRES_PASSWORD,
-            port: 5432,
-        })
-
         try {
             const result = await pool.query<SearchHistoryRowModel>('SELECT * FROM search_history WHERE user_id = $1 ORDER BY date_saved DESC LIMIT $2', [request.user?.userId, 50]);
             return result.rows;
