@@ -11,6 +11,6 @@ describe('SearchPage', () => {
         <SearchPage />
       </MemoryRouter>,
     );
-    expect(screen.getByLabelText('Hakukenttä - hae koko aineistosta')).toBeInTheDocument();
+    expect(screen.getByLabelText('Hakukenttä koko aineistolle')).toBeInTheDocument();
   });
 });
