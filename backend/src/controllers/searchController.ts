@@ -1,15 +1,18 @@
 import axios from "axios";
-import { Body, Controller, Get, Post, Route, Request } from "tsoa";
+import { Body, Controller, Get, Post, Route, Request, Security } from "tsoa";
 import { SearchPostModel } from "../externalModels/SearchPostModel";
 import { SearchResponseModel } from "../externalModels/SearchResponseModel";
+import { AuthenticatedRequestModel } from "../middlewares/authenticatedRequestModel";
 
 @Route("api/search")
+@Security("fake_user_id")
 export class SearchController extends Controller {
     @Get()
-    public async getRandom(@Request() request: any): Promise<({ randomNumber: number })> {
-        console.log(request?.headers)
-        console.log(request?.user)
-        return { randomNumber: 9 }
+    public async getRandom(@Request() request: AuthenticatedRequestModel): Promise<({ randomNumber: number, userId: string | undefined })> {
+        return {
+            randomNumber: 9,
+            userId: request.user?.userId
+        }
     }
 
     @Post()

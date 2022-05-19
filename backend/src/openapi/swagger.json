@@ -1108,7 +1108,13 @@
 				"type": "object"
 			}
 		},
-		"securitySchemes": {}
+		"securitySchemes": {
+			"fake_user_id": {
+				"type": "apiKey",
+				"name": "digivisio-id",
+				"in": "header"
+			}
+		}
 	},
 	"info": {
 		"title": "digivisio",
@@ -1135,7 +1141,11 @@
 						}
 					}
 				},
-				"security": [],
+				"security": [
+					{
+						"fake_user_id": []
+					}
+				],
 				"parameters": [
 					{
 						"in": "path",
@@ -1158,6 +1168,9 @@
 							"application/json": {
 								"schema": {
 									"properties": {
+										"userId": {
+											"type": "string"
+										},
 										"randomNumber": {
 											"type": "number",
 											"format": "double"
@@ -1172,7 +1185,11 @@
 						}
 					}
 				},
-				"security": [],
+				"security": [
+					{
+						"fake_user_id": []
+					}
+				],
 				"parameters": []
 			},
 			"post": {
@@ -1189,7 +1206,11 @@
 						}
 					}
 				},
-				"security": [],
+				"security": [
+					{
+						"fake_user_id": []
+					}
+				],
 				"parameters": [],
 				"requestBody": {
 					"required": true,
