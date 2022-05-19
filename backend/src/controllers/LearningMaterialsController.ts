@@ -2,7 +2,7 @@ import axios from "axios";
 import { Controller, Get, Path, Route, } from "tsoa";
 import { LearningMaterialModel } from "../externalModels/LearningMaterialModel";
 
-@Route("materials")
+@Route("api/materials")
 export class LearningMaterialsController extends Controller {
     @Get("{materialId}")
     public async getLearningMaterialMetadata(@Path() materialId: string): Promise<LearningMaterialModel> {
