@@ -7,6 +7,7 @@ import dotenv from 'dotenv';
 import cors from 'cors';
 import './controllers/searchController'
 import './controllers/LearningMaterialsController'
+import './controllers/searchHistoryController'
 import { NotAuthenticatedError } from './middlewares/authenticationMiddleware';
 import { ValidateError } from 'tsoa';
 

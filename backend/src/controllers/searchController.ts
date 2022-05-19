@@ -27,6 +27,8 @@ export class SearchController extends Controller {
         const aoeApiSearchUrl = `${aoeApiBaseUrl}/search`
 
         const response = await axios.post(aoeApiSearchUrl, searchData)
+
+        // todo search history logging goes here
         return response.data
     }
 }

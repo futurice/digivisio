@@ -7,13 +7,15 @@ services:
     environment:
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - CORS_ORIGIN=http://localhost:3000
 
   frontend:
-    build: frontend
+    restart: always
+    build:
+      context: frontend
+      target: builder
     ports:
-      - 3000:80
-    # environment:
-    #   - backendurl=maybe      
+      - 3000:3000
 
   db:
     image: postgres
@@ -25,15 +27,15 @@ services:
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
     expose:
-      - 5432:5432
+      - 5432
 
   # todo disable this when starting a productionish environment
   pgadmin:
     image: dpage/pgadmin4
     depends_on:
-      - postgres
+      - db
     ports:
-      - "5555:80"
+      - 5555:80
     environment:
       PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
       PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}

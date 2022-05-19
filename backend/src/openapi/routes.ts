@@ -6,6 +6,8 @@ import { Controller, ValidationService, FieldErrors, ValidateError, TsoaRoute, H
 import { LearningMaterialsController } from './../controllers/LearningMaterialsController';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 import { SearchController } from './../controllers/searchController';
+// WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+import { SearchHistoryController } from './../controllers/searchHistoryController';
 import { expressAuthentication } from './../middlewares/authenticationMiddleware';
 // @ts-ignore - no great way to install types from subpackage
 const promiseAny = require('promise.any');
@@ -164,6 +166,11 @@ const models: TsoaRoute.Models = {
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"sort":{"dataType":"string"},"size":{"dataType":"double"},"keywords":{"dataType":"string"},"from":{"dataType":"double"},"filters":{"ref":"Filters"}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "SearchHistoryRowModel": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"search_term":{"dataType":"string","required":true},"user_id":{"dataType":"string","required":true},"date_saved":{"dataType":"string","required":true},"id":{"dataType":"double","required":true}},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 };
 const validationService = new ValidationService(models);
 
@@ -246,6 +253,32 @@ export function RegisterRoutes(app: express.Router) {
 
 
               const promise = controller.search.apply(controller, validatedArgs as any);
+              promiseHandler(controller, promise, response, undefined, next);
+            } catch (err) {
+                return next(err);
+            }
+        });
+        // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+        app.get('/api/searchhistory',
+            authenticateMiddleware([{"fake_user_id":[]}]),
+            ...(fetchMiddlewares<RequestHandler>(SearchHistoryController)),
+            ...(fetchMiddlewares<RequestHandler>(SearchHistoryController.prototype.getSearchHistory)),
+
+            function SearchHistoryController_getSearchHistory(request: any, response: any, next: any) {
+            const args = {
+                    request: {"in":"request","name":"request","required":true,"dataType":"object"},
+            };
+
+            // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+
+            let validatedArgs: any[] = [];
+            try {
+                validatedArgs = getValidatedArgs(args, request, response);
+
+                const controller = new SearchHistoryController();
+
+
+              const promise = controller.getSearchHistory.apply(controller, validatedArgs as any);
               promiseHandler(controller, promise, response, undefined, next);
             } catch (err) {
                 return next(err);
