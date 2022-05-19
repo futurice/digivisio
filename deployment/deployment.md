@@ -1,12 +1,23 @@
 # Deployment instructions
 
+The build images are pushed to the private registry `digivisioacr.azurecr.io`
+
+
+## Login to private docker registry (once)
+Before pulling images we need to log in to the private registry. The password can be found: ... where do we put it?
+The credentials will be persisted and usually will not have to be re-entered
+
+```
+sudo docker login digivisioacr.azurecr.io -u digivisioacr
+```
+
+
 ## Deploy a new version of the app
 
 ```
 sudo systemctl stop digivisio.service
 
-sudo docker pull digivisioacr.azurecr.io/digivisio-backend:latest
-sudo docker pull digivisioacr.azurecr.io/digivisio-frontend:latest
+sudo cd /home/cloud-user/app/ && sudo docker compose pull
 
 sudo systemctl start digivisio.service
 ```
