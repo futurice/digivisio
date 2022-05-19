@@ -1120,7 +1120,7 @@
 	},
 	"openapi": "3.0.0",
 	"paths": {
-		"/materials/{materialId}": {
+		"/api/materials/{materialId}": {
 			"get": {
 				"operationId": "GetLearningMaterialMetadata",
 				"responses": {
@@ -1148,7 +1148,7 @@
 				]
 			}
 		},
-		"/search": {
+		"/api/search": {
 			"get": {
 				"operationId": "GetRandom",
 				"responses": {

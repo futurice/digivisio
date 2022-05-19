@@ -8,7 +8,7 @@ import SearchResults from './components/SearchResults';
 import { OpenAPI } from './utils/apiclient';
 
 // eslint-disable-next-line functional/immutable-data
-OpenAPI.BASE = 'http://localhost:3001';
+OpenAPI.BASE = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3001'; // todo this should be picked from env probably...
 
 const App = () => {
   return (

@@ -171,7 +171,7 @@ export function RegisterRoutes(app: express.Router) {
     //  NOTE: If you do not see routes for all of your controllers in this file, then you might not have informed tsoa of where to look
     //      Please look into the "controllerPathGlobs" config option described in the readme: https://github.com/lukeautry/tsoa
     // ###########################################################################################################
-        app.get('/materials/:materialId',
+        app.get('/api/materials/:materialId',
             ...(fetchMiddlewares<RequestHandler>(LearningMaterialsController)),
             ...(fetchMiddlewares<RequestHandler>(LearningMaterialsController.prototype.getLearningMaterialMetadata)),
 
@@ -196,7 +196,7 @@ export function RegisterRoutes(app: express.Router) {
             }
         });
         // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-        app.get('/search',
+        app.get('/api/search',
             ...(fetchMiddlewares<RequestHandler>(SearchController)),
             ...(fetchMiddlewares<RequestHandler>(SearchController.prototype.getRandom)),
 
@@ -220,7 +220,7 @@ export function RegisterRoutes(app: express.Router) {
             }
         });
         // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-        app.post('/search',
+        app.post('/api/search',
             ...(fetchMiddlewares<RequestHandler>(SearchController)),
             ...(fetchMiddlewares<RequestHandler>(SearchController.prototype.search)),
 
