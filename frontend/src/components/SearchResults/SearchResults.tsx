@@ -35,7 +35,7 @@ const Results = () => {
       </div>
       <div className={styles.results}>
         {allResults.map(({ id, materialName, description }) => (
-          <ResultCard id={id} materialName={materialName} description={description} />
+          <ResultCard key={id} id={id} materialName={materialName} description={description} />
         ))}
       </div>
     </div>
