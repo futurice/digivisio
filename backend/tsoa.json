@@ -6,9 +6,17 @@
     ],
     "spec": {
         "outputDirectory": "src/openapi/",
-        "specVersion": 3
+        "specVersion": 3,
+        "securityDefinitions": {
+            "fake_user_id": {
+                "type": "apiKey",
+                "name": "digivisio-id",
+                "in": "header"
+            }
+        }
     },
     "routes": {
-        "routesDir": "src/openapi/"
+        "routesDir": "src/openapi/",
+        "authenticationModule": "./src/middlewares/authenticationMiddleware.ts"
     }
 }
