@@ -6,6 +6,7 @@ import openApiJson from './openapi/swagger.json';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import './controllers/searchController'
+import './controllers/LearningMaterialsController'
 
 
 dotenv.config()
