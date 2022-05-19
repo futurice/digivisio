@@ -1,13 +1,20 @@
 import { SearchController } from "./searchController";
 import axios, { AxiosResponse } from 'axios';
+import { AuthenticatedRequestModel } from "../middlewares/authenticatedRequestModel";
+
 jest.mock('axios');
 const mockedAxios = axios as jest.Mocked<typeof axios>;
+
+const mockRequest = {
+    // todo fill in whatever is needed for testing
+} as AuthenticatedRequestModel
+
 
 describe('searchController', () => {
     describe('getRandom', () => {
         it('should return number', async () => {
             const controller = new SearchController();
-            const response = await controller.getRandom()
+            const response = await controller.getRandom(mockRequest)
             expect(response.randomNumber).toBe(9)
         })
     })
