@@ -34,6 +34,7 @@ const ProfileSelector = ({ selectedProfile, setSelectedProfile }: ProfileProps) 
         <div className={styles.profileList}>
           {profiles.map((profile) => (
             <ProfileButton
+              key={profile.name}
               onClick={() => {
                 setIsSelectorOpen(false);
                 setSelectedProfile(profile);

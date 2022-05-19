@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import styles from './App.module.css';
@@ -15,6 +15,12 @@ OpenAPI.BASE = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:30
 
 const App = () => {
   const [selectedProfile, setSelectedProfile] = useState<Profile>(profiles[0]);
+
+  useEffect(() => {
+    // eslint-disable-next-line functional/immutable-data
+    OpenAPI.HEADERS = { 'digivisio-id': selectedProfile.name };
+  }, [selectedProfile]);
+
   return (
     <div className={styles.app}>
       <BrowserRouter>
