@@ -1,7 +1,6 @@
 services:
   backend:
-    # image: digivisioacr.azurecr.io/digivisio-backend:latest
-    build: backend
+    image: digivisioacr.azurecr.io/digivisio-backend:latest
     restart: always
     networks:
       - app-network
@@ -9,11 +8,10 @@ services:
       - ${BACKEND_PORT}:${BACKEND_PORT}
     environment:
       - POSTGRES_DB=${DB_NAME}
-      - POSTGRES_PASSWORD=${DB_PASSWORD}      
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
 
   frontend:
-    #image: digivisioacr.azurecr.io/digivisio-frontend:latest
-    build: frontend
+    image: digivisioacr.azurecr.io/digivisio-frontend:latest
     restart: always
     networks:
       - app-network
@@ -38,6 +36,7 @@ services:
 
 networks:
   app-network:
+
 
 volumes:
   db-data:
