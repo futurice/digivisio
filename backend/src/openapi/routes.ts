@@ -3,6 +3,8 @@
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 import { Controller, ValidationService, FieldErrors, ValidateError, TsoaRoute, HttpStatusCodeLiteral, TsoaResponse, fetchMiddlewares } from '@tsoa/runtime';
 // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+import { LearningMaterialsController } from './../controllers/LearningMaterialsController';
+// WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
 import { SearchController } from './../controllers/searchController';
 import type { RequestHandler } from 'express';
 import * as express from 'express';
@@ -15,9 +17,9 @@ const models: TsoaRoute.Models = {
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"en":{"dataType":"string","required":true},"sv":{"dataType":"string","required":true},"fi":{"dataType":"string","required":true}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-    "Material": {
+    "LearningMaterialFile": {
         "dataType": "refAlias",
-        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"displayName":{"ref":"DisplayName","required":true},"pdfkey":{"dataType":"any"},"publishedat":{"dataType":"datetime","required":true},"filebucket":{"dataType":"any"},"filekey":{"dataType":"any"},"format":{"dataType":"any"},"mimetype":{"dataType":"any"},"filesize":{"dataType":"any"},"originalfilename":{"dataType":"any"},"filepath":{"dataType":"any"},"priority":{"dataType":"double","required":true},"link":{"dataType":"string","required":true},"language":{"dataType":"string","required":true},"id":{"dataType":"string","required":true}},"validators":{}},
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"displayName":{"ref":"DisplayName","required":true},"pdfkey":{"dataType":"string","required":true},"publishedat":{"dataType":"datetime","required":true},"filebucket":{"dataType":"string","required":true},"filekey":{"dataType":"string","required":true},"format":{"dataType":"string","required":true},"mimetype":{"dataType":"string","required":true},"filesize":{"dataType":"double","required":true},"originalfilename":{"dataType":"string","required":true},"filepath":{"dataType":"string","required":true},"priority":{"dataType":"double","required":true},"link":{"dataType":"string","required":true},"language":{"dataType":"string","required":true},"id":{"dataType":"string","required":true}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "Name": {
@@ -28,6 +30,11 @@ const models: TsoaRoute.Models = {
     "Author": {
         "dataType": "refAlias",
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"organizationkey":{"dataType":"string","required":true},"educationalmaterialid":{"dataType":"string","required":true},"organization":{"dataType":"string","required":true},"authorname":{"dataType":"string","required":true},"id":{"dataType":"string","required":true}},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "Publisher": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"publisherkey":{"dataType":"string","required":true},"educationalmaterialid":{"dataType":"string","required":true},"name":{"dataType":"string","required":true},"id":{"dataType":"string","required":true}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "Description": {
@@ -60,9 +67,19 @@ const models: TsoaRoute.Models = {
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"educationallevelkey":{"dataType":"string","required":true},"educationalmaterialid":{"dataType":"string","required":true},"value":{"dataType":"string","required":true},"id":{"dataType":"string","required":true}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-    "EducationalUs": {
+    "EducationalUse": {
         "dataType": "refAlias",
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"educationalusekey":{"dataType":"string","required":true},"educationalmaterialid":{"dataType":"string","required":true},"value":{"dataType":"string","required":true},"id":{"dataType":"string","required":true}},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "AccessibilityFeature": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"accessibilityfeaturekey":{"dataType":"string","required":true},"educationalmaterialid":{"dataType":"string","required":true},"value":{"dataType":"string","required":true},"id":{"dataType":"string","required":true}},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "AccessibilityHazard": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"accessibilityhazardkey":{"dataType":"string","required":true},"educationalmaterialid":{"dataType":"string","required":true},"value":{"dataType":"string","required":true},"id":{"dataType":"string","required":true}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "License": {
@@ -70,14 +87,14 @@ const models: TsoaRoute.Models = {
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"key":{"dataType":"string","required":true},"value":{"dataType":"string","required":true}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
-    "Author2": {
+    "IsBasedOnAuthor": {
         "dataType": "refAlias",
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"isbasedonid":{"dataType":"string","required":true},"authorname":{"dataType":"string","required":true},"id":{"dataType":"string","required":true}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "IsBasedOn": {
         "dataType": "refAlias",
-        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"educationalmaterialid":{"dataType":"string","required":true},"materialname":{"dataType":"string","required":true},"url":{"dataType":"string","required":true},"author":{"dataType":"array","array":{"dataType":"refAlias","ref":"Author2"},"required":true},"id":{"dataType":"string","required":true}},"validators":{}},
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"educationalmaterialid":{"dataType":"string","required":true},"materialname":{"dataType":"string","required":true},"url":{"dataType":"string","required":true},"author":{"dataType":"array","array":{"dataType":"refAlias","ref":"IsBasedOnAuthor"},"required":true},"id":{"dataType":"string","required":true}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "EducationalRole": {
@@ -90,19 +107,53 @@ const models: TsoaRoute.Models = {
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"filebucket":{"dataType":"string","required":true},"filekey":{"dataType":"string","required":true},"obsoleted":{"dataType":"double","required":true},"filename":{"dataType":"string","required":true},"educationalmaterialid":{"dataType":"string","required":true},"mimetype":{"dataType":"string","required":true},"filepath":{"dataType":"string","required":true},"id":{"dataType":"string","required":true}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "Attachment": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"materialid":{"dataType":"string","required":true},"srclang":{"dataType":"string","required":true},"label":{"dataType":"string","required":true},"kind":{"dataType":"string","required":true},"defaultfile":{"dataType":"boolean","required":true},"filebucket":{"dataType":"string","required":true},"filekey":{"dataType":"string","required":true},"format":{"dataType":"string","required":true},"mimetype":{"dataType":"string","required":true},"filesize":{"dataType":"double","required":true},"originalfilename":{"dataType":"string","required":true},"filepath":{"dataType":"string","required":true},"id":{"dataType":"string","required":true}},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "Version": {
         "dataType": "refAlias",
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"publishedat":{"dataType":"datetime","required":true}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "LearningMaterialModel": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"urn":{"dataType":"any"},"hasDownloadableFiles":{"dataType":"boolean","required":true},"versions":{"dataType":"array","array":{"dataType":"refAlias","ref":"Version"},"required":true},"attachments":{"dataType":"array","array":{"dataType":"refAlias","ref":"Attachment"},"required":true},"thumbnail":{"ref":"Thumbnail","required":true},"educationalRoles":{"dataType":"array","array":{"dataType":"refAlias","ref":"EducationalRole"},"required":true},"isBasedOn":{"dataType":"array","array":{"dataType":"refAlias","ref":"IsBasedOn"},"required":true},"license":{"ref":"License","required":true},"accessibilityHazards":{"dataType":"array","array":{"dataType":"refAlias","ref":"AccessibilityHazard"},"required":true},"accessibilityFeatures":{"dataType":"array","array":{"dataType":"refAlias","ref":"AccessibilityFeature"},"required":true},"educationalUses":{"dataType":"array","array":{"dataType":"refAlias","ref":"EducationalUse"},"required":true},"educationalLevels":{"dataType":"array","array":{"dataType":"refAlias","ref":"EducationalLevel"},"required":true},"educationalAlignment":{"dataType":"array","array":{"dataType":"refAlias","ref":"EducationalAlignment"},"required":true},"typicalAgeRange":{"ref":"TypicalAgeRange","required":true},"expires":{"dataType":"datetime","required":true},"timeRequired":{"dataType":"string","required":true},"learningResourceTypes":{"dataType":"array","array":{"dataType":"refAlias","ref":"LearningResourceType"},"required":true},"keywords":{"dataType":"array","array":{"dataType":"refAlias","ref":"Keyword"},"required":true},"description":{"dataType":"array","array":{"dataType":"refAlias","ref":"Description"},"required":true},"publisher":{"dataType":"array","array":{"dataType":"refAlias","ref":"Publisher"},"required":true},"author":{"dataType":"array","array":{"dataType":"refAlias","ref":"Author"},"required":true},"downloadCounter":{"dataType":"string","required":true},"viewCounter":{"dataType":"string","required":true},"ratingVisualAverage":{"dataType":"any"},"ratingContentAverage":{"dataType":"any"},"suitsAllUpperSecondarySubjectsNew":{"dataType":"boolean","required":true},"suitsAllBranches":{"dataType":"boolean","required":true},"suitsAllSelfMotivatedSubjects":{"dataType":"boolean","required":true},"suitsAllVocationalDegrees":{"dataType":"boolean","required":true},"suitsAllUpperSecondarySubjects":{"dataType":"boolean","required":true},"suitsAllBasicStudySubjects":{"dataType":"boolean","required":true},"suitsAllPrePrimarySubjects":{"dataType":"boolean","required":true},"suitsAllEarlyChildhoodSubjects":{"dataType":"boolean","required":true},"archivedAt":{"dataType":"datetime","required":true},"publishedAt":{"dataType":"datetime","required":true},"updatedAt":{"dataType":"datetime","required":true},"createdAt":{"dataType":"datetime","required":true},"name":{"dataType":"array","array":{"dataType":"refAlias","ref":"Name"},"required":true},"owner":{"dataType":"boolean","required":true},"materials":{"dataType":"array","array":{"dataType":"refAlias","ref":"LearningMaterialFile"},"required":true},"id":{"dataType":"string","required":true}},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "MaterialName": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"language":{"dataType":"string","required":true},"materialname":{"dataType":"string","required":true}},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "EducationalSubject": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"value":{"dataType":"string","required":true},"source":{"dataType":"string","required":true},"key":{"dataType":"string","required":true}},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "TeachingObjective": {
+        "dataType": "refObject",
+        "properties": {
+            "key": {"dataType":"string","required":true},
+            "value": {"dataType":"string","required":true},
+        },
+        "additionalProperties": false,
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "SearchResult": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"accessibilityHazards":{"dataType":"array","array":{"dataType":"refAlias","ref":"AccessibilityHazard"},"required":true},"accessibilityFeatures":{"dataType":"array","array":{"dataType":"refAlias","ref":"AccessibilityFeature"},"required":true},"educationalUses":{"dataType":"array","array":{"dataType":"refAlias","ref":"EducationalUse"},"required":true},"popularity":{"dataType":"double","required":true},"thumbnail":{"ref":"Thumbnail","required":true},"hasDownloadableFiles":{"dataType":"boolean","required":true},"teaches":{"dataType":"array","array":{"dataType":"refObject","ref":"TeachingObjective"},"required":true},"educationalSubjects":{"dataType":"array","array":{"dataType":"refAlias","ref":"EducationalSubject"},"required":true},"languages":{"dataType":"array","array":{"dataType":"string"},"required":true},"keywords":{"dataType":"array","array":{"dataType":"refAlias","ref":"Keyword"},"required":true},"educationalRoles":{"dataType":"array","array":{"dataType":"refAlias","ref":"EducationalRole"},"required":true},"educationalLevels":{"dataType":"array","array":{"dataType":"refAlias","ref":"EducationalLevel"},"required":true},"license":{"ref":"License","required":true},"learningResourceTypes":{"dataType":"array","array":{"dataType":"refAlias","ref":"LearningResourceType"},"required":true},"authors":{"dataType":"array","array":{"dataType":"refAlias","ref":"Author"},"required":true},"description":{"dataType":"array","array":{"dataType":"refAlias","ref":"Description"},"required":true},"materialName":{"dataType":"array","array":{"dataType":"refAlias","ref":"MaterialName"},"required":true},"updatedAt":{"dataType":"datetime","required":true},"publishedAt":{"dataType":"datetime","required":true},"createdAt":{"dataType":"datetime","required":true},"id":{"dataType":"string","required":true}},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "SearchResponseModel": {
         "dataType": "refAlias",
-        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"urn":{"dataType":"any"},"hasDownloadableFiles":{"dataType":"boolean","required":true},"versions":{"dataType":"array","array":{"dataType":"refAlias","ref":"Version"},"required":true},"attachments":{"dataType":"array","array":{"dataType":"any"},"required":true},"thumbnail":{"ref":"Thumbnail","required":true},"educationalRoles":{"dataType":"array","array":{"dataType":"refAlias","ref":"EducationalRole"},"required":true},"isBasedOn":{"dataType":"array","array":{"dataType":"refAlias","ref":"IsBasedOn"},"required":true},"license":{"ref":"License","required":true},"accessibilityHazards":{"dataType":"array","array":{"dataType":"any"},"required":true},"accessibilityFeatures":{"dataType":"array","array":{"dataType":"any"},"required":true},"educationalUses":{"dataType":"array","array":{"dataType":"refAlias","ref":"EducationalUs"},"required":true},"educationalLevels":{"dataType":"array","array":{"dataType":"refAlias","ref":"EducationalLevel"},"required":true},"educationalAlignment":{"dataType":"array","array":{"dataType":"refAlias","ref":"EducationalAlignment"},"required":true},"typicalAgeRange":{"ref":"TypicalAgeRange","required":true},"expires":{"dataType":"any"},"timeRequired":{"dataType":"string","required":true},"learningResourceTypes":{"dataType":"array","array":{"dataType":"refAlias","ref":"LearningResourceType"},"required":true},"keywords":{"dataType":"array","array":{"dataType":"refAlias","ref":"Keyword"},"required":true},"description":{"dataType":"array","array":{"dataType":"refAlias","ref":"Description"},"required":true},"publisher":{"dataType":"array","array":{"dataType":"any"},"required":true},"author":{"dataType":"array","array":{"dataType":"refAlias","ref":"Author"},"required":true},"downloadCounter":{"dataType":"string","required":true},"viewCounter":{"dataType":"string","required":true},"ratingVisualAverage":{"dataType":"any"},"ratingContentAverage":{"dataType":"any"},"suitsAllUpperSecondarySubjectsNew":{"dataType":"boolean","required":true},"suitsAllBranches":{"dataType":"boolean","required":true},"suitsAllSelfMotivatedSubjects":{"dataType":"boolean","required":true},"suitsAllVocationalDegrees":{"dataType":"boolean","required":true},"suitsAllUpperSecondarySubjects":{"dataType":"boolean","required":true},"suitsAllBasicStudySubjects":{"dataType":"boolean","required":true},"suitsAllPrePrimarySubjects":{"dataType":"boolean","required":true},"suitsAllEarlyChildhoodSubjects":{"dataType":"boolean","required":true},"archivedAt":{"dataType":"any"},"publishedAt":{"dataType":"datetime","required":true},"updatedAt":{"dataType":"datetime","required":true},"createdAt":{"dataType":"datetime","required":true},"name":{"dataType":"array","array":{"dataType":"refAlias","ref":"Name"},"required":true},"owner":{"dataType":"boolean","required":true},"materials":{"dataType":"array","array":{"dataType":"refAlias","ref":"Material"},"required":true},"id":{"dataType":"string","required":true}},"validators":{}},
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"results":{"dataType":"array","array":{"dataType":"refAlias","ref":"SearchResult"},"required":true},"hits":{"dataType":"double","required":true}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "Filters": {
         "dataType": "refAlias",
-        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"learningResourceTypes":{"dataType":"array","array":{"dataType":"string"},"required":true},"educationalLevels":{"dataType":"array","array":{"dataType":"string"},"required":true}},"validators":{}},
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"teaches":{"dataType":"array","array":{"dataType":"string"}},"organizations":{"dataType":"array","array":{"dataType":"string"}},"licenses":{"dataType":"array","array":{"dataType":"string"}},"learningResourceTypes":{"dataType":"array","array":{"dataType":"string"}},"languages":{"dataType":"array","array":{"dataType":"string"}},"keywords":{"dataType":"array","array":{"dataType":"string"}},"educationalUses":{"dataType":"array","array":{"dataType":"string"}},"educationalSubjects":{"dataType":"array","array":{"dataType":"string"}},"educationalRoles":{"dataType":"array","array":{"dataType":"string"}},"educationalLevels":{"dataType":"array","array":{"dataType":"string"}},"authors":{"dataType":"array","array":{"dataType":"string"}},"accessibilityHazards":{"dataType":"array","array":{"dataType":"string"}},"accessibilityFeatures":{"dataType":"array","array":{"dataType":"string"}}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "SearchPostModel": {
@@ -120,6 +171,31 @@ export function RegisterRoutes(app: express.Router) {
     //  NOTE: If you do not see routes for all of your controllers in this file, then you might not have informed tsoa of where to look
     //      Please look into the "controllerPathGlobs" config option described in the readme: https://github.com/lukeautry/tsoa
     // ###########################################################################################################
+        app.get('/materials/:materialId',
+            ...(fetchMiddlewares<RequestHandler>(LearningMaterialsController)),
+            ...(fetchMiddlewares<RequestHandler>(LearningMaterialsController.prototype.getLearningMaterialMetadata)),
+
+            function LearningMaterialsController_getLearningMaterialMetadata(request: any, response: any, next: any) {
+            const args = {
+                    materialId: {"in":"path","name":"materialId","required":true,"dataType":"string"},
+            };
+
+            // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+
+            let validatedArgs: any[] = [];
+            try {
+                validatedArgs = getValidatedArgs(args, request, response);
+
+                const controller = new LearningMaterialsController();
+
+
+              const promise = controller.getLearningMaterialMetadata.apply(controller, validatedArgs as any);
+              promiseHandler(controller, promise, response, undefined, next);
+            } catch (err) {
+                return next(err);
+            }
+        });
+        // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
         app.get('/search',
             ...(fetchMiddlewares<RequestHandler>(SearchController)),
             ...(fetchMiddlewares<RequestHandler>(SearchController.prototype.getRandom)),

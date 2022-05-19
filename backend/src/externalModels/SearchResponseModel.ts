@@ -1,117 +1,53 @@
-export type DisplayName = {
-    fi: string;
-    sv: string;
-    en: string;
-}
-
-export type Material = {
-    id: string;
-    language: string;
-    link: string;
-    priority: number;
-    filepath?: any;
-    originalfilename?: any;
-    filesize?: any;
-    mimetype?: any;
-    format?: any;
-    filekey?: any;
-    filebucket?: any;
-    publishedat: Date;
-    pdfkey?: any;
-    displayName: DisplayName;
-}
-
-export type Name = {
-    id: string;
+export type MaterialName = {
     materialname: string;
     language: string;
-    slug: string;
-    educationalmaterialid: string;
-}
-
-export type Author = {
-    id: string;
-    authorname: string;
-    organization: string;
-    educationalmaterialid: string;
-    organizationkey: string;
 }
 
 export type Description = {
-    id: string;
     description: string;
     language: string;
-    educationalmaterialid: string;
 }
 
-export type Keyword = {
-    id: string;
-    value: string;
-    educationalmaterialid: string;
-    keywordkey: string;
+export type Author = {
+    authorname: string;
+    organization: string;
+    organizationkey: string;
 }
 
 export type LearningResourceType = {
-    id: string;
     value: string;
-    educationalmaterialid: string;
     learningresourcetypekey: string;
 }
 
-export type TypicalAgeRange = {
-    typicalAgeRangeMin: number;
-    typicalAgeRangeMax: number;
-}
-
-export type EducationalAlignment = {
-    id: string;
-    educationalmaterialid: string;
-    alignmenttype: string;
-    targetname: string;
-    source: string;
-    educationalframework: string;
-    objectkey: string;
-    targeturl: string;
+export type License = {
+    key: string;
+    value: string;
 }
 
 export type EducationalLevel = {
-    id: string;
     value: string;
-    educationalmaterialid: string;
     educationallevelkey: string;
 }
 
-export type EducationalUs = {
-    id: string;
-    value: string;
-    educationalmaterialid: string;
-    educationalusekey: string;
-}
-
-export type License = {
-    value: string;
-    key: string;
-}
-
-export type Author2 = {
-    id: string;
-    authorname: string;
-    isbasedonid: string;
-}
-
-export type IsBasedOn = {
-    id: string;
-    author: Author2[];
-    url: string;
-    materialname: string;
-    educationalmaterialid: string;
-}
-
 export type EducationalRole = {
-    id: string;
-    educationalrole: string;
-    educationalmaterialid: string;
+    value: string;
     educationalrolekey: string;
+}
+
+export type Keyword = {
+    value: string;
+    keywordkey: string;
+}
+
+export type EducationalSubject = {
+    key: string;
+    source: string;
+    value: string;
+}
+
+export interface TeachingObjective {
+    key: string;
+    value: string;
 }
 
 export type Thumbnail = {
@@ -125,50 +61,46 @@ export type Thumbnail = {
     filebucket: string;
 }
 
-export type Version = {
-    publishedat: Date;
+export type EducationalUse = {
+    value: string;
+    educationalusekey: string;
+}
+
+export type AccessibilityFeature = {
+    value: string;
+    accessibilityfeaturekey: string;
+}
+
+export type AccessibilityHazard = {
+    value: string;
+    accessibilityhazardkey: string;
+}
+
+export type SearchResult = {
+    id: string;
+    createdAt: Date;
+    publishedAt: Date;
+    updatedAt: Date;
+    materialName: MaterialName[];
+    description: Description[];
+    authors: Author[];
+    learningResourceTypes: LearningResourceType[];
+    license: License;
+    educationalLevels: EducationalLevel[];
+    educationalRoles: EducationalRole[];
+    keywords: Keyword[];
+    languages: string[];
+    educationalSubjects: EducationalSubject[];
+    teaches: TeachingObjective[];
+    hasDownloadableFiles: boolean;
+    thumbnail: Thumbnail;
+    popularity: number;
+    educationalUses: EducationalUse[];
+    accessibilityFeatures: AccessibilityFeature[];
+    accessibilityHazards: AccessibilityHazard[];
 }
 
 export type SearchResponseModel = {
-    id: string;
-    materials: Material[];
-    owner: boolean;
-    name: Name[];
-    createdAt: Date;
-    updatedAt: Date;
-    publishedAt: Date;
-    archivedAt?: any;
-    suitsAllEarlyChildhoodSubjects: boolean;
-    suitsAllPrePrimarySubjects: boolean;
-    suitsAllBasicStudySubjects: boolean;
-    suitsAllUpperSecondarySubjects: boolean;
-    suitsAllVocationalDegrees: boolean;
-    suitsAllSelfMotivatedSubjects: boolean;
-    suitsAllBranches: boolean;
-    suitsAllUpperSecondarySubjectsNew: boolean;
-    ratingContentAverage?: any;
-    ratingVisualAverage?: any;
-    viewCounter: string;
-    downloadCounter: string;
-    author: Author[];
-    publisher: any[];
-    description: Description[];
-    keywords: Keyword[];
-    learningResourceTypes: LearningResourceType[];
-    timeRequired: string;
-    expires?: any;
-    typicalAgeRange: TypicalAgeRange;
-    educationalAlignment: EducationalAlignment[];
-    educationalLevels: EducationalLevel[];
-    educationalUses: EducationalUs[];
-    accessibilityFeatures: any[];
-    accessibilityHazards: any[];
-    license: License;
-    isBasedOn: IsBasedOn[];
-    educationalRoles: EducationalRole[];
-    thumbnail: Thumbnail;
-    attachments: any[];
-    versions: Version[];
-    hasDownloadableFiles: boolean;
-    urn?: any;
+    hits: number;
+    results: SearchResult[];
 }
