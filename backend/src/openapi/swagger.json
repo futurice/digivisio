@@ -1165,6 +1165,9 @@
 						}
 					}
 				},
+				"tags": [
+					"LearningMaterials"
+				],
 				"security": [
 					{
 						"fake_user_id": []
@@ -1209,6 +1212,9 @@
 						}
 					}
 				},
+				"tags": [
+					"Search"
+				],
 				"security": [
 					{
 						"fake_user_id": []
@@ -1230,6 +1236,9 @@
 						}
 					}
 				},
+				"tags": [
+					"Search"
+				],
 				"security": [
 					{
 						"fake_user_id": []
@@ -1266,6 +1275,9 @@
 						}
 					}
 				},
+				"tags": [
+					"SearchHistory"
+				],
 				"security": [
 					{
 						"fake_user_id": []

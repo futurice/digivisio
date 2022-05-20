@@ -1,4 +1,4 @@
-import { Controller, Get, Route, Request, Security } from "tsoa";
+import { Controller, Get, Route, Request, Security, Tags } from "tsoa";
 import { AuthenticatedRequestModel } from "../middlewares/authenticatedRequestModel";
 import pool from "../dbPoolService";
 
@@ -11,6 +11,7 @@ export type SearchHistoryRowModel = {
 
 @Route("api/searchhistory")
 @Security("fake_user_id")
+@Tags('SearchHistory')
 export class SearchHistoryController extends Controller {
     @Get()
     public async getSearchHistory(@Request() request: AuthenticatedRequestModel): Promise<SearchHistoryRowModel[]> {

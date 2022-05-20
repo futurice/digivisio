@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Body, Controller, Get, Post, Route, Request, Security } from "tsoa";
+import { Body, Controller, Get, Post, Route, Request, Security, Tags } from "tsoa";
 import pool from "../dbPoolService";
 import { SearchPostModel } from "../externalModels/SearchPostModel";
 import { SearchResponseModel } from "../externalModels/SearchResponseModel";
@@ -8,6 +8,7 @@ import { getRequiredEnvVariable } from "../utils";
 
 @Route("api/search")
 @Security("fake_user_id")
+@Tags('Search')
 export class SearchController extends Controller {
     @Get()
     public async getRandom(@Request() request: AuthenticatedRequestModel): Promise<({ randomNumber: number, userId: string | undefined })> {
