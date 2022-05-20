@@ -1,13 +1,14 @@
 import { SearchController } from "./searchController";
 import axios, { AxiosResponse } from 'axios';
 import { AuthenticatedRequestModel } from "../middlewares/authenticatedRequestModel";
-import pool from "../dbPoolService";
+import pool from "../services/dbPoolService";
 
 jest.mock('axios');
 const mockedAxios = axios as jest.Mocked<typeof axios>;
 
 const mockRequest = {
     // todo fill in whatever is needed for testing
+    user: { userId: 'someuserid' }
 } as AuthenticatedRequestModel
 
 

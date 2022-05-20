@@ -5,7 +5,7 @@ import { getRequiredEnvVariable } from "../utils";
 export class NotAuthenticatedError extends Error { }
 
 export type AuthenticatedUserModel = {
-    userId?: string
+    userId: string
     authenticated: boolean
 }
 
@@ -21,7 +21,7 @@ export const expressAuthentication = async (request: Request, _securityName: str
 
             console.debug('Found jwt in header');
 
-            if (decodedToken && typeof decodedToken !== "string") {
+            if (decodedToken && typeof decodedToken !== "string" && decodedToken.sub) {
                 console.debug(`Found user ${decodedToken.sub} in jwt`);
                 return {
                     authenticated: true,

@@ -1,23 +1,16 @@
 import { Controller, Get, Route, Request, Security, Tags } from "tsoa";
 import { AuthenticatedRequestModel } from "../middlewares/authenticatedRequestModel";
-import pool from "../dbPoolService";
-
-export type SearchHistoryRowModel = {
-    id: number
-    date_saved: string,
-    user_id: string
-    search_term: string
-}
+import { SearchHistoryRowModel, SearchHistoryService } from "../services/loggingService";
 
 @Route("api/searchhistory")
 @Security("fake_user_id")
 @Tags('SearchHistory')
 export class SearchHistoryController extends Controller {
     @Get()
-    public async getSearchHistory(@Request() request: AuthenticatedRequestModel): Promise<SearchHistoryRowModel[]> {
+    public async getSearchHistory(@Request() request: AuthenticatedRequestModel): Promise<readonly SearchHistoryRowModel[]> {
         try {
-            const result = await pool.query<SearchHistoryRowModel>('SELECT * FROM search_history WHERE user_id = $1 ORDER BY date_saved DESC LIMIT $2', [request.user?.userId, 50]);
-            return result.rows;
+            // todo.. no seriously, this needs DI
+            return await new SearchHistoryService().getSearchHistory(request.user.userId)
         }
         catch (error: unknown) {
             console.error('uh oh...');

@@ -1,10 +1,10 @@
 import axios from "axios";
 import { Body, Controller, Get, Post, Route, Request, Security, Tags } from "tsoa";
-import pool from "../dbPoolService";
 import { SearchPostModel } from "../externalModels/SearchPostModel";
 import { SearchResponseModel } from "../externalModels/SearchResponseModel";
 import { AuthenticatedRequestModel } from "../middlewares/authenticatedRequestModel";
 import { getRequiredEnvVariable } from "../utils";
+import { SearchHistoryService } from "../services/loggingService";
 
 @Route("api/search")
 @Security("fake_user_id")
@@ -29,7 +29,9 @@ export class SearchController extends Controller {
         try {
             // todo do we have some sensible way of figuring out if searchdata is "empty"?
             // todo figure out what we need to save here, also, consider using jsonb as column type
-            await pool.query('INSERT INTO search_history (user_id, search_term) VALUES ($1, $2)', [request.user?.userId, JSON.stringify(searchData)]);
+
+            // todo.. no seriously, this needs DI
+            await new SearchHistoryService().write(request.user.userId, searchData);
         }
         catch (error: unknown) {
             console.error('uh oh...');
