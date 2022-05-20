@@ -1212,6 +1212,7 @@
 						}
 					}
 				},
+				"description": "Get random. This is here for testing",
 				"tags": [
 					"Search"
 				],
@@ -1236,6 +1237,7 @@
 						}
 					}
 				},
+				"description": "Search eoa database with filters",
 				"tags": [
 					"Search"
 				],
@@ -1275,6 +1277,7 @@
 						}
 					}
 				},
+				"description": "Get search history",
 				"tags": [
 					"SearchHistory"
 				],

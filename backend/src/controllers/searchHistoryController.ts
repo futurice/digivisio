@@ -6,6 +6,11 @@ import { SearchHistoryRowModel, SearchHistoryService } from "../services/logging
 @Security("fake_user_id")
 @Tags('SearchHistory')
 export class SearchHistoryController extends Controller {
+    /**
+     * Get search history
+     * @param request 
+     * @returns 
+     */
     @Get()
     public async getSearchHistory(@Request() request: AuthenticatedRequestModel): Promise<readonly SearchHistoryRowModel[]> {
         try {

@@ -10,6 +10,11 @@ import { SearchHistoryService } from "../services/loggingService";
 @Security("fake_user_id")
 @Tags('Search')
 export class SearchController extends Controller {
+    /**
+     * Get random. This is here for testing
+     * @param request 
+     * @returns 
+     */
     @Get()
     public async getRandom(@Request() request: AuthenticatedRequestModel): Promise<({ randomNumber: number, userId: string | undefined })> {
         return {
@@ -18,6 +23,12 @@ export class SearchController extends Controller {
         }
     }
 
+    /**
+     * Search eoa database with filters
+     * @param request 
+     * @param searchData 
+     * @returns 
+     */
     @Post()
     public async search(@Request() request: AuthenticatedRequestModel, @Body() searchData: SearchPostModel): Promise<SearchResponseModel> {
         const aoeApiBaseUrl = getRequiredEnvVariable('AOE_API_BASEURL');
