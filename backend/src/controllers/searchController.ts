@@ -4,6 +4,7 @@ import pool from "../dbPoolService";
 import { SearchPostModel } from "../externalModels/SearchPostModel";
 import { SearchResponseModel } from "../externalModels/SearchResponseModel";
 import { AuthenticatedRequestModel } from "../middlewares/authenticatedRequestModel";
+import { getRequiredEnvVariable } from "../utils";
 
 @Route("api/search")
 @Security("fake_user_id")
@@ -18,12 +19,7 @@ export class SearchController extends Controller {
 
     @Post()
     public async search(@Request() request: AuthenticatedRequestModel, @Body() searchData: SearchPostModel): Promise<SearchResponseModel> {
-        // todo refactor and add DI        
-        const aoeApiBaseUrl = process.env.AOE_API_BASEURL
-
-        if (!aoeApiBaseUrl) {
-            throw new Error('Add AOE_API_BASEURL to env')
-        }
+        const aoeApiBaseUrl = getRequiredEnvVariable('AOE_API_BASEURL');
 
         const aoeApiSearchUrl = `${aoeApiBaseUrl}/search`
 
