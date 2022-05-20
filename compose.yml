@@ -8,6 +8,9 @@ services:
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
       - CORS_ORIGIN=http://localhost:3000
+      - JWT_SIGNING_KEY=${JWT_SIGNING_KEY}
+      - JWT_VALID_AUDIENCE=${JWT_VALID_AUDIENCE}
+      - JWT_VALID_ISSUER=${JWT_VALID_ISSUER}
 
   frontend:
     restart: always

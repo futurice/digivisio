@@ -1135,7 +1135,7 @@
 		"securitySchemes": {
 			"fake_user_id": {
 				"type": "apiKey",
-				"name": "digivisio-id",
+				"name": "authorization",
 				"in": "header"
 			}
 		}
