@@ -240,6 +240,7 @@ export function RegisterRoutes(app: express.Router) {
 
             function SearchController_search(request: any, response: any, next: any) {
             const args = {
+                    request: {"in":"request","name":"request","required":true,"dataType":"object"},
                     searchData: {"in":"body","name":"searchData","required":true,"ref":"SearchPostModel"},
             };
 

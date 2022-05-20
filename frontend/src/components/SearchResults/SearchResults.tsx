@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
-import { SearchResult, SearchResultsResponse } from '../../types/SearchResult';
+import { SearchResponseModel } from '../../utils/apiclient/models/SearchResponseModel';
+import { SearchResult } from '../../utils/apiclient/models/SearchResult';
 import { DefaultService } from '../../utils/apiclient/services/DefaultService';
 import ResultCard from './ResultCard';
 import styles from './Results.module.css';
 
 const Results = () => {
-  const [searchResultResponse, setSearchResultResponse] = useState<SearchResultsResponse>();
+  const [searchResultResponse, setSearchResultResponse] = useState<SearchResponseModel>();
   const [params] = useSearchParams();
   const keywordParam = params.get('keywords') || '';
 
