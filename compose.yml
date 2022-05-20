@@ -21,7 +21,7 @@ services:
     ports:
       - 443:443
     volumes:
-      - somefolderhere:/etc/nginx/certs
+      - ./fakecert:/etc/nginx/certs
 
   db:
     image: postgres
