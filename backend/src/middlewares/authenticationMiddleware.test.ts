@@ -1,4 +1,4 @@
-import { DIGIVISIO_ID_HEADER_NAME, expressAuthentication } from "./authenticationMiddleware";
+import { expressAuthentication } from "./authenticationMiddleware";
 import { Request } from "express";
 import { IncomingHttpHeaders } from "http";
 
@@ -9,7 +9,7 @@ describe('expressAuthentication', () => {
         it('should return user', async () => {
             const request = {
                 headers: {
-                    [DIGIVISIO_ID_HEADER_NAME]: mockUserId,
+                    Authorization: mockUserId,
                 } as IncomingHttpHeaders
             } as Request
 

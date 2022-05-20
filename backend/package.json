@@ -6,7 +6,7 @@
   "scripts": {
     "generate-tsoa": "tsoa routes && tsoa spec-and-routes",
     "build": "npm run generate-tsoa && tsc",
-    "start": "node dist/index.js",
+    "start": "tsc && node dist/index.js",
     "test": "jest --watch",
     "test:ci": "jest --coverage"
   },

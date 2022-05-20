@@ -1,5 +1,6 @@
 import { Request } from "express";
 import jwt from 'jsonwebtoken';
+import { getRequiredEnvVariable } from "../utils";
 
 export class NotAuthenticatedError extends Error { }
 
@@ -9,29 +10,29 @@ export type AuthenticatedUserModel = {
 }
 
 export const expressAuthentication = async (request: Request, _securityName: string, _scopes?: string[]): Promise<AuthenticatedUserModel> => {
-
-    // todo get these from env
-    const cert = 'getcertfromenv';
-    const validAudience = 'someaudience';
-    const validIssuer = 'someissuer';
+    // in production we would like to use either an asymmetric public key, or some external service
+    const signingKey = getRequiredEnvVariable('JWT_SIGNING_KEY')
+    const validAudience = getRequiredEnvVariable('JWT_VALID_AUDIENCE')
+    const validIssuer = getRequiredEnvVariable('JWT_VALID_ISSUER')
 
     if (request.headers.authorization?.startsWith('Bearer ')) {
-        jwt.verify(request.headers.authorization.substring(7), cert, { audience: validAudience, issuer: validIssuer }, (err, decodedToken) => {
-            if (err !== null) {
-                console.error(err);
-                throw new NotAuthenticatedError(`Invalid JWT`);
-            }
+        try {
+            const decodedToken = jwt.verify(request.headers.authorization.substring(7), signingKey, { audience: validAudience, issuer: validIssuer })
 
-            // todo pick some relevant claims from decoded token and populate user model
+            console.debug('Found jwt in header');
+
             if (decodedToken && typeof decodedToken !== "string") {
+                console.debug(`Found user ${decodedToken.sub} in jwt`);
                 return {
                     authenticated: true,
                     userId: decodedToken.sub,
-                }
+                };
             }
-
-            // if we get here something is seriously wrong with the token
-        });
+        }
+        catch (err: unknown) {
+            console.error(err);
+            throw new NotAuthenticatedError(`Invalid JWT`);
+        }
     }
 
     throw new NotAuthenticatedError(`Requests should include Authorization header with JWT`)
