@@ -93,6 +93,13 @@ HS256 Signing key: `NTNv7j0TuYARvmNMmWXo6fKvM4o6nv/aUi9ryX38ZH+L1bkrnD1ObOQ8JAUm
 
 The build images are pushed to the private registry `digivisioacr.azurecr.io`
 
+## Install docker 
+```
+sudo yum install yum-utils
+sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+sudo yum install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+sudo systemctl start docker
+```
 
 ## Login to private docker registry (once)
 Before pulling images we need to log in to the private registry. The password can be found: ... where do we put it?
