@@ -584,7 +584,7 @@
 				],
 				"type": "object"
 			},
-			"LearningMaterialModel": {
+			"AoeLearningMaterialResponseModel": {
 				"properties": {
 					"urn": {},
 					"hasDownloadableFiles": {
@@ -798,6 +798,57 @@
 					"id"
 				],
 				"type": "object"
+			},
+			"OpenUniversityCourseModel": {
+				"properties": {
+					"credits": {
+						"type": "string"
+					},
+					"subjects": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					},
+					"universityNames": {
+						"items": {
+							"type": "string"
+						},
+						"type": "array"
+					},
+					"url": {
+						"type": "string"
+					},
+					"name": {
+						"type": "string"
+					}
+				},
+				"required": [
+					"credits",
+					"subjects",
+					"universityNames",
+					"url",
+					"name"
+				],
+				"type": "object"
+			},
+			"LearningMaterialModel": {
+				"allOf": [
+					{
+						"$ref": "#/components/schemas/AoeLearningMaterialResponseModel"
+					},
+					{
+						"properties": {
+							"relatedCourses": {
+								"items": {
+									"$ref": "#/components/schemas/OpenUniversityCourseModel"
+								},
+								"type": "array"
+							}
+						},
+						"type": "object"
+					}
+				]
 			},
 			"MaterialName": {
 				"properties": {

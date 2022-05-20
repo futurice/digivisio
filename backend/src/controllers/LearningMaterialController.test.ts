@@ -7,7 +7,8 @@ describe('learningMaterialsController', () => {
     describe('get', () => {
         const searchResponse: AxiosResponse = {
             data: {
-                someproperty: 'somevalue'
+                someproperty: 'somevalue',
+                keywords: [],
             },
             status: 200,
             statusText: "ok",
