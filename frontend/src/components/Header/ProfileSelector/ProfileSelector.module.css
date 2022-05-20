@@ -6,12 +6,12 @@
 }
 
 .profile:before {
-    content: '';
-    height: 25px;
-    width: 25px;
-    background-color: rebeccapurple;
-    border-radius: 50%;
-    display: inline-block;
+  content: '';
+  height: 25px;
+  width: 25px;
+  background-color: rebeccapurple;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .profileList {
