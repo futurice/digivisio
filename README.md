@@ -89,7 +89,7 @@ sudo docker login digivisioacr.azurecr.io -u digivisioacr
 ```
 sudo systemctl stop digivisio.service
 
-sudo cd /home/cloud-user/app/ && sudo docker compose pull
+sudo docker compose -f /home/cloud-user/app/docker-compose.yml pull
 
 sudo systemctl start digivisio.service
 ```
