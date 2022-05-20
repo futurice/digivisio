@@ -21,7 +21,7 @@ services:
     ports:
       - 443:443
     volumes:
-      - C:/Users/vfor/Desktop/digivisiostuff/cert:/etc/nginx/certs
+      - /home/cloud-user/dockercertvolume:/etc/nginx/certs
 
   db:
     image: postgres
