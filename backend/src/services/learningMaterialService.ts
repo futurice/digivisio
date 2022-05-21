@@ -12,14 +12,19 @@ export class LearningMaterialsService {
      * university courses from opintopolku.fi.
      */
     public async getEnrichedLearningMaterial(materialId: string): Promise<LearningMaterialModel> {
-        const learningMaterial: LearningMaterialModel = await this.getLearningMaterialMetadata(materialId)
+        const maxCourses = 4  // Maximum number of related courses to include in the response
 
+        const learningMaterial: LearningMaterialModel = await this.getLearningMaterialMetadata(materialId)
         const keywords = learningMaterial.keywords.map(k => k.value)
-        const firstKeyword = keywords[0]
-        if (firstKeyword) {
-            // TODO: get courses for all keywords and merge the results?
-            learningMaterial.relatedCourses = await this.getOpenUniversityCourses(firstKeyword)
-        }
+
+        // Fetch courses for the first few keywords. Usually we get enough
+        // courses for the first few keywords, so it's not necessary to fetch
+        // courses for all of them.
+        const coursesByKeywords = await Promise.all(
+            keywords.slice(0, 3).map(k => this.getOpenUniversityCourses(k, maxCourses)))
+        // Remove duplicates and take only the first maxCourses courses
+        const uniqueCourses = [...new Set([...coursesByKeywords.flat()])]
+        learningMaterial.relatedCourses = uniqueCourses.slice(0, maxCourses)
 
         return learningMaterial
     }
