@@ -3,4 +3,6 @@ export default {
   preset: 'ts-jest',
   testEnvironment: 'node',
   setupFiles: ['./setTestEnvVars.js'],
+  collectCoverageFrom: ["./src/**"],
+  coveragePathIgnorePatterns: ["./openapi/",],
 };
