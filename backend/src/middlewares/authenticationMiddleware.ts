@@ -35,7 +35,7 @@ export const expressAuthentication = async (request: Request, _securityName: str
             }
         }
         catch (err: unknown) {
-            console.error(err);
+            // maybe use some proper logging framework
             throw new NotAuthenticatedError(`Invalid JWT`);
         }
     }

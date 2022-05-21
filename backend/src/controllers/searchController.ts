@@ -41,8 +41,7 @@ export class SearchController extends Controller {
             // todo do we have some sensible way of figuring out if searchdata is "empty"?
             // todo figure out what we need to save here, also, consider using jsonb as column type
 
-            // todo.. no seriously, this needs DI
-            await new SearchHistoryService().write(request.user.userId, searchData);
+            await SearchHistoryService.write(request.user.userId, searchData);
         }
         catch (error: unknown) {
             console.error('uh oh...');

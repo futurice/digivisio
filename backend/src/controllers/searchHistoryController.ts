@@ -14,8 +14,7 @@ export class SearchHistoryController extends Controller {
     @Get()
     public async getSearchHistory(@Request() request: AuthenticatedRequestModel): Promise<readonly SearchHistoryRowModel[]> {
         try {
-            // todo.. no seriously, this needs DI
-            return await new SearchHistoryService().getSearchHistory(request.user.userId)
+            return await SearchHistoryService.getSearchHistory(request.user.userId)
         }
         catch (error: unknown) {
             console.error('uh oh...');
