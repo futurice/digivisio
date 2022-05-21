@@ -1,6 +1,6 @@
-import { Request } from "express";
-import jwt from 'jsonwebtoken';
-import { getRequiredEnvVariable } from "../utils";
+import { Request } from 'express'
+import jwt from 'jsonwebtoken'
+import { getRequiredEnvVariable } from '../utils'
 
 export class NotAuthenticatedError extends Error { }
 
@@ -12,10 +12,10 @@ export type AuthenticatedUserModel = {
 /**
  * Authentication middleware used by tsoa to verify jwt tokens
  * Tokens are expected to use the authorization header with Bearer scheme
- * @param request 
- * @param _securityName 
- * @param _scopes 
- * @returns 
+ * @param request
+ * @param _securityName
+ * @param _scopes
+ * @returns
  */
 export const expressAuthentication = async (request: Request, _securityName: string, _scopes?: string[]): Promise<AuthenticatedUserModel> => {
     // in production we would like to use either an asymmetric public key, or some external service
@@ -27,18 +27,17 @@ export const expressAuthentication = async (request: Request, _securityName: str
         try {
             const decodedToken = jwt.verify(request.headers.authorization.substring(7), signingKey, { audience: validAudience, issuer: validIssuer })
 
-            if (decodedToken && typeof decodedToken !== "string" && decodedToken.sub) {
+            if (decodedToken && typeof decodedToken !== 'string' && decodedToken.sub) {
                 return {
                     authenticated: true,
                     userId: decodedToken.sub,
-                };
+                }
             }
-        }
-        catch (err: unknown) {
+        } catch (err: unknown) {
             // maybe use some proper logging framework
-            throw new NotAuthenticatedError(`Invalid JWT`);
+            throw new NotAuthenticatedError('Invalid JWT')
         }
     }
 
-    throw new NotAuthenticatedError(`Requests should include Authorization header with JWT`)
+    throw new NotAuthenticatedError('Requests should include Authorization header with JWT')
 }
