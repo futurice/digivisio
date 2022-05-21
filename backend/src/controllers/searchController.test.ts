@@ -1,6 +1,7 @@
 import { SearchController } from "./searchController";
 import axios, { AxiosResponse } from 'axios';
 import { AuthenticatedRequestModel } from "../middlewares/authenticatedRequestModel";
+import { successfulResponse } from '../testUtils';
 
 jest.mock('axios');
 const mockedAxios = axios as jest.Mocked<typeof axios>;
@@ -20,15 +21,9 @@ describe('searchController', () => {
     })
 
     describe('postSearch', () => {
-        const searchResponse: AxiosResponse = {
-            data: {
-                someproperty: 'somevalue'
-            },
-            status: 200,
-            statusText: "ok",
-            headers: {},
-            config: {}
-        }
+        const searchResponse: AxiosResponse = successfulResponse({
+            someproperty: 'somevalue'
+        })
 
 
         it('should return ok', async () => {
