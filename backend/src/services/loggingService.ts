@@ -1,4 +1,4 @@
-import { SearchPostModel } from '../externalModels/SearchPostModel'
+import type { SearchPostModel } from '../externalModels/SearchPostModel'
 import pool from './dbPoolService'
 
 export type SearchHistoryRowModel = {

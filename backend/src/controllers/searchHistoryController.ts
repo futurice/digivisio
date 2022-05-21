@@ -1,6 +1,6 @@
 import { Controller, Get, Route, Request, Security, Tags } from 'tsoa'
-import { AuthenticatedRequestModel } from '../middlewares/authenticatedRequestModel'
-import { SearchHistoryRowModel, SearchHistoryService } from '../services/loggingService'
+import type { AuthenticatedRequestModel } from '../middlewares/authenticatedRequestModel'
+import { type SearchHistoryRowModel, SearchHistoryService } from '../services/loggingService'
 
 @Route('api/searchhistory')
 @Security('fake_user_id')

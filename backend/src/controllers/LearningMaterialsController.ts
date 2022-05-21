@@ -1,6 +1,6 @@
 import axios from 'axios'
 import { Controller, Get, Path, Route, Security, Tags } from 'tsoa'
-import { LearningMaterialModel } from '../externalModels/LearningMaterialModel'
+import type { LearningMaterialModel } from '../externalModels/LearningMaterialModel'
 import { getRequiredEnvVariable } from '../utils'
 
 @Route('api/materials')

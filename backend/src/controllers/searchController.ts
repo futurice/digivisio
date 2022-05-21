@@ -1,8 +1,8 @@
 import axios from 'axios'
 import { Body, Controller, Get, Post, Route, Request, Security, Tags } from 'tsoa'
-import { SearchPostModel } from '../externalModels/SearchPostModel'
-import { SearchResponseModel } from '../externalModels/SearchResponseModel'
-import { AuthenticatedRequestModel } from '../middlewares/authenticatedRequestModel'
+import type { SearchPostModel } from '../externalModels/SearchPostModel'
+import type { SearchResponseModel } from '../externalModels/SearchResponseModel'
+import type { AuthenticatedRequestModel } from '../middlewares/authenticatedRequestModel'
 import { getRequiredEnvVariable } from '../utils'
 import { SearchHistoryService } from '../services/loggingService'
 
