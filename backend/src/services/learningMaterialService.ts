@@ -20,8 +20,13 @@ export class LearningMaterialsService {
         // Fetch courses for the first few keywords. Usually we get enough
         // courses for the first few keywords, so it's not necessary to fetch
         // courses for all of them.
-        const coursesByKeywords = await Promise.all(
-            keywords.slice(0, 3).map(k => this.getOpenUniversityCourses(k, maxCourses)))
+        let coursesByKeywords: OpenUniversityCourseModel[][] = []
+        try {
+            coursesByKeywords = await Promise.all(
+                keywords.slice(0, 3).map(k => this.getOpenUniversityCourses(k, maxCourses)))
+        } catch (e) {
+            console.warn(e)
+        }
         // Remove duplicates and take only the first maxCourses courses
         const uniqueCourses = [...new Set([...coursesByKeywords.flat()])]
         learningMaterial.relatedCourses = uniqueCourses.slice(0, maxCourses)
