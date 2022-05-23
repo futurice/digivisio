@@ -12,11 +12,11 @@ describe('learningMaterialsController', () => {
         })
         const searchResponseWithKeywords = successfulResponse({
             keywords: [
-                {value: 'keyword1'},
-                {value: 'keyword2'},
-                {value: 'keyword3'},
-                {value: 'keyword4'}
-            ]
+                { value: 'keyword1' },
+                { value: 'keyword2' },
+                { value: 'keyword3' },
+                { value: 'keyword4' },
+            ],
         })
         const courseResponse = successfulResponse({
             results: [
@@ -26,8 +26,8 @@ describe('learningMaterialsController', () => {
                     lopNames: [],
                     subjects: [],
                     credits: '',
-                }
-            ]
+                },
+            ],
         })
 
         it('should return ok', async () => {
@@ -49,7 +49,7 @@ describe('learningMaterialsController', () => {
             })
 
             const controller = new LearningMaterialsController()
-            const response = await controller.getLearningMaterialMetadata("10")
+            const response = await controller.getLearningMaterialMetadata('10')
 
             expect(response.relatedCourses?.length).toBeGreaterThan(0)
         })

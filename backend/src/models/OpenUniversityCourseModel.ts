@@ -1,4 +1,4 @@
-import { AoeLearningMaterialResponseModel } from "../externalModels/AoeLearningMaterialResponseModel";
+import { AoeLearningMaterialResponseModel } from '../externalModels/AoeLearningMaterialResponseModel'
 
 export type OpenUniversityCourseModel = {
     name: string;

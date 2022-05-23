@@ -10,9 +10,9 @@ export class LearningMaterialsController extends Controller {
      * Get metadata for a single learning material.
      *
      * @param materialId Learning material ID
-     * @returns 
+     * @returns
      */
-    @Get("{materialId}")
+    @Get('{materialId}')
     public async getLearningMaterialMetadata(@Path() materialId: string): Promise<LearningMaterialModel> {
         return LearningMaterialsService.getEnrichedLearningMaterial(materialId)
     }

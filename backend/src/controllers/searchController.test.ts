@@ -23,7 +23,7 @@ describe('searchController', () => {
 
     describe('postSearch', () => {
         const searchResponse: AxiosResponse = successfulResponse({
-            someproperty: 'somevalue'
+            someproperty: 'somevalue',
         })
 
         it('should return ok', async () => {
