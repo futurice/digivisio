@@ -1,3 +1,16 @@
+.searchFilter {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  text-align: left;
+}
+
+.searchFilterCriteria {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 .resultHits {
   display: flex;
   flex-direction: row;

@@ -28,7 +28,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<SearchPage />} />
           <Route path="/result/:id" element={<ResultPage />} />
-          <Route path="/results" element={<SearchResults />} />
+          <Route path="/results" element={<SearchResults selectedProfile={selectedProfile} />} />
         </Routes>
       </BrowserRouter>
     </div>
