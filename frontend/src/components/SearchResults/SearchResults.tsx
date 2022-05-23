@@ -11,7 +11,7 @@ export type ResultProfileProps = {
   readonly selectedProfile: Profile;
 };
 
-const Results = ({ ...rest }: ResultProfileProps) => {
+const Results = ({ selectedProfile }: ResultProfileProps) => {
   const [searchResultResponse, setSearchResultResponse] = useState<SearchResponseModel>();
   const [params] = useSearchParams();
   const keywordParam = params.get('keywords') || '';
@@ -21,14 +21,14 @@ const Results = ({ ...rest }: ResultProfileProps) => {
       const results = await DefaultService.search({
         keywords: keywordParam,
         filters: {
-          educationalLevels: [...rest.selectedProfile.educationalLevels.map((el) => el.key)],
-          educationalRoles: [...rest.selectedProfile.educationalRoles.map((el) => el.key)],
+          educationalLevels: [...selectedProfile.educationalLevels.map(({ key }) => key)],
+          educationalRoles: [...selectedProfile.educationalRoles.map(({ key }) => key)],
         },
       });
       setSearchResultResponse(results);
     };
     getResults();
-  }, [keywordParam, rest.selectedProfile]);
+  }, [keywordParam, selectedProfile]);
 
   const allResults = searchResultResponse?.results ?? [];
 
@@ -37,8 +37,8 @@ const Results = ({ ...rest }: ResultProfileProps) => {
       <div className={styles.searchFilter}>
         <p>Oppijaprofiiliisi perustuvat valinnat</p>
         <div className={styles.searchFilterCriteria}>
-          {rest.selectedProfile.educationalLevels.concat(rest.selectedProfile.educationalRoles).map((el) => (
-            <div>{el.value}</div>
+          {selectedProfile.educationalLevels.concat(selectedProfile.educationalRoles).map(( { value } ) => (
+            <div>{value}</div>
           ))}
         </div>
       </div>
