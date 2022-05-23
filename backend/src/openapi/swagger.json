@@ -1106,6 +1106,30 @@
 					}
 				},
 				"type": "object"
+			},
+			"SearchHistoryRowModel": {
+				"properties": {
+					"search_term": {
+						"type": "string"
+					},
+					"user_id": {
+						"type": "string"
+					},
+					"date_saved": {
+						"type": "string"
+					},
+					"id": {
+						"type": "number",
+						"format": "double"
+					}
+				},
+				"required": [
+					"search_term",
+					"user_id",
+					"date_saved",
+					"id"
+				],
+				"type": "object"
 			}
 		},
 		"securitySchemes": {
@@ -1141,6 +1165,9 @@
 						}
 					}
 				},
+				"tags": [
+					"LearningMaterials"
+				],
 				"security": [
 					{
 						"fake_user_id": []
@@ -1185,6 +1212,10 @@
 						}
 					}
 				},
+				"description": "Get random. This is here for testing",
+				"tags": [
+					"Search"
+				],
 				"security": [
 					{
 						"fake_user_id": []
@@ -1206,6 +1237,10 @@
 						}
 					}
 				},
+				"description": "Search eoa database with filters",
+				"tags": [
+					"Search"
+				],
 				"security": [
 					{
 						"fake_user_id": []
@@ -1222,6 +1257,36 @@
 						}
 					}
 				}
+			}
+		},
+		"/api/searchhistory": {
+			"get": {
+				"operationId": "GetSearchHistory",
+				"responses": {
+					"200": {
+						"description": "Ok",
+						"content": {
+							"application/json": {
+								"schema": {
+									"items": {
+										"$ref": "#/components/schemas/SearchHistoryRowModel"
+									},
+									"type": "array"
+								}
+							}
+						}
+					}
+				},
+				"description": "Get search history",
+				"tags": [
+					"SearchHistory"
+				],
+				"security": [
+					{
+						"fake_user_id": []
+					}
+				],
+				"parameters": []
 			}
 		}
 	},

@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+
+dotenv.config()
 
 /**
  * Get a required env variable

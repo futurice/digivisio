@@ -5,10 +5,18 @@ import { getRequiredEnvVariable } from "../utils";
 export class NotAuthenticatedError extends Error { }
 
 export type AuthenticatedUserModel = {
-    userId?: string
+    userId: string
     authenticated: boolean
 }
 
+/**
+ * Authentication middleware used by tsoa to verify jwt tokens
+ * Tokens are expected to use the authorization header with Bearer scheme
+ * @param request 
+ * @param _securityName 
+ * @param _scopes 
+ * @returns 
+ */
 export const expressAuthentication = async (request: Request, _securityName: string, _scopes?: string[]): Promise<AuthenticatedUserModel> => {
     // in production we would like to use either an asymmetric public key, or some external service
     const signingKey = getRequiredEnvVariable('JWT_SIGNING_KEY')
@@ -19,10 +27,7 @@ export const expressAuthentication = async (request: Request, _securityName: str
         try {
             const decodedToken = jwt.verify(request.headers.authorization.substring(7), signingKey, { audience: validAudience, issuer: validIssuer })
 
-            console.debug('Found jwt in header');
-
-            if (decodedToken && typeof decodedToken !== "string") {
-                console.debug(`Found user ${decodedToken.sub} in jwt`);
+            if (decodedToken && typeof decodedToken !== "string" && decodedToken.sub) {
                 return {
                     authenticated: true,
                     userId: decodedToken.sub,
@@ -30,7 +35,7 @@ export const expressAuthentication = async (request: Request, _securityName: str
             }
         }
         catch (err: unknown) {
-            console.error(err);
+            // maybe use some proper logging framework
             throw new NotAuthenticatedError(`Invalid JWT`);
         }
     }
