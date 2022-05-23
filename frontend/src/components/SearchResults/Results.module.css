@@ -1,9 +1,0 @@
-.resultHits {
-  display: flex;
-  flex-direction: row;
-  gap: 0.5rem;
-}
-
-.results {
-  text-align: left;
-}
