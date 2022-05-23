@@ -1192,6 +1192,7 @@
 						}
 					}
 				},
+				"description": "Get metadata for a single learning material.",
 				"security": [
 					{
 						"fake_user_id": []
@@ -1199,6 +1200,7 @@
 				],
 				"parameters": [
 					{
+						"description": "Learning material ID",
 						"in": "path",
 						"name": "materialId",
 						"required": true,

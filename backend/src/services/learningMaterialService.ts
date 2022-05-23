@@ -4,17 +4,17 @@ import { OpintopolkuSearchResultModel } from "../externalModels/OpintopolkuSearc
 import { LearningMaterialModel, OpenUniversityCourseModel } from "../models/OpenUniversityCourseModel";
 import * as qs from "qs";
 
-export class LearningMaterialsService {
+export const LearningMaterialsService = {
     /**
      * Get enriched learning material metadata.
      * 
      * Gets material metadata from aoe.fi and combines it with related open
      * university courses from opintopolku.fi.
      */
-    public async getEnrichedLearningMaterial(materialId: string): Promise<LearningMaterialModel> {
+     getEnrichedLearningMaterial: async (materialId: string): Promise<LearningMaterialModel> => {
         const maxCourses = 4  // Maximum number of related courses to include in the response
 
-        const learningMaterial: LearningMaterialModel = await this.getLearningMaterialMetadata(materialId)
+        const learningMaterial: LearningMaterialModel = await LearningMaterialsService.getLearningMaterialMetadata(materialId)
         const keywords = learningMaterial.keywords.map(k => k.value)
 
         // Fetch courses for the first few keywords. Usually we get enough
@@ -23,7 +23,7 @@ export class LearningMaterialsService {
         let coursesByKeywords: OpenUniversityCourseModel[][] = []
         try {
             coursesByKeywords = await Promise.all(
-                keywords.slice(0, 3).map(k => this.getOpenUniversityCourses(k, maxCourses)))
+                keywords.slice(0, 3).map(k => LearningMaterialsService.getOpenUniversityCourses(k, maxCourses)))
         } catch (e) {
             console.warn(e)
         }
@@ -32,12 +32,12 @@ export class LearningMaterialsService {
         learningMaterial.relatedCourses = uniqueCourses.slice(0, maxCourses)
 
         return learningMaterial
-    }
+    },
 
     /**
      * Fetch learning material metadata from the aoe.fi API
      */
-    public async getLearningMaterialMetadata(materialId: string): Promise<AoeLearningMaterialResponseModel> {
+     getLearningMaterialMetadata: async (materialId: string): Promise<AoeLearningMaterialResponseModel> => {
         // todo refactor and add DI
         const aoeApiBaseUrl = process.env.AOE_API_BASEURL
 
@@ -49,7 +49,7 @@ export class LearningMaterialsService {
 
         const response = await axios.get(url)
         return response.data
-    }
+    },
 
     /**
      * Fetch open university courses from opintopolku.fi.
@@ -57,7 +57,7 @@ export class LearningMaterialsService {
      * @param searchText Query text, for example field of study. Returns courses related to this query.
      * @param maxResults Maximum number of courses to return (optional)
      */
-    public async getOpenUniversityCourses(searchText: string, maxResults: number = 4): Promise<OpenUniversityCourseModel[]> {
+     getOpenUniversityCourses: async (searchText: string, maxResults: number = 4): Promise<OpenUniversityCourseModel[]> => {
         const opintopolkuSearchBaseUrl = process.env.OPINTOPOLKU_API_SEARCH_BASEURL
 
         if (!opintopolkuSearchBaseUrl) {
@@ -99,3 +99,5 @@ export class LearningMaterialsService {
         return courses
     }
 }
+
+export default LearningMaterialsService
