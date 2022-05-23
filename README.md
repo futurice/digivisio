@@ -60,6 +60,16 @@ After this the following endpoints will be available (default):
 | pgadmin    | http://localhost:5555  |
 
 
+### Database recreation
+Because the database is initialize only one, running the migration file again requires removing the database volume:
+```
+docker compose -f .\compose.yml down volumes
+docker volume rm digivisio_db-data 
+```
+
+After this the database will be recreated and the init.sql script rerun.
+This step can also be done in "production" if needed.
+
 ## Authentication
 The backend requires a "fake" jwt created for this project. Normally this JWT would be signed by some external provider, or handled with an asymmetric key, but for the purpose of the project a dummy symmetric key and JWTs are used
 
@@ -158,3 +168,4 @@ sudo mv digivisio.service /etc/systemd/system/
 
 sudo systemctl restart digivisio.service
 ```
+
