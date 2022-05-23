@@ -1,5 +1,5 @@
-import { Pool } from "pg"
-import { getRequiredEnvVariable } from "../utils"
+import { Pool } from 'pg'
+import { getRequiredEnvVariable } from '../utils'
 
 const pool = new Pool({
     user: 'postgres',

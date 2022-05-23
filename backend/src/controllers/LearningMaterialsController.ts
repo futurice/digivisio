@@ -1,9 +1,9 @@
-import { Controller, Get, Path, Route, Security, Tags } from "tsoa";
-import { LearningMaterialModel } from "../models/OpenUniversityCourseModel"
-import { LearningMaterialsService } from "../services/learningMaterialService";
+import { Controller, Get, Path, Route, Security, Tags } from 'tsoa'
+import type { LearningMaterialModel } from '../models/OpenUniversityCourseModel'
+import { LearningMaterialsService } from '../services/learningMaterialService'
 
-@Route("api/materials")
-@Security("fake_user_id")
+@Route('api/materials')
+@Security('fake_user_id')
 @Tags('LearningMaterials')
 export class LearningMaterialsController extends Controller {
     /**

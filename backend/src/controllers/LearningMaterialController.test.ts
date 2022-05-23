@@ -1,8 +1,8 @@
-import { LearningMaterialsController } from "./LearningMaterialsController";
-import axios, { AxiosResponse } from 'axios';
-import { successfulResponse } from '../testUtils';
-jest.mock('axios');
-const mockedAxios = axios as jest.Mocked<typeof axios>;
+import { LearningMaterialsController } from './LearningMaterialsController'
+import axios, { AxiosResponse } from 'axios'
+import { successfulResponse } from '../testUtils'
+jest.mock('axios')
+const mockedAxios = axios as jest.Mocked<typeof axios>
 
 describe('learningMaterialsController', () => {
     describe('get', () => {
@@ -34,7 +34,7 @@ describe('learningMaterialsController', () => {
             mockedAxios.get.mockResolvedValue(searchResponse)
 
             const controller = new LearningMaterialsController()
-            const response = await controller.getLearningMaterialMetadata("10")
+            const response = await controller.getLearningMaterialMetadata('10')
 
             expect(response).toBeDefined()
         })

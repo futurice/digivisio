@@ -21,6 +21,10 @@ jobs:
         working-directory: backend
         run: docker build -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest . --target prod
 
+      - name: Run backend lint
+        working-directory: backend
+        run: docker run ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest npm run lint
+
       - name: Run backend tests
         working-directory: backend
         run: docker run -e CI=true ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest npm run test:ci
@@ -50,6 +54,10 @@ jobs:
       - name: Build frontend builder image
         working-directory: frontend
         run: docker build -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-frontend:latest . --target builder
+
+      - name: Run frontend lint
+        working-directory: frontend
+        run: docker run ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-frontend:latest npm run lint
 
       - name: Run frontend tests
         working-directory: frontend

@@ -23,6 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate-apiclient": "openapi --input ../backend/src/openapi/swagger.json --output ./src/utils/apiclient",
+    "lint": "eslint src",
     "lint:fix": "eslint --fix src && prettier --write src"
   },
   "eslintConfig": {

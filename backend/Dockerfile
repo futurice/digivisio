@@ -12,6 +12,7 @@ COPY tsoa.json ./
 COPY src ./src
 COPY .env.production ./.env
 COPY setTestEnvVars.js ./
+COPY .eslintrc.json ./
 
 # hmm.. do i want separate layers for test and prod and dev, or just have a common layer and run commands... decisions, decisions...
 
