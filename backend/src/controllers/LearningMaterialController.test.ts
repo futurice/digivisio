@@ -35,7 +35,7 @@ describe('learningMaterialsController', () => {
             ],
         })
         const courseMetadataResponse = successfulResponse({
-            content: 'Kielitieteen perusteet, 2 opintopistettä'
+            content: 'Kielitieteen perusteet, 2 opintopistettä',
         })
 
         it('should return ok', async () => {
