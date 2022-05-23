@@ -2,6 +2,7 @@ import axios, { AxiosResponse } from "axios";
 import { AoeLearningMaterialResponseModel } from "../externalModels/AoeLearningMaterialResponseModel";
 import { OpintopolkuSearchResultModel } from "../externalModels/OpintopolkuSearchResponseModel";
 import { LearningMaterialModel, OpenUniversityCourseModel } from "../models/OpenUniversityCourseModel";
+import { getRequiredEnvVariable } from '../utils'
 import * as qs from "qs";
 
 export const LearningMaterialsService = {
@@ -38,13 +39,7 @@ export const LearningMaterialsService = {
      * Fetch learning material metadata from the aoe.fi API
      */
      getLearningMaterialMetadata: async (materialId: string): Promise<AoeLearningMaterialResponseModel> => {
-        // todo refactor and add DI
-        const aoeApiBaseUrl = process.env.AOE_API_BASEURL
-
-        if (!aoeApiBaseUrl) {
-            throw new Error('Add AOE_API_BASEURL to env')
-        }
-
+        const aoeApiBaseUrl = getRequiredEnvVariable('AOE_API_BASEURL')
         const url = `${aoeApiBaseUrl}/metadata/${materialId}`
 
         const response = await axios.get(url)
@@ -58,12 +53,7 @@ export const LearningMaterialsService = {
      * @param maxResults Maximum number of courses to return (optional)
      */
      getOpenUniversityCourses: async (searchText: string, maxResults: number = 4): Promise<OpenUniversityCourseModel[]> => {
-        const opintopolkuSearchBaseUrl = process.env.OPINTOPOLKU_API_SEARCH_BASEURL
-
-        if (!opintopolkuSearchBaseUrl) {
-            throw new Error('Add OPINTOPOLKU_API_SEARCH_BASEURL to env')
-        }
-
+        const opintopolkuSearchBaseUrl = getRequiredEnvVariable('OPINTOPOLKU_API_SEARCH_BASEURL')
         const query = {
             start: 0,
             rows: maxResults,
