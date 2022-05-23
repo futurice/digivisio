@@ -33,19 +33,21 @@ const Results = ({ selectedProfile }: ResultProfileProps) => {
   const allResults = searchResultResponse?.results ?? [];
 
   return (
-    <div className={styles.resultsList}>
+    <div>
       <div className={styles.searchFilter}>
         <p>Oppijaprofiiliisi perustuvat valinnat</p>
         <div className={styles.searchFilterCriteria}>
-          {selectedProfile.educationalLevels.concat(selectedProfile.educationalRoles).map(( { value } ) => (
+          {selectedProfile.educationalLevels.concat(selectedProfile.educationalRoles).map(({ value }) => (
             <div>{value}</div>
           ))}
         </div>
       </div>
-      <div className={styles.results}>
-        {allResults.map((result) => (
-          <ResultCard key={result.id} result={result} />
-        ))}
+      <div className={styles.resultsList}>
+        <div className={styles.results}>
+          {allResults.map((result) => (
+            <ResultCard key={result.id} result={result} />
+          ))}
+        </div>
       </div>
     </div>
   );
