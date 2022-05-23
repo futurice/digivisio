@@ -21,6 +21,8 @@ jobs:
         run: |
           cp .env.test .env \
           && docker-compose -f ./compose.yml build \
+          && docker-compose -f ./compose.yml up -d \
+          && sleep 10 \
           && docker-compose -f ./compose.yml run backend npm run test:ci
 
       - name: Build docker test image
