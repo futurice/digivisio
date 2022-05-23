@@ -1,16 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-import { ReactComponent as Download } from '../../../assets/icons/download.svg';
 import thumbnailFallback from '../../../assets/thumbnail_placeholder.png';
 import { SearchResult } from '../../../utils/apiclient';
+import dateConverter from '../../../utils/dateConverter';
 import DescribeText from '../../common/DescribeText';
+import DownloadButton from '../../common/DownloadButton';
+import TopicElements from '../../common/TopicElements';
 import styles from './ResultCard.module.css';
 
 const getResultFields = (result: SearchResult, lang = 'fi') => ({
   materialName: result.materialName.find((entry) => entry.language === lang)?.materialname,
   description: result.description.find((entry) => entry.language === lang)?.description,
-  authors: result.authors.map(({ authorname }) => authorname).join(', '),
+  authors: result.authors
+    .map(({ authorname }) => authorname)
+    .filter((authorname) => authorname.length > 0)
+    .join(', '),
   educationalLevels: result.educationalLevels.map(({ value }) => value),
   learningResourceTypes: result.learningResourceTypes.map(({ value }) => value),
 });
@@ -20,9 +25,7 @@ const ResultCard = ({ result }: { readonly result: SearchResult }) => {
 
   const { id, thumbnail, publishedAt, license, hasDownloadableFiles } = result;
 
-  const publishedDate = new Intl.DateTimeFormat('fi-FI', { year: 'numeric', month: 'numeric', day: 'numeric' }).format(
-    new Date(publishedAt),
-  );
+  const publishedDate = dateConverter(publishedAt);
 
   return (
     <div className={styles.resultCard} key={`${materialName}-${Math.random()}`}>
@@ -30,7 +33,7 @@ const ResultCard = ({ result }: { readonly result: SearchResult }) => {
         <img src={thumbnail?.filepath ?? thumbnailFallback} alt="tuloksen thumbnail" aria-hidden />
         <DescribeText>Sisällön tyyppi</DescribeText>
         {learningResourceTypes.map((learningResourceType) => (
-          <p>{learningResourceType}</p>
+          <p key={learningResourceType}>{learningResourceType}</p>
         ))}
       </div>
       <div>
@@ -38,21 +41,11 @@ const ResultCard = ({ result }: { readonly result: SearchResult }) => {
           <Link className={styles.link} to={`/result/${id}`}>
             {materialName}
           </Link>
-          {hasDownloadableFiles && (
-            <a className={styles.downloadLink} href={`https://aoe.fi/api/material/file/${id}`}>
-              <Download className={styles.downloadIcon} />
-              <span>Lataa</span>
-            </a>
-          )}
+          {hasDownloadableFiles && <DownloadButton id={id} />}
         </div>
         <p>{authors} </p>
         <p className={styles.description}>{description}</p>
-        <div className={styles.educationalLevels}>
-          <p>Koulutusaste: </p>
-          {educationalLevels.map((educationalLevel) => (
-            <div className={styles.educationalLevel}>{educationalLevel}</div>
-          ))}
-        </div>
+        <TopicElements title="Koulutusaste" topicStrings={educationalLevels} />
         <div className={styles.resultFooter}>
           <DescribeText>{license.value}</DescribeText>
           <DescribeText>{publishedDate}</DescribeText>
