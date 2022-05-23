@@ -9,7 +9,7 @@ const SearchBar = () => {
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    navigate(`/results?keywords=${keywords}`);
+    navigate(`/results?keywords=${keywords}&page=1`);
   };
 
   return (

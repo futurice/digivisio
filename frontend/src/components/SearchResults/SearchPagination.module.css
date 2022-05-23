@@ -1,0 +1,20 @@
+.pagination a {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  border-radius: 2px;
+  vertical-align: baseline;
+  align-content: center;
+  text-align: center;
+}
+
+.arrow {
+  /* uh... ok.. sure */
+  margin: auto;
+  display: block;
+  transform: translateY(50%);
+}
+
+.currentPage {
+  background-color: #DED7F0;
+}
