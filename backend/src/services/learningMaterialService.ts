@@ -4,6 +4,7 @@ import { OpintopolkuSearchResultModel } from '../externalModels/OpintopolkuSearc
 import { LearningMaterialModel, OpenUniversityCourseModel } from '../models/OpenUniversityCourseModel'
 import { getRequiredEnvVariable } from '../utils'
 import * as qs from 'qs'
+import { SearchHistoryService } from './loggingService'
 
 export const LearningMaterialsService = {
     /**
@@ -43,6 +44,7 @@ export const LearningMaterialsService = {
         const url = `${aoeApiBaseUrl}/metadata/${materialId}`
 
         const response = await axios.get(url)
+        await SearchHistoryService.writeApiRequest('', url, {})
         return response.data
     },
 
@@ -68,6 +70,8 @@ export const LearningMaterialsService = {
 
         const searchUrl = `${opintopolkuSearchBaseUrl}?${qs.stringify(query)}`
         const response: AxiosResponse<OpintopolkuSearchResultModel> = await axios.get(searchUrl)
+
+        await SearchHistoryService.writeApiRequest('', searchUrl, {})
 
         const courses: OpenUniversityCourseModel[] = response.data.results.map(r => {
             const courseUrl = `https://opintopolku.fi/app/#!/koulutus/${r.id}`
