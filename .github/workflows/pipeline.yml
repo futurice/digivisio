@@ -33,10 +33,6 @@ jobs:
         working-directory: backend
         run: docker run ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest npm run lint
 
-      # this is redundant now since we also run these tests in the integration test with docker compose
-      # - name: Run backend tests
-      #   working-directory: backend
-      #   run: docker run -e CI=true ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest npm run test:ci
 
       # move the following steps to deploy if needed
       - name: "Login to ACR"
