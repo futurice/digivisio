@@ -39,10 +39,8 @@ export class SearchController extends Controller {
         const response = await axios.post(aoeApiSearchUrl, searchData)
 
         try {
-            // todo do we have some sensible way of figuring out if searchdata is "empty"?
-            // todo figure out what we need to save here, also, consider using jsonb as column type
-
             await SearchHistoryService.write(request.user.userId, searchData)
+            await SearchHistoryService.writeApiRequest('', aoeApiSearchUrl, searchData)
         } catch (error: unknown) {
             console.error('uh oh...')
             throw error
