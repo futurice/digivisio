@@ -166,7 +166,7 @@ export type Version = {
     publishedat: Date;
 }
 
-export type LearningMaterialModel = {
+export type AoeLearningMaterialResponseModel = {
     id: string;
     materials: LearningMaterialFile[];
     owner: boolean;

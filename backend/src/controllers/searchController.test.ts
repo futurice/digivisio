@@ -1,6 +1,7 @@
 import { SearchController } from './searchController'
 import axios, { AxiosResponse } from 'axios'
 import { AuthenticatedRequestModel } from '../middlewares/authenticatedRequestModel'
+import { successfulResponse } from '../testUtils'
 import pool from '../services/dbPoolService'
 
 jest.mock('axios')
@@ -21,15 +22,9 @@ describe('searchController', () => {
     })
 
     describe('postSearch', () => {
-        const searchResponse: AxiosResponse = {
-            data: {
-                someproperty: 'somevalue',
-            },
-            status: 200,
-            statusText: 'ok',
-            headers: {},
-            config: {},
-        }
+        const searchResponse: AxiosResponse = successfulResponse({
+            someproperty: 'somevalue',
+        })
 
         it('should return ok', async () => {
             mockedAxios.post.mockResolvedValue(searchResponse)
