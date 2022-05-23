@@ -1,7 +1,7 @@
 export type SearchFilter = {
   readonly key: string;
   readonly value: string;
-}
+};
 
 export type Profile = {
   readonly name: string;
