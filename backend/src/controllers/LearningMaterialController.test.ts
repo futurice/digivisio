@@ -1,8 +1,13 @@
 import { LearningMaterialsController } from './LearningMaterialsController'
 import axios, { AxiosResponse } from 'axios'
 import { successfulResponse } from '../testUtils'
+import { SearchHistoryService } from '../services/loggingService'
+
 jest.mock('axios')
 const mockedAxios = axios as jest.Mocked<typeof axios>
+
+jest.mock('../services/loggingService')
+const searchHistoryServiceMock = SearchHistoryService as jest.Mocked<typeof SearchHistoryService>
 
 describe('learningMaterialsController', () => {
     describe('get', () => {
@@ -32,6 +37,7 @@ describe('learningMaterialsController', () => {
 
         it('should return ok', async () => {
             mockedAxios.get.mockResolvedValue(searchResponse)
+            searchHistoryServiceMock.writeApiRequest.mockResolvedValue()
 
             const controller = new LearningMaterialsController()
             const response = await controller.getLearningMaterialMetadata('10')
@@ -47,6 +53,7 @@ describe('learningMaterialsController', () => {
                     return Promise.resolve(searchResponseWithKeywords)
                 }
             })
+            searchHistoryServiceMock.writeApiRequest.mockResolvedValue()
 
             const controller = new LearningMaterialsController()
             const response = await controller.getLearningMaterialMetadata('10')

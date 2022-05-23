@@ -63,6 +63,7 @@ After this the following endpoints will be available (default):
 ### Database recreation
 Because the database is initialize only one, running the migration file again requires removing the database volume:
 ```
+docker compose -f .\compose.yml down
 docker compose -f .\compose.yml down volumes
 docker volume rm digivisio_db-data 
 ```
