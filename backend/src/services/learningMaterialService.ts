@@ -1,10 +1,12 @@
 import axios, { AxiosResponse } from 'axios'
 import { AoeLearningMaterialResponseModel } from '../externalModels/AoeLearningMaterialResponseModel'
 import { OpintopolkuSearchResultModel } from '../externalModels/OpintopolkuSearchResponseModel'
+import { OpintopolkuCourseMetadata } from '../externalModels/OpintopolkuCourseMetadata'
 import { LearningMaterialModel, OpenUniversityCourseModel } from '../models/OpenUniversityCourseModel'
 import { getRequiredEnvVariable } from '../utils'
 import * as qs from 'qs'
 import { SearchHistoryService } from './loggingService'
+import striptags from 'striptags'
 
 export const LearningMaterialsService = {
     /**
@@ -33,6 +35,16 @@ export const LearningMaterialsService = {
         const uniqueCourses = [...new Set([...coursesByKeywords.flat()])]
         learningMaterial.relatedCourses = uniqueCourses.slice(0, maxCourses)
 
+        // Append description field to relatedCourses. Do this after selecting
+        // the courses, because getCourseDescription is relatively expensive
+        // (it does an API request).
+        learningMaterial.relatedCourses = await Promise.all(
+            learningMaterial.relatedCourses.map(async (c: OpenUniversityCourseModel) => {
+                c.description = await LearningMaterialsService.getCourseDescription(c.courseId)
+                return c
+            }),
+        )
+
         return learningMaterial
     },
 
@@ -55,7 +67,7 @@ export const LearningMaterialsService = {
      * @param maxResults Maximum number of courses to return (optional)
      */
     getOpenUniversityCourses: async (searchText: string, maxResults: number = 4): Promise<OpenUniversityCourseModel[]> => {
-        const opintopolkuSearchBaseUrl = getRequiredEnvVariable('OPINTOPOLKU_API_SEARCH_BASEURL')
+        const opintopolkuBaseUrl = getRequiredEnvVariable('OPINTOPOLKU_API_BASEURL')
         const query = {
             start: 0,
             rows: maxResults,
@@ -68,13 +80,13 @@ export const LearningMaterialsService = {
             ],
         }
 
-        const searchUrl = `${opintopolkuSearchBaseUrl}?${qs.stringify(query)}`
+        const searchUrl = `${opintopolkuBaseUrl}/lo/search?${qs.stringify(query)}`
         const response: AxiosResponse<OpintopolkuSearchResultModel> = await axios.get(searchUrl)
 
         await SearchHistoryService.writeApiRequest('', searchUrl, {})
 
         const courses: OpenUniversityCourseModel[] = response.data.results.map(r => {
-            const courseUrl = `https://opintopolku.fi/app/#!/koulutus/${r.id}`
+            const courseUrl = `${opintopolkuBaseUrl}/app/#!/koulutus/${r.id}`
 
             // Remove duplicated from each lopName
             const cleanedLopNames = r.lopNames.map(name => {
@@ -82,6 +94,7 @@ export const LearningMaterialsService = {
             })
 
             return {
+                courseId: r.id,
                 name: r.name,
                 url: courseUrl,
                 universityNames: cleanedLopNames,
@@ -91,6 +104,31 @@ export const LearningMaterialsService = {
         })
 
         return courses
+    },
+
+    /**
+     * Download a description for a course
+     */
+    getCourseDescription: async (courseId: string): Promise<string | undefined> => {
+        const baseUrl = getRequiredEnvVariable('OPINTOPOLKU_API_BASEURL')
+        const query = {
+            uiLang: 'fi',
+            prerequisite: 'PK',
+        }
+        const courseDataUrl = `${baseUrl}/lo/koulutus/${courseId}?${qs.stringify(query)}`
+
+        let description
+        try {
+            await SearchHistoryService.writeApiRequest('', courseDataUrl, {})
+
+            const response = await axios.get(courseDataUrl)
+            const courseMetadata: OpintopolkuCourseMetadata = response.data
+            description = striptags(courseMetadata.content).trim()
+        } catch (e: any) {
+            console.warn(e)
+        }
+
+        return description
     },
 }
 

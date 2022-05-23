@@ -34,6 +34,9 @@ describe('learningMaterialsController', () => {
                 },
             ],
         })
+        const courseMetadataResponse = successfulResponse({
+            content: 'Kielitieteen perusteet, 2 opintopistettä'
+        })
 
         it('should return ok', async () => {
             mockedAxios.get.mockResolvedValue(searchResponse)
@@ -47,8 +50,10 @@ describe('learningMaterialsController', () => {
 
         it('should include related course data', async () => {
             mockedAxios.get.mockImplementation((url) => {
-                if (url.startsWith('opintopolku')) {
+                if (url.startsWith('opintopolku/lo/search')) {
                     return Promise.resolve(courseResponse)
+                } else if (url.startsWith('opintopolku/lo/koulutus')) {
+                    return Promise.resolve(courseMetadataResponse)
                 } else {
                     return Promise.resolve(searchResponseWithKeywords)
                 }
@@ -59,6 +64,9 @@ describe('learningMaterialsController', () => {
             const response = await controller.getLearningMaterialMetadata('10')
 
             expect(response.relatedCourses?.length).toBeGreaterThan(0)
+            response.relatedCourses?.forEach(course => {
+                expect(course.description?.length).toBeGreaterThan(0)
+            })
         })
     })
 })
