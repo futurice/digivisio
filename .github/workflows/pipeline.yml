@@ -19,8 +19,9 @@ jobs:
 
       - name: Run integration tests
         run: |
-          docker-compose -f ./compose.yml build \
-          docker-compose -f ./compose.yml run backend npm run test:ci
+          cp .env.test .env \
+          && docker-compose -f ./compose.yml build \
+          && docker-compose -f ./compose.yml run backend npm run test:ci
 
       - name: Build docker test image
         working-directory: backend
