@@ -1,0 +1,21 @@
+.downloadLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #612EE2;
+  text-decoration: none;
+}
+
+.downloadIcon path {
+  stroke:#612EE2;
+  fill: #612EE2;
+}
+
+.semiboldlFont {
+  font-weight: 500;
+}
+
+.largeFont {
+  font-size: 1.125rem;
+  font-weight: 700;
+}
