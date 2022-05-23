@@ -1,21 +1,20 @@
-import { SearchController } from "./searchController";
-import axios, { AxiosResponse } from 'axios';
-import { AuthenticatedRequestModel } from "../middlewares/authenticatedRequestModel";
-import pool from "../services/dbPoolService";
+import { SearchController } from './searchController'
+import axios, { AxiosResponse } from 'axios'
+import { AuthenticatedRequestModel } from '../middlewares/authenticatedRequestModel'
+import pool from '../services/dbPoolService'
 
-jest.mock('axios');
-const mockedAxios = axios as jest.Mocked<typeof axios>;
+jest.mock('axios')
+const mockedAxios = axios as jest.Mocked<typeof axios>
 
 const mockRequest = {
     // todo fill in whatever is needed for testing
-    user: { userId: 'someuserid' }
+    user: { userId: 'someuserid' },
 } as AuthenticatedRequestModel
-
 
 describe('searchController', () => {
     describe('getRandom', () => {
         it('should return number', async () => {
-            const controller = new SearchController();
+            const controller = new SearchController()
             const response = await controller.getRandom(mockRequest)
             expect(response.randomNumber).toBe(9)
         })
@@ -24,22 +23,20 @@ describe('searchController', () => {
     describe('postSearch', () => {
         const searchResponse: AxiosResponse = {
             data: {
-                someproperty: 'somevalue'
+                someproperty: 'somevalue',
             },
             status: 200,
-            statusText: "ok",
+            statusText: 'ok',
             headers: {},
-            config: {}
+            config: {},
         }
 
-
         it('should return ok', async () => {
-            mockedAxios.post.mockResolvedValue(searchResponse);
-            pool.query = jest.fn();
+            mockedAxios.post.mockResolvedValue(searchResponse)
+            pool.query = jest.fn()
 
             const controller = new SearchController()
             const response = await controller.search(mockRequest, {})
-
 
             expect(response).toBeDefined()
         })
