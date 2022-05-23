@@ -28,7 +28,10 @@ const ProfileSelector = ({ selectedProfile, setSelectedProfile }: ProfileProps) 
         className={styles.profile}
         onClick={() => setIsSelectorOpen(!isSelectorOpen)}
       >
-        {selectedProfile.name}
+        <div>
+          <b>{selectedProfile.name}</b>
+          <div>{selectedProfile.interest}</div>
+        </div>
       </button>
       {isSelectorOpen && (
         <div className={styles.profileList}>
