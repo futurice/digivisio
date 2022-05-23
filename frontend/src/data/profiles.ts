@@ -5,7 +5,7 @@ const profiles = [
   {
     name: 'Akseli',
     age: 20,
-    keywords: ['sosiaali- ja  terveysala', 'sote'],
+    interest: 'Sosiaali- ja  terveysala',
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
@@ -28,7 +28,7 @@ const profiles = [
   {
     name: 'Rikhard',
     age: 30,
-    keywords: ['kielitiede', 'tutkimusmenetelmät', 'tutkijakoulutusasteen'],
+    interest: 'Kielitiede',
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
@@ -51,7 +51,7 @@ const profiles = [
   {
     name: 'Mirka',
     age: 40,
-    keywords: ['luomu', 'luomutuotanto'],
+    interest: 'Luomuviljely',
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
@@ -74,7 +74,7 @@ const profiles = [
   {
     name: 'Janika',
     age: 30,
-    keywords: ['pedagogiikka', 'digipedagogiikka', 'opettaja', 'aineenopettaja'],
+    interest: 'Pedagogiikka',
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
@@ -105,7 +105,7 @@ const profiles = [
   {
     name: 'Roosa',
     age: 45,
-    keywords: ['kiertotalous', 'kestävä kehitys'],
+    interest: 'Kestävä kehitys',
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
