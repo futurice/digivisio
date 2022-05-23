@@ -3,17 +3,15 @@ import express, { Express, NextFunction, Request, Response } from 'express'
 import { RegisterRoutes } from './openapi/routes';
 import swaggerUi from 'swagger-ui-express';
 import openApiJson from './openapi/swagger.json';
-import dotenv from 'dotenv';
 import cors from 'cors';
 import './controllers/searchController'
 import './controllers/LearningMaterialsController'
+import './controllers/searchHistoryController'
 import { NotAuthenticatedError } from './middlewares/authenticationMiddleware';
 import { ValidateError } from 'tsoa';
 
 
-dotenv.config()
 const port = process.env.BACKEND_PORT ?? 3001
-
 
 const app: Express = express()
 

@@ -9,6 +9,9 @@ services:
     environment:
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - JWT_SIGNING_KEY=${JWT_SIGNING_KEY}
+      - JWT_VALID_AUDIENCE=${JWT_VALID_AUDIENCE}
+      - JWT_VALID_ISSUER=${JWT_VALID_ISSUER}
 
   frontend:
     image: digivisioacr.azurecr.io/digivisio-frontend:latest
@@ -18,7 +21,7 @@ services:
     ports:
       - 443:443
     volumes:
-      - C:/Users/vfor/Desktop/digivisiostuff/cert:/etc/nginx/certs
+      - /home/cloud-user/dockercertvolume:/etc/nginx/certs
 
   db:
     image: postgres
@@ -28,6 +31,7 @@ services:
       - app-network
     volumes:
       - db-data:/var/lib/postgresql/data
+      - ./db/init/init.sql:/docker-entrypoint-initdb.d/init.sql
     environment:
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}

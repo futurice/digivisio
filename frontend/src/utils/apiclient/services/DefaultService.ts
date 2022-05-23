@@ -2,6 +2,7 @@
 /* tslint:disable */
 /* eslint-disable */
 import type { LearningMaterialModel } from '../models/LearningMaterialModel';
+import type { SearchHistoryRowModel } from '../models/SearchHistoryRowModel';
 import type { SearchPostModel } from '../models/SearchPostModel';
 import type { SearchResponseModel } from '../models/SearchResponseModel';
 
@@ -33,6 +34,7 @@ materialId: string,
      * @throws ApiError
      */
     public static getRandom(): CancelablePromise<{
+userId?: string;
 randomNumber: number;
 }> {
         return __request(OpenAPI, {
@@ -54,6 +56,17 @@ requestBody: SearchPostModel,
             url: '/api/search',
             body: requestBody,
             mediaType: 'application/json',
+        });
+    }
+
+    /**
+     * @returns SearchHistoryRowModel Ok
+     * @throws ApiError
+     */
+    public static getSearchHistory(): CancelablePromise<Array<SearchHistoryRowModel>> {
+        return __request(OpenAPI, {
+            method: 'GET',
+            url: '/api/searchhistory',
         });
     }
 

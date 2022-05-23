@@ -1,23 +1,44 @@
 import { Request } from "express";
+import jwt from 'jsonwebtoken';
+import { getRequiredEnvVariable } from "../utils";
 
 export class NotAuthenticatedError extends Error { }
 
 export type AuthenticatedUserModel = {
-    userId?: string
+    userId: string
     authenticated: boolean
 }
 
-export const DIGIVISIO_ID_HEADER_NAME = 'digivisio-id'
-
-// This is obviously not great authentication here.. but in the real world we would most likely handle authentication outside this application and validate JWTs instead
+/**
+ * Authentication middleware used by tsoa to verify jwt tokens
+ * Tokens are expected to use the authorization header with Bearer scheme
+ * @param request 
+ * @param _securityName 
+ * @param _scopes 
+ * @returns 
+ */
 export const expressAuthentication = async (request: Request, _securityName: string, _scopes?: string[]): Promise<AuthenticatedUserModel> => {
-    const userId = request.headers[DIGIVISIO_ID_HEADER_NAME]
-    console.debug(`UserId: ${userId}`);
+    // in production we would like to use either an asymmetric public key, or some external service
+    const signingKey = getRequiredEnvVariable('JWT_SIGNING_KEY')
+    const validAudience = getRequiredEnvVariable('JWT_VALID_AUDIENCE')
+    const validIssuer = getRequiredEnvVariable('JWT_VALID_ISSUER')
 
-    return userId && typeof userId === 'string'
-        ? Promise.resolve({
-            authenticated: true,
-            userId: userId,
-        })
-        : Promise.reject(new NotAuthenticatedError(`Requests should include 'digivisio-id' header`))    // todo fix this.. use proper response with json and status code 401
+    if (request.headers.authorization?.startsWith('Bearer ')) {
+        try {
+            const decodedToken = jwt.verify(request.headers.authorization.substring(7), signingKey, { audience: validAudience, issuer: validIssuer })
+
+            if (decodedToken && typeof decodedToken !== "string" && decodedToken.sub) {
+                return {
+                    authenticated: true,
+                    userId: decodedToken.sub,
+                };
+            }
+        }
+        catch (err: unknown) {
+            // maybe use some proper logging framework
+            throw new NotAuthenticatedError(`Invalid JWT`);
+        }
+    }
+
+    throw new NotAuthenticatedError(`Requests should include Authorization header with JWT`)
 }

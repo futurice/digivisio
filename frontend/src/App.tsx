@@ -18,7 +18,7 @@ const App = () => {
 
   useEffect(() => {
     // eslint-disable-next-line functional/immutable-data
-    OpenAPI.HEADERS = { 'digivisio-id': selectedProfile.name };
+    OpenAPI.HEADERS = { authorization: `Bearer ${selectedProfile.fakejwt}` };
   }, [selectedProfile]);
 
   return (

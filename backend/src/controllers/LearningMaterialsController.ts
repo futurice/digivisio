@@ -1,9 +1,10 @@
-import { Controller, Get, Path, Route, Security } from "tsoa";
+import { Controller, Get, Path, Route, Security, Tags } from "tsoa";
 import { LearningMaterialModel } from "../models/OpenUniversityCourseModel"
 import { LearningMaterialsService } from "../services/learningMaterialService";
 
 @Route("api/materials")
 @Security("fake_user_id")
+@Tags('LearningMaterials')
 export class LearningMaterialsController extends Controller {
     /**
      * Get metadata for a single learning material.

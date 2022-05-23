@@ -28,6 +28,7 @@ export type { License } from './models/License';
 export type { MaterialName } from './models/MaterialName';
 export type { Name } from './models/Name';
 export type { Publisher } from './models/Publisher';
+export type { SearchHistoryRowModel } from './models/SearchHistoryRowModel';
 export type { SearchPostModel } from './models/SearchPostModel';
 export type { SearchResponseModel } from './models/SearchResponseModel';
 export type { SearchResult } from './models/SearchResult';
