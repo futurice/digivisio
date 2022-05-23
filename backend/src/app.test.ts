@@ -6,9 +6,11 @@ import app from './app'
 jest.mock('axios')
 const mockedAxios = axios as jest.Mocked<typeof axios>
 
+const token = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJha3NlbGkiLCJuYW1lIjoiQWtzZWxpIiwiaWF0IjoxNjUzMDI4MzA4LCJleHAiOjE4NTMwMzE5MDgsImF1ZCI6ImRpZ2l2aXNpbyIsImlzcyI6ImRpZ2l2aXNpb2FwcCJ9.6TKQnmiIs2JdmZcgW-steaTTmIlh2aPycYGTK1z3pNY'
+
 describe('someintegrationtest', () => {
     describe('postSearch', () => {
-        const searchResponse: AxiosResponse = {
+        const searchResponseMock: AxiosResponse = {
             data: {
                 someproperty: 'somevalue',
             },
@@ -19,15 +21,21 @@ describe('someintegrationtest', () => {
         }
 
         it('search and save history', async () => {
-            mockedAxios.post.mockResolvedValue(searchResponse)
+            mockedAxios.post.mockResolvedValue(searchResponseMock)
 
-            await supertest(app).post('/api/search')
+            await supertest(app)
+                .post('/api/search')
+                .set('Authorization', `Bearer ${token}`)
                 .expect(200)
-                .then((_response) => {
-                    // check response?
-                })
 
-            // todo check db contains history
+            // Assert something about search response...
+
+            const searchHistoryResponse = await supertest(app)
+                .get('/api/searchHistory')
+                .set('Authorization', `Bearer ${token}`)
+                .expect(200)
+
+            expect(searchHistoryResponse.body[0].search_term).toEqual('{}')
         })
     })
 })
