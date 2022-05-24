@@ -1,11 +1,13 @@
+.pagination {
+  text-align: center;
+  padding: 2rem 0 4rem 0;
+}
+
 .pagination a {
   height: 30px;
   width: 30px;
   display: inline-block;
   border-radius: 2px;
-  vertical-align: baseline;
-  align-content: center;
-  text-align: center;
 }
 
 .arrow {

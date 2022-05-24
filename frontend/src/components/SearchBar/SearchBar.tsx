@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, useSearchParams } from 'react-router-dom';
 
 import styles from './SearchBar.module.css';
 
 const SearchBar = () => {
-  const [keywords, setKeywords] = useState('');
+  const [params] = useSearchParams();
+  const keywordParam = params.get('keywords') || '';
+  const [keywords, setKeywords] = useState(keywordParam);
   const navigate = useNavigate();
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -20,6 +22,7 @@ const SearchBar = () => {
         aria-label="Hakukenttä koko aineistolle"
         onChange={({ target }) => setKeywords(target.value)}
         placeholder="Hae koko aineistosta"
+        value={keywords}
       />
       <button className={styles.hidden} type="submit" aria-label="Hae">
         <span>Hae</span>

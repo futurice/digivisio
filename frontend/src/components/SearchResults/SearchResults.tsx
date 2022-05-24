@@ -1,18 +1,22 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
+import { LearningMode } from '../../types/LearningMode';
 import { Profile } from '../../types/Profile';
+import { getFormatsForLearningMode } from '../../utils';
 import { SearchResponseModel } from '../../utils/apiclient/models/SearchResponseModel';
 import { DefaultService } from '../../utils/apiclient/services/DefaultService';
+import LoadingSpinner from '../common/LoadingSpinner';
 import ResultCard from './ResultCard';
 import SearchPagination from './SearchPagination';
 import styles from './SearchResults.module.css';
 
 export type ResultProfileProps = {
   readonly selectedProfile: Profile;
+  readonly selectedLearningMode: LearningMode | undefined;
 };
 
-const Results = ({ selectedProfile }: ResultProfileProps) => {
+const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) => {
   const [searchResultResponse, setSearchResultResponse] = useState<SearchResponseModel>();
   const [params, setParams] = useSearchParams();
   const keywordParam = params.get('keywords') || '';
@@ -28,6 +32,7 @@ const Results = ({ selectedProfile }: ResultProfileProps) => {
   const lastpage = Math.ceil((searchResultResponse?.hits ?? 0) / pageSize);
 
   useEffect(() => {
+    setSearchResultResponse(undefined);
     const getResults = async () => {
       const results = await DefaultService.search({
         from: topParam < 0 ? 0 : topParam,
@@ -36,16 +41,17 @@ const Results = ({ selectedProfile }: ResultProfileProps) => {
         filters: {
           educationalLevels: [...selectedProfile.educationalLevels.map(({ key }) => key)],
           educationalRoles: [...selectedProfile.educationalRoles.map(({ key }) => key)],
+          learningResourceTypes: [...(selectedLearningMode ? getFormatsForLearningMode(selectedLearningMode) : [])],
         },
       });
       setSearchResultResponse(results);
     };
     getResults();
-  }, [keywordParam, selectedProfile, topParam]);
+  }, [keywordParam, selectedProfile, selectedLearningMode, topParam]);
 
   const allResults = searchResultResponse?.results ?? [];
 
-  return (
+  return searchResultResponse ? (
     <div>
       <div className={styles.searchFilter}>
         <p>Oppijaprofiiliisi perustuvat valinnat</p>
@@ -55,15 +61,15 @@ const Results = ({ selectedProfile }: ResultProfileProps) => {
           ))}
         </div>
       </div>
-      <div className={styles.resultsList}>
-        <div className={styles.results}>
-          {allResults.map((result) => (
-            <ResultCard key={result.id} result={result} />
-          ))}
-        </div>
+      <div className={styles.results}>
+        {allResults.map((result) => (
+          <ResultCard key={result.id} result={result} />
+        ))}
       </div>
-      <div>{SearchPagination(currentPage, lastpage, handlePageChange)}</div>
+      <SearchPagination currentPage={currentPage} lastPage={lastpage} onPageChange={handlePageChange} />
     </div>
+  ) : (
+    <LoadingSpinner />
   );
 };
 

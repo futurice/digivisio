@@ -2,13 +2,13 @@
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: #612EE2;
+  color: #612ee2;
   text-decoration: none;
 }
 
 .downloadIcon path {
-  stroke:#612EE2;
-  fill: #612EE2;
+  stroke: #612ee2;
+  fill: #612ee2;
 }
 
 .semiboldlFont {

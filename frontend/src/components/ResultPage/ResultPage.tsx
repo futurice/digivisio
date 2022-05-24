@@ -6,6 +6,7 @@ import { LearningMaterialModel } from '../../utils/apiclient/models/LearningMate
 import dateConverter from '../../utils/dateConverter';
 import DescribeText from '../common/DescribeText';
 import DownloadButton from '../common/DownloadButton';
+import LoadingSpinner from '../common/LoadingSpinner';
 import TopicElements from '../common/TopicElements';
 import styles from './ResultPage.module.css';
 
@@ -72,7 +73,7 @@ const ResultPage = () => {
       <TopicElements title="Avainsanat" topicStrings={result.keywords} />
     </div>
   ) : (
-    <div />
+    <LoadingSpinner />
   );
 };
 

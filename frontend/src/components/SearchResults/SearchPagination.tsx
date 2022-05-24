@@ -4,7 +4,13 @@ import { ReactComponent as LeftArrow } from '../../assets/icons/keyboard_arrow_l
 import { ReactComponent as RightArrow } from '../../assets/icons/keyboard_arrow_right.svg';
 import styles from './SearchPagination.module.css';
 
-const Pagination = (currentPage: number, lastPage: number, onPageChange: (page: number) => void) => {
+type Props = {
+  readonly currentPage: number;
+  readonly lastPage: number;
+  readonly onPageChange: (page: number) => void;
+};
+
+const SearchPagination = ({ currentPage, lastPage, onPageChange }: Props) => {
   const items = Math.min(lastPage - 2, 5);
   const offset = Math.min(Math.max(currentPage - 2, 2), lastPage - 5) + Math.max(0, 5 - items);
   const pagingPages = [1, ...Array.from({ length: items }, (_x, i) => i).map((i) => i + offset), lastPage];
@@ -51,4 +57,4 @@ const Pagination = (currentPage: number, lastPage: number, onPageChange: (page: 
   );
 };
 
-export default Pagination;
+export default SearchPagination;
