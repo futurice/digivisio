@@ -8,6 +8,7 @@ import { SearchResponseModel } from '../../utils/apiclient/models/SearchResponse
 import { DefaultService } from '../../utils/apiclient/services/DefaultService';
 import LoadingSpinner from '../common/LoadingSpinner';
 import ResultCard from './ResultCard';
+import SearchPagination from './SearchPagination';
 import styles from './SearchResults.module.css';
 
 export type ResultProfileProps = {
@@ -17,13 +18,25 @@ export type ResultProfileProps = {
 
 const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) => {
   const [searchResultResponse, setSearchResultResponse] = useState<SearchResponseModel>();
-  const [params] = useSearchParams();
+  const [params, setParams] = useSearchParams();
   const keywordParam = params.get('keywords') || '';
+  const currentPage = Number.parseInt(params.get('page') ?? '1', 10);
+
+  const handlePageChange = (page: number) => {
+    params.set('page', page.toString());
+    setParams(params);
+  };
+
+  const pageSize = 10;
+  const topParam = currentPage * pageSize - pageSize;
+  const lastpage = Math.ceil((searchResultResponse?.hits ?? 0) / pageSize);
 
   useEffect(() => {
     setSearchResultResponse(undefined);
     const getResults = async () => {
       const results = await DefaultService.search({
+        from: topParam < 0 ? 0 : topParam,
+        size: pageSize,
         keywords: keywordParam,
         filters: {
           educationalLevels: [...selectedProfile.educationalLevels.map(({ key }) => key)],
@@ -34,7 +47,7 @@ const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) 
       setSearchResultResponse(results);
     };
     getResults();
-  }, [keywordParam, selectedProfile, selectedLearningMode]);
+  }, [keywordParam, selectedProfile, selectedLearningMode, topParam]);
 
   const allResults = searchResultResponse?.results ?? [];
 
@@ -53,6 +66,7 @@ const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) 
           <ResultCard key={result.id} result={result} />
         ))}
       </div>
+      <SearchPagination currentPage={currentPage} lastPage={lastpage} onPageChange={handlePageChange} />
     </div>
   ) : (
     <LoadingSpinner />

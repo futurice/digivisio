@@ -1,0 +1,22 @@
+.pagination {
+  text-align: center;
+  padding: 2rem 0 4rem 0;
+}
+
+.pagination a {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  border-radius: 2px;
+}
+
+.arrow {
+  /* uh... ok.. sure */
+  margin: auto;
+  display: block;
+  transform: translateY(50%);
+}
+
+.currentPage {
+  background-color: #DED7F0;
+}
