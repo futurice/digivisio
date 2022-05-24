@@ -11,16 +11,10 @@
   gap: 1rem;
 }
 
-.resultsList {
-  display: flex;
-  gap: 2rem;
-  padding: 1rem 0;
-}
-
 .results {
+  padding: 1rem 0;
   display: flex;
   flex-direction: column;
   text-align: left;
   gap: 2rem;
-  width: 100%;
 }

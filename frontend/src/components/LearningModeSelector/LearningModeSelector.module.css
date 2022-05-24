@@ -1,0 +1,21 @@
+.modeWrapper {
+  margin-bottom: 20px;
+}
+
+.mode {
+  display: flex;
+  margin: auto;
+  background-color: white;
+  border: none;
+  gap: 0.25rem;
+}
+
+.modeList {
+  position: absolute;
+  left: calc(50% - 5rem);
+  background-color: white;
+  width: 10rem;
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+}
