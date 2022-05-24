@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import { DefaultService } from '../../utils/apiclient';
+import { LearningMaterialsService } from '../../utils/apiclient';
 import { LearningMaterialModel } from '../../utils/apiclient/models/LearningMaterialModel';
 import dateConverter from '../../utils/dateConverter';
 import DescribeText from '../common/DescribeText';
@@ -33,7 +33,7 @@ const ResultPage = () => {
 
   useEffect(() => {
     const getResults = async () => {
-      const result = await DefaultService.getLearningMaterialMetadata(id as string);
+      const result = await LearningMaterialsService.getLearningMaterialMetadata(id as string);
       setLearningMaterial(result);
     };
     getResults();

@@ -5,7 +5,7 @@ import { LearningMode } from '../../types/LearningMode';
 import { Profile } from '../../types/Profile';
 import { getFormatsForLearningMode } from '../../utils';
 import { SearchResponseModel } from '../../utils/apiclient/models/SearchResponseModel';
-import { DefaultService } from '../../utils/apiclient/services/DefaultService';
+import { SearchService } from '../../utils/apiclient/services/SearchService';
 import LoadingSpinner from '../common/LoadingSpinner';
 import ResultCard from './ResultCard';
 import SearchPagination from './SearchPagination';
@@ -34,7 +34,7 @@ const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) 
   useEffect(() => {
     setSearchResultResponse(undefined);
     const getResults = async () => {
-      const results = await DefaultService.search({
+      const results = await SearchService.search({
         from: topParam < 0 ? 0 : topParam,
         size: pageSize,
         keywords: keywordParam,
