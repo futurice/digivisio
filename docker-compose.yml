@@ -24,7 +24,7 @@ services:
     ports:
       - 443:443
     volumes:
-      - /home/cloud-user/dockercertvolume:/etc/nginx/certs
+      - ${CERT_DIRECTORY}:/etc/nginx/certs
 
   db:
     image: postgres
@@ -34,7 +34,7 @@ services:
       - app-network
     volumes:
       - db-data:/var/lib/postgresql/data
-      - /home/cloud-user/app/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - ${SQL_INIT_DIRECTORY}/init.sql:/docker-entrypoint-initdb.d/init.sql
     environment:
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
