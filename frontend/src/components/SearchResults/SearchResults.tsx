@@ -54,7 +54,6 @@ const Results = ({ selectedProfile }: ResultProfileProps) => {
             <div>{value}</div>
           ))}
         </div>
-        {SearchPagination(currentPage, lastpage, handlePageChange)}
       </div>
       <div className={styles.resultsList}>
         <div className={styles.results}>
@@ -63,6 +62,7 @@ const Results = ({ selectedProfile }: ResultProfileProps) => {
           ))}
         </div>
       </div>
+      <div>{SearchPagination(currentPage, lastpage, handlePageChange)}</div>
     </div>
   );
 };
