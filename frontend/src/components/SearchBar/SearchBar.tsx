@@ -24,7 +24,7 @@ const SearchBar = () => {
         placeholder="Hae koko aineistosta"
         value={keywords}
       />
-      <button className={styles.hidden} type="submit" aria-label="Hae">
+      <button className={styles.hidden} type="submit" aria-label="Hae" id="search-submit">
         <span>Hae</span>
       </button>
     </form>
