@@ -37,6 +37,14 @@ describe('learningMaterialsController', () => {
         const courseMetadataResponse = successfulResponse({
             content: 'Kielitieteen perusteet, 2 opintopistettä',
         })
+        const finnaResponse = successfulResponse({
+            resultCount: 1,
+            records: [{
+                id: '123',
+                title: 'SOTE-ratkaisun avaimet',
+            }],
+            status: 'OK',
+        })
 
         it('should return ok', async () => {
             mockedAxios.get.mockResolvedValue(searchResponse)
@@ -54,8 +62,12 @@ describe('learningMaterialsController', () => {
                     return Promise.resolve(courseResponse)
                 } else if (url.startsWith('opintopolku/lo/koulutus')) {
                     return Promise.resolve(courseMetadataResponse)
-                } else {
+                } else if (url.startsWith('someurl')) {
                     return Promise.resolve(searchResponseWithKeywords)
+                } else if (url.startsWith('finna')) {
+                    return Promise.resolve(finnaResponse)
+                } else {
+                    return Promise.resolve({})
                 }
             })
             searchHistoryServiceMock.writeApiRequest.mockResolvedValue()
@@ -66,6 +78,31 @@ describe('learningMaterialsController', () => {
             expect(response.relatedCourses?.length).toBeGreaterThan(0)
             response.relatedCourses?.forEach(course => {
                 expect(course.description?.length).toBeGreaterThan(0)
+            })
+        })
+
+        it('should include related publications', async () => {
+            mockedAxios.get.mockImplementation((url) => {
+                if (url.startsWith('opintopolku/lo/search')) {
+                    return Promise.resolve(courseResponse)
+                } else if (url.startsWith('opintopolku/lo/koulutus')) {
+                    return Promise.resolve(courseMetadataResponse)
+                } else if (url.startsWith('someurl')) {
+                    return Promise.resolve(searchResponseWithKeywords)
+                } else if (url.startsWith('finna')) {
+                    return Promise.resolve(finnaResponse)
+                } else {
+                    return Promise.resolve({})
+                }
+            })
+            searchHistoryServiceMock.writeApiRequest.mockResolvedValue()
+
+            const controller = new LearningMaterialsController()
+            const response = await controller.getLearningMaterialMetadata('10')
+
+            expect(response.relatedPublications?.length).toBeGreaterThan(0)
+            response.relatedPublications?.forEach(course => {
+                expect(course.title?.length).toBeGreaterThan(0)
             })
         })
     })
