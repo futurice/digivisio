@@ -12,7 +12,7 @@ import { Profile } from './types/Profile';
 import { OpenAPI } from './utils/apiclient';
 
 // eslint-disable-next-line functional/immutable-data
-OpenAPI.BASE = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3001';
+OpenAPI.BASE = process.env.REACT_APP_BACKEND_URL ?? ''; // Defaults to an empty string, which is tne normal mode in production with nginx proxying requests from frontend to backend on the same domain
 
 const App = () => {
   const [selectedProfile, setSelectedProfile] = useState<Profile>(profiles[0]);
