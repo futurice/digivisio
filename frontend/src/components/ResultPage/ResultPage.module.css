@@ -43,3 +43,31 @@
 .resultPage {
   padding-bottom: 4rem;
 }
+
+.sectionRow {
+  margin: 2rem 0;
+  display: flex;
+  gap: 3rem;
+}
+
+.sectionRow button {
+  background: none;
+  border: none;
+  font-size: 1.125rem;
+  cursor: pointer;
+  padding-bottom: 0.5rem; 
+  border-bottom: 3px solid transparent;
+}
+
+.sectionRow button:hover {
+  color: #612EE2;
+  font-weight: 700;
+  border-bottom: 3px solid #612EE2;
+}
+
+.relatedMaterial {
+  border-top: 1px solid #B6B6B6;
+  margin: 5rem 0;
+  padding: 2rem 0;
+}
+
