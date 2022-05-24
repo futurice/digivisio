@@ -3,6 +3,9 @@ import puppeteer from 'puppeteer'
 jest.setTimeout(30000)
 const frontendHost = 'https://frontend' // note that this refers to the name (host) defined in compose.yml
 
+/**
+ * e2e test for testing doing a search from the frontend through the backend and aoe api
+ */
 describe('app e2e test', () => {
     it('should type text in search, submit, and show at least one result', async () => {
         const browser = await puppeteer.launch({

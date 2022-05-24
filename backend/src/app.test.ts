@@ -35,8 +35,6 @@ describe('post_search_and_get_history', () => {
                 .set('Authorization', `Bearer ${token}`)
                 .expect(200)
 
-            // Assert something about search response...
-
             const searchHistoryResponse = await supertest(app)
                 .get('/api/searchHistory')
                 .set('Authorization', `Bearer ${token}`)
