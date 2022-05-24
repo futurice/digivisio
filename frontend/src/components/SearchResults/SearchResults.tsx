@@ -2,11 +2,12 @@ import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
 import { LearningMode } from '../../types/LearningMode';
-import { Profile } from '../../types/Profile';
+import { Profile, SearchFilter } from '../../types/Profile';
 import { getFormatsForLearningMode } from '../../utils';
 import { SearchResponseModel } from '../../utils/apiclient/models/SearchResponseModel';
 import { SearchService } from '../../utils/apiclient/services/SearchService';
 import LoadingSpinner from '../common/LoadingSpinner';
+import FilterElements from './FilterElements';
 import ResultCard from './ResultCard';
 import SearchPagination from './SearchPagination';
 import styles from './SearchResults.module.css';
@@ -18,6 +19,18 @@ export type ResultProfileProps = {
 
 const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) => {
   const [searchResultResponse, setSearchResultResponse] = useState<SearchResponseModel>();
+  const [selectedEducationalLevels, setSelectedEducationalLevels] = useState<ReadonlyArray<SearchFilter>>(
+    selectedProfile.educationalLevels,
+  );
+  const [selectedEducationalRoles, setSelectedEducationalRoles] = useState<ReadonlyArray<SearchFilter>>(
+    selectedProfile.educationalRoles,
+  );
+
+  useEffect(() => {
+    setSelectedEducationalLevels(selectedProfile.educationalLevels);
+    setSelectedEducationalRoles(selectedProfile.educationalRoles);
+  }, [selectedProfile]);
+
   const [params, setParams] = useSearchParams();
   const keywordParam = params.get('keywords') || '';
   const currentPage = Number.parseInt(params.get('page') ?? '1', 10);
@@ -39,15 +52,15 @@ const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) 
         size: pageSize,
         keywords: keywordParam,
         filters: {
-          educationalLevels: [...selectedProfile.educationalLevels.map(({ key }) => key)],
-          educationalRoles: [...selectedProfile.educationalRoles.map(({ key }) => key)],
+          educationalLevels: [...selectedEducationalLevels.map(({ key }) => key)],
+          educationalRoles: [...selectedEducationalRoles.map(({ key }) => key)],
           learningResourceTypes: [...(selectedLearningMode ? getFormatsForLearningMode(selectedLearningMode) : [])],
         },
       });
       setSearchResultResponse(results);
     };
     getResults();
-  }, [keywordParam, selectedProfile, selectedLearningMode, topParam]);
+  }, [keywordParam, selectedLearningMode, topParam, selectedEducationalLevels, selectedEducationalRoles]);
 
   const allResults = searchResultResponse?.results ?? [];
 
@@ -56,9 +69,8 @@ const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) 
       <div className={styles.searchFilter}>
         <p>Oppijaprofiiliisi perustuvat valinnat</p>
         <div className={styles.searchFilterCriteria}>
-          {selectedProfile.educationalLevels.concat(selectedProfile.educationalRoles).map(({ value }) => (
-            <div key={value}>{value}</div>
-          ))}
+          <FilterElements filterList={selectedEducationalLevels} setSearchFilterList={setSelectedEducationalLevels} />
+          <FilterElements filterList={selectedEducationalRoles} setSearchFilterList={setSelectedEducationalRoles} />
         </div>
       </div>
       <div className={styles.results}>
