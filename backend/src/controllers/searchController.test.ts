@@ -8,7 +8,6 @@ jest.mock('axios')
 const mockedAxios = axios as jest.Mocked<typeof axios>
 
 const mockRequest = {
-    // todo fill in whatever is needed for testing
     user: { userId: 'someuserid' },
 } as AuthenticatedRequestModel
 
