@@ -26,7 +26,12 @@ const App = () => {
   return (
     <div className={styles.app}>
       <BrowserRouter>
-        <Header selectedProfile={selectedProfile} setSelectedProfile={setSelectedProfile} />
+        <Header
+          selectedProfile={selectedProfile}
+          setSelectedProfile={setSelectedProfile}
+          learningMode={learningMode}
+          setLearningMode={setLearningMode}
+        />
         <Routes>
           <Route path="/" element={<SearchPage learningMode={learningMode} setLearningMode={setLearningMode} />} />
           <Route path="/result/:id" element={<ResultPage />} />
