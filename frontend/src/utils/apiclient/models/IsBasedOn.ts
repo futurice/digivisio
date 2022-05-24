@@ -5,9 +5,9 @@
 import type { IsBasedOnAuthor } from './IsBasedOnAuthor';
 
 export type IsBasedOn = {
-    educationalmaterialid: string;
-    materialname: string;
-    url: string;
-    author: Array<IsBasedOnAuthor>;
-    id: string;
+  educationalmaterialid: string;
+  materialname: string;
+  url: string;
+  author: Array<IsBasedOnAuthor>;
+  id: string;
 };

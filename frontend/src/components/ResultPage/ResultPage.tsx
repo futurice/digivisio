@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
-import { DefaultService } from '../../utils/apiclient';
+import { LearningMaterialsService } from '../../utils/apiclient';
 import { LearningMaterialModel } from '../../utils/apiclient/models/LearningMaterialModel';
 import dateConverter from '../../utils/dateConverter';
 import DescribeText from '../common/DescribeText';
 import DownloadButton from '../common/DownloadButton';
 import LoadingSpinner from '../common/LoadingSpinner';
 import TopicElements from '../common/TopicElements';
+import RelatedMaterial from './RelatedMaterial';
 import styles from './ResultPage.module.css';
 
 const getResultFields = (result: LearningMaterialModel, lang = 'fi') => ({
@@ -22,6 +23,7 @@ const getResultFields = (result: LearningMaterialModel, lang = 'fi') => ({
   keywords: result.keywords.map(({ value }) => value),
   name: result.name.find((entry) => entry.language === lang)?.materialname,
   publishedAt: result.publishedAt,
+  relatedCourses: result.relatedCourses,
   updatedAt: result.updatedAt,
   viewCounter: result.viewCounter,
 });
@@ -33,7 +35,7 @@ const ResultPage = () => {
 
   useEffect(() => {
     const getResults = async () => {
-      const result = await DefaultService.getLearningMaterialMetadata(id as string);
+      const result = await LearningMaterialsService.getLearningMaterialMetadata(id as string);
       setLearningMaterial(result);
     };
     getResults();
@@ -42,7 +44,7 @@ const ResultPage = () => {
   const result = learningMaterial && getResultFields(learningMaterial);
 
   return result ? (
-    <div key={`${result.name}-${Math.random()}`}>
+    <div className={styles.resultPage}>
       <div className={styles.titleRow}>
         <h1>{result.name}</h1>
         <DownloadButton isLarge id={result.id} />
@@ -85,6 +87,9 @@ const ResultPage = () => {
           Kopioi linkki
         </button>
       </div>
+      {result.relatedCourses && result.relatedCourses.length > 0 && (
+        <RelatedMaterial relatedCourses={result.relatedCourses} />
+      )}
     </div>
   ) : (
     <LoadingSpinner />

@@ -3,8 +3,8 @@
 /* eslint-disable */
 
 export type Publisher = {
-    publisherkey: string;
-    educationalmaterialid: string;
-    name: string;
-    id: string;
+  publisherkey: string;
+  educationalmaterialid: string;
+  name: string;
+  id: string;
 };
