@@ -3,8 +3,8 @@
 /* eslint-disable */
 
 export type Description = {
-    educationalmaterialid: string;
-    language: string;
-    description: string;
-    id: string;
+  educationalmaterialid: string;
+  language: string;
+  description: string;
+  id: string;
 };

@@ -3,6 +3,6 @@
 /* eslint-disable */
 
 export type TeachingObjective = {
-    key: string;
-    value: string;
+  key: string;
+  value: string;
 };
