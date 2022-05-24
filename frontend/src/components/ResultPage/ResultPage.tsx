@@ -8,6 +8,7 @@ import DescribeText from '../common/DescribeText';
 import DownloadButton from '../common/DownloadButton';
 import LoadingSpinner from '../common/LoadingSpinner';
 import TopicElements from '../common/TopicElements';
+import RelatedMaterial from './RelatedMaterial';
 import styles from './ResultPage.module.css';
 
 const getResultFields = (result: LearningMaterialModel, lang = 'fi') => ({
@@ -22,6 +23,7 @@ const getResultFields = (result: LearningMaterialModel, lang = 'fi') => ({
   keywords: result.keywords.map(({ value }) => value),
   name: result.name.find((entry) => entry.language === lang)?.materialname,
   publishedAt: result.publishedAt,
+  relatedCourses: result.relatedCourses,
   updatedAt: result.updatedAt,
   viewCounter: result.viewCounter,
 });
@@ -85,6 +87,9 @@ const ResultPage = () => {
           Kopioi linkki
         </button>
       </div>
+      {result.relatedCourses && result.relatedCourses.length > 0 && (
+        <RelatedMaterial relatedCourses={result.relatedCourses} />
+      )}
     </div>
   ) : (
     <LoadingSpinner />
