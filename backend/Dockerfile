@@ -30,13 +30,13 @@ RUN chmod -R o+rwx node_modules/puppeteer/.local-chromium
 CMD [ "node", "./dist/index.js"]
 
 
+FROM node:18-alpine as prod
+WORKDIR /app
+ENV NODE_ENV production
 
-FROM base as prod
-
+COPY --from=base /app .
 RUN npm run build
 
 EXPOSE 3001
-
 USER node
-
 CMD [ "node", "./dist/index.js"]
