@@ -17,6 +17,14 @@ jobs:
         id: buildx
         uses: docker/setup-buildx-action@v1
 
+      - name: Run integration tests
+        run: |
+          cp .env.test .env \
+          && docker-compose -f ./compose.yml build \
+          && docker-compose -f ./compose.yml up -d \
+          && sleep 10 \
+          && docker-compose -f ./compose.yml run backend npm run test:ci
+
       - name: Build docker test image
         working-directory: backend
         run: docker build -t ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest . --target prod
@@ -25,9 +33,6 @@ jobs:
         working-directory: backend
         run: docker run ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest npm run lint
 
-      - name: Run backend tests
-        working-directory: backend
-        run: docker run -e CI=true ${{ secrets.REGISTRY_LOGIN_SERVER }}/digivisio-backend:latest npm run test:ci
 
       # move the following steps to deploy if needed
       - name: "Login to ACR"
