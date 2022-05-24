@@ -47,8 +47,8 @@ export class RecordService {
      * @throws ApiError
      */
     public static getRecord(
-id?: string,
-id?: Array<string>,
+//id?: string,
+id?: Array<string> | string,
 field?: Array<string>,
 prettyPrint: boolean = false,
 lng: 'fi' | 'sv' | 'en-gb' = 'fi',
