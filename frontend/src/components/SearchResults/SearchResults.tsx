@@ -57,7 +57,7 @@ const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) 
         <p>Oppijaprofiiliisi perustuvat valinnat</p>
         <div className={styles.searchFilterCriteria}>
           {selectedProfile.educationalLevels.concat(selectedProfile.educationalRoles).map(({ value }) => (
-            <div>{value}</div>
+            <div key={value}>{value}</div>
           ))}
         </div>
       </div>
