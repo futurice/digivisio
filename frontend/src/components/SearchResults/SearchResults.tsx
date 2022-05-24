@@ -62,7 +62,7 @@ const Results = ({ selectedProfile }: ResultProfileProps) => {
           ))}
         </div>
       </div>
-      <div>{SearchPagination(currentPage, lastpage, handlePageChange)}</div>
+      <SearchPagination currentPage={currentPage} lastPage={lastpage} onPageChange={handlePageChange} />
     </div>
   );
 };
