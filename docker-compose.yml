@@ -1,3 +1,6 @@
+# This docker compose file is used for setting up the "production" environment by pulling images from the private registry
+# It expects a .env file and init.sql to exist on the target server
+
 services:
   backend:
     image: digivisioacr.azurecr.io/digivisio-backend:latest
@@ -31,7 +34,7 @@ services:
       - app-network
     volumes:
       - db-data:/var/lib/postgresql/data
-      - ./db/init/init.sql:/docker-entrypoint-initdb.d/init.sql
+      - /home/cloud-user/app/init.sql:/docker-entrypoint-initdb.d/init.sql
     environment:
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
