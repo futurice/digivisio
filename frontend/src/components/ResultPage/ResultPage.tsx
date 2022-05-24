@@ -8,25 +8,9 @@ import DescribeText from '../common/DescribeText';
 import DownloadButton from '../common/DownloadButton';
 import LoadingSpinner from '../common/LoadingSpinner';
 import TopicElements from '../common/TopicElements';
+import getResultPageFields from './getResultPageFields';
 import RelatedMaterial from './RelatedMaterial';
 import styles from './ResultPage.module.css';
-
-const getResultFields = (result: LearningMaterialModel, lang = 'fi') => ({
-  author: result.author.map(({ authorname, organization }) =>
-    [authorname, organization].filter((element) => element.length > 0).join(', '),
-  ),
-  description: result.description.find((entry) => entry.language === lang)?.description,
-  downloadCounter: result.downloadCounter,
-  hasDownloadableFiles: result.hasDownloadableFiles,
-  license: result.license,
-  id: result.id,
-  keywords: result.keywords.map(({ value }) => value),
-  name: result.name.find((entry) => entry.language === lang)?.materialname,
-  publishedAt: result.publishedAt,
-  relatedCourses: result.relatedCourses,
-  updatedAt: result.updatedAt,
-  viewCounter: result.viewCounter,
-});
 
 const ResultPage = () => {
   const { id } = useParams();
@@ -41,7 +25,7 @@ const ResultPage = () => {
     getResults();
   }, [id, setLearningMaterial]);
 
-  const result = learningMaterial && getResultFields(learningMaterial);
+  const result = learningMaterial && getResultPageFields(learningMaterial);
 
   return result ? (
     <div className={styles.resultPage}>
