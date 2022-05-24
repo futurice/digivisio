@@ -7,6 +7,8 @@ services:
     ports:
       - ${BACKEND_PORT}:${BACKEND_PORT}
     environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_HOST=postgres
       - POSTGRES_DB=${DB_NAME}
       - POSTGRES_PASSWORD=${DB_PASSWORD}
       - JWT_SIGNING_KEY=${JWT_SIGNING_KEY}
