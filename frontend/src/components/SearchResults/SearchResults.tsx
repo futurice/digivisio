@@ -6,6 +6,7 @@ import { Profile } from '../../types/Profile';
 import { getFormatsForLearningMode } from '../../utils';
 import { SearchResponseModel } from '../../utils/apiclient/models/SearchResponseModel';
 import { DefaultService } from '../../utils/apiclient/services/DefaultService';
+import LoadingSpinner from '../common/LoadingSpinner';
 import ResultCard from './ResultCard';
 import styles from './SearchResults.module.css';
 
@@ -20,6 +21,7 @@ const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) 
   const keywordParam = params.get('keywords') || '';
 
   useEffect(() => {
+    setSearchResultResponse(undefined);
     const getResults = async () => {
       const results = await DefaultService.search({
         keywords: keywordParam,
@@ -36,7 +38,7 @@ const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) 
 
   const allResults = searchResultResponse?.results ?? [];
 
-  return (
+  return searchResultResponse ? (
     <div>
       <div className={styles.searchFilter}>
         <p>Oppijaprofiiliisi perustuvat valinnat</p>
@@ -52,6 +54,8 @@ const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) 
         ))}
       </div>
     </div>
+  ) : (
+    <LoadingSpinner />
   );
 };
 
