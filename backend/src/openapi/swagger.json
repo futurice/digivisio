@@ -801,6 +801,9 @@
 			},
 			"OpenUniversityCourseModel": {
 				"properties": {
+					"description": {
+						"type": "string"
+					},
 					"credits": {
 						"type": "string"
 					},
@@ -821,6 +824,9 @@
 					},
 					"name": {
 						"type": "string"
+					},
+					"courseId": {
+						"type": "string"
 					}
 				},
 				"required": [
@@ -828,7 +834,8 @@
 					"subjects",
 					"universityNames",
 					"url",
-					"name"
+					"name",
+					"courseId"
 				],
 				"type": "object"
 			},

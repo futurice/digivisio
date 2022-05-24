@@ -1,0 +1,23 @@
+.titleRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.metadataRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.metadata {
+  display: flex;
+  gap: 1rem;
+}
+
+.authors {
+  display: flex;
+  flex-direction: column;
+}
+
+.iframe {
+  width: 100%;
+}

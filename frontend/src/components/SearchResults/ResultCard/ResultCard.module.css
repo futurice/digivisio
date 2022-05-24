@@ -1,3 +1,58 @@
+.resultCard {
+  display: flex;
+  gap: 2rem;
+}
+
+.imageColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.imageColumn p {
+  margin: 0;
+}
+
 .description {
-  font-size: 0.75rem;
+  font-size: 1.125rem;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.resultFooter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.titleRow {
+  display: flex;
+  justify-content: space-between;
+}
+
+.downloadLink {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #612ee2;
+}
+
+.downloadIcon path {
+  stroke: #612ee2;
+  fill: #612ee2;
+}
+
+.educationalLevels {
+  display: flex;
+  align-items: center;
+}
+
+.educationalLevel {
+  padding: 0.5rem 1rem;
+  background-color: #f2f2f2;
+  border-radius: 2.75rem;
 }
