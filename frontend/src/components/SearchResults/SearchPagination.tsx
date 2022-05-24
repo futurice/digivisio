@@ -30,16 +30,17 @@ const SearchPagination = ({ currentPage, lastPage, onPageChange }: Props) => {
           >
             <LeftArrow className={styles.arrow} />
           </a>
-          {pagingPages.map((p) => (
+          {pagingPages.map((page) => (
             <a
-              className={currentPage === p ? styles.currentPage : ''}
-              href={`?page=${p}`}
+              key={page}
+              className={currentPage === page ? styles.currentPage : ''}
+              href={`?page=${page}`}
               onClick={(e) => {
                 e.preventDefault();
-                onPageChange(p);
+                onPageChange(page);
               }}
             >
-              {p}
+              {page}
             </a>
           ))}
           <a
