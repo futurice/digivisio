@@ -29,6 +29,7 @@ const getResultFields = (result: LearningMaterialModel, lang = 'fi') => ({
 const ResultPage = () => {
   const { id } = useParams();
   const [learningMaterial, setLearningMaterial] = useState<LearningMaterialModel>();
+  const pageUrl = window.location.href;
 
   useEffect(() => {
     const getResults = async () => {
@@ -67,10 +68,23 @@ const ResultPage = () => {
         title={`${result.name}`}
         src={`https://aoe.fi/#/embed/${result.id}/fi`}
         width="720"
-        height="360"
+        height="500"
       />
       <div>Lisenssi {result.license.value}</div>
       <TopicElements title="Avainsanat" topicStrings={result.keywords} />
+      <div>
+        Linkki
+        <input type="text" className={styles.linkInput} value={pageUrl} disabled />
+        <button
+          type="button"
+          className={styles.linkButton}
+          onClick={() => {
+            navigator.clipboard.writeText(pageUrl);
+          }}
+        >
+          Kopioi linkki
+        </button>
+      </div>
     </div>
   ) : (
     <LoadingSpinner />
