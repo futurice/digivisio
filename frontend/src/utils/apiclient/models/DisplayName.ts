@@ -3,7 +3,7 @@
 /* eslint-disable */
 
 export type DisplayName = {
-    en: string;
-    sv: string;
-    fi: string;
+  en: string;
+  sv: string;
+  fi: string;
 };

@@ -4,6 +4,7 @@
   align-items: center;
   border: none;
   gap: 0.25rem;
+  background-color: white;
 }
 
 .profileList {
@@ -18,7 +19,6 @@
 }
 
 .profileButton {
-  background-color: wheat;
   cursor: pointer;
   padding: 2rem 0;
 }

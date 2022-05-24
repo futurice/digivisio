@@ -3,6 +3,8 @@
   height: 2rem;
   border-radius: 2rem;
   text-indent: 1rem;
+  background-color: #F2F2F2;
+  border: none;
 }
 
 .form {

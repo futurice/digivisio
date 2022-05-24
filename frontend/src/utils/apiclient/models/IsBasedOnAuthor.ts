@@ -3,7 +3,7 @@
 /* eslint-disable */
 
 export type IsBasedOnAuthor = {
-    isbasedonid: string;
-    authorname: string;
-    id: string;
+  isbasedonid: string;
+  authorname: string;
+  id: string;
 };

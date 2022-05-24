@@ -1,5 +1,10 @@
-.modeWrapper {
-  margin-bottom: 20px;
+.selectedModeWrapper {
+  display: flex;
+  align-items: middle;
+}
+
+.selectedModeWrapper img {
+  height: 15px;
 }
 
 .mode {

@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+import thumbnailFallback from '../../assets/icons/keyboard_arrow_down.svg';
 import { LearningMode } from '../../types/LearningMode';
 import { getDescriptionForLearningMode, getDisplayValueForLearningMode } from '../../utils';
 import styles from './LearningModeSelector.module.css';
@@ -20,8 +21,9 @@ const LearningModeSelector = ({ learningMode, setLearningMode }: LearningModePro
         className={styles.mode}
         onClick={() => setIsOptionsOpen(!isOptionsOpen)}
       >
-        <div>
+        <div className={styles.selectedModeWrapper}>
           <b>{learningMode ? getDisplayValueForLearningMode(learningMode) : 'Valitse oppimistyyli'}</b>
+          <img src={thumbnailFallback} alt="oppimistyyli avausnuoli" aria-hidden />
         </div>
       </button>
       {isOptionsOpen && (

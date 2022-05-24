@@ -8,6 +8,7 @@ export type { OpenAPIConfig } from './core/OpenAPI';
 
 export type { AccessibilityFeature } from './models/AccessibilityFeature';
 export type { AccessibilityHazard } from './models/AccessibilityHazard';
+export type { AoeLearningMaterialResponseModel } from './models/AoeLearningMaterialResponseModel';
 export type { Attachment } from './models/Attachment';
 export type { Author } from './models/Author';
 export type { Description } from './models/Description';
@@ -27,6 +28,7 @@ export type { LearningResourceType } from './models/LearningResourceType';
 export type { License } from './models/License';
 export type { MaterialName } from './models/MaterialName';
 export type { Name } from './models/Name';
+export type { OpenUniversityCourseModel } from './models/OpenUniversityCourseModel';
 export type { Publisher } from './models/Publisher';
 export type { SearchHistoryRowModel } from './models/SearchHistoryRowModel';
 export type { SearchPostModel } from './models/SearchPostModel';
@@ -37,4 +39,6 @@ export type { Thumbnail } from './models/Thumbnail';
 export type { TypicalAgeRange } from './models/TypicalAgeRange';
 export type { Version } from './models/Version';
 
-export { DefaultService } from './services/DefaultService';
+export { LearningMaterialsService } from './services/LearningMaterialsService';
+export { SearchService } from './services/SearchService';
+export { SearchHistoryService } from './services/SearchHistoryService';
