@@ -4,6 +4,7 @@ import { useSearchParams } from 'react-router-dom';
 import { Profile } from '../../types/Profile';
 import { SearchResponseModel } from '../../utils/apiclient/models/SearchResponseModel';
 import { DefaultService } from '../../utils/apiclient/services/DefaultService';
+import LoadingSpinner from '../common/LoadingSpinner';
 import ResultCard from './ResultCard';
 import styles from './SearchResults.module.css';
 
@@ -17,6 +18,7 @@ const Results = ({ selectedProfile }: ResultProfileProps) => {
   const keywordParam = params.get('keywords') || '';
 
   useEffect(() => {
+    setSearchResultResponse(undefined);
     const getResults = async () => {
       const results = await DefaultService.search({
         keywords: keywordParam,
@@ -32,7 +34,7 @@ const Results = ({ selectedProfile }: ResultProfileProps) => {
 
   const allResults = searchResultResponse?.results ?? [];
 
-  return (
+  return searchResultResponse ? (
     <div>
       <div className={styles.searchFilter}>
         <p>Oppijaprofiiliisi perustuvat valinnat</p>
@@ -50,6 +52,8 @@ const Results = ({ selectedProfile }: ResultProfileProps) => {
         </div>
       </div>
     </div>
+  ) : (
+    <LoadingSpinner />
   );
 };
 
