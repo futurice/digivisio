@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
+import { LearningMode } from '../../types/LearningMode';
 import { Profile } from '../../types/Profile';
+import { getFormatsForLearningMode } from '../../utils';
 import { SearchResponseModel } from '../../utils/apiclient/models/SearchResponseModel';
 import { DefaultService } from '../../utils/apiclient/services/DefaultService';
 import ResultCard from './ResultCard';
@@ -9,9 +11,10 @@ import styles from './SearchResults.module.css';
 
 export type ResultProfileProps = {
   readonly selectedProfile: Profile;
+  readonly selectedLearningMode: LearningMode | undefined;
 };
 
-const Results = ({ selectedProfile }: ResultProfileProps) => {
+const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) => {
   const [searchResultResponse, setSearchResultResponse] = useState<SearchResponseModel>();
   const [params] = useSearchParams();
   const keywordParam = params.get('keywords') || '';
@@ -23,12 +26,13 @@ const Results = ({ selectedProfile }: ResultProfileProps) => {
         filters: {
           educationalLevels: [...selectedProfile.educationalLevels.map(({ key }) => key)],
           educationalRoles: [...selectedProfile.educationalRoles.map(({ key }) => key)],
+          learningResourceTypes: [...(selectedLearningMode ? getFormatsForLearningMode(selectedLearningMode) : [])],
         },
       });
       setSearchResultResponse(results);
     };
     getResults();
-  }, [keywordParam, selectedProfile]);
+  }, [keywordParam, selectedProfile, selectedLearningMode]);
 
   const allResults = searchResultResponse?.results ?? [];
 
