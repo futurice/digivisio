@@ -8,7 +8,7 @@
     "build": "npm run generate-tsoa && tsc",
     "start": "tsc && node dist/index.js",
     "test": "jest --watch",
-    "test:ci": "jest --coverage",
+    "test:ci": "jest --coverage --detectOpenHandles",
     "lint": "eslint \"./src/**\""
   },
   "keywords": [],

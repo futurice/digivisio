@@ -1,6 +1,8 @@
 services:
   backend:
-    build: backend
+    build:
+      context: backend
+      target: devtest
     restart: always
     networks:
       - app-network
