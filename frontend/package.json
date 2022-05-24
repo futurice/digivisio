@@ -23,7 +23,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "generate-apiclient": "openapi --input ../backend/src/openapi/swagger.json --output ./src/utils/apiclient",
-    "generate-finna-apiclient": "openapi --input https://api.finna.fi/v1?swagger --output ./src/utils/finnaapiclient --useUnionTypes",
+    "generate-finna-apiclient": "openapi --input https://api.finna.fi/v1?swagger --output ../backend/src/finnaapiclient --useUnionTypes --client axios",
     "lint": "eslint src",
     "lint:fix": "eslint --fix src && prettier --write src"
   },

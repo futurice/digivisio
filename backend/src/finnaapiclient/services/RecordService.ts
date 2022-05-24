@@ -47,8 +47,8 @@ export class RecordService {
      * @throws ApiError
      */
     public static getRecord(
-// id?: string,     // this breaks with openapi generate, moved to the following line as union type
-id?: Array<string> | string,
+id?: string,
+id?: Array<string>,
 field?: Array<string>,
 prettyPrint: boolean = false,
 lng: 'fi' | 'sv' | 'en-gb' = 'fi',
