@@ -46,12 +46,10 @@ const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) 
           ))}
         </div>
       </div>
-      <div className={styles.resultsList}>
-        <div className={styles.results}>
-          {allResults.map((result) => (
-            <ResultCard key={result.id} result={result} />
-          ))}
-        </div>
+      <div className={styles.results}>
+        {allResults.map((result) => (
+          <ResultCard key={result.id} result={result} />
+        ))}
       </div>
     </div>
   );
