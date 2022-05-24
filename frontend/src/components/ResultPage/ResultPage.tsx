@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
 import { LearningMaterialsService } from '../../utils/apiclient';
@@ -12,10 +12,15 @@ import getResultPageFields from './getResultPageFields';
 import RelatedMaterial from './RelatedMaterial';
 import styles from './ResultPage.module.css';
 
+const scrollToDiv = (ref: React.RefObject<HTMLDivElement>) => ref.current && ref.current.scrollIntoView();
+
 const ResultPage = () => {
   const { id } = useParams();
   const [learningMaterial, setLearningMaterial] = useState<LearningMaterialModel>();
   const pageUrl = window.location.href;
+
+  const contentRef = useRef<HTMLDivElement>(null);
+  const recommendationsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const getResults = async () => {
@@ -29,7 +34,15 @@ const ResultPage = () => {
 
   return result ? (
     <div className={styles.resultPage}>
-      <div className={styles.titleRow}>
+      <div className={styles.sectionRow}>
+        <button type="button" aria-label="vieritä sisältöön" onClick={() => scrollToDiv(contentRef)}>
+          Sisältö
+        </button>
+        <button type="button" aria-label="vieritä suosituksiin" onClick={() => scrollToDiv(recommendationsRef)}>
+          Aiheeseen liittyvät muut suositukset
+        </button>
+      </div>
+      <div className={styles.titleRow} ref={contentRef}>
         <h1>{result.name}</h1>
         <DownloadButton isLarge id={result.id} />
       </div>
@@ -71,9 +84,11 @@ const ResultPage = () => {
           Kopioi linkki
         </button>
       </div>
-      {result.relatedCourses && result.relatedCourses.length > 0 && (
-        <RelatedMaterial relatedCourses={result.relatedCourses} />
-      )}
+      <section className={styles.relatedMaterial} ref={recommendationsRef}>
+        {result.relatedCourses && result.relatedCourses.length > 0 && (
+          <RelatedMaterial relatedCourses={result.relatedCourses} />
+        )}
+      </section>
     </div>
   ) : (
     <LoadingSpinner />
