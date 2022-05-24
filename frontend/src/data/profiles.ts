@@ -6,6 +6,7 @@ const profiles = [
     name: 'Akseli',
     age: 20,
     interest: 'Sosiaali- ja  terveysala',
+    thumbnail: '/Akseli.png',
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
@@ -29,6 +30,7 @@ const profiles = [
     name: 'Rikhard',
     age: 30,
     interest: 'Kielitiede',
+    thumbnail: '/Rikhard.png',
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
@@ -52,6 +54,7 @@ const profiles = [
     name: 'Mirka',
     age: 40,
     interest: 'Luomuviljely',
+    thumbnail: '/Mirka.png',
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
@@ -75,6 +78,7 @@ const profiles = [
     name: 'Janika',
     age: 30,
     interest: 'Pedagogiikka',
+    thumbnail: '/Janika.png',
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
@@ -106,6 +110,7 @@ const profiles = [
     name: 'Roosa',
     age: 45,
     interest: 'Kestävä kehitys',
+    thumbnail: '/Roosa.png',
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
