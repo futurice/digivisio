@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer'
 
 jest.setTimeout(30000)
-const frontendHost = 'https://frontend' // note that this refers to the name (host) defined in compose.yml
+const frontendHost = 'https://frontend' // note that this refers to the name (host) defined in docker-compose.yml
 
 /**
  * e2e test for testing doing a search from the frontend through the backend and aoe api

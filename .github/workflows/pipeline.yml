@@ -20,10 +20,10 @@ jobs:
       - name: Run integration tests
         run: |
           cp .env.test .env \
-          && docker-compose -f ./compose.yml build \
-          && docker-compose -f ./compose.yml up -d \
+          && docker-compose -f ./docker-compose.yml -f ./docker-compose-local.yml build \
+          && docker-compose -f ./docker-compose.yml -f ./docker-compose-local.yml up -d \
           && sleep 10 \
-          && docker-compose -f ./compose.yml run backend npm run test:ci
+          && docker-compose -f ./docker-compose.yml -f ./docker-compose-local.yml run backend npm run test:ci
 
       - name: Build docker test image
         working-directory: backend
