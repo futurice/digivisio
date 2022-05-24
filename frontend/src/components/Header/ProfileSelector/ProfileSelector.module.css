@@ -1,17 +1,9 @@
 .profile {
   display: flex;
   text-align: left;
+  align-items: center;
   border: none;
   gap: 0.25rem;
-}
-
-.profile:before {
-  content: '';
-  height: 30px;
-  width: 30px;
-  background-color: rebeccapurple;
-  border-radius: 50%;
-  display: inline-block;
 }
 
 .profileList {
@@ -29,4 +21,9 @@
   background-color: wheat;
   cursor: pointer;
   padding: 2rem 0;
+}
+
+.profileThumbnail {
+  height: 50px;
+  width: 50px;
 }

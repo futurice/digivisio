@@ -28,6 +28,12 @@ const ProfileSelector = ({ selectedProfile, setSelectedProfile }: ProfileProps) 
         className={styles.profile}
         onClick={() => setIsSelectorOpen(!isSelectorOpen)}
       >
+        <img
+          src={selectedProfile.thumbnail}
+          className={styles.profileThumbnail}
+          alt="profiilin thumbnail"
+          aria-hidden
+        />
         <div>
           <b>{selectedProfile.name}</b>
           <div>{selectedProfile.interest}</div>

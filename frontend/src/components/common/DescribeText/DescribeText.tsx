@@ -6,6 +6,6 @@ type Props = {
   readonly children: ReactNode;
 };
 
-const DescribeText = ({ children }: Props) => <p className={styles.describeText}>{children}</p>;
+const DescribeText = ({ children }: Props) => <span className={styles.describeText}>{children}</span>;
 
 export default DescribeText;
