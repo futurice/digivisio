@@ -44,7 +44,7 @@ const ResultPage = () => {
   const result = learningMaterial && getResultFields(learningMaterial);
 
   return result ? (
-    <div key={`${result.name}-${Math.random()}`}>
+    <div className={styles.resultPage}>
       <div className={styles.titleRow}>
         <h1>{result.name}</h1>
         <DownloadButton isLarge id={result.id} />
