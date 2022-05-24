@@ -11,7 +11,7 @@ const Header = ({ ...rest }: ProfileProps) => {
   return (
     <div className={styles.header}>
       <NavLink to="/">Digivisio</NavLink>
-      {showSearchBar && <SearchBar />}
+      {showSearchBar && <SearchBar isSearchButtonHidden />}
       <ProfileSelector {...rest} />
     </div>
   );

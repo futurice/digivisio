@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
 import { useNavigate, useSearchParams } from 'react-router-dom';
 
+import Button from '../common/Button';
 import styles from './SearchBar.module.css';
 
-const SearchBar = () => {
+const SearchBar = ({ isSearchButtonHidden }: { readonly isSearchButtonHidden?: boolean }) => {
   const [params] = useSearchParams();
   const keywordParam = params.get('keywords') || '';
   const [keywords, setKeywords] = useState(keywordParam);
@@ -24,9 +25,9 @@ const SearchBar = () => {
         placeholder="Hae koko aineistosta"
         value={keywords}
       />
-      <button className={styles.hidden} type="submit" aria-label="Hae">
+      <Button className={isSearchButtonHidden ? styles.hidden : undefined} isSubmit ariaLabel="Hae">
         <span>Hae</span>
-      </button>
+      </Button>
     </form>
   );
 };
