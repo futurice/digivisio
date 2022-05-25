@@ -177,3 +177,16 @@ sudo systemctl start digivisio.service
 ```
 sudo journalctl -u digivisio.service
 ```
+
+
+# API request logs
+API request logs can be fetched from the postgres database using SSH:
+
+```
+sudo docker exec app-db-1 psql -U postgres --dbname=digivisio -c 'SELECT * FROM api_requests;' > api_requests.log
+```
+
+The log can then be copied with eg scp:
+```
+scp <someusername>@koe4-dv.csc.fi:~/api_requests.log api_requests.log
+```
