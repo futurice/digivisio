@@ -21,15 +21,18 @@ const SearchPagination = ({ currentPage, lastPage, onPageChange }: Props) => {
     <div className={styles.pagination}>
       {lastPage > 1 && (
         <>
-          <a
-            href={`?page=${previousPage}`}
-            onClick={(e) => {
-              e.preventDefault();
-              onPageChange(previousPage);
-            }}
-          >
-            <LeftArrow className={styles.arrow} />
-          </a>
+          {previousPage !== currentPage && (
+            <a
+              href={`?page=${previousPage}`}
+              onClick={(e) => {
+                e.preventDefault();
+                onPageChange(previousPage);
+              }}
+              aria-label="edellinen sivu"
+            >
+              <LeftArrow className={styles.arrow} />
+            </a>
+          )}
           {pagingPages.map((page) => (
             <a
               key={page}
@@ -43,15 +46,18 @@ const SearchPagination = ({ currentPage, lastPage, onPageChange }: Props) => {
               {page}
             </a>
           ))}
-          <a
-            href={`?page=${nextPage}`}
-            onClick={(e) => {
-              e.preventDefault();
-              onPageChange(nextPage);
-            }}
-          >
-            <RightArrow className={styles.arrow} />
-          </a>
+          {nextPage !== currentPage && (
+            <a
+              href={`?page=${nextPage}`}
+              onClick={(e) => {
+                e.preventDefault();
+                onPageChange(nextPage);
+              }}
+              aria-label="seuraava sivu"
+            >
+              <RightArrow className={styles.arrow} />
+            </a>
+          )}
         </>
       )}
     </div>

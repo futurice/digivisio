@@ -65,7 +65,7 @@ const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) 
   const allResults = searchResultResponse?.results ?? [];
 
   return searchResultResponse ? (
-    <div>
+    <main>
       <div className={styles.searchFilter}>
         <p>Oppijaprofiiliisi perustuvat valinnat</p>
         <div className={styles.searchFilterCriteria}>
@@ -79,7 +79,7 @@ const Results = ({ selectedProfile, selectedLearningMode }: ResultProfileProps) 
         ))}
       </div>
       <SearchPagination currentPage={currentPage} lastPage={lastpage} onPageChange={handlePageChange} />
-    </div>
+    </main>
   ) : (
     <LoadingSpinner />
   );

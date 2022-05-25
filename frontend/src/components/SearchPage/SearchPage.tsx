@@ -39,7 +39,7 @@ const SearchPage = ({ selectedProfile, learningMode, setLearningMode }: SearchPa
   const allResults = searchResultResponse?.results ?? [];
 
   return (
-    <>
+    <main>
       <h2 className={styles.title}>Mitä haluat oppia</h2>
       <div className={styles.modeSelector}>
         <Menu
@@ -63,7 +63,7 @@ const SearchPage = ({ selectedProfile, learningMode, setLearningMode }: SearchPa
           ))}
         </div>
       </div>
-    </>
+    </main>
   );
 };
 

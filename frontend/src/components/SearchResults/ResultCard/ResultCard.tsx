@@ -30,7 +30,7 @@ const ResultCard = ({ result }: { readonly result: SearchResult }) => {
   return (
     <div className={styles.resultCard} key={`${materialName}-${Math.random()}`}>
       <div className={styles.imageColumn}>
-        <img src={thumbnail?.filepath ?? thumbnailFallback} alt="tuloksen thumbnail" aria-hidden />
+        <img src={thumbnail?.filepath ?? thumbnailFallback} alt="" />
         <DescribeText>Sisällön tyyppi</DescribeText>
         {learningResourceTypes.map((learningResourceType) => (
           <p key={learningResourceType}>{learningResourceType}</p>

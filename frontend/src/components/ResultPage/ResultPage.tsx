@@ -44,7 +44,7 @@ const ResultPage = ({ selectedProfile }: ResultsProps) => {
   const showMentoringBanner = selectedProfile.age <= 35 && selectedProfile.enrolledInUniOrGraduated;
 
   return result ? (
-    <div className={styles.resultPage}>
+    <main className={styles.resultPage}>
       <div className={styles.sectionRow}>
         <button type="button" aria-label="vieritä sisältöön" onClick={() => scrollToDiv(contentRef)}>
           Sisältö
@@ -91,7 +91,7 @@ const ResultPage = ({ selectedProfile }: ResultsProps) => {
       <div>
         <h3 className={styles.subtitle}>Linkki</h3>
         <div className={styles.linkContainer}>
-          <input type="text" className={styles.linkInput} value={pageUrl} disabled />
+          <input type="text" className={styles.linkInput} value={pageUrl} disabled aria-label="linkki aineistoon" />
           <button
             type="button"
             className={styles.linkButton}
@@ -112,7 +112,7 @@ const ResultPage = ({ selectedProfile }: ResultsProps) => {
           <RelatedMaterial relatedCourses={result.relatedCourses} showMentoringBanner={showMentoringBanner} />
         )}
       </section>
-    </div>
+    </main>
   ) : (
     <LoadingSpinner />
   );
