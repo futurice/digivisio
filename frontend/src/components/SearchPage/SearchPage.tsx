@@ -24,6 +24,7 @@ const SearchPage = ({ ...rest }: SearchPageProps) => {
       const results = await SearchService.search({
         from: 0,
         size: 4,
+        keywords: rest.selectedProfile.interest,
         filters: {
           educationalLevels: [...rest.selectedProfile.educationalLevels.map(({ key }) => key)],
           educationalRoles: [...rest.selectedProfile.educationalRoles.map(({ key }) => key)],
@@ -32,7 +33,7 @@ const SearchPage = ({ ...rest }: SearchPageProps) => {
       setSearchResultResponse(results);
     };
     getResults();
-  }, [rest.selectedProfile.educationalLevels, rest.selectedProfile.educationalRoles]);
+  }, [rest.selectedProfile.interest, rest.selectedProfile.educationalLevels, rest.selectedProfile.educationalRoles]);
 
   const allResults = searchResultResponse?.results ?? [];
 
@@ -41,9 +42,9 @@ const SearchPage = ({ ...rest }: SearchPageProps) => {
       <h2 className={styles.title}>Mitä haluat oppia</h2>
       <LearningModeSelector {...rest} />
       <SearchBar />
-      <div>
+      <div className={styles.profileRecommendations}>
         <h2>Oppijaprofiiliisi liittyvät oppimateriaali suositukset</h2>
-        <div className={styles.results}>
+        <div>
           {allResults.map((result) => (
             <RecommendationCard key={result.id} result={result} />
           ))}

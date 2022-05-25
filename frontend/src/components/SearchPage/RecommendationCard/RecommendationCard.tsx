@@ -28,7 +28,7 @@ const RecommendationCard = ({ result }: { readonly result: SearchResult }) => {
       <div>
         <div className={styles.titleRow}>
           <Link className={styles.link} to={`/result/${id}`}>
-            <h2 className={styles.title}>{materialName}</h2>
+            <h3 className={styles.title}>{materialName}</h3>
           </Link>
         </div>
         <p>{authors} </p>
