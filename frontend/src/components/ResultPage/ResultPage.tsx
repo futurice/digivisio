@@ -1,4 +1,3 @@
-/* eslint-disable complexity */
 /* eslint-disable max-lines */
 /* eslint complexity: ["error", 8] */
 
@@ -50,15 +49,15 @@ const ResultPage = ({ selectedProfile }: ResultsProps) => {
         <button type="button" aria-label="vieritä sisältöön" onClick={() => scrollToDiv(contentRef)}>
           Sisältö
         </button>
-        <button type="button" aria-label="vieritä suosituksiin" onClick={() => scrollToDiv(recommendationsRef)}>
-          Aiheeseen liittyvät muut suositukset
-        </button>
         <button type="button" aria-label="vieritä suosituksiin" onClick={() => scrollToDiv(relatedPublicationsRef)}>
           Aiheeseen liittyvät julkaisut
         </button>
+        <button type="button" aria-label="vieritä suosituksiin" onClick={() => scrollToDiv(recommendationsRef)}>
+          Aiheeseen liittyvät muut suositukset
+        </button>
       </div>
       <div className={styles.titleRow} ref={contentRef}>
-        <h1>{result.name}</h1>
+        <h3>{result.name}</h3>
         <DownloadButton isLarge id={result.id} />
       </div>
       <div className={styles.metadataRow}>
@@ -85,20 +84,25 @@ const ResultPage = ({ selectedProfile }: ResultsProps) => {
         height="500"
         scrolling="no"
       />
-      <div>Lisenssi {result.license.value}</div>
-      <TopicElements title="Avainsanat" topicStrings={result.keywords} />
+      <div className={styles.section}>
+        <h3 className={styles.subtitle}>Lisenssi</h3>
+        {result.license.value}
+      </div>
       <div>
-        Linkki
-        <input type="text" className={styles.linkInput} value={pageUrl} disabled />
-        <button
-          type="button"
-          className={styles.linkButton}
-          onClick={() => {
-            navigator.clipboard.writeText(pageUrl);
-          }}
-        >
-          Kopioi linkki
-        </button>
+        <h3 className={styles.subtitle}>Linkki</h3>
+        <div className={styles.linkContainer}>
+          <input type="text" className={styles.linkInput} value={pageUrl} disabled />
+          <button
+            type="button"
+            className={styles.linkButton}
+            onClick={() => {
+              navigator.clipboard.writeText(pageUrl);
+            }}
+          >
+            Kopioi linkki
+          </button>
+        </div>
+        <TopicElements title="Avainsanat" topicStrings={result.keywords} />
       </div>
       <section className={styles.relatedMaterial} ref={relatedPublicationsRef}>
         <RelatedPublications relatedPublications={result.relatedPublications} />

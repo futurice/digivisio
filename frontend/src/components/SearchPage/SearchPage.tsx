@@ -7,7 +7,7 @@ import styles from './SearchPage.module.css';
 const SearchPage = ({ ...rest }: LearningModeProps) => {
   return (
     <>
-      <h1 className={styles.title}>Mitä haluat oppia</h1>
+      <h2 className={styles.title}>Mitä haluat oppia</h2>
       <LearningMode {...rest} />
       <SearchBar />
     </>

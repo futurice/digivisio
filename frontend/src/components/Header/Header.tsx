@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 
+import logo from '../../assets/digivisio.png';
 import { LearningMode } from '../../types/LearningMode';
 import { Profile } from '../../types/Profile';
 import LearningModeSelector from '../LearningModeSelector/LearningModeSelector';
@@ -20,7 +21,10 @@ const Header = ({ ...rest }: HeaderProps) => {
   const showSearchBar = location.pathname !== '/';
   return (
     <div className={styles.header}>
-      <NavLink to="/">Digivisio</NavLink>
+      <NavLink to="/">
+        <h1 className={styles.title}>Digivisio</h1>
+        <img src={logo} alt="digivisio" />
+      </NavLink>
       {showSearchBar && (
         <>
           <SearchBar />

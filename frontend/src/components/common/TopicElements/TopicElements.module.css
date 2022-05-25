@@ -1,6 +1,11 @@
-.topicElements {
+.flex {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 500;
 }
