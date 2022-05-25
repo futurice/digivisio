@@ -12,14 +12,6 @@ const mockRequest = {
 } as AuthenticatedRequestModel
 
 describe('searchController', () => {
-    describe('getRandom', () => {
-        it('should return number', async () => {
-            const controller = new SearchController()
-            const response = await controller.getRandom(mockRequest)
-            expect(response.randomNumber).toBe(9)
-        })
-    })
-
     describe('postSearch', () => {
         const searchResponse: AxiosResponse = successfulResponse({
             someproperty: 'somevalue',

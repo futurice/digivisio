@@ -1,5 +1,5 @@
 import axios from 'axios'
-import { Body, Controller, Get, Post, Route, Request, Security, Tags } from 'tsoa'
+import { Body, Controller, Post, Route, Request, Security, Tags } from 'tsoa'
 import type { SearchPostModel } from '../externalModels/SearchPostModel'
 import type { SearchResponseModel } from '../externalModels/SearchResponseModel'
 import type { AuthenticatedRequestModel } from '../middlewares/authenticatedRequestModel'
@@ -10,19 +10,6 @@ import { SearchHistoryService } from '../services/loggingService'
 @Security('fake_user_id')
 @Tags('Search')
 export class SearchController extends Controller {
-    /**
-     * Get random. This is here for testing
-     * @param request
-     * @returns
-     */
-    @Get()
-    public async getRandom(@Request() request: AuthenticatedRequestModel): Promise<({ randomNumber: number, userId: string | undefined })> {
-        return {
-            randomNumber: 9,
-            userId: request.user?.userId,
-        }
-    }
-
     /**
      * Search eoa database with filters
      * @param request

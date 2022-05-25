@@ -1275,43 +1275,6 @@
 			}
 		},
 		"/api/search": {
-			"get": {
-				"operationId": "GetRandom",
-				"responses": {
-					"200": {
-						"description": "Ok",
-						"content": {
-							"application/json": {
-								"schema": {
-									"properties": {
-										"userId": {
-											"type": "string"
-										},
-										"randomNumber": {
-											"type": "number",
-											"format": "double"
-										}
-									},
-									"required": [
-										"randomNumber"
-									],
-									"type": "object"
-								}
-							}
-						}
-					}
-				},
-				"description": "Get random. This is here for testing",
-				"tags": [
-					"Search"
-				],
-				"security": [
-					{
-						"fake_user_id": []
-					}
-				],
-				"parameters": []
-			},
 			"post": {
 				"operationId": "Search",
 				"responses": {

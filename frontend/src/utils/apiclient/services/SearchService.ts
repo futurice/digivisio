@@ -11,21 +11,6 @@ import { request as __request } from '../core/request';
 export class SearchService {
 
     /**
-     * Get random. This is here for testing
-     * @returns any Ok
-     * @throws ApiError
-     */
-    public static getRandom(): CancelablePromise<{
-userId?: string;
-randomNumber: number;
-}> {
-        return __request(OpenAPI, {
-            method: 'GET',
-            url: '/api/search',
-        });
-    }
-
-    /**
      * Search eoa database with filters
      * @param requestBody 
      * @returns SearchResponseModel Ok
