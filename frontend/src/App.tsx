@@ -12,7 +12,7 @@ import { Profile } from './types/Profile';
 import { OpenAPI } from './utils/apiclient';
 
 // eslint-disable-next-line functional/immutable-data
-OpenAPI.BASE = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3001'; // todo this should be picked from env probably...
+OpenAPI.BASE = process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3001';
 
 const App = () => {
   const [selectedProfile, setSelectedProfile] = useState<Profile>(profiles[0]);

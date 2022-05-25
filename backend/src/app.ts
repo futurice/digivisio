@@ -13,7 +13,6 @@ import { ValidateError } from 'tsoa'
 const app: Express = express()
 
 if (process.env.CORS_ORIGIN) {
-    console.log(`Enabling CORS for ${process.env.CORS_ORIGIN}`)
     app.use(cors({ origin: process.env.CORS_ORIGIN, methods: ['POST'] }))
 }
 
