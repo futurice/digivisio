@@ -3,5 +3,5 @@
 /* eslint-disable */
 
 export type Version = {
-  publishedat: string;
+    publishedat: string;
 };

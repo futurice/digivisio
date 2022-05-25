@@ -132,9 +132,14 @@ const models: TsoaRoute.Models = {
         "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"description":{"dataType":"string"},"credits":{"dataType":"string","required":true},"subjects":{"dataType":"array","array":{"dataType":"string"},"required":true},"universityNames":{"dataType":"array","array":{"dataType":"string"},"required":true},"url":{"dataType":"string","required":true},"name":{"dataType":"string","required":true},"courseId":{"dataType":"string","required":true}},"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
+    "RelatedPublicationsModel": {
+        "dataType": "refAlias",
+        "type": {"dataType":"nestedObjectLiteral","nestedProperties":{"description":{"dataType":"string"},"imageUrl":{"dataType":"string"},"url":{"dataType":"string"},"authors":{"dataType":"string"},"title":{"dataType":"string"},"id":{"dataType":"string"}},"validators":{}},
+    },
+    // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "LearningMaterialModel": {
         "dataType": "refAlias",
-        "type": {"dataType":"intersection","subSchemas":[{"ref":"AoeLearningMaterialResponseModel"},{"dataType":"nestedObjectLiteral","nestedProperties":{"relatedCourses":{"dataType":"array","array":{"dataType":"refAlias","ref":"OpenUniversityCourseModel"}}}}],"validators":{}},
+        "type": {"dataType":"intersection","subSchemas":[{"ref":"AoeLearningMaterialResponseModel"},{"dataType":"nestedObjectLiteral","nestedProperties":{"relatedPublications":{"dataType":"array","array":{"dataType":"refAlias","ref":"RelatedPublicationsModel"}},"relatedCourses":{"dataType":"array","array":{"dataType":"refAlias","ref":"OpenUniversityCourseModel"}}}}],"validators":{}},
     },
     // WARNING: This file was auto-generated with tsoa. Please do not modify it. Re-run tsoa to re-generate this file: https://github.com/lukeautry/tsoa
     "MaterialName": {

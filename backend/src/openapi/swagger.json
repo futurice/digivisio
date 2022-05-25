@@ -839,6 +839,29 @@
 				],
 				"type": "object"
 			},
+			"RelatedPublicationsModel": {
+				"properties": {
+					"description": {
+						"type": "string"
+					},
+					"imageUrl": {
+						"type": "string"
+					},
+					"url": {
+						"type": "string"
+					},
+					"authors": {
+						"type": "string"
+					},
+					"title": {
+						"type": "string"
+					},
+					"id": {
+						"type": "string"
+					}
+				},
+				"type": "object"
+			},
 			"LearningMaterialModel": {
 				"allOf": [
 					{
@@ -846,6 +869,12 @@
 					},
 					{
 						"properties": {
+							"relatedPublications": {
+								"items": {
+									"$ref": "#/components/schemas/RelatedPublicationsModel"
+								},
+								"type": "array"
+							},
 							"relatedCourses": {
 								"items": {
 									"$ref": "#/components/schemas/OpenUniversityCourseModel"

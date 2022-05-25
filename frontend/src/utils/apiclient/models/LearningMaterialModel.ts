@@ -4,7 +4,9 @@
 
 import type { AoeLearningMaterialResponseModel } from './AoeLearningMaterialResponseModel';
 import type { OpenUniversityCourseModel } from './OpenUniversityCourseModel';
+import type { RelatedPublicationsModel } from './RelatedPublicationsModel';
 
-export type LearningMaterialModel = AoeLearningMaterialResponseModel & {
-  relatedCourses?: Array<OpenUniversityCourseModel>;
-};
+export type LearningMaterialModel = (AoeLearningMaterialResponseModel & {
+relatedPublications?: Array<RelatedPublicationsModel>;
+relatedCourses?: Array<OpenUniversityCourseModel>;
+});

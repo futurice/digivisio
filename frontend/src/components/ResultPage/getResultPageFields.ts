@@ -13,6 +13,7 @@ const getResultPageFields = (result: LearningMaterialModel, lang = 'fi') => ({
   name: result.name.find((entry) => entry.language === lang)?.materialname,
   publishedAt: result.publishedAt,
   relatedCourses: result.relatedCourses,
+  relatedPublications: result.relatedPublications,
   updatedAt: result.updatedAt,
   viewCounter: result.viewCounter,
 });

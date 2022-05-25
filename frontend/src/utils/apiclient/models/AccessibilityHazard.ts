@@ -3,8 +3,8 @@
 /* eslint-disable */
 
 export type AccessibilityHazard = {
-  accessibilityhazardkey: string;
-  educationalmaterialid: string;
-  value: string;
-  id: string;
+    accessibilityhazardkey: string;
+    educationalmaterialid: string;
+    value: string;
+    id: string;
 };

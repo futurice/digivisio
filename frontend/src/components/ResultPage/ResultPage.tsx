@@ -1,3 +1,4 @@
+/* eslint-disable complexity */
 /* eslint-disable max-lines */
 /* eslint complexity: ["error", 8] */
 
@@ -14,6 +15,7 @@ import LoadingSpinner from '../common/LoadingSpinner';
 import TopicElements from '../common/TopicElements';
 import getResultPageFields from './getResultPageFields';
 import RelatedMaterial from './RelatedMaterial';
+import RelatedPublications from './RelatedPublications/RelatedPublications';
 import styles from './ResultPage.module.css';
 
 const scrollToDiv = (ref: React.RefObject<HTMLDivElement>) => ref.current && ref.current.scrollIntoView();
@@ -29,6 +31,7 @@ const ResultPage = ({ selectedProfile }: ResultsProps) => {
 
   const contentRef = useRef<HTMLDivElement>(null);
   const recommendationsRef = useRef<HTMLDivElement>(null);
+  const relatedPublicationsRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const getResults = async () => {
@@ -49,6 +52,9 @@ const ResultPage = ({ selectedProfile }: ResultsProps) => {
         </button>
         <button type="button" aria-label="vieritä suosituksiin" onClick={() => scrollToDiv(recommendationsRef)}>
           Aiheeseen liittyvät muut suositukset
+        </button>
+        <button type="button" aria-label="vieritä suosituksiin" onClick={() => scrollToDiv(relatedPublicationsRef)}>
+          Aiheeseen liittyvät julkaisut
         </button>
       </div>
       <div className={styles.titleRow} ref={contentRef}>
@@ -94,6 +100,9 @@ const ResultPage = ({ selectedProfile }: ResultsProps) => {
           Kopioi linkki
         </button>
       </div>
+      <section className={styles.relatedMaterial} ref={relatedPublicationsRef}>
+        <RelatedPublications relatedPublications={result.relatedPublications} />
+      </section>
       <section className={styles.relatedMaterial} ref={recommendationsRef}>
         {((result.relatedCourses && result.relatedCourses.length > 0) || showMentoringBanner) && (
           <RelatedMaterial relatedCourses={result.relatedCourses} showMentoringBanner={showMentoringBanner} />

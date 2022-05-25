@@ -30,6 +30,7 @@ export type { MaterialName } from './models/MaterialName';
 export type { Name } from './models/Name';
 export type { OpenUniversityCourseModel } from './models/OpenUniversityCourseModel';
 export type { Publisher } from './models/Publisher';
+export type { RelatedPublicationsModel } from './models/RelatedPublicationsModel';
 export type { SearchHistoryRowModel } from './models/SearchHistoryRowModel';
 export type { SearchPostModel } from './models/SearchPostModel';
 export type { SearchResponseModel } from './models/SearchResponseModel';
