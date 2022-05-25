@@ -1,5 +1,6 @@
 import React from 'react';
 
+import thumbnailFallback from '../../../assets/suggestion_thumb_placeholder.png';
 import { OpenUniversityCourseModel } from '../../../utils/apiclient';
 import DescribeText from '../../common/DescribeText';
 import styles from './RelatedMaterial.module.css';
@@ -17,6 +18,7 @@ const RelatedMaterial = ({ relatedCourses, showMentoringBanner }: Props) => {
         {relatedCourses &&
           relatedCourses.map(({ description, name, url, universityNames }) => (
             <div>
+              <img src={thumbnailFallback} alt={`Lisämateriaalin ${name} thumbnail`} />
               <a className={styles.externalLink} href={url} target="_blank" rel="noreferrer">
                 <DescribeText>Kurssi</DescribeText>
                 <h3>{name}</h3>
@@ -27,6 +29,7 @@ const RelatedMaterial = ({ relatedCourses, showMentoringBanner }: Props) => {
           ))}
         {showMentoringBanner ? (
           <div>
+            <img src={thumbnailFallback} alt="Lisämateriaalin mentorointi thumbnail" />
             <a className={styles.externalLink} href="https://suomenmentorit.fi/" target="_blank" rel="noreferrer">
               <DescribeText>Mentorinti</DescribeText>
               <h3>Etsi mentori kehityksesi tueksi</h3>
