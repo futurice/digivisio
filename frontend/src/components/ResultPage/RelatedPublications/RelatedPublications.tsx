@@ -8,11 +8,14 @@ type Props = {
   readonly relatedPublications: readonly RelatedPublicationsModel[] | undefined;
 };
 
+const isPdf = (url?: string) => (url ? url.endsWith('.pdf') : false);
+
 const renderPublicationRow = (publication: RelatedPublicationsModel) => {
   return (
     <div key={publication.id} className={styles.publicationRow}>
       <a className={styles.externalLink} href={publication.url} target="_blank" rel="noreferrer">
-        <strong>{publication.title}</strong> - <small>{publication.authors}</small>
+        <strong>{publication.title}</strong>
+        {isPdf(publication.url) && <strong> PDF-dokumentti</strong>} - <small>{publication.authors}</small>
       </a>
     </div>
   );

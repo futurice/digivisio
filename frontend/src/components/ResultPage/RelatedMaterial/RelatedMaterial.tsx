@@ -18,7 +18,7 @@ const RelatedMaterial = ({ relatedCourses, showMentoringBanner }: Props) => {
         {relatedCourses &&
           relatedCourses.map(({ description, name, url, universityNames }) => (
             <div key={url}>
-              <img src={thumbnailFallback} alt={`Lisämateriaalin ${name} thumbnail`} />
+              <img src={thumbnailFallback} alt="" />
               <a className={styles.externalLink} href={url} target="_blank" rel="noreferrer">
                 <DescribeText>Kurssi</DescribeText>
                 <h3>{name}</h3>
