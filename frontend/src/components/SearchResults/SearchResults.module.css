@@ -3,6 +3,7 @@
   flex-direction: column;
   gap: 0.1rem;
   text-align: left;
+  margin-bottom: 2rem;
 }
 
 .searchFilterCriteria {
