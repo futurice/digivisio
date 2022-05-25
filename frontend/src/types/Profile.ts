@@ -8,6 +8,7 @@ export type Profile = {
   readonly age: number;
   readonly interest: string;
   readonly thumbnail: string;
+  readonly enrolledInUniOrGraduated: boolean;
   readonly educationalLevels: ReadonlyArray<SearchFilter>;
   readonly educationalRoles: ReadonlyArray<SearchFilter>;
   readonly fakejwt: string;
