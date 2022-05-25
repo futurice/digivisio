@@ -1,0 +1,28 @@
+services:
+  backend:
+    build:
+      context: backend
+      target: devtest
+    environment:
+      - CORS_ORIGIN=http://localhost:3000
+
+  frontend:
+    build: frontend
+
+  pgadmin:
+    image: dpage/pgadmin4
+    restart: unless-stopped
+    networks:
+      - app-network
+    depends_on:
+      - db
+    ports:
+      - 5555:80
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+    volumes:
+      - pgadmin-data:/var/lib/pgadmin
+
+volumes:
+  pgadmin-data:
