@@ -57,7 +57,7 @@ const ResultPage = ({ selectedProfile }: ResultsProps) => {
         </button>
       </div>
       <div className={styles.titleRow} ref={contentRef}>
-        <h3>{result.name}</h3>
+        <h2>{result.name}</h2>
         <DownloadButton isLarge id={result.id} />
       </div>
       <div className={styles.metadataRow}>
