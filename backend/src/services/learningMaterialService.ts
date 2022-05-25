@@ -2,11 +2,12 @@ import axios, { AxiosResponse } from 'axios'
 import { AoeLearningMaterialResponseModel } from '../externalModels/AoeLearningMaterialResponseModel'
 import { OpintopolkuSearchResultModel } from '../externalModels/OpintopolkuSearchResponseModel'
 import { OpintopolkuCourseMetadata } from '../externalModels/OpintopolkuCourseMetadata'
-import { LearningMaterialModel, OpenUniversityCourseModel } from '../models/OpenUniversityCourseModel'
+import { LearningMaterialModel, OpenUniversityCourseModel, RelatedPublicationsModel as RelatedPublicationModel } from '../models/OpenUniversityCourseModel'
 import { getRequiredEnvVariable } from '../utils'
 import * as qs from 'qs'
 import { SearchHistoryService } from './loggingService'
 import striptags from 'striptags'
+import { SearchResponse } from '../finnaapiclient'
 
 export const LearningMaterialsService = {
     /**
@@ -17,18 +18,22 @@ export const LearningMaterialsService = {
      */
     getEnrichedLearningMaterial: async (materialId: string): Promise<LearningMaterialModel> => {
         const maxCourses = 4 // Maximum number of related courses to include in the response
+        const maxPublications = 4 // Maximum number of related publications
 
         const learningMaterial: LearningMaterialModel = await LearningMaterialsService.getLearningMaterialMetadata(materialId)
         const keywords = learningMaterial.keywords.map(k => k.value)
 
-        // Fetch courses for the first few keywords. Usually we get enough
-        // courses for the first few keywords, so it's not necessary to fetch
-        // courses for all of them.
+        // Fetch related courses and publications for the first few keywords only.
+        // Usually we get enough hits for the first few keywords, so it's not
+        // necessary do expensive requests on all of them.
+        const mainKeywords = keywords.slice(0, 3)
+
         let coursesByKeywords: OpenUniversityCourseModel[][] = []
         try {
             coursesByKeywords = await Promise.all(
-                keywords.slice(0, 3).map(k => LearningMaterialsService.getOpenUniversityCourses(k, maxCourses)))
+                mainKeywords.map(k => LearningMaterialsService.getOpenUniversityCourses(k, maxCourses)))
         } catch (e) {
+            // Leave the courses undefined if the API call fails
             console.warn(e)
         }
         // Remove duplicates and take only the first maxCourses courses
@@ -44,6 +49,16 @@ export const LearningMaterialsService = {
                 return c
             }),
         )
+
+        // Append related publications from Finna
+        try {
+            const publicationsByKeywords = await Promise.all(
+                mainKeywords.map(k => LearningMaterialsService.getFinnaPublications(k, maxPublications)))
+            learningMaterial.relatedPublications = publicationsByKeywords.flat().slice(0, maxPublications)
+        } catch (e: any) {
+            // Leave the publications undefined if the API call fails
+            console.warn(e)
+        }
 
         return learningMaterial
     },
@@ -129,6 +144,67 @@ export const LearningMaterialsService = {
         }
 
         return description
+    },
+
+    /**
+     * Find publications related to a search term from Finna
+     */
+    getFinnaPublications: async (searchTerm: string, maxResults: number): Promise<RelatedPublicationModel[]> => {
+        const baseUrl = getRequiredEnvVariable('FINNA_API_BASEURL')
+        const query = {
+            lookfor: searchTerm,
+            type: 'AllFields',
+            sort: 'relevance,id asc',
+            page: 1,
+            limit: maxResults,
+            prettyPrint: false,
+            lng: 'fi',
+            filter: [
+                'free_online_boolean:"1"', // "Verkossa saatavilla"
+                '~format_ext_str_mv:"1/Thesis/MastersPolytechnic/"', // OR "Opinnäyte > Ylempi AMK-opinnäytetyö"
+                '~format_ext_str_mv:"1/Thesis/Thesis/"', // OR "Opinnäyte > Väitöskirja"
+                '~format_ext_str_mv:"0/OtherText/"', // OR "Teksti, muu"
+                '~format_ext_str_mv:"0/Journal/"', // OR "Lehti/Artikkeli"
+                '~format_ext_str_mv:"1/Other/Text/"', // OR "Muu/Määrittelemätön > Teksti"
+                '~format_ext_str_mv:"0/Book/"', // OR "Kirja"
+            ],
+            dfApplied: 1,
+        }
+        const url = `${baseUrl}/search?${qs.stringify(query)}`
+
+        await SearchHistoryService.writeApiRequest('', url, {})
+
+        const response: AxiosResponse<SearchResponse> = await axios.get(url)
+        const publications = (response.data.records || []).map(record => {
+            let docUrl: string | undefined
+            if (record.onlineUrls) {
+                docUrl = record.onlineUrls[0]?.url
+            }
+            if (!docUrl && record.urls) {
+                docUrl = record.urls[0]?.url
+            }
+
+            let imageUrl: string | undefined
+            if (record.images) {
+                imageUrl = record.images[0]
+                if (imageUrl) {
+                    imageUrl = 'https://api.finna.fi' + imageUrl
+                }
+            }
+
+            const authors = record.nonPresenterAuthors || []
+            const authorNames = authors.map(x => x.name).filter(x => x != null).join('; ') || undefined
+
+            return {
+                id: record.id,
+                title: record.title,
+                authors: authorNames,
+                url: docUrl,
+                image: imageUrl,
+            }
+        })
+
+        return publications
     },
 }
 

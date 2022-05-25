@@ -10,4 +10,16 @@ export type OpenUniversityCourseModel = {
     description?: string;
 }
 
-export type LearningMaterialModel = AoeLearningMaterialResponseModel & { relatedCourses?: OpenUniversityCourseModel[] };
+export type RelatedPublicationsModel = {
+    id?: string,
+    title?: string;
+    authors?: string;
+    url?: string;
+    imageUrl?: string,
+    description?: string;
+}
+
+export type LearningMaterialModel = AoeLearningMaterialResponseModel & {
+    relatedCourses?: OpenUniversityCourseModel[],
+    relatedPublications?: RelatedPublicationsModel[],
+};
