@@ -39,13 +39,13 @@ const ResultCard = ({ result }: { readonly result: SearchResult }) => {
       <div>
         <div className={styles.titleRow}>
           <Link className={styles.link} to={`/result/${id}`}>
-            {materialName}
+            <h2 className={styles.title}>{materialName}</h2>
           </Link>
           {hasDownloadableFiles && <DownloadButton id={id} />}
         </div>
         <p>{authors} </p>
         <p className={styles.description}>{description}</p>
-        <TopicElements title="Koulutusaste" topicStrings={educationalLevels} />
+        <TopicElements title="Koulutusaste" topicStrings={educationalLevels} inline />
         <div className={styles.resultFooter}>
           <DescribeText>{license.value}</DescribeText>
           <DescribeText>{publishedDate}</DescribeText>

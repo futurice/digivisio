@@ -3,6 +3,11 @@
   justify-content: space-between;
 }
 
+.subtitle {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
 .metadataRow {
   display: flex;
   justify-content: space-between;
@@ -23,18 +28,24 @@
   height: 700px;
 }
 
+.linkContainer {
+  display: flex;
+}
+
 .linkInput {
-  width: 25rem;
+  flex: 1;
   height: 2rem;
-  margin: 0 2rem;
+  margin-right: 2rem;
   text-indent: 0.5rem;
   border-radius: 0.5rem;
+  border: 1px solid #000;
+  background-color: #fff;
 }
 
 .linkButton {
   border-radius: 2rem;
-  background-color: #DED7F0;
-  color: #44209E;
+  background-color: #ded7f0;
+  color: #44209e;
   font-weight: bold;
   border: none;
   padding: 0.5rem 1rem;
@@ -60,13 +71,13 @@
 }
 
 .sectionRow button:hover {
-  color: #612EE2;
+  color: #612ee2;
   font-weight: 700;
-  border-bottom: 3px solid #612EE2;
+  border-bottom: 3px solid #612ee2;
 }
 
 .relatedMaterial {
-  border-top: 1px solid #B6B6B6;
+  border-top: 1px solid #b6b6b6;
   margin: 5rem 0;
   padding: 2rem 0;
 }

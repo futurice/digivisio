@@ -6,14 +6,20 @@ import styles from './TopicElements.module.css';
 type Props = {
   readonly title: string;
   readonly topicStrings: ReadonlyArray<string>;
+  readonly inline?: boolean;
 };
 
-const TopicElements = ({ title, topicStrings }: Props) => (
-  <div className={styles.topicElements}>
-    <p>{title}: </p>
-    {topicStrings.map((topic) => (
-      <TopicElement key={Math.random()}>{topic}</TopicElement>
-    ))}
+const TopicElements = ({ title, topicStrings, inline }: Props) => (
+  <div className={inline ? styles.flex : undefined}>
+    <h3 className={styles.title}>
+      {title}
+      {inline && ': '}
+    </h3>
+    <div className={styles.flex}>
+      {topicStrings.map((topic) => (
+        <TopicElement key={Math.random()}>{topic}</TopicElement>
+      ))}
+    </div>
   </div>
 );
 export default TopicElements;

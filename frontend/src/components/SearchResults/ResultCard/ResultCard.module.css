@@ -19,9 +19,6 @@
 
 .link {
   text-decoration: none;
-  color: black;
-  font-size: 1.125rem;
-  font-weight: bold;
 }
 
 .resultFooter {
@@ -32,6 +29,13 @@
 .titleRow {
   display: flex;
   justify-content: space-between;
+}
+
+.title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #000;
+  margin: 0;
 }
 
 .downloadLink {
