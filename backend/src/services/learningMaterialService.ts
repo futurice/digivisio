@@ -17,7 +17,7 @@ export const LearningMaterialsService = {
      * university courses from opintopolku.fi.
      */
     getEnrichedLearningMaterial: async (materialId: string): Promise<LearningMaterialModel> => {
-        const maxCourses = 4 // Maximum number of related courses to include in the response
+        const maxCourses = 2 // Maximum number of related courses to include in the response
         const maxPublications = 4 // Maximum number of related publications
 
         const learningMaterial: LearningMaterialModel = await LearningMaterialsService.getLearningMaterialMetadata(materialId)
