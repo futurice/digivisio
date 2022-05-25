@@ -32,6 +32,13 @@ const ResultPage = ({ selectedProfile }: ResultsProps) => {
   const recommendationsRef = useRef<HTMLDivElement>(null);
   const relatedPublicationsRef = useRef<HTMLDivElement>(null);
 
+  const [scrolled, setScrolled] = useState(false);
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      setScrolled(window.scrollY > 0);
+    });
+  }, []);
+
   useEffect(() => {
     const getResults = async () => {
       const result = await LearningMaterialsService.getLearningMaterialMetadata(id as string);
@@ -45,16 +52,18 @@ const ResultPage = ({ selectedProfile }: ResultsProps) => {
 
   return result ? (
     <div className={styles.resultPage}>
-      <div className={styles.sectionRow}>
-        <button type="button" aria-label="vieritä sisältöön" onClick={() => scrollToDiv(contentRef)}>
-          Sisältö
-        </button>
-        <button type="button" aria-label="vieritä suosituksiin" onClick={() => scrollToDiv(relatedPublicationsRef)}>
-          Aiheeseen liittyvät julkaisut
-        </button>
-        <button type="button" aria-label="vieritä suosituksiin" onClick={() => scrollToDiv(recommendationsRef)}>
-          Aiheeseen liittyvät muut suositukset
-        </button>
+      <div className={`${styles.sectionRowWrapper} ${scrolled && styles.shadow} `}>
+        <div className={styles.sectionRow}>
+          <button type="button" aria-label="vieritä sisältöön" onClick={() => scrollToDiv(contentRef)}>
+            Sisältö
+          </button>
+          <button type="button" aria-label="vieritä suosituksiin" onClick={() => scrollToDiv(relatedPublicationsRef)}>
+            Aiheeseen liittyvät julkaisut
+          </button>
+          <button type="button" aria-label="vieritä suosituksiin" onClick={() => scrollToDiv(recommendationsRef)}>
+            Aiheeseen liittyvät muut suositukset
+          </button>
+        </div>
       </div>
       <div className={styles.titleRow} ref={contentRef}>
         <h2>{result.name}</h2>
