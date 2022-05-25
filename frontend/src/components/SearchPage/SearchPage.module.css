@@ -4,6 +4,12 @@
   font-size: 2.25rem;
 }
 
+.modeSelector {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.25rem;
+}
+
 .profileRecommendations {
   margin-top: 8rem;
 }
