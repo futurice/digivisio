@@ -1,6 +1,6 @@
 .filterElement {
   padding: 0.25rem 0.8rem;
-  background-color: #DED7F0;
+  background-color: #ded7f0;
   border-radius: 2.75rem;
   display: flex;
   justify-content: center;
@@ -8,7 +8,7 @@
 }
 
 .filterElement:hover {
-  background-color: #c2b5e3
+  background-color: #c2b5e3;
 }
 
 .deselectButton {

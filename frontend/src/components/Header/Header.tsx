@@ -2,12 +2,13 @@ import React from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 
 import logo from '../../assets/digivisio.png';
+import profiles from '../../data/profiles';
 import { LearningMode } from '../../types/LearningMode';
 import { Profile } from '../../types/Profile';
-import LearningModeSelector from '../LearningModeSelector/LearningModeSelector';
+import { getDescriptionForLearningMode, getDisplayValueForLearningMode } from '../../utils';
+import Menu from '../common/Menu';
 import SearchBar from '../SearchBar';
 import styles from './Header.module.css';
-import ProfileSelector from './ProfileSelector/ProfileSelector';
 
 export type HeaderProps = {
   readonly selectedProfile: Profile;
@@ -17,25 +18,48 @@ export type HeaderProps = {
   readonly scrolled: boolean;
 };
 
-const Header = ({ scrolled, ...rest }: HeaderProps) => {
+const Header = ({ learningMode, setLearningMode, selectedProfile, setSelectedProfile, scrolled }: HeaderProps) => {
   const location = useLocation();
   const showSearchBar = location.pathname !== '/';
 
   return (
+=======
     <div className={`${styles.headerWrapper} ${scrolled && styles.shadow}`}>
-      <div className={`${styles.header}`}>
-        <NavLink to="/">
-          <h1 className={styles.title}>Digivisio</h1>
-          <img src={logo} alt="digivisio" />
-        </NavLink>
-        {showSearchBar && (
-          <>
-            <SearchBar />
-            <LearningModeSelector {...rest} />
-          </>
-        )}
-        <ProfileSelector {...rest} />
-      </div>
+    <header className={styles.header}>
+      <NavLink to="/">
+        <h1 className={styles.title}>Digivisio</h1>
+        <img src={logo} alt="digivisio" />
+      </NavLink>
+      {showSearchBar && (
+        <>
+          <SearchBar />
+          <Menu
+            id="header-mode-selector"
+            name="Oppimistyylin valitsin"
+            description="Hae oppimateriaaleja oppimistyylisi sekä tilanteesi mukaisesti"
+            values={Object.values(LearningMode)}
+            placeholder="Oppimistyyli"
+            selectedValue={learningMode}
+            setValue={(mode) => setLearningMode(mode)}
+            getName={(mode) => getDisplayValueForLearningMode(mode)}
+            getDescription={(mode) => getDescriptionForLearningMode(mode)}
+          />
+        </>
+      )}
+      <Menu
+        id="header-profile-selector"
+        name="Profiilin valitsin"
+        description="Valittu profiili"
+        values={profiles}
+        placeholder="Profiili"
+        selectedValue={selectedProfile}
+        setValue={(profile) => setSelectedProfile(profile)}
+        getName={(profile) => profile.name}
+        getDescription={(profile) => profile.interest}
+        getPicture={(profile) => profile.thumbnail}
+        left
+      />
+    </header>
     </div>
   );
 };
