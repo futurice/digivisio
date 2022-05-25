@@ -14,24 +14,28 @@ export type HeaderProps = {
   readonly setSelectedProfile: (profile: Profile) => void;
   readonly learningMode: LearningMode | undefined;
   readonly setLearningMode: (learningMode: LearningMode) => void;
+  readonly scrolledToTop: boolean;
 };
 
-const Header = ({ ...rest }: HeaderProps) => {
+const Header = ({ scrolledToTop, ...rest }: HeaderProps) => {
   const location = useLocation();
   const showSearchBar = location.pathname !== '/';
+
   return (
-    <div className={styles.header}>
-      <NavLink to="/">
-        <h1 className={styles.title}>Digivisio</h1>
-        <img src={logo} alt="digivisio" />
-      </NavLink>
-      {showSearchBar && (
-        <>
-          <SearchBar />
-          <LearningModeSelector {...rest} />
-        </>
-      )}
-      <ProfileSelector {...rest} />
+    <div className={`${styles.headerWrapper} ${scrolledToTop && styles.shadow}`}>
+      <div className={`${styles.header}`}>
+        <NavLink to="/">
+          <h1 className={styles.title}>Digivisio</h1>
+          <img src={logo} alt="digivisio" />
+        </NavLink>
+        {showSearchBar && (
+          <>
+            <SearchBar />
+            <LearningModeSelector {...rest} />
+          </>
+        )}
+        <ProfileSelector {...rest} />
+      </div>
     </div>
   );
 };

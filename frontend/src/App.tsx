@@ -18,20 +18,28 @@ const App = () => {
   const [selectedProfile, setSelectedProfile] = useState<Profile>(profiles[0]);
   const [learningMode, setLearningMode] = useState<LearningMode | undefined>(undefined);
 
+  const [scrolledToTop, setScrolledToTop] = useState(false);
+  useEffect(() => {
+    window.addEventListener('scroll', () => {
+      setScrolledToTop(window.scrollY > 0);
+    });
+  }, []);
+
   useEffect(() => {
     // eslint-disable-next-line functional/immutable-data
     OpenAPI.HEADERS = { authorization: `Bearer ${selectedProfile.fakejwt}` };
   }, [selectedProfile]);
 
   return (
-    <div className={styles.app}>
-      <BrowserRouter>
-        <Header
-          selectedProfile={selectedProfile}
-          setSelectedProfile={setSelectedProfile}
-          learningMode={learningMode}
-          setLearningMode={setLearningMode}
-        />
+    <BrowserRouter>
+      <Header
+        scrolledToTop={scrolledToTop}
+        selectedProfile={selectedProfile}
+        setSelectedProfile={setSelectedProfile}
+        learningMode={learningMode}
+        setLearningMode={setLearningMode}
+      />
+      <div className={styles.app}>
         <Routes>
           <Route
             path="/"
@@ -49,8 +57,8 @@ const App = () => {
             element={<SearchResults selectedProfile={selectedProfile} selectedLearningMode={learningMode} />}
           />
         </Routes>
-      </BrowserRouter>
-    </div>
+      </div>
+    </BrowserRouter>
   );
 };
 
