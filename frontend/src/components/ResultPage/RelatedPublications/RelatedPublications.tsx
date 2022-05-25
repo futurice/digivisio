@@ -9,7 +9,7 @@ type Props = {
 };
 
 const renderPublicationRow = (publication: RelatedPublicationsModel) => {
-    return <div className={styles.publicationRow}><a className={styles.externalLink} href={publication.url} target="_blank" rel="noreferrer"><strong>{publication.title}</strong> - <small>{publication.authors}</small></a></div>
+    return <div key={publication.id} className={styles.publicationRow}><a className={styles.externalLink} href={publication.url} target="_blank" rel="noreferrer"><strong>{publication.title}</strong> - <small>{publication.authors}</small></a></div>
 }
 
 const RelatedPublications = ({ relatedPublications }: Props) => {
