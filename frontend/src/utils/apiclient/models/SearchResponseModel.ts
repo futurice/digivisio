@@ -5,6 +5,6 @@
 import type { SearchResult } from './SearchResult';
 
 export type SearchResponseModel = {
-  results: Array<SearchResult>;
-  hits: number;
+    results: Array<SearchResult>;
+    hits: number;
 };

@@ -5,9 +5,9 @@
 import type { Filters } from './Filters';
 
 export type SearchPostModel = {
-  sort?: string;
-  size?: number;
-  keywords?: string;
-  from?: number;
-  filters?: Filters;
+    sort?: string;
+    size?: number;
+    keywords?: string;
+    from?: number;
+    filters?: Filters;
 };

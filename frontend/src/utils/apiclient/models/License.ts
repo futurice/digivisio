@@ -3,6 +3,6 @@
 /* eslint-disable */
 
 export type License = {
-  key: string;
-  value: string;
+    key: string;
+    value: string;
 };

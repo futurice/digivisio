@@ -3,6 +3,6 @@
 /* eslint-disable */
 
 export type TypicalAgeRange = {
-  typicalAgeRangeMax: number;
-  typicalAgeRangeMin: number;
+    typicalAgeRangeMax: number;
+    typicalAgeRangeMin: number;
 };

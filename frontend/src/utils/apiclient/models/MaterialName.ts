@@ -3,6 +3,6 @@
 /* eslint-disable */
 
 export type MaterialName = {
-  language: string;
-  materialname: string;
+    language: string;
+    materialname: string;
 };

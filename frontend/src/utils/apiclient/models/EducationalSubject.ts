@@ -3,7 +3,7 @@
 /* eslint-disable */
 
 export type EducationalSubject = {
-  value: string;
-  source: string;
-  key: string;
+    value: string;
+    source: string;
+    key: string;
 };
