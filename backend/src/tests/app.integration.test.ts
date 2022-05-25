@@ -1,7 +1,7 @@
 
 import axios, { AxiosResponse } from 'axios'
 import supertest from 'supertest'
-import app from './app'
+import app from '../app'
 
 jest.mock('axios')
 const mockedAxios = axios as jest.Mocked<typeof axios>
