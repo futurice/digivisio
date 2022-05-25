@@ -18,10 +18,10 @@ const App = () => {
   const [selectedProfile, setSelectedProfile] = useState<Profile>(profiles[0]);
   const [learningMode, setLearningMode] = useState<LearningMode | undefined>(undefined);
 
-  const [scrolledToTop, setScrolledToTop] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     window.addEventListener('scroll', () => {
-      setScrolledToTop(window.scrollY > 0);
+      setScrolled(window.scrollY > 0);
     });
   }, []);
 
@@ -33,7 +33,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <Header
-        scrolledToTop={scrolledToTop}
+        scrolled={scrolled}
         selectedProfile={selectedProfile}
         setSelectedProfile={setSelectedProfile}
         learningMode={learningMode}

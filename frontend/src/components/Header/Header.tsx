@@ -14,15 +14,15 @@ export type HeaderProps = {
   readonly setSelectedProfile: (profile: Profile) => void;
   readonly learningMode: LearningMode | undefined;
   readonly setLearningMode: (learningMode: LearningMode) => void;
-  readonly scrolledToTop: boolean;
+  readonly scrolled: boolean;
 };
 
-const Header = ({ scrolledToTop, ...rest }: HeaderProps) => {
+const Header = ({ scrolled, ...rest }: HeaderProps) => {
   const location = useLocation();
   const showSearchBar = location.pathname !== '/';
 
   return (
-    <div className={`${styles.headerWrapper} ${scrolledToTop && styles.shadow}`}>
+    <div className={`${styles.headerWrapper} ${scrolled && styles.shadow}`}>
       <div className={`${styles.header}`}>
         <NavLink to="/">
           <h1 className={styles.title}>Digivisio</h1>
