@@ -32,7 +32,7 @@ const RelatedMaterial = ({ relatedCourses, showMentoringBanner }: Props) => {
             <img src={thumbnailFallback} alt="Lisämateriaalin mentorointi thumbnail" />
             <a className={styles.externalLink} href="https://suomenmentorit.fi/" target="_blank" rel="noreferrer">
               <DescribeText>Mentorinti</DescribeText>
-              <h3>Etsi mentori kehityksesi tueksi</h3>
+              <h3>Etsi mentori kehityksesi ja oppimisesi tueksi</h3>
               <p className={styles.description}>
                 Suomen Mentoreiden seuraavat mentorointiohjelmat käynnistyvät syksyllä 2022.
               </p>

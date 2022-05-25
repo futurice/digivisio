@@ -33,7 +33,16 @@ const App = () => {
           setLearningMode={setLearningMode}
         />
         <Routes>
-          <Route path="/" element={<SearchPage learningMode={learningMode} setLearningMode={setLearningMode} />} />
+          <Route
+            path="/"
+            element={
+              <SearchPage
+                selectedProfile={selectedProfile}
+                learningMode={learningMode}
+                setLearningMode={setLearningMode}
+              />
+            }
+          />
           <Route path="/result/:id" element={<ResultPage selectedProfile={selectedProfile} />} />
           <Route
             path="/results"
