@@ -1,6 +1,10 @@
+/* eslint-disable max-lines */
+/* eslint complexity: ["error", 8] */
+
 import React, { useEffect, useRef, useState } from 'react';
 import { useParams } from 'react-router-dom';
 
+import { Profile } from '../../types/Profile';
 import { LearningMaterialsService } from '../../utils/apiclient';
 import { LearningMaterialModel } from '../../utils/apiclient/models/LearningMaterialModel';
 import dateConverter from '../../utils/dateConverter';
@@ -14,7 +18,11 @@ import styles from './ResultPage.module.css';
 
 const scrollToDiv = (ref: React.RefObject<HTMLDivElement>) => ref.current && ref.current.scrollIntoView();
 
-const ResultPage = () => {
+export type ResultsProps = {
+  readonly selectedProfile: Profile;
+};
+
+const ResultPage = ({ selectedProfile }: ResultsProps) => {
   const { id } = useParams();
   const [learningMaterial, setLearningMaterial] = useState<LearningMaterialModel>();
   const pageUrl = window.location.href;
@@ -31,6 +39,7 @@ const ResultPage = () => {
   }, [id, setLearningMaterial]);
 
   const result = learningMaterial && getResultPageFields(learningMaterial);
+  const showMentoringBanner = selectedProfile.age <= 35 && selectedProfile.enrolledInUniOrGraduated;
 
   return result ? (
     <div className={styles.resultPage}>
@@ -68,6 +77,7 @@ const ResultPage = () => {
         src={`https://aoe.fi/#/embed/${result.id}/fi`}
         width="720"
         height="500"
+        scrolling="no"
       />
       <div>Lisenssi {result.license.value}</div>
       <TopicElements title="Avainsanat" topicStrings={result.keywords} />
@@ -85,8 +95,8 @@ const ResultPage = () => {
         </button>
       </div>
       <section className={styles.relatedMaterial} ref={recommendationsRef}>
-        {result.relatedCourses && result.relatedCourses.length > 0 && (
-          <RelatedMaterial relatedCourses={result.relatedCourses} />
+        {((result.relatedCourses && result.relatedCourses.length > 0) || showMentoringBanner) && (
+          <RelatedMaterial relatedCourses={result.relatedCourses} showMentoringBanner={showMentoringBanner} />
         )}
       </section>
     </div>

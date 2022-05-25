@@ -34,7 +34,7 @@ const App = () => {
         />
         <Routes>
           <Route path="/" element={<SearchPage learningMode={learningMode} setLearningMode={setLearningMode} />} />
-          <Route path="/result/:id" element={<ResultPage />} />
+          <Route path="/result/:id" element={<ResultPage selectedProfile={selectedProfile} />} />
           <Route
             path="/results"
             element={<SearchResults selectedProfile={selectedProfile} selectedLearningMode={learningMode} />}

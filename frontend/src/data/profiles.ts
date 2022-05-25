@@ -7,6 +7,7 @@ const profiles = [
     age: 20,
     interest: 'Sosiaali- ja  terveysala',
     thumbnail: '/Akseli.png',
+    enrolledInUniOrGraduated: false,
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
@@ -31,6 +32,7 @@ const profiles = [
     age: 30,
     interest: 'Kielitiede',
     thumbnail: '/Rikhard.png',
+    enrolledInUniOrGraduated: true,
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
@@ -55,6 +57,7 @@ const profiles = [
     age: 40,
     interest: 'Luomuviljely',
     thumbnail: '/Mirka.png',
+    enrolledInUniOrGraduated: true,
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
@@ -79,6 +82,7 @@ const profiles = [
     age: 30,
     interest: 'Pedagogiikka',
     thumbnail: '/Janika.png',
+    enrolledInUniOrGraduated: true,
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
@@ -111,6 +115,7 @@ const profiles = [
     age: 45,
     interest: 'Kestävä kehitys',
     thumbnail: '/Roosa.png',
+    enrolledInUniOrGraduated: true,
     educationalLevels: [
       {
         key: 'e5a48ada-3de0-4246-9b8f-32d4ff68e22f',
