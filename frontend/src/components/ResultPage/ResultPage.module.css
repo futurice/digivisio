@@ -56,9 +56,12 @@
 }
 
 .sectionRow {
+  position: sticky;
+  top: 5rem;
   margin: 2rem 0;
   display: flex;
   gap: 3rem;
+  background-color: white;
 }
 
 .sectionRow button {
